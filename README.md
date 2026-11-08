@@ -78,3 +78,5 @@ node scripts/verify-pages.mjs
 排除node_modules、tooling、Python缓存、运行日志/PID和浏览器测试存档。日常运行只需要Node.js；验证依赖可通过 `npm ci` 安装，首次测试先运行 `node scripts/verify-flow.mjs` 生成本机临时存档，再验证关卡。原版资源、脚本、五份讲义、哈希及验收报告随仓库保存。
 
 后续汉化以独立提交记录，需要时从基线标签恢复原版。大素材更新会增加LFS历史存储，下载会消耗账户LFS流量；不启用新的付费设置。
+
+上传核验完成：私人仓库 https://github.com/VikasDhanve/AI-Quests ，原版标签 `official-baseline-2026-11-08` 指向 `f690149`。服务端确认1392个独立LFS对象全部可用，素材无缺失；未另外再下载整库做恢复演练。验收元数据见 `reports/github-upload.json`。

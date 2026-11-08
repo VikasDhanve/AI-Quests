@@ -1,0 +1,15 @@
+{
+  "tracked_paths": 1527,
+  "unique_objects": 1392,
+  "remote_available_objects": 1392,
+  "remote_available_bytes": 1030414022,
+  "remaining_objects": 0,
+  "remaining_bytes": 0,
+  "repository_url": "https://github.com/VikasDhanve/AI-Quests",
+  "visibility": "private",
+  "branch": "main",
+  "baseline_commit": "f690149bcb9ef13e175e9fa40532fddd0d6b12f8",
+  "baseline_tag": "official-baseline-2026-11-08",
+  "verified_at": "2026-11-08T15:05:52+08:00",
+  "full_clone_download_tested": false
+}
