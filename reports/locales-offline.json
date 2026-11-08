@@ -1,0 +1,93 @@
+[
+  {
+    "locale": "en_us",
+    "text": "Accept mission\nResources & more\nEnglish (US)",
+    "failed": [],
+    "errors": [],
+    "external": []
+  },
+  {
+    "locale": "en_gb",
+    "text": "Accept mission\nResources & more\nEnglish (UK)",
+    "failed": [],
+    "errors": [],
+    "external": []
+  },
+  {
+    "locale": "ms_my",
+    "text": "Terima misi\nSumber & banyak lagi\nBahasa Melayu",
+    "failed": [],
+    "errors": [],
+    "external": []
+  },
+  {
+    "locale": "es_es",
+    "text": "Aceptar misión\nRecursos y más\nEspañol (ES)",
+    "failed": [],
+    "errors": [],
+    "external": []
+  },
+  {
+    "locale": "es_419",
+    "text": "Aceptar misión\nRecursos y más\nEspañol (419)",
+    "failed": [],
+    "errors": [],
+    "external": []
+  },
+  {
+    "locale": "fr_fr",
+    "text": "Accepter la mission\nRessources et plus\nFrançais",
+    "failed": [],
+    "errors": [],
+    "external": []
+  },
+  {
+    "locale": "it_it",
+    "text": "Accetta la missione\nRisorse e altro\nItaliano",
+    "failed": [],
+    "errors": [],
+    "external": []
+  },
+  {
+    "locale": "pt_pt",
+    "text": "Aceitar missão\nRecursos e mais\nPortuguês (PT)",
+    "failed": [],
+    "errors": [],
+    "external": []
+  },
+  {
+    "locale": "pt_br",
+    "text": "Aceitar a missão\nRecursos e mais\nPortuguês (BR)",
+    "failed": [],
+    "errors": [],
+    "external": []
+  },
+  {
+    "locale": "tr_tr",
+    "text": "Görevi kabul et\nKaynaklar ve daha fazlası\nTürkçe",
+    "failed": [],
+    "errors": [],
+    "external": []
+  },
+  {
+    "locale": "he_il",
+    "text": "להתחלת המשימה\nחומרי עזר למורה\nעברית",
+    "failed": [],
+    "errors": [],
+    "external": []
+  },
+  {
+    "locale": "ar_ALL",
+    "text": "قبول المهمة\nالموارد والمزيد\nالعربية",
+    "failed": [],
+    "errors": [],
+    "external": []
+  },
+  {
+    "locale": "ar_il",
+    "text": "قبول المهمة\nالموارد والمزيد\nالعربية",
+    "failed": [],
+    "errors": [],
+    "external": []
+  }
+]

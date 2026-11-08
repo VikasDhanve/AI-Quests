@@ -1,0 +1,12 @@
+node_modules/
+tooling/
+__pycache__/
+*.py[cod]
+reports/browser-state.json
+reports/server*.log
+reports/server.pid
+reports/*.tmp
+.DS_Store
+Thumbs.db
+.env
+.env.*

@@ -1,0 +1,173 @@
+{
+  "requests": [
+    {
+      "url": "https://research.google/ai-quests/intl/en_us",
+      "type": "document"
+    },
+    {
+      "url": "https://research.google/ai-quests/~partytown/partytown.js",
+      "type": "script"
+    },
+    {
+      "url": "https://www.gstatic.com/glue/cookienotificationbar/cookienotificationbar.min.css",
+      "type": "stylesheet"
+    },
+    {
+      "url": "https://research.google/ai-quests/styles-X5MYJBZ7.css",
+      "type": "stylesheet"
+    },
+    {
+      "url": "https://research.google/ai-quests/main-UOOVWHPK.js",
+      "type": "script"
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-MSJQNWBG",
+      "type": "script"
+    },
+    {
+      "url": "https://research.google/ai-quests/chunk-ZDFCTXMN.js",
+      "type": "script"
+    },
+    {
+      "url": "https://research.google/ai-quests/chunk-5XHC44OL.js",
+      "type": "script"
+    },
+    {
+      "url": "https://research.google/ai-quests/chunk-U7GMMY7Y.js",
+      "type": "script"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/googlesans/v71/4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPjIUvQ.woff2",
+      "type": "font"
+    },
+    {
+      "url": "https://research.google/ai-quests/chunk-OYFYYWIE.js",
+      "type": "script"
+    },
+    {
+      "url": "https://research.google/ai-quests/content/api/current_snapshot_id",
+      "type": "xhr"
+    },
+    {
+      "url": "https://research.google/ai-quests/chunk-4PU2F65H.js",
+      "type": "script"
+    },
+    {
+      "url": "https://research.google/ai-quests/~partytown/partytown-sandbox-sw.html?1794115873235",
+      "type": "document"
+    },
+    {
+      "url": "https://research.google/ai-quests/chunk-FGTI4YXJ.js",
+      "type": "script"
+    },
+    {
+      "url": "https://research.google/ai-quests/content/api/snapshot/20261023-141713/site_config.json",
+      "type": "xhr"
+    },
+    {
+      "url": "https://research.google/ai-quests/content/api/snapshot/20261023-141713/en_us/sitewide.json",
+      "type": "xhr"
+    },
+    {
+      "url": "https://www.gstatic.com/glue/cookienotificationbar/cookienotificationbar.min.js",
+      "type": "fetch"
+    },
+    {
+      "url": "https://research.google/ai-quests/content/api/snapshot/20261023-141713/en_us/home_page.json",
+      "type": "xhr"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/global/bright-click.webm?v=73ffd59-1792762873172",
+      "type": "fetch"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/global/pop.webm?v=73ffd59-1792762873172",
+      "type": "fetch"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/global/space-song.webm?v=73ffd59-1792762873172",
+      "type": "fetch"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/global/space-title-whoosh.webm?v=73ffd59-1792762873172",
+      "type": "fetch"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/global/space-whoosh.webm?v=73ffd59-1792762873172",
+      "type": "fetch"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/global/space-asteroid.webm?v=73ffd59-1792762873172",
+      "type": "fetch"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/global/space-flood-song.webm?v=73ffd59-1792762873172",
+      "type": "fetch"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/global/space-blind-song.webm?v=73ffd59-1792762873172",
+      "type": "fetch"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/global/space-rock-spinning.webm?v=73ffd59-1792762873172",
+      "type": "fetch"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/global/space-warp.webm?v=73ffd59-1792762873172",
+      "type": "fetch"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/bucket/global/og-image.jpg?v=73ffd59-1792762873172",
+      "type": "image"
+    },
+    {
+      "url": "https://research.google/ai-quests/~partytown/proxytown",
+      "type": "xhr"
+    },
+    {
+      "url": "https://research.google/ai-quests/~partytown/proxytown",
+      "type": "xhr"
+    },
+    {
+      "url": "https://research.google/ai-quests/~partytown/proxytown",
+      "type": "xhr"
+    },
+    {
+      "url": "https://research.google/ai-quests/~partytown/proxytown",
+      "type": "xhr"
+    },
+    {
+      "url": "https://research.google/ai-quests/~partytown/proxytown",
+      "type": "xhr"
+    },
+    {
+      "url": "https://research.google/ai-quests/~partytown/proxytown",
+      "type": "xhr"
+    },
+    {
+      "url": "https://research.google/ai-quests/~partytown/proxytown",
+      "type": "xhr"
+    },
+    {
+      "url": "https://research.google/ai-quests/~partytown/proxytown",
+      "type": "xhr"
+    },
+    {
+      "url": "https://research.google/ai-quests/~partytown/proxytown",
+      "type": "xhr"
+    },
+    {
+      "url": "https://research.google/ai-quests/~partytown/proxytown",
+      "type": "xhr"
+    },
+    {
+      "url": "https://www.gstatic.com/glue/cookienotificationbar/config/2b.json?hl=en",
+      "type": "fetch"
+    },
+    {
+      "url": "https://research.google/ai-quests/~partytown/proxytown",
+      "type": "xhr"
+    }
+  ],
+  "errors": []
+}

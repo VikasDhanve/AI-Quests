@@ -1,0 +1,16 @@
+import { chromium } from 'playwright';
+import fs from 'node:fs';
+const browser=await chromium.launch({headless:true,executablePath:'C:/Users/yamal/AppData/Local/ms-playwright/chromium-1248/chrome-win64/chrome.exe',args:['--enable-unsafe-swiftshader']});
+const page=await browser.newPage({viewport:{width:1440,height:960}});
+const requests=[],errors=[];
+page.on('request',r=>requests.push({url:r.url(),type:r.resourceType()}));
+page.on('pageerror',e=>errors.push(e.message));
+await page.route(/googletagmanager|google-analytics|analytics.google|doubleclick/,r=>r.abort());
+await page.goto('https://research.google/ai-quests/intl/en_us',{waitUntil:'networkidle',timeout:60000});
+console.log('TITLE',await page.title());
+console.log('BODY',(await page.locator('body').innerText()).slice(0,6500));
+console.log('BUTTONS',await page.getByRole('button').allTextContents());
+console.log('LINKS',await page.locator('a').evaluateAll(es=>es.map(e=>({text:e.textContent,url:e.href}))));
+fs.writeFileSync(new URL('../reports/official-home-network.json',import.meta.url),JSON.stringify({requests,errors},null,2));
+await page.screenshot({path:new URL('../reports/official-home.png',import.meta.url).pathname.replace(/^\/(\w:)/,'$1'),fullPage:true});
+await browser.close();

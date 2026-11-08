@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+
+<html lang="it" dir="ltr">
+
+<head>
+  <title>AI Quests</title>
+  <meta name="description" content="AI Quests: un&#39;esperienza educativa ludica sull&#39;AI per studenti delle scuole medie (11-14 anni). Missioni senza codice su progetti Google reali per risolvere problemi sociali.">
+  <meta name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1" />
+  <meta name="url" content="https://research.google/ai-quests/intl/it_it">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="AI Quests">
+  <meta property="og:description" content="AI Quests: un&#39;esperienza educativa ludica sull&#39;AI per studenti delle scuole medie (11-14 anni). Missioni senza codice su progetti Google reali per risolvere problemi sociali.">
+  <meta property="og:url" content="https://research.google/ai-quests/intl/it_it">
+  <meta property="og:image" content="https://research.google/ai-quests/assets/bucket/global/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@GoogleResearch">
+  <meta name="twitter:title" content="AI Quests">
+  <meta name="twitter:description" content="AI Quests: un&#39;esperienza educativa ludica sull&#39;AI per studenti delle scuole medie (11-14 anni). Missioni senza codice su progetti Google reali per risolvere problemi sociali.">
+  <meta name="twitter:image" content="https://research.google/ai-quests/assets/bucket/global/og-image.jpg">
+
+  <link rel="shortcut icon"
+      href="https://www.gstatic.com/images/branding/searchlogo/ico/favicon.ico"
+      type="image/x-icon">
+  <link rel="canonical" href="https://research.google/ai-quests/intl/it_it">
+  <meta name="robots" content="noindex">
+
+  <link rel="stylesheet"
+      href="/ai-quests/static/non-app/styles.52112f772c831cac6bc6.css">
+
+  <script type="speculationrules" nonce="-l8vWfLPK1QzUel44jmeZeOvLnMxnY6h">
+      {
+        "prerender": [{
+          "where": { "selector_matches": ".prerender" },
+          "eagerness": "immediate"
+        }]
+      }
+    </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload"
+      href="https://fonts.googleapis.com/css2?family=Product+Sans&family=Google+Sans+Display:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Google+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Google+Sans+Text:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
+      as="style" crossorigin>
+  <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Product+Sans&family=Google+Sans+Display:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Google+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Google+Sans+Text:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap">
+
+  <script nonce="-l8vWfLPK1QzUel44jmeZeOvLnMxnY6h">
+    partytown = {
+      forward: ['dataLayer.push'],
+      lib: '/ai-quests/static/~partytown/',
+    };
+  </script>
+  
+  <script type="module" nonce="-l8vWfLPK1QzUel44jmeZeOvLnMxnY6h">
+    const t = { preserveBehavior: !1 }, e = e => { if ("string" == typeof e) return [e, t]; const [n, r = t] = e; return [n, { ...t, ...r }] }, n = Object.freeze((t => { const e = new Set; let n = []; do { Object.getOwnPropertyNames(n).forEach((t => { "function" == typeof n[t] && e.add(t) })) } while ((n = Object.getPrototypeOf(n)) !== Object.prototype); return Array.from(e) })()); !function (t, r, o, i, a, s, c, d, l, p, u = t, f) { function h() { f || (f = 1, "/" == (c = (s.lib || "/~partytown/") + (s.debug ? "debug/" : ""))[0] && (l = r.querySelectorAll('script[type="text/partytown"]'), i != t ? i.dispatchEvent(new CustomEvent("pt1", { detail: t })) : (d = setTimeout(v, 1e4), r.addEventListener("pt0", w), a ? y(1) : o.serviceWorker ? o.serviceWorker.register(c + (s.swPath || "partytown-sw.js"), { scope: c }).then((function (t) { t.active ? y() : t.installing && t.installing.addEventListener("statechange", (function (t) { "activated" == t.target.state && y() })) }), console.error) : v()))) } function y(e) { p = r.createElement(e ? "script" : "iframe"), t._pttab = Date.now(), e || (p.style.display = "block", p.style.width = "0", p.style.height = "0", p.style.border = "0", p.style.visibility = "hidden", p.setAttribute("aria-hidden", !0)), p.src = c + "partytown-" + (e ? "atomics.js?v=0.10.1" : "sandbox-sw.html?" + t._pttab), r.querySelector(s.sandboxParent || "body").appendChild(p) } function v(n, o) { for (w(), i == t && (s.forward || []).map((function (n) { const [r] = e(n); delete t[r.split(".")[0]] })), n = 0; n < l.length; n++)(o = r.createElement("script")).innerHTML = l[n].innerHTML, o.nonce = s.nonce, r.head.appendChild(o); p && p.parentNode.removeChild(p) } function w() { clearTimeout(d) } s = t.partytown || {}, i == t && (s.forward || []).map((function (r) { const [o, { preserveBehavior: i }] = e(r); u = t, o.split(".").map((function (e, r, o) { var a; u = u[o[r]] = r + 1 < o.length ? u[o[r]] || (a = o[r + 1], n.includes(a) ? [] : {}) : (() => { let e = null; if (i) { const { methodOrProperty: n, thisObject: r } = ((t, e) => { let n = t; for (let t = 0; t < e.length - 1; t += 1)n = n[e[t]]; return { thisObject: n, methodOrProperty: e.length > 0 ? n[e[e.length - 1]] : void 0 } })(t, o); "function" == typeof n && (e = (...t) => n.apply(r, ...t)) } return function () { let n; return e && (n = e(arguments)), (t._ptf = t._ptf || []).push(o, arguments), n } })() })) })), "complete" == r.readyState ? h() : (t.addEventListener("DOMContentLoaded", h), t.addEventListener("load", h)) }(window, document, navigator, top, window.crossOriginIsolated);
+  </script>
+
+  
+  <script type="text/partytown">
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-MSJQNWBG');
+    </script>
+
+  <script type="text/partytown" nonce="-l8vWfLPK1QzUel44jmeZeOvLnMxnY6h">
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'GTM-MSJQNWBG');
+    </script>
+  <script type="text/partytown" defer
+      src="https://www.gstatic.com/glue/cookienotificationbar/cookienotificationbar.min.js"
+      data-glue-cookie-notification-bar-category="2B"
+      nonce="-l8vWfLPK1QzUel44jmeZeOvLnMxnY6h"></script>
+  <link rel="stylesheet"
+      href="https://www.gstatic.com/glue/cookienotificationbar/cookienotificationbar.min.css">
+
+  <noscript>
+    <link rel="stylesheet"
+        href="//www.gstatic.com/glue/v27_1/glue-no-js.min.css">
+  </noscript>
+
+  <script defer="defer"
+      src="/ai-quests/static/non-app/index.16b2124454e82506163b.js"
+      nonce="-l8vWfLPK1QzUel44jmeZeOvLnMxnY6h"></script>
+  
+<script defer="defer" src="/ai-quests/static/non-app/about.ae21cc9c4a94bc0bc9ae.js" nonce="-l8vWfLPK1QzUel44jmeZeOvLnMxnY6h"></script>
+
+</head>
+
+<body>
+  <noscript>
+    <iframe class="gtm-iframe"
+        src="https://www.googletagmanager.com/ns.html?id=GTM-MSJQNWBG"
+        height="0" width="0"></iframe>
+  </noscript>
+  
+<div class="aiq aiq-about glue-body">
+  
+
+
+
+
+
+<header class="aiq-page-nav__header">
+  <div class="aiq-page-nav__header-row glue-page">
+    <div class="aiq-page-nav__actions">
+      <button aria-label="Menu"
+          class="glue-button glue-button--low-emphasis glue-button--reversed glue-button--icon aiq-page-nav__menu-button">
+        <svg role="presentation" aria-hidden="true">
+          <use
+              href="/ai-quests/assets/icons/glue-icons.svg?v=73ffd59-1792762909979#menu" />
+        </svg>
+        Menu
+      </button>
+      <div class="aiq-page-nav__menu aiq-page-nav__menu--collapsed">
+        <div class="aiq-page-nav__menu__backdrop"></div>
+        <button aria-label="Chiudi"
+            class="glue-button glue-button--low-emphasis glue-button--reversed glue-button--icon aiq-page-nav__menu-button">
+          <svg role="presentation" aria-hidden="true">
+            <use
+                href="/ai-quests/assets/icons/glue-icons.svg?v=73ffd59-1792762909979#close" />
+          </svg>
+          Chiudi
+        </button>
+        <ul class="glue-no-bullet">
+          
+          
+          
+          <li>
+            <a href="/ai-quests/intl/it_it/" aria-label="Gioca"
+                class="glue-button glue-button--low-emphasis glue-button--reversed glue-button--icon aiq-page-nav__menu-link">
+              <svg role="presentation" aria-hidden="true">
+                <use
+                    href="/ai-quests/assets/icons/icons.svg?v=73ffd59-1792762909979#rocket-launch" />
+              </svg>
+              <span class="aiq-page-nav__header-button">Gioca</span>
+            </a>
+          </li>
+          
+          
+          
+          
+          <li>
+            <a href="/ai-quests/intl/it_it/about" aria-label="Informazioni"
+                class="glue-button glue-button--low-emphasis glue-button--reversed glue-button--icon aiq-page-nav__menu-link">
+              <svg role="presentation" aria-hidden="true">
+                <use
+                    href="/ai-quests/assets/icons/icons.svg?v=73ffd59-1792762909979#info" />
+              </svg>
+              <span class="aiq-page-nav__header-button">Informazioni</span>
+            </a>
+          </li>
+          
+          
+          
+          
+          <li>
+            <a href="/ai-quests/intl/it_it/faq" aria-label="FAQ"
+                class="glue-button glue-button--low-emphasis glue-button--reversed glue-button--icon aiq-page-nav__menu-link">
+              <svg role="presentation" aria-hidden="true">
+                <use
+                    href="/ai-quests/assets/icons/icons.svg?v=73ffd59-1792762909979#live-help" />
+              </svg>
+              <span class="aiq-page-nav__header-button">FAQ</span>
+            </a>
+          </li>
+          
+          
+          
+          
+          <li>
+            <a href="/ai-quests/intl/it_it/teacher-resources" aria-label="Risorse per insegnanti"
+                class="glue-button glue-button--low-emphasis glue-button--reversed glue-button--icon aiq-page-nav__menu-link">
+              <svg role="presentation" aria-hidden="true">
+                <use
+                    href="/ai-quests/assets/icons/icons.svg?v=73ffd59-1792762909979#school" />
+              </svg>
+              <span class="aiq-page-nav__header-button">Risorse per insegnanti</span>
+            </a>
+          </li>
+          
+          
+          
+          
+          <li>
+            <a href="/ai-quests/intl/it_it/privacy-notice" aria-label="Informativa sulla privacy"
+                class="glue-button glue-button--low-emphasis glue-button--reversed glue-button--icon aiq-page-nav__menu-link">
+              <svg role="presentation" aria-hidden="true">
+                <use
+                    href="/ai-quests/assets/icons/icons.svg?v=73ffd59-1792762909979#privacy-tip" />
+              </svg>
+              <span class="aiq-page-nav__header-button">Informativa sulla privacy</span>
+            </a>
+          </li>
+          
+          
+          
+          
+          
+        </ul>
+      </div>
+    </div>
+    
+    <div class="aiq-page-nav__site-name">
+      <a href="/ai-quests/intl/it_it" title="Home">
+        <img src="/ai-quests/assets/bucket/icons/ai_quests_logo_small.webp?v=73ffd59-1792762909979"
+            alt="" />
+      </a>
+    </div>
+    
+    <div class="aiq-page-nav__logos">
+      <div class="aiq-page-nav__logos__container">
+        <div class="aiq-page-nav__logos__google-research">
+          <svg aria-hidden="true" role="presentation">
+            <use
+                href="/ai-quests/assets/icons/research-logo.svg?v=73ffd59-1792762909979#logo" />
+          </svg>
+        </div>
+        <div class="aiq-page-nav__and">
+          <svg width="2" height="18" viewBox="0 0 2 18" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+            <path d="M1.14453 0.705811V20.7058" stroke="white"
+                stroke-width="0.5" />
+          </svg>
+        </div>
+        <div class="aiq-page-nav__logos__stanford-learning">
+          <img width="125" height="45"
+              src="/ai-quests/assets/icons/stanford-acc-learning-logo.webp?v=73ffd59-1792762909979"
+              alt="Stanford Accelerator for Learning" />
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <h1 class="aiq-page-nav__title aiq-typesystem-h1">Presentazione di AI Quests</h1>
+  
+  <p class="aiq-page-nav__subtitle">Alfabetizzazione AI esperienziale per ogni classe</p>
+  
+  
+</header>
+
+  <div class="aiq-container glue-page">
+    <section class="aiq-about__hero">
+  <div>
+    <div class="aiq-hero__media aiq-reveal-on-scroll">
+      
+      <video
+          poster="/ai-quests/assets/bucket/pages/about-video-poster.webp?v=73ffd59-1792762909979"
+           id="aiq-trailer" playsinline>
+        
+        <source src="/ai-quests/assets/bucket/pages/about-video.webm?v=73ffd59-1792762909979"
+            type="video/webm" />
+        
+        
+        <source src="/ai-quests/assets/bucket/pages/about-video.mp4?v=73ffd59-1792762909979"
+            type="video/mp4" />
+        
+        
+        <track default kind="captions"
+            src="data:text/vtt;base64,V0VCVlRUCgowMDowMDowMS4xNDAgLS0+IDAwOjAwOjAzLjIxMApDaGUgYmVsbG8gdmVkZXJ0aSBpbiBBSSBRdWVzdHMhCgowMDowMDowMy4yMTAgLS0+IDAwOjAwOjA2LjAyMApTb25vIGxhIFByb2Zlc3NvcmVzc2EgU2t5ZSwKCjAwOjAwOjA2LjAyMCAtLT4gMDA6MDA6MDguMjYwCmVzcGVydGEgZGkgSUEgZSB0dWEgbWVudG9yZQoKMDA6MDA6MDguMjYwIC0tPiAwMDowMDoxMS4xNDAKaW4gcXVlc3RhIGF2dmVudHVyYQoKMDA6MDA6MTEuMTQwIC0tPiAwMDowMDoxNC4wODAKVGkgc3RhdmFtbyBhc3BldHRhbmRvIQoKMDA6MDA6MTQuMDgwIC0tPiAwMDowMDoxNy4yMTAKU3RhaSBwZXIgaW5pemlhcmUgdW4gdmlhZ2dpbyBuZWwgbm9zdHJvIG1vbmRvLgoKMDA6MDA6MTcuMjEwIC0tPiAwMDowMDoyMS4wNDAKTmVsIHR1byB2aWFnZ2lvLCBpbmNvbnRyZXJhaSBkaXZlcnNpIGFiaXRhbnRpCgowMDowMDoyMS4wNDAgLS0+IDAwOjAwOjI0LjE5MAplIHNjb3ByaXJhaSBpIHByb2JsZW1pIGRlbGxlIGxvcm8gY29tdW5pdMOgLgoKMDA6MDA6MjQuMTkwIC0tPiAwMDowMDoyNy4yNjAKTGEgdHVhIG1pc3Npb25lIMOoIGFpdXRhcmxpIHVzYW5kbwoKMDA6MDA6MjcuMjYwIC0tPiAwMDowMDozMS4yNTAKdW5hIHBvdGVudGUgSUEgaW4gbW9kbyByZXNwb25zYWJpbGUuCgowMDowMDozMi4wNzAgLS0+IDAwOjAwOjM3LjEyMApPZ25pIG1pc3Npb25lIHRpIG1vc3RyZXLDoCB1biBwcm9nZXR0byBkaSByaWNlcmNhIGNvbiBsJ0lBCgowMDowMDozNy4xODAgLS0+IDAwOjAwOjQwLjE4MApjaGUgc3RhIGdpw6AgY2FtYmlhbmRvIGxlIGNvc2UgbmVsIG1vbmRvIHJlYWxlLCBzdWxsYSBUZXJyYS4KCjAwOjAwOjQwLjE4MCAtLT4gMDA6MDA6NDUuMDQwClNjb3ByaXJhaSBjaGUgbCdJQSDDqCB1bmEgdGVjbm9sb2dpYSBzb3JwcmVuZGVudGUhCgowMDowMDo0NS4wNDAgLS0+IDAwOjAwOjQ2LjA4MApNYSBub24gw6ggbWFnaWE6CgowMDowMDo0Ni4wODAgLS0+IDAwOjAwOjQ5LjE4MAppbCBzdWNjZXNzbyBkaXBlbmRlIGRhbGxlIHR1ZSBkZWNpc2lvbmkuCgowMDowMDo0OS4xODAgLS0+IDAwOjAwOjUxLjIyMApEb3ZyYWkgcmFjY29nbGllcmUgYnVvbmkgZGF0aSwKCjAwOjAwOjUxLjIyMCAtLT4gMDA6MDA6NTQuMjAwCmFkZGVzdHJhcmUgbGEgdHVhIElBIGEgZmFyZSBzY2VsdGUgaW50ZWxsaWdlbnRpLAoKMDA6MDA6NTQuMjAwIC0tPiAwMDowMDo1Ny4yMDAKZSB0ZXN0YXJsYSBwZXIgYXNzaWN1cmFydGkgY2hlIHNpYSBhZmZpZGFiaWxlLgoKMDA6MDA6NTcuMjcwIC0tPiAwMDowMTowMC4xMDAKTCd1bml2ZXJzbyBjb250YSBzdSBkaSB0ZSEKCjAwOjAxOjAwLjEwMCAtLT4gMDA6MDE6MDEuMTYwCkluaXppYW1vPw==" />
+        
+      </video>
+      <button class="aiq-hero__toggle" data-for="aiq-trailer" aria-label="Play"
+          aria-pressed="false">
+        <span class="aiq-hero__toggle__label" aria-hidden="true">
+          <img src="/ai-quests/assets/icons/play.svg?v=73ffd59-1792762909979"
+              alt="" class="aiq-hero__toggle__icon" />
+        </span>
+      </button>
+      
+    </div>
+  </div>
+</section>
+
+    
+
+<section class="aiq-grid aiq-grid--alternate">
+  
+  <div class="aiq-grid__pair">
+    <article class="aiq-card aiq-card__text aiq-reveal-on-scroll">
+      <h2 class="aiq-typesystem-h2">Ispirato dalla ricerca AI del mondo reale</h2>
+      <p><p>AI Quests è un'esperienza ludica di apprendimento progettata per insegnare l'AI agli studenti della scuola media (dagli 11 ai 14 anni). Con una serie di missioni interattive e senza codice, gli studenti impareranno cosa serve per costruire in modo responsabile applicazioni di AI per risolvere problemi sociali del mondo reale. Le missioni sono ispirate a progetti di AI sviluppati da Google Research. </p></p>
+    </article>
+    
+    <figure class="aiq-card aiq-card__image aiq-reveal-on-scroll">
+      <img src="/ai-quests/assets/bucket/pages/scan-volunteers.webp?v=73ffd59-1792762909979"
+          alt="ai-lit-background-2" width="588"
+          height="588" />
+    </figure>
+    
+  </div>
+  
+  <div class="aiq-grid__pair">
+    <article class="aiq-card aiq-card__text aiq-reveal-on-scroll">
+      <h2 class="aiq-typesystem-h2">Promuove l&#39;apprendimento attivo</h2>
+      <p><p>Sviluppato da Google Research e dallo Stanford Accelerator for Learning, AI Quests è progettato per promuovere l'apprendimento attivo. Permette agli studenti di esplorare, analizzare e riflettere sulla propria comprensione mentre completano ogni missione. Questo rende AI Quests una risorsa complementare perfetta per i programmi di alfabetizzazione AI in classe esistenti, dando agli educatori la flessibilità di usarla in qualsiasi modo supporti i loro obiettivi di apprendimento.</p></p>
+    </article>
+    
+    <figure class="aiq-card aiq-card__image aiq-reveal-on-scroll">
+      <img src="/ai-quests/assets/bucket/pages/model-training.webp?v=73ffd59-1792762909979"
+          alt="ai-lit-background-2" width="588"
+          height="588" />
+    </figure>
+    
+  </div>
+  
+  <div class="aiq-grid__pair">
+    <article class="aiq-card aiq-card__text aiq-reveal-on-scroll">
+      <h2 class="aiq-typesystem-h2">Ci impegniamo a colmare il divario di alfabetizzazione</h2>
+      <p><p>Alfabetizzare gli adolescenti all'AI è essenziale per la loro futura partecipazione in un mondo in cui l'AI è integrata, li prepara a essere cittadini informati, consumatori critici e potenziali futuri sviluppatori. In Google Research, non stiamo solo sviluppando strumenti e tecnologie di AI; ci impegniamo anche a insegnare agli studenti a usare l'AI in modo responsabile nel mondo e nelle professioni di domani.</p></p>
+    </article>
+    
+    <figure class="aiq-card aiq-card__image aiq-reveal-on-scroll">
+      <img src="/ai-quests/assets/bucket/pages/professor-skye.webp?v=73ffd59-1792762909979"
+          alt="ai-lit-background" width="588"
+          height="588" />
+    </figure>
+    
+  </div>
+  
+</section>
+
+    <section class="aiq-cta aiq-cta--ready">
+  <div class="aiq-cta__title">
+    <h2 class="aiq-typesystem-h2">Iniziamo?</h2>
+  </div>
+  <div class="aiq-cta__content">
+    <p><p><strong>Insegnanti:</strong> Accedete alle risorse gratuite nella nostra scheda <a href="/ai-quests/intl/it_it/teacher-resources" rel="noopener noreferrer">Risorse per Insegnanti</a>. </p>
+<p><strong>Studenti:</strong> <a href="/ai-quests/intl/it_it" rel="noopener noreferrer">Tuffatevi</a>! AI Quests è gratuito e aperto a tutti. </p>
+<p><strong>Progettisti e fornitori di alfabetizzazione AI:</strong> AI Quests è una risorsa aperta e self-service che potete utilizzare subito. Se desiderate esplorare una partnership o una collaborazione più approfondita, vi preghiamo di contattarci all'indirizzo <strong>ai-quests@google.com</strong>. </p>
+<p><strong>Specifiche Minime Raccomandate:</strong> </p>
+<ul>
+<li>Intel i5-5250U 1.60GHz </li>
+<li>4GB RAM </li>
+<li>Chrome v139 (o successivo)</li>
+</ul></p>
+  </div>
+</section>
+
+
+
+  </div>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="glue-footer glue-spacer-3-top">
+  <h2 class="glue-visually-hidden">Footer links</h2>
+  <section class="glue-footer__upper">
+    <div class="glue-social glue-social--monochrome" id="footer-follow">
+      <div class="glue-social__group">
+        <p class="glue-social__title glue-social__title--inline">
+          Seguici</p>
+
+        <ul class="glue-social__list" role="list">
+          <li class="glue-social__item glue-social__tooltip glue-tooltip">
+            <a class="glue-social__link glue-social__tooltip-trigger glue-tooltip__trigger"
+                href="https://www.youtube.com/@GoogleResearch" target="_blank"
+                rel="noopener" aria-labelledby="footer-follow-youtube-tooltip"
+                aria-controls="footer-follow-youtube-tooltip">
+              <svg role="presentation" aria-hidden="true"
+                  class="glue-icon glue-icon--social glue-icon--24px glue-icon--color-youtube">
+                <use
+                    href="/ai-quests/assets/icons/glue-icons.svg?v=73ffd59-1792762909979#video-youtube">
+                </use>
+              </svg>
+            </a>
+
+            <span class="glue-social__tooltip-content glue-tooltip__content"
+                id="footer-follow-youtube-tooltip" role="tooltip"
+                aria-hidden="true">
+              YouTube
+            </span>
+          </li>
+
+          <li class="glue-social__item glue-social__tooltip glue-tooltip">
+            <a class="glue-social__link glue-social__tooltip-trigger glue-tooltip__trigger"
+                href="https://x.com/GoogleResearch" target="_blank"
+                rel="noopener" aria-labelledby="footer-follow-x-tooltip"
+                aria-controls="footer-follow-x-tooltip">
+              <svg role="presentation" aria-hidden="true"
+                  class="glue-icon glue-icon--social glue-icon--24px glue-icon--color-x">
+                <use
+                    href="/ai-quests/assets/icons/glue-icons.svg?v=73ffd59-1792762909979#x">
+                </use>
+              </svg>
+            </a>
+
+            <span class="glue-social__tooltip-content glue-tooltip__content"
+                id="footer-follow-x-tooltip" role="tooltip" aria-hidden="true">
+              X
+            </span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="glue-footer__global">
+    <div class="glue-footer__logo">
+      <a href="https://www.google.com" title="Google" target="_blank"
+          rel="noopener">
+        <svg role="presentation" aria-hidden="true"
+            class="glue-footer__logo-img">
+          <use
+              href="/ai-quests/assets/icons/glue-icons.svg?v=73ffd59-1792762909979#google-solid-logo">
+          </use>
+        </svg>
+      </a>
+    </div>
+
+    <ul class="glue-footer__global-links glue-no-bullet" role="list">
+      
+      <li class="glue-footer__global-links-list-item">
+        <a class="glue-footer__link" href="https://about.google/intl/it_ALL/" target="_blank"
+            rel="noopener">Informazioni su Google</a>
+      </li>
+      
+      <li class="glue-footer__global-links-list-item">
+        <a class="glue-footer__link" href="https://about.google/intl/it_ALL/products/" target="_blank"
+            rel="noopener">Prodotti Google</a>
+      </li>
+      
+      <li class="glue-footer__global-links-list-item">
+        <a class="glue-footer__link" href="https://policies.google.com/privacy?hl=it" target="_blank"
+            rel="noopener">Privacy</a>
+      </li>
+      
+      <li class="glue-footer__global-links-list-item">
+        <a class="glue-footer__link" href="https://policies.google.com/terms?hl=it" target="_blank"
+            rel="noopener">Termini</a>
+      </li>
+      
+    </ul>
+
+    <ul class="glue-footer__global-links glue-footer__global-links--extra glue-no-bullet"
+        role="list">
+      <li
+          class="glue-footer__global-links-list-item glue-footer__global-links-list-item--extra">
+        <a class="glue-footer__link" href="https://support.google.com/?it=it"
+            target="_blank" rel="noopener">
+          <svg role="presentation" aria-hidden="true"
+              class="glue-icon glue-icon--24px glue-icon--footer-help">
+            <use
+                href="/ai-quests/assets/icons/glue-icons.svg?v=73ffd59-1792762909979#help">
+            </use>
+          </svg>
+          Aiuto
+        </a>
+      </li>
+      
+      <li
+          class="glue-footer__global-links-list-item glue-footer__global-links-list-item--extra">
+        <select aria-label="Lingua"
+            name="lang-selector" id="lang-selector"
+            class="glue-form__dropdown glue-footer__lang-dropdown">
+          
+          
+          <option
+              value="/ai-quests/intl/en_us/about"
+              >
+            English (US)
+          </option>
+          
+          
+          
+          <option
+              value="/ai-quests/intl/en_gb/about"
+              >
+            English (UK)
+          </option>
+          
+          
+          
+          <option
+              value="/ai-quests/intl/ms_my/about"
+              >
+            Bahasa Melayu
+          </option>
+          
+          
+          
+          <option
+              value="/ai-quests/intl/es_es/about"
+              >
+            Español (ES)
+          </option>
+          
+          
+          
+          <option
+              value="/ai-quests/intl/es_419/about"
+              >
+            Español (419)
+          </option>
+          
+          
+          
+          <option
+              value="/ai-quests/intl/fr_fr/about"
+              >
+            Français
+          </option>
+          
+          
+          
+          <option
+              value="/ai-quests/intl/it_it/about"
+              selected>
+            Italiano
+          </option>
+          
+          
+          
+          <option
+              value="/ai-quests/intl/pt_pt/about"
+              >
+            Português (PT)
+          </option>
+          
+          
+          
+          <option
+              value="/ai-quests/intl/pt_br/about"
+              >
+            Português (BR)
+          </option>
+          
+          
+          
+          <option
+              value="/ai-quests/intl/tr_tr/about"
+              >
+            Türkçe
+          </option>
+          
+          
+          
+          <option
+              value="/ai-quests/intl/he_il/about"
+              >
+            עברית
+          </option>
+          
+          
+          
+          <option
+              value="/ai-quests/intl/ar_ALL/about"
+              >
+            العربية
+          </option>
+          
+          
+          
+          
+        </select>
+      </li>
+      
+    </ul>
+  </section>
+</footer>
+</div>
+
+
+  
+</body>
+
+</html>

@@ -1,0 +1,9 @@
+import {chromium} from 'playwright';import fs from 'node:fs';import path from 'node:path';import {fileURLToPath} from 'node:url';
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');const browser=await chromium.launch({headless:true,executablePath:'C:/Users/yamal/AppData/Local/ms-playwright/chromium-1248/chrome-win64/chrome.exe',args:['--enable-unsafe-swiftshader']});
+const config=JSON.parse(fs.readFileSync(path.join(root,'public/ai-quests/content/api/snapshot/20261023-141713/site_config.json'),'utf8'));const results=[];
+for(const {site_locale:locale} of config.locales.filter(x=>x.enabled)){
+ const page=await browser.newPage({viewport:{width:1280,height:900}});const failed=[],errors=[],external=[];
+ await page.route('**/*',r=>{const u=r.request().url();if(!u.startsWith('http')||new URL(u).hostname==='127.0.0.1')return r.continue();external.push(u);return r.abort('internetdisconnected');});page.on('response',r=>{if(r.status()>=400)failed.push({url:r.url(),status:r.status()});});page.on('pageerror',e=>errors.push(e.message));
+ await page.goto('http://127.0.0.1:4192/ai-quests/intl/'+locale);await page.locator('aiq-root button').first().waitFor({state:'visible',timeout:20000});await page.waitForTimeout(500);
+ const text=await page.locator('body').innerText();const result={locale,text,failed,errors,external};results.push(result);console.log(JSON.stringify(result));await page.close();
+}fs.writeFileSync(path.join(root,'reports/locales-offline.json'),JSON.stringify(results,null,2));await browser.close();if(results.some(x=>!x.text||x.failed.length||x.errors.length||x.external.length))process.exitCode=1;

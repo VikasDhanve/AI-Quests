@@ -1,0 +1,3171 @@
+/*
+ * See: https://fonts.google.com/license/googlerestricted
+ */
+/* arabic */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/4eca31d85a2d7aafefb3fcffbc76cde1b978031f6f15f8afd0bde3b6bde2ff4f.woff2) format('woff2');
+  unicode-range: U+0600-06FF, U+0750-077F, U+0870-0891, U+0897-08E1, U+08E3-08FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC, U+102E0-102FB, U+10E60-10E7E, U+10EC2-10EC7, U+10EC9-10EEE, U+10EF0-10EFF, U+1EE00-1EE03, U+1EE05-1EE1F, U+1EE21-1EE22, U+1EE24, U+1EE27, U+1EE29-1EE32, U+1EE34-1EE37, U+1EE39, U+1EE3B, U+1EE42, U+1EE47, U+1EE49, U+1EE4B, U+1EE4D-1EE4F, U+1EE51-1EE52, U+1EE54, U+1EE57, U+1EE59, U+1EE5B, U+1EE5D, U+1EE5F, U+1EE61-1EE62, U+1EE64, U+1EE67-1EE6A, U+1EE6C-1EE72, U+1EE74-1EE77, U+1EE79-1EE7C, U+1EE7E, U+1EE80-1EE89, U+1EE8B-1EE9B, U+1EEA1-1EEA3, U+1EEA5-1EEA9, U+1EEAB-1EEBB, U+1EEF0-1EEF1;
+}
+/* armenian */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/f5ba6d0fb09d66ab0b7fe5ddbfe1493063310056977d8bd4e741e3a6083234a4.woff2) format('woff2');
+  unicode-range: U+0308, U+0530-058F, U+2010, U+2024, U+25CC, U+FB13-FB17;
+}
+/* bengali */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/3800e50fc864f0a6eda461a1ee5957b9f9a4cd5a9a0f20d3d524237a41994f9d.woff2) format('woff2');
+  unicode-range: U+0951-0952, U+0964-0965, U+0980-09FE, U+1CD0, U+1CD2, U+1CD5-1CD6, U+1CD8, U+1CE1, U+1CEA, U+1CED, U+1CF2, U+1CF5-1CF7, U+200C-200D, U+20B9, U+25CC, U+A8F1, U+11DF0-11DF1;
+}
+/* canadian-aboriginal */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/f1b58205e2c0e8b091d66504f5b02f3f3c35ca59c9068e4da0bb4076eed2f974.woff2) format('woff2');
+  unicode-range: U+02C7, U+02D8-02D9, U+02DB, U+0307, U+1400-167F, U+18B0-18F5, U+25CC, U+11AB0-11ABF;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/2a21e8d7014e751ef5772d58a0cb9c012bd19031d27b329e456272d9693c59df.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/d097999cdcf099abcac4f07ed829c52d660b284eb91cbb707c86646820463f15.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* devanagari */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/f4f7e955cd817ad37562a1fb008a71364c7e4b752bc2f267daad9c0ffbbce035.woff2) format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF4, U+1CF7-1CF9, U+200C-200D, U+20A8, U+20B9, U+20F0, U+25CC, U+A830-A839, U+A8E0-A8FF, U+11B00-11B0A;
+}
+/* ethiopic */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/4dba9cb721b8dfa5238703667e62ee33d91fe76f957ca9c974f556c0c158b9a8.woff2) format('woff2');
+  unicode-range: U+030E, U+1200-1399, U+2D80-2DDE, U+AB01-AB2E, U+1E7E0-1E7E6, U+1E7E8-1E7EB, U+1E7ED-1E7EE, U+1E7F0-1E7FE;
+}
+/* georgian */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/45708e0ce0c01b24ac801ed339ea0d69bed9e42ec1fc4229adfd1984dda7832f.woff2) format('woff2');
+  unicode-range: U+0589, U+10A0-10FF, U+1C90-1CBA, U+1CBD-1CBF, U+205A, U+2D00-2D2F, U+2E31;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/f66f286564a05575856fdf6c4443ed024d481d21ec6a5d8c379b8b46807a0340.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/e0986867ea7026a5f9e38ab284290c6e11c2105cccfff2a48ef6741ef7a00199.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* gujarati */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/f0e39496855875274d7c68762470936bb1d8b554e1ea7c746357df7528c8b005.woff2) format('woff2');
+  unicode-range: U+0951-0952, U+0964-0965, U+0A80-0AFF, U+200C-200D, U+20B9, U+25CC, U+A830-A839;
+}
+/* gurmukhi */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/942623fc1d49560624e2f9e247f9efddcb235993c23cfc46ed8d6bf75c1e0acb.woff2) format('woff2');
+  unicode-range: U+0951-0952, U+0964-0965, U+0A01-0A76, U+200C-200D, U+20B9, U+25CC, U+262C, U+A830-A839;
+}
+/* hebrew */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/3ae7d4aef9e9fb9eb4b1c76f47c4f938685420d8da86cd594d3afa052fff4982.woff2) format('woff2');
+  unicode-range: U+0307-0308, U+0590-05FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+/* kannada */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/58dc8f4886faa3152a216a3f08d73f1497c35672c8b7dc26a7586c44c958b9d5.woff2) format('woff2');
+  unicode-range: U+0951-0952, U+0964-0965, U+0B83, U+0C80-0CF3, U+1CD0, U+1CD2-1CD3, U+1CDA, U+1CF2, U+1CF4, U+200C-200D, U+20B9, U+25CC, U+A830-A835;
+}
+/* khmer */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/0655912335ea0129cb71e8f41b0d474635f64db46a2c114901bfb75f01273e1a.woff2) format('woff2');
+  unicode-range: U+1780-17FF, U+19E0-19FF, U+200C-200D, U+25CC;
+}
+/* lao */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/b218956b7cd0133716957311dab0fddb0da445439a380308a3594efc10ccfcae.woff2) format('woff2');
+  unicode-range: U+0E81-0EDF, U+200C-200D, U+25CC;
+}
+/* malayalam */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/e4885c5ceaa41cdbf7ae2415157f892dd3b5e40e5f63412a351d75e1d6f89a27.woff2) format('woff2');
+  unicode-range: U+0307, U+0323, U+0951-0952, U+0964-0965, U+0B83, U+0D00-0D7F, U+1CDA, U+1CF2, U+200C-200D, U+20B9, U+25CC, U+A830-A832;
+}
+/* oriya */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/27aaeb67277056af626b96d2fd6186504fb574acc85b1ae8781f5c5cf8e539a9.woff2) format('woff2');
+  unicode-range: U+0951-0952, U+0964-0965, U+0B01-0B77, U+1CDA, U+1CF2, U+200C-200D, U+20B9, U+25CC;
+}
+/* sinhala */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/232670fd5ee24b50caefffabf89ec652d8544eab08587b8d2f65f75f5808a9d7.woff2) format('woff2');
+  unicode-range: U+0964-0965, U+0D81-0DF4, U+1CF2, U+200C-200D, U+25CC, U+111E1-111F4;
+}
+/* symbols */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/54411c51dae021003a4e527188fefa9d0c49192ec821eafb05956e1a9bb5d195.woff2) format('woff2');
+  unicode-range: U+0001-000C, U+000E-001F, U+007F-009F, U+20DD-20E0, U+20E2-20E4, U+2150-218F, U+2190, U+2192, U+2194-2199, U+21AF, U+21E6-21F0, U+21F3, U+2218-2219, U+2299, U+22C4-22C6, U+2300-243F, U+2440-244A, U+2460-24FF, U+25A0-27BF, U+2800-28FF, U+2921-2922, U+2981, U+29BF, U+29EB, U+2B00-2BFF, U+4DC0-4DFF, U+FFF9-FFFB, U+10140-1018E, U+10190-1019C, U+101A0, U+101D0-101FD, U+102E0-102FB, U+10E60-10E7E, U+1D2C0-1D2D3, U+1D2E0-1D37F, U+1F000-1F0FF, U+1F100-1F1AE, U+1F1E6-1F1FF, U+1F30D-1F30F, U+1F315, U+1F31C, U+1F31E, U+1F320-1F32C, U+1F336, U+1F378, U+1F37D, U+1F382, U+1F393-1F39F, U+1F3A7-1F3A8, U+1F3AC-1F3AF, U+1F3C2, U+1F3C4-1F3C6, U+1F3CA-1F3CE, U+1F3D4-1F3E0, U+1F3ED, U+1F3F1-1F3F3, U+1F3F5-1F3F7, U+1F408, U+1F415, U+1F41F, U+1F426, U+1F43F, U+1F441-1F442, U+1F444, U+1F446-1F449, U+1F44C-1F44E, U+1F453, U+1F46A, U+1F47D, U+1F4A3, U+1F4B0, U+1F4B3, U+1F4B9, U+1F4BB, U+1F4BF, U+1F4C8-1F4CB, U+1F4D6, U+1F4DA, U+1F4DF, U+1F4E3-1F4E6, U+1F4EA-1F4ED, U+1F4F7, U+1F4F9-1F4FB, U+1F4FD-1F4FE, U+1F503, U+1F507-1F50B, U+1F50D, U+1F512-1F513, U+1F53E-1F54A, U+1F54F-1F5FA, U+1F610, U+1F650-1F67F, U+1F687, U+1F68D, U+1F691, U+1F694, U+1F698, U+1F6AD, U+1F6B2, U+1F6B9-1F6BA, U+1F6BC, U+1F6C6-1F6CF, U+1F6D3-1F6D7, U+1F6E0-1F6EA, U+1F6F0-1F6F3, U+1F6F7-1F6FC, U+1F700-1F80B, U+1F810-1F847, U+1F850-1F859, U+1F860-1F887, U+1F890-1F8AD, U+1F8B0-1F8BB, U+1F8C0-1F8C1, U+1F8D0-1F8D8, U+1F900-1F90B, U+1F93B, U+1F946, U+1F984, U+1F996, U+1F9E9, U+1FA00-1FA6F, U+1FA70-1FA7C, U+1FA80-1FAC6, U+1FAC8, U+1FACC-1FADD, U+1FADF-1FAEB, U+1FAEF-1FAFA, U+1FB00-1FBFF;
+}
+/* tamil */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/da95f03111e526ecd001829fabae3fb7098967aff830bd8c27cbc7df2b8d4da2.woff2) format('woff2');
+  unicode-range: U+0964-0965, U+0B82-0BFA, U+200C-200D, U+20B9, U+25CC;
+}
+/* telugu */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/0496de3fcf3e49a35d2ee4f9f5982e683be92d920d8d0547d33925930dd00514.woff2) format('woff2');
+  unicode-range: U+0951-0952, U+0964-0965, U+0B83, U+0C00-0C7F, U+1CD5-1CD6, U+1CD8, U+1CDA, U+1CF2, U+200C-200D, U+25CC;
+}
+/* thai */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/86d4ded415ba571d40beff525a6401a622e178e173bbd85fe3d1f054bd4b5480.woff2) format('woff2');
+  unicode-range: U+02D7, U+0303, U+0331, U+0E01-0E5B, U+200C-200D, U+25CC;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/e76aa747c7080a3f6a09cb2f220cd49f6b11a7a90e989f407c4b10b98920ac7c.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/b72a9977115bde61ca88fd267cd0cbc77ebbda86793b2c085c8f9755597e45a9.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/5ab0e2b92b6415d38e49c194622bf015f0c1aa8e82be4f0306bddbee421d42a4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* arabic */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/4eca31d85a2d7aafefb3fcffbc76cde1b978031f6f15f8afd0bde3b6bde2ff4f.woff2) format('woff2');
+  unicode-range: U+0600-06FF, U+0750-077F, U+0870-0891, U+0897-08E1, U+08E3-08FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC, U+102E0-102FB, U+10E60-10E7E, U+10EC2-10EC7, U+10EC9-10EEE, U+10EF0-10EFF, U+1EE00-1EE03, U+1EE05-1EE1F, U+1EE21-1EE22, U+1EE24, U+1EE27, U+1EE29-1EE32, U+1EE34-1EE37, U+1EE39, U+1EE3B, U+1EE42, U+1EE47, U+1EE49, U+1EE4B, U+1EE4D-1EE4F, U+1EE51-1EE52, U+1EE54, U+1EE57, U+1EE59, U+1EE5B, U+1EE5D, U+1EE5F, U+1EE61-1EE62, U+1EE64, U+1EE67-1EE6A, U+1EE6C-1EE72, U+1EE74-1EE77, U+1EE79-1EE7C, U+1EE7E, U+1EE80-1EE89, U+1EE8B-1EE9B, U+1EEA1-1EEA3, U+1EEA5-1EEA9, U+1EEAB-1EEBB, U+1EEF0-1EEF1;
+}
+/* armenian */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/f5ba6d0fb09d66ab0b7fe5ddbfe1493063310056977d8bd4e741e3a6083234a4.woff2) format('woff2');
+  unicode-range: U+0308, U+0530-058F, U+2010, U+2024, U+25CC, U+FB13-FB17;
+}
+/* bengali */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/3800e50fc864f0a6eda461a1ee5957b9f9a4cd5a9a0f20d3d524237a41994f9d.woff2) format('woff2');
+  unicode-range: U+0951-0952, U+0964-0965, U+0980-09FE, U+1CD0, U+1CD2, U+1CD5-1CD6, U+1CD8, U+1CE1, U+1CEA, U+1CED, U+1CF2, U+1CF5-1CF7, U+200C-200D, U+20B9, U+25CC, U+A8F1, U+11DF0-11DF1;
+}
+/* canadian-aboriginal */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/f1b58205e2c0e8b091d66504f5b02f3f3c35ca59c9068e4da0bb4076eed2f974.woff2) format('woff2');
+  unicode-range: U+02C7, U+02D8-02D9, U+02DB, U+0307, U+1400-167F, U+18B0-18F5, U+25CC, U+11AB0-11ABF;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/2a21e8d7014e751ef5772d58a0cb9c012bd19031d27b329e456272d9693c59df.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/d097999cdcf099abcac4f07ed829c52d660b284eb91cbb707c86646820463f15.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* devanagari */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/f4f7e955cd817ad37562a1fb008a71364c7e4b752bc2f267daad9c0ffbbce035.woff2) format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF4, U+1CF7-1CF9, U+200C-200D, U+20A8, U+20B9, U+20F0, U+25CC, U+A830-A839, U+A8E0-A8FF, U+11B00-11B0A;
+}
+/* ethiopic */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/4dba9cb721b8dfa5238703667e62ee33d91fe76f957ca9c974f556c0c158b9a8.woff2) format('woff2');
+  unicode-range: U+030E, U+1200-1399, U+2D80-2DDE, U+AB01-AB2E, U+1E7E0-1E7E6, U+1E7E8-1E7EB, U+1E7ED-1E7EE, U+1E7F0-1E7FE;
+}
+/* georgian */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/45708e0ce0c01b24ac801ed339ea0d69bed9e42ec1fc4229adfd1984dda7832f.woff2) format('woff2');
+  unicode-range: U+0589, U+10A0-10FF, U+1C90-1CBA, U+1CBD-1CBF, U+205A, U+2D00-2D2F, U+2E31;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/f66f286564a05575856fdf6c4443ed024d481d21ec6a5d8c379b8b46807a0340.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/e0986867ea7026a5f9e38ab284290c6e11c2105cccfff2a48ef6741ef7a00199.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* gujarati */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/f0e39496855875274d7c68762470936bb1d8b554e1ea7c746357df7528c8b005.woff2) format('woff2');
+  unicode-range: U+0951-0952, U+0964-0965, U+0A80-0AFF, U+200C-200D, U+20B9, U+25CC, U+A830-A839;
+}
+/* gurmukhi */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/942623fc1d49560624e2f9e247f9efddcb235993c23cfc46ed8d6bf75c1e0acb.woff2) format('woff2');
+  unicode-range: U+0951-0952, U+0964-0965, U+0A01-0A76, U+200C-200D, U+20B9, U+25CC, U+262C, U+A830-A839;
+}
+/* hebrew */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/3ae7d4aef9e9fb9eb4b1c76f47c4f938685420d8da86cd594d3afa052fff4982.woff2) format('woff2');
+  unicode-range: U+0307-0308, U+0590-05FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+/* kannada */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/58dc8f4886faa3152a216a3f08d73f1497c35672c8b7dc26a7586c44c958b9d5.woff2) format('woff2');
+  unicode-range: U+0951-0952, U+0964-0965, U+0B83, U+0C80-0CF3, U+1CD0, U+1CD2-1CD3, U+1CDA, U+1CF2, U+1CF4, U+200C-200D, U+20B9, U+25CC, U+A830-A835;
+}
+/* khmer */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/0655912335ea0129cb71e8f41b0d474635f64db46a2c114901bfb75f01273e1a.woff2) format('woff2');
+  unicode-range: U+1780-17FF, U+19E0-19FF, U+200C-200D, U+25CC;
+}
+/* lao */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/b218956b7cd0133716957311dab0fddb0da445439a380308a3594efc10ccfcae.woff2) format('woff2');
+  unicode-range: U+0E81-0EDF, U+200C-200D, U+25CC;
+}
+/* malayalam */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/e4885c5ceaa41cdbf7ae2415157f892dd3b5e40e5f63412a351d75e1d6f89a27.woff2) format('woff2');
+  unicode-range: U+0307, U+0323, U+0951-0952, U+0964-0965, U+0B83, U+0D00-0D7F, U+1CDA, U+1CF2, U+200C-200D, U+20B9, U+25CC, U+A830-A832;
+}
+/* oriya */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/27aaeb67277056af626b96d2fd6186504fb574acc85b1ae8781f5c5cf8e539a9.woff2) format('woff2');
+  unicode-range: U+0951-0952, U+0964-0965, U+0B01-0B77, U+1CDA, U+1CF2, U+200C-200D, U+20B9, U+25CC;
+}
+/* sinhala */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/232670fd5ee24b50caefffabf89ec652d8544eab08587b8d2f65f75f5808a9d7.woff2) format('woff2');
+  unicode-range: U+0964-0965, U+0D81-0DF4, U+1CF2, U+200C-200D, U+25CC, U+111E1-111F4;
+}
+/* symbols */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/54411c51dae021003a4e527188fefa9d0c49192ec821eafb05956e1a9bb5d195.woff2) format('woff2');
+  unicode-range: U+0001-000C, U+000E-001F, U+007F-009F, U+20DD-20E0, U+20E2-20E4, U+2150-218F, U+2190, U+2192, U+2194-2199, U+21AF, U+21E6-21F0, U+21F3, U+2218-2219, U+2299, U+22C4-22C6, U+2300-243F, U+2440-244A, U+2460-24FF, U+25A0-27BF, U+2800-28FF, U+2921-2922, U+2981, U+29BF, U+29EB, U+2B00-2BFF, U+4DC0-4DFF, U+FFF9-FFFB, U+10140-1018E, U+10190-1019C, U+101A0, U+101D0-101FD, U+102E0-102FB, U+10E60-10E7E, U+1D2C0-1D2D3, U+1D2E0-1D37F, U+1F000-1F0FF, U+1F100-1F1AE, U+1F1E6-1F1FF, U+1F30D-1F30F, U+1F315, U+1F31C, U+1F31E, U+1F320-1F32C, U+1F336, U+1F378, U+1F37D, U+1F382, U+1F393-1F39F, U+1F3A7-1F3A8, U+1F3AC-1F3AF, U+1F3C2, U+1F3C4-1F3C6, U+1F3CA-1F3CE, U+1F3D4-1F3E0, U+1F3ED, U+1F3F1-1F3F3, U+1F3F5-1F3F7, U+1F408, U+1F415, U+1F41F, U+1F426, U+1F43F, U+1F441-1F442, U+1F444, U+1F446-1F449, U+1F44C-1F44E, U+1F453, U+1F46A, U+1F47D, U+1F4A3, U+1F4B0, U+1F4B3, U+1F4B9, U+1F4BB, U+1F4BF, U+1F4C8-1F4CB, U+1F4D6, U+1F4DA, U+1F4DF, U+1F4E3-1F4E6, U+1F4EA-1F4ED, U+1F4F7, U+1F4F9-1F4FB, U+1F4FD-1F4FE, U+1F503, U+1F507-1F50B, U+1F50D, U+1F512-1F513, U+1F53E-1F54A, U+1F54F-1F5FA, U+1F610, U+1F650-1F67F, U+1F687, U+1F68D, U+1F691, U+1F694, U+1F698, U+1F6AD, U+1F6B2, U+1F6B9-1F6BA, U+1F6BC, U+1F6C6-1F6CF, U+1F6D3-1F6D7, U+1F6E0-1F6EA, U+1F6F0-1F6F3, U+1F6F7-1F6FC, U+1F700-1F80B, U+1F810-1F847, U+1F850-1F859, U+1F860-1F887, U+1F890-1F8AD, U+1F8B0-1F8BB, U+1F8C0-1F8C1, U+1F8D0-1F8D8, U+1F900-1F90B, U+1F93B, U+1F946, U+1F984, U+1F996, U+1F9E9, U+1FA00-1FA6F, U+1FA70-1FA7C, U+1FA80-1FAC6, U+1FAC8, U+1FACC-1FADD, U+1FADF-1FAEB, U+1FAEF-1FAFA, U+1FB00-1FBFF;
+}
+/* tamil */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/da95f03111e526ecd001829fabae3fb7098967aff830bd8c27cbc7df2b8d4da2.woff2) format('woff2');
+  unicode-range: U+0964-0965, U+0B82-0BFA, U+200C-200D, U+20B9, U+25CC;
+}
+/* telugu */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/0496de3fcf3e49a35d2ee4f9f5982e683be92d920d8d0547d33925930dd00514.woff2) format('woff2');
+  unicode-range: U+0951-0952, U+0964-0965, U+0B83, U+0C00-0C7F, U+1CD5-1CD6, U+1CD8, U+1CDA, U+1CF2, U+200C-200D, U+25CC;
+}
+/* thai */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/86d4ded415ba571d40beff525a6401a622e178e173bbd85fe3d1f054bd4b5480.woff2) format('woff2');
+  unicode-range: U+02D7, U+0303, U+0331, U+0E01-0E5B, U+200C-200D, U+25CC;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/e76aa747c7080a3f6a09cb2f220cd49f6b11a7a90e989f407c4b10b98920ac7c.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/b72a9977115bde61ca88fd267cd0cbc77ebbda86793b2c085c8f9755597e45a9.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/5ab0e2b92b6415d38e49c194622bf015f0c1aa8e82be4f0306bddbee421d42a4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* arabic */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/4eca31d85a2d7aafefb3fcffbc76cde1b978031f6f15f8afd0bde3b6bde2ff4f.woff2) format('woff2');
+  unicode-range: U+0600-06FF, U+0750-077F, U+0870-0891, U+0897-08E1, U+08E3-08FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC, U+102E0-102FB, U+10E60-10E7E, U+10EC2-10EC7, U+10EC9-10EEE, U+10EF0-10EFF, U+1EE00-1EE03, U+1EE05-1EE1F, U+1EE21-1EE22, U+1EE24, U+1EE27, U+1EE29-1EE32, U+1EE34-1EE37, U+1EE39, U+1EE3B, U+1EE42, U+1EE47, U+1EE49, U+1EE4B, U+1EE4D-1EE4F, U+1EE51-1EE52, U+1EE54, U+1EE57, U+1EE59, U+1EE5B, U+1EE5D, U+1EE5F, U+1EE61-1EE62, U+1EE64, U+1EE67-1EE6A, U+1EE6C-1EE72, U+1EE74-1EE77, U+1EE79-1EE7C, U+1EE7E, U+1EE80-1EE89, U+1EE8B-1EE9B, U+1EEA1-1EEA3, U+1EEA5-1EEA9, U+1EEAB-1EEBB, U+1EEF0-1EEF1;
+}
+/* armenian */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/f5ba6d0fb09d66ab0b7fe5ddbfe1493063310056977d8bd4e741e3a6083234a4.woff2) format('woff2');
+  unicode-range: U+0308, U+0530-058F, U+2010, U+2024, U+25CC, U+FB13-FB17;
+}
+/* bengali */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/3800e50fc864f0a6eda461a1ee5957b9f9a4cd5a9a0f20d3d524237a41994f9d.woff2) format('woff2');
+  unicode-range: U+0951-0952, U+0964-0965, U+0980-09FE, U+1CD0, U+1CD2, U+1CD5-1CD6, U+1CD8, U+1CE1, U+1CEA, U+1CED, U+1CF2, U+1CF5-1CF7, U+200C-200D, U+20B9, U+25CC, U+A8F1, U+11DF0-11DF1;
+}
+/* canadian-aboriginal */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/f1b58205e2c0e8b091d66504f5b02f3f3c35ca59c9068e4da0bb4076eed2f974.woff2) format('woff2');
+  unicode-range: U+02C7, U+02D8-02D9, U+02DB, U+0307, U+1400-167F, U+18B0-18F5, U+25CC, U+11AB0-11ABF;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/2a21e8d7014e751ef5772d58a0cb9c012bd19031d27b329e456272d9693c59df.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/d097999cdcf099abcac4f07ed829c52d660b284eb91cbb707c86646820463f15.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* devanagari */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/f4f7e955cd817ad37562a1fb008a71364c7e4b752bc2f267daad9c0ffbbce035.woff2) format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF4, U+1CF7-1CF9, U+200C-200D, U+20A8, U+20B9, U+20F0, U+25CC, U+A830-A839, U+A8E0-A8FF, U+11B00-11B0A;
+}
+/* ethiopic */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/4dba9cb721b8dfa5238703667e62ee33d91fe76f957ca9c974f556c0c158b9a8.woff2) format('woff2');
+  unicode-range: U+030E, U+1200-1399, U+2D80-2DDE, U+AB01-AB2E, U+1E7E0-1E7E6, U+1E7E8-1E7EB, U+1E7ED-1E7EE, U+1E7F0-1E7FE;
+}
+/* georgian */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/45708e0ce0c01b24ac801ed339ea0d69bed9e42ec1fc4229adfd1984dda7832f.woff2) format('woff2');
+  unicode-range: U+0589, U+10A0-10FF, U+1C90-1CBA, U+1CBD-1CBF, U+205A, U+2D00-2D2F, U+2E31;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/f66f286564a05575856fdf6c4443ed024d481d21ec6a5d8c379b8b46807a0340.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/e0986867ea7026a5f9e38ab284290c6e11c2105cccfff2a48ef6741ef7a00199.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* gujarati */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/f0e39496855875274d7c68762470936bb1d8b554e1ea7c746357df7528c8b005.woff2) format('woff2');
+  unicode-range: U+0951-0952, U+0964-0965, U+0A80-0AFF, U+200C-200D, U+20B9, U+25CC, U+A830-A839;
+}
+/* gurmukhi */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/942623fc1d49560624e2f9e247f9efddcb235993c23cfc46ed8d6bf75c1e0acb.woff2) format('woff2');
+  unicode-range: U+0951-0952, U+0964-0965, U+0A01-0A76, U+200C-200D, U+20B9, U+25CC, U+262C, U+A830-A839;
+}
+/* hebrew */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/3ae7d4aef9e9fb9eb4b1c76f47c4f938685420d8da86cd594d3afa052fff4982.woff2) format('woff2');
+  unicode-range: U+0307-0308, U+0590-05FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+/* kannada */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/58dc8f4886faa3152a216a3f08d73f1497c35672c8b7dc26a7586c44c958b9d5.woff2) format('woff2');
+  unicode-range: U+0951-0952, U+0964-0965, U+0B83, U+0C80-0CF3, U+1CD0, U+1CD2-1CD3, U+1CDA, U+1CF2, U+1CF4, U+200C-200D, U+20B9, U+25CC, U+A830-A835;
+}
+/* khmer */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/0655912335ea0129cb71e8f41b0d474635f64db46a2c114901bfb75f01273e1a.woff2) format('woff2');
+  unicode-range: U+1780-17FF, U+19E0-19FF, U+200C-200D, U+25CC;
+}
+/* lao */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/b218956b7cd0133716957311dab0fddb0da445439a380308a3594efc10ccfcae.woff2) format('woff2');
+  unicode-range: U+0E81-0EDF, U+200C-200D, U+25CC;
+}
+/* malayalam */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/e4885c5ceaa41cdbf7ae2415157f892dd3b5e40e5f63412a351d75e1d6f89a27.woff2) format('woff2');
+  unicode-range: U+0307, U+0323, U+0951-0952, U+0964-0965, U+0B83, U+0D00-0D7F, U+1CDA, U+1CF2, U+200C-200D, U+20B9, U+25CC, U+A830-A832;
+}
+/* oriya */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/27aaeb67277056af626b96d2fd6186504fb574acc85b1ae8781f5c5cf8e539a9.woff2) format('woff2');
+  unicode-range: U+0951-0952, U+0964-0965, U+0B01-0B77, U+1CDA, U+1CF2, U+200C-200D, U+20B9, U+25CC;
+}
+/* sinhala */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/232670fd5ee24b50caefffabf89ec652d8544eab08587b8d2f65f75f5808a9d7.woff2) format('woff2');
+  unicode-range: U+0964-0965, U+0D81-0DF4, U+1CF2, U+200C-200D, U+25CC, U+111E1-111F4;
+}
+/* symbols */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/54411c51dae021003a4e527188fefa9d0c49192ec821eafb05956e1a9bb5d195.woff2) format('woff2');
+  unicode-range: U+0001-000C, U+000E-001F, U+007F-009F, U+20DD-20E0, U+20E2-20E4, U+2150-218F, U+2190, U+2192, U+2194-2199, U+21AF, U+21E6-21F0, U+21F3, U+2218-2219, U+2299, U+22C4-22C6, U+2300-243F, U+2440-244A, U+2460-24FF, U+25A0-27BF, U+2800-28FF, U+2921-2922, U+2981, U+29BF, U+29EB, U+2B00-2BFF, U+4DC0-4DFF, U+FFF9-FFFB, U+10140-1018E, U+10190-1019C, U+101A0, U+101D0-101FD, U+102E0-102FB, U+10E60-10E7E, U+1D2C0-1D2D3, U+1D2E0-1D37F, U+1F000-1F0FF, U+1F100-1F1AE, U+1F1E6-1F1FF, U+1F30D-1F30F, U+1F315, U+1F31C, U+1F31E, U+1F320-1F32C, U+1F336, U+1F378, U+1F37D, U+1F382, U+1F393-1F39F, U+1F3A7-1F3A8, U+1F3AC-1F3AF, U+1F3C2, U+1F3C4-1F3C6, U+1F3CA-1F3CE, U+1F3D4-1F3E0, U+1F3ED, U+1F3F1-1F3F3, U+1F3F5-1F3F7, U+1F408, U+1F415, U+1F41F, U+1F426, U+1F43F, U+1F441-1F442, U+1F444, U+1F446-1F449, U+1F44C-1F44E, U+1F453, U+1F46A, U+1F47D, U+1F4A3, U+1F4B0, U+1F4B3, U+1F4B9, U+1F4BB, U+1F4BF, U+1F4C8-1F4CB, U+1F4D6, U+1F4DA, U+1F4DF, U+1F4E3-1F4E6, U+1F4EA-1F4ED, U+1F4F7, U+1F4F9-1F4FB, U+1F4FD-1F4FE, U+1F503, U+1F507-1F50B, U+1F50D, U+1F512-1F513, U+1F53E-1F54A, U+1F54F-1F5FA, U+1F610, U+1F650-1F67F, U+1F687, U+1F68D, U+1F691, U+1F694, U+1F698, U+1F6AD, U+1F6B2, U+1F6B9-1F6BA, U+1F6BC, U+1F6C6-1F6CF, U+1F6D3-1F6D7, U+1F6E0-1F6EA, U+1F6F0-1F6F3, U+1F6F7-1F6FC, U+1F700-1F80B, U+1F810-1F847, U+1F850-1F859, U+1F860-1F887, U+1F890-1F8AD, U+1F8B0-1F8BB, U+1F8C0-1F8C1, U+1F8D0-1F8D8, U+1F900-1F90B, U+1F93B, U+1F946, U+1F984, U+1F996, U+1F9E9, U+1FA00-1FA6F, U+1FA70-1FA7C, U+1FA80-1FAC6, U+1FAC8, U+1FACC-1FADD, U+1FADF-1FAEB, U+1FAEF-1FAFA, U+1FB00-1FBFF;
+}
+/* tamil */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/da95f03111e526ecd001829fabae3fb7098967aff830bd8c27cbc7df2b8d4da2.woff2) format('woff2');
+  unicode-range: U+0964-0965, U+0B82-0BFA, U+200C-200D, U+20B9, U+25CC;
+}
+/* telugu */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/0496de3fcf3e49a35d2ee4f9f5982e683be92d920d8d0547d33925930dd00514.woff2) format('woff2');
+  unicode-range: U+0951-0952, U+0964-0965, U+0B83, U+0C00-0C7F, U+1CD5-1CD6, U+1CD8, U+1CDA, U+1CF2, U+200C-200D, U+25CC;
+}
+/* thai */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/86d4ded415ba571d40beff525a6401a622e178e173bbd85fe3d1f054bd4b5480.woff2) format('woff2');
+  unicode-range: U+02D7, U+0303, U+0331, U+0E01-0E5B, U+200C-200D, U+25CC;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/e76aa747c7080a3f6a09cb2f220cd49f6b11a7a90e989f407c4b10b98920ac7c.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/b72a9977115bde61ca88fd267cd0cbc77ebbda86793b2c085c8f9755597e45a9.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/5ab0e2b92b6415d38e49c194622bf015f0c1aa8e82be4f0306bddbee421d42a4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* arabic */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/85f56a15cccec3e13e76f970533201dbd8f2dcf078f16590b924e362ca2b76c3.woff2) format('woff2');
+  unicode-range: U+0600-06FF, U+0750-077F, U+0870-0891, U+0897-08E1, U+08E3-08FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC, U+102E0-102FB, U+10E60-10E7E, U+10EC2-10EC7, U+10EC9-10EEE, U+10EF0-10EFF, U+1EE00-1EE03, U+1EE05-1EE1F, U+1EE21-1EE22, U+1EE24, U+1EE27, U+1EE29-1EE32, U+1EE34-1EE37, U+1EE39, U+1EE3B, U+1EE42, U+1EE47, U+1EE49, U+1EE4B, U+1EE4D-1EE4F, U+1EE51-1EE52, U+1EE54, U+1EE57, U+1EE59, U+1EE5B, U+1EE5D, U+1EE5F, U+1EE61-1EE62, U+1EE64, U+1EE67-1EE6A, U+1EE6C-1EE72, U+1EE74-1EE77, U+1EE79-1EE7C, U+1EE7E, U+1EE80-1EE89, U+1EE8B-1EE9B, U+1EEA1-1EEA3, U+1EEA5-1EEA9, U+1EEAB-1EEBB, U+1EEF0-1EEF1;
+}
+/* armenian */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/25d609cc8bedd250db260176cd5f6af0a4c778dea016c45787924e91740c1431.woff2) format('woff2');
+  unicode-range: U+0308, U+0530-058F, U+2010, U+2024, U+25CC, U+FB13-FB17;
+}
+/* bengali */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/1329ae972f9a0f49f0203857e6525ee4035770b5a47f3ce88e8d763de96d794e.woff2) format('woff2');
+  unicode-range: U+0951-0952, U+0964-0965, U+0980-09FE, U+1CD0, U+1CD2, U+1CD5-1CD6, U+1CD8, U+1CE1, U+1CEA, U+1CED, U+1CF2, U+1CF5-1CF7, U+200C-200D, U+20B9, U+25CC, U+A8F1, U+11DF0-11DF1;
+}
+/* canadian-aboriginal */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/ede644df768ac5e3d1695658774a71b453529a2a9d9c76980727bd9b1fd8f899.woff2) format('woff2');
+  unicode-range: U+02C7, U+02D8-02D9, U+02DB, U+0307, U+1400-167F, U+18B0-18F5, U+25CC, U+11AB0-11ABF;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/ba7f37a8e6c21dab76f5a4ef971ce0fd8c44b188eeb7d34b145974e40c2ace4c.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/7d1c739f7c68edb55d91d549aadc95eeb16311fad7eae406e99975402fccc8b1.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* devanagari */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/995f451ac9bf2fc8f2534fc0d43530514e1f94f036547f915741771067a7e65a.woff2) format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF4, U+1CF7-1CF9, U+200C-200D, U+20A8, U+20B9, U+20F0, U+25CC, U+A830-A839, U+A8E0-A8FF, U+11B00-11B0A;
+}
+/* ethiopic */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/a9a11bbc1ba34f7008df6daf4df37d331d856484861563b2d99d3427b7059087.woff2) format('woff2');
+  unicode-range: U+030E, U+1200-1399, U+2D80-2DDE, U+AB01-AB2E, U+1E7E0-1E7E6, U+1E7E8-1E7EB, U+1E7ED-1E7EE, U+1E7F0-1E7FE;
+}
+/* georgian */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/78ab8f0466c8ee2d03dccc9d93735e56d9825bbdac976ae2b85a46112ac54009.woff2) format('woff2');
+  unicode-range: U+0589, U+10A0-10FF, U+1C90-1CBA, U+1CBD-1CBF, U+205A, U+2D00-2D2F, U+2E31;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/24300c6c4274d1c11e10f5055e093ec87c67775f034537efa5325e1fe2ed6a5f.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/2e6631a5f83fae4e7f3d314802ddfabf4ba627b5d9a8a5e5bd3a052ba26e8abe.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* gujarati */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/86546c522408092c4969daca646bd16fe7b7529ad6d5c2782ee1d1fdf06bb411.woff2) format('woff2');
+  unicode-range: U+0951-0952, U+0964-0965, U+0A80-0AFF, U+200C-200D, U+20B9, U+25CC, U+A830-A839;
+}
+/* gurmukhi */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/89b76aaa00aae838475b6c26e2969903218494a6bf685e6bc5a811451756459e.woff2) format('woff2');
+  unicode-range: U+0951-0952, U+0964-0965, U+0A01-0A76, U+200C-200D, U+20B9, U+25CC, U+262C, U+A830-A839;
+}
+/* hebrew */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/ce8dae39e225a0cdfd5c06f0904d5fee29a1a0e1ef0cef420e1038203489438d.woff2) format('woff2');
+  unicode-range: U+0307-0308, U+0590-05FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+/* kannada */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/fe907c2f645540b0dc64b4e7451b2c299ed735ea2aa0bc98c904a87725840c35.woff2) format('woff2');
+  unicode-range: U+0951-0952, U+0964-0965, U+0B83, U+0C80-0CF3, U+1CD0, U+1CD2-1CD3, U+1CDA, U+1CF2, U+1CF4, U+200C-200D, U+20B9, U+25CC, U+A830-A835;
+}
+/* khmer */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/220d23698bf120d7748b92ed4bdd45c683b553bee1401ab7b4bce12173856a2a.woff2) format('woff2');
+  unicode-range: U+1780-17FF, U+19E0-19FF, U+200C-200D, U+25CC;
+}
+/* lao */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/402b87bd7541ff04b4fbd289793e54347d9084cf686ab537d0a5e55e03de290f.woff2) format('woff2');
+  unicode-range: U+0E81-0EDF, U+200C-200D, U+25CC;
+}
+/* malayalam */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/5e28f4a677aa0e8b3a113095b0e65a998187e662ac0382654223a092b51105d3.woff2) format('woff2');
+  unicode-range: U+0307, U+0323, U+0951-0952, U+0964-0965, U+0B83, U+0D00-0D7F, U+1CDA, U+1CF2, U+200C-200D, U+20B9, U+25CC, U+A830-A832;
+}
+/* oriya */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/5a44c0c33846ae5c8c10badab55c289daa0749a65635cdf69514f3170164638b.woff2) format('woff2');
+  unicode-range: U+0951-0952, U+0964-0965, U+0B01-0B77, U+1CDA, U+1CF2, U+200C-200D, U+20B9, U+25CC;
+}
+/* sinhala */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/697ad6086b268471fe5b4f768e691412798385a0ddd9af69b8ddb24385902961.woff2) format('woff2');
+  unicode-range: U+0964-0965, U+0D81-0DF4, U+1CF2, U+200C-200D, U+25CC, U+111E1-111F4;
+}
+/* symbols */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/914bf566ec0cbe3fa0c6d629bd9fb3854c41e6f4420be19ea9297e29893804cf.woff2) format('woff2');
+  unicode-range: U+0001-000C, U+000E-001F, U+007F-009F, U+20DD-20E0, U+20E2-20E4, U+2150-218F, U+2190, U+2192, U+2194-2199, U+21AF, U+21E6-21F0, U+21F3, U+2218-2219, U+2299, U+22C4-22C6, U+2300-243F, U+2440-244A, U+2460-24FF, U+25A0-27BF, U+2800-28FF, U+2921-2922, U+2981, U+29BF, U+29EB, U+2B00-2BFF, U+4DC0-4DFF, U+FFF9-FFFB, U+10140-1018E, U+10190-1019C, U+101A0, U+101D0-101FD, U+102E0-102FB, U+10E60-10E7E, U+1D2C0-1D2D3, U+1D2E0-1D37F, U+1F000-1F0FF, U+1F100-1F1AE, U+1F1E6-1F1FF, U+1F30D-1F30F, U+1F315, U+1F31C, U+1F31E, U+1F320-1F32C, U+1F336, U+1F378, U+1F37D, U+1F382, U+1F393-1F39F, U+1F3A7-1F3A8, U+1F3AC-1F3AF, U+1F3C2, U+1F3C4-1F3C6, U+1F3CA-1F3CE, U+1F3D4-1F3E0, U+1F3ED, U+1F3F1-1F3F3, U+1F3F5-1F3F7, U+1F408, U+1F415, U+1F41F, U+1F426, U+1F43F, U+1F441-1F442, U+1F444, U+1F446-1F449, U+1F44C-1F44E, U+1F453, U+1F46A, U+1F47D, U+1F4A3, U+1F4B0, U+1F4B3, U+1F4B9, U+1F4BB, U+1F4BF, U+1F4C8-1F4CB, U+1F4D6, U+1F4DA, U+1F4DF, U+1F4E3-1F4E6, U+1F4EA-1F4ED, U+1F4F7, U+1F4F9-1F4FB, U+1F4FD-1F4FE, U+1F503, U+1F507-1F50B, U+1F50D, U+1F512-1F513, U+1F53E-1F54A, U+1F54F-1F5FA, U+1F610, U+1F650-1F67F, U+1F687, U+1F68D, U+1F691, U+1F694, U+1F698, U+1F6AD, U+1F6B2, U+1F6B9-1F6BA, U+1F6BC, U+1F6C6-1F6CF, U+1F6D3-1F6D7, U+1F6E0-1F6EA, U+1F6F0-1F6F3, U+1F6F7-1F6FC, U+1F700-1F80B, U+1F810-1F847, U+1F850-1F859, U+1F860-1F887, U+1F890-1F8AD, U+1F8B0-1F8BB, U+1F8C0-1F8C1, U+1F8D0-1F8D8, U+1F900-1F90B, U+1F93B, U+1F946, U+1F984, U+1F996, U+1F9E9, U+1FA00-1FA6F, U+1FA70-1FA7C, U+1FA80-1FAC6, U+1FAC8, U+1FACC-1FADD, U+1FADF-1FAEB, U+1FAEF-1FAFA, U+1FB00-1FBFF;
+}
+/* tamil */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/497fa84d7eef128abf10b98e6996bc7babe30239ede7460013e012580524a0fc.woff2) format('woff2');
+  unicode-range: U+0964-0965, U+0B82-0BFA, U+200C-200D, U+20B9, U+25CC;
+}
+/* telugu */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/878d15e071618ba58096e7786dd8bf5f2630c64354b64b9706cc9768ac5ac2f1.woff2) format('woff2');
+  unicode-range: U+0951-0952, U+0964-0965, U+0B83, U+0C00-0C7F, U+1CD5-1CD6, U+1CD8, U+1CDA, U+1CF2, U+200C-200D, U+25CC;
+}
+/* thai */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/a9f7530b52a7fcf59ab3e30f56ad9b1624501022da8dc7a9884fe563cfa1d082.woff2) format('woff2');
+  unicode-range: U+02D7, U+0303, U+0331, U+0E01-0E5B, U+200C-200D, U+25CC;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/c721e5c2b2a1d68cfbef0dd01c1ce8cf05414ded7ab7d75f0f1544a58adf0d14.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/adc5e3736f60deb938bd14c4211a56c15e9e7e98f46b0cd7e4dc678e8f03b0ed.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/f5ace5d1121532d323a03a6f210182cf0acc007dc45a1ac759f3a69b4d6f4134.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* arabic */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/85f56a15cccec3e13e76f970533201dbd8f2dcf078f16590b924e362ca2b76c3.woff2) format('woff2');
+  unicode-range: U+0600-06FF, U+0750-077F, U+0870-0891, U+0897-08E1, U+08E3-08FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC, U+102E0-102FB, U+10E60-10E7E, U+10EC2-10EC7, U+10EC9-10EEE, U+10EF0-10EFF, U+1EE00-1EE03, U+1EE05-1EE1F, U+1EE21-1EE22, U+1EE24, U+1EE27, U+1EE29-1EE32, U+1EE34-1EE37, U+1EE39, U+1EE3B, U+1EE42, U+1EE47, U+1EE49, U+1EE4B, U+1EE4D-1EE4F, U+1EE51-1EE52, U+1EE54, U+1EE57, U+1EE59, U+1EE5B, U+1EE5D, U+1EE5F, U+1EE61-1EE62, U+1EE64, U+1EE67-1EE6A, U+1EE6C-1EE72, U+1EE74-1EE77, U+1EE79-1EE7C, U+1EE7E, U+1EE80-1EE89, U+1EE8B-1EE9B, U+1EEA1-1EEA3, U+1EEA5-1EEA9, U+1EEAB-1EEBB, U+1EEF0-1EEF1;
+}
+/* armenian */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/25d609cc8bedd250db260176cd5f6af0a4c778dea016c45787924e91740c1431.woff2) format('woff2');
+  unicode-range: U+0308, U+0530-058F, U+2010, U+2024, U+25CC, U+FB13-FB17;
+}
+/* bengali */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/1329ae972f9a0f49f0203857e6525ee4035770b5a47f3ce88e8d763de96d794e.woff2) format('woff2');
+  unicode-range: U+0951-0952, U+0964-0965, U+0980-09FE, U+1CD0, U+1CD2, U+1CD5-1CD6, U+1CD8, U+1CE1, U+1CEA, U+1CED, U+1CF2, U+1CF5-1CF7, U+200C-200D, U+20B9, U+25CC, U+A8F1, U+11DF0-11DF1;
+}
+/* canadian-aboriginal */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/ede644df768ac5e3d1695658774a71b453529a2a9d9c76980727bd9b1fd8f899.woff2) format('woff2');
+  unicode-range: U+02C7, U+02D8-02D9, U+02DB, U+0307, U+1400-167F, U+18B0-18F5, U+25CC, U+11AB0-11ABF;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/ba7f37a8e6c21dab76f5a4ef971ce0fd8c44b188eeb7d34b145974e40c2ace4c.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/7d1c739f7c68edb55d91d549aadc95eeb16311fad7eae406e99975402fccc8b1.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* devanagari */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/995f451ac9bf2fc8f2534fc0d43530514e1f94f036547f915741771067a7e65a.woff2) format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF4, U+1CF7-1CF9, U+200C-200D, U+20A8, U+20B9, U+20F0, U+25CC, U+A830-A839, U+A8E0-A8FF, U+11B00-11B0A;
+}
+/* ethiopic */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/a9a11bbc1ba34f7008df6daf4df37d331d856484861563b2d99d3427b7059087.woff2) format('woff2');
+  unicode-range: U+030E, U+1200-1399, U+2D80-2DDE, U+AB01-AB2E, U+1E7E0-1E7E6, U+1E7E8-1E7EB, U+1E7ED-1E7EE, U+1E7F0-1E7FE;
+}
+/* georgian */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/78ab8f0466c8ee2d03dccc9d93735e56d9825bbdac976ae2b85a46112ac54009.woff2) format('woff2');
+  unicode-range: U+0589, U+10A0-10FF, U+1C90-1CBA, U+1CBD-1CBF, U+205A, U+2D00-2D2F, U+2E31;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/24300c6c4274d1c11e10f5055e093ec87c67775f034537efa5325e1fe2ed6a5f.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/2e6631a5f83fae4e7f3d314802ddfabf4ba627b5d9a8a5e5bd3a052ba26e8abe.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* gujarati */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/86546c522408092c4969daca646bd16fe7b7529ad6d5c2782ee1d1fdf06bb411.woff2) format('woff2');
+  unicode-range: U+0951-0952, U+0964-0965, U+0A80-0AFF, U+200C-200D, U+20B9, U+25CC, U+A830-A839;
+}
+/* gurmukhi */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/89b76aaa00aae838475b6c26e2969903218494a6bf685e6bc5a811451756459e.woff2) format('woff2');
+  unicode-range: U+0951-0952, U+0964-0965, U+0A01-0A76, U+200C-200D, U+20B9, U+25CC, U+262C, U+A830-A839;
+}
+/* hebrew */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/ce8dae39e225a0cdfd5c06f0904d5fee29a1a0e1ef0cef420e1038203489438d.woff2) format('woff2');
+  unicode-range: U+0307-0308, U+0590-05FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+/* kannada */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/fe907c2f645540b0dc64b4e7451b2c299ed735ea2aa0bc98c904a87725840c35.woff2) format('woff2');
+  unicode-range: U+0951-0952, U+0964-0965, U+0B83, U+0C80-0CF3, U+1CD0, U+1CD2-1CD3, U+1CDA, U+1CF2, U+1CF4, U+200C-200D, U+20B9, U+25CC, U+A830-A835;
+}
+/* khmer */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/220d23698bf120d7748b92ed4bdd45c683b553bee1401ab7b4bce12173856a2a.woff2) format('woff2');
+  unicode-range: U+1780-17FF, U+19E0-19FF, U+200C-200D, U+25CC;
+}
+/* lao */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/402b87bd7541ff04b4fbd289793e54347d9084cf686ab537d0a5e55e03de290f.woff2) format('woff2');
+  unicode-range: U+0E81-0EDF, U+200C-200D, U+25CC;
+}
+/* malayalam */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/5e28f4a677aa0e8b3a113095b0e65a998187e662ac0382654223a092b51105d3.woff2) format('woff2');
+  unicode-range: U+0307, U+0323, U+0951-0952, U+0964-0965, U+0B83, U+0D00-0D7F, U+1CDA, U+1CF2, U+200C-200D, U+20B9, U+25CC, U+A830-A832;
+}
+/* oriya */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/5a44c0c33846ae5c8c10badab55c289daa0749a65635cdf69514f3170164638b.woff2) format('woff2');
+  unicode-range: U+0951-0952, U+0964-0965, U+0B01-0B77, U+1CDA, U+1CF2, U+200C-200D, U+20B9, U+25CC;
+}
+/* sinhala */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/697ad6086b268471fe5b4f768e691412798385a0ddd9af69b8ddb24385902961.woff2) format('woff2');
+  unicode-range: U+0964-0965, U+0D81-0DF4, U+1CF2, U+200C-200D, U+25CC, U+111E1-111F4;
+}
+/* symbols */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/914bf566ec0cbe3fa0c6d629bd9fb3854c41e6f4420be19ea9297e29893804cf.woff2) format('woff2');
+  unicode-range: U+0001-000C, U+000E-001F, U+007F-009F, U+20DD-20E0, U+20E2-20E4, U+2150-218F, U+2190, U+2192, U+2194-2199, U+21AF, U+21E6-21F0, U+21F3, U+2218-2219, U+2299, U+22C4-22C6, U+2300-243F, U+2440-244A, U+2460-24FF, U+25A0-27BF, U+2800-28FF, U+2921-2922, U+2981, U+29BF, U+29EB, U+2B00-2BFF, U+4DC0-4DFF, U+FFF9-FFFB, U+10140-1018E, U+10190-1019C, U+101A0, U+101D0-101FD, U+102E0-102FB, U+10E60-10E7E, U+1D2C0-1D2D3, U+1D2E0-1D37F, U+1F000-1F0FF, U+1F100-1F1AE, U+1F1E6-1F1FF, U+1F30D-1F30F, U+1F315, U+1F31C, U+1F31E, U+1F320-1F32C, U+1F336, U+1F378, U+1F37D, U+1F382, U+1F393-1F39F, U+1F3A7-1F3A8, U+1F3AC-1F3AF, U+1F3C2, U+1F3C4-1F3C6, U+1F3CA-1F3CE, U+1F3D4-1F3E0, U+1F3ED, U+1F3F1-1F3F3, U+1F3F5-1F3F7, U+1F408, U+1F415, U+1F41F, U+1F426, U+1F43F, U+1F441-1F442, U+1F444, U+1F446-1F449, U+1F44C-1F44E, U+1F453, U+1F46A, U+1F47D, U+1F4A3, U+1F4B0, U+1F4B3, U+1F4B9, U+1F4BB, U+1F4BF, U+1F4C8-1F4CB, U+1F4D6, U+1F4DA, U+1F4DF, U+1F4E3-1F4E6, U+1F4EA-1F4ED, U+1F4F7, U+1F4F9-1F4FB, U+1F4FD-1F4FE, U+1F503, U+1F507-1F50B, U+1F50D, U+1F512-1F513, U+1F53E-1F54A, U+1F54F-1F5FA, U+1F610, U+1F650-1F67F, U+1F687, U+1F68D, U+1F691, U+1F694, U+1F698, U+1F6AD, U+1F6B2, U+1F6B9-1F6BA, U+1F6BC, U+1F6C6-1F6CF, U+1F6D3-1F6D7, U+1F6E0-1F6EA, U+1F6F0-1F6F3, U+1F6F7-1F6FC, U+1F700-1F80B, U+1F810-1F847, U+1F850-1F859, U+1F860-1F887, U+1F890-1F8AD, U+1F8B0-1F8BB, U+1F8C0-1F8C1, U+1F8D0-1F8D8, U+1F900-1F90B, U+1F93B, U+1F946, U+1F984, U+1F996, U+1F9E9, U+1FA00-1FA6F, U+1FA70-1FA7C, U+1FA80-1FAC6, U+1FAC8, U+1FACC-1FADD, U+1FADF-1FAEB, U+1FAEF-1FAFA, U+1FB00-1FBFF;
+}
+/* tamil */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/497fa84d7eef128abf10b98e6996bc7babe30239ede7460013e012580524a0fc.woff2) format('woff2');
+  unicode-range: U+0964-0965, U+0B82-0BFA, U+200C-200D, U+20B9, U+25CC;
+}
+/* telugu */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/878d15e071618ba58096e7786dd8bf5f2630c64354b64b9706cc9768ac5ac2f1.woff2) format('woff2');
+  unicode-range: U+0951-0952, U+0964-0965, U+0B83, U+0C00-0C7F, U+1CD5-1CD6, U+1CD8, U+1CDA, U+1CF2, U+200C-200D, U+25CC;
+}
+/* thai */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/a9f7530b52a7fcf59ab3e30f56ad9b1624501022da8dc7a9884fe563cfa1d082.woff2) format('woff2');
+  unicode-range: U+02D7, U+0303, U+0331, U+0E01-0E5B, U+200C-200D, U+25CC;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/c721e5c2b2a1d68cfbef0dd01c1ce8cf05414ded7ab7d75f0f1544a58adf0d14.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/adc5e3736f60deb938bd14c4211a56c15e9e7e98f46b0cd7e4dc678e8f03b0ed.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/f5ace5d1121532d323a03a6f210182cf0acc007dc45a1ac759f3a69b4d6f4134.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* arabic */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/85f56a15cccec3e13e76f970533201dbd8f2dcf078f16590b924e362ca2b76c3.woff2) format('woff2');
+  unicode-range: U+0600-06FF, U+0750-077F, U+0870-0891, U+0897-08E1, U+08E3-08FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC, U+102E0-102FB, U+10E60-10E7E, U+10EC2-10EC7, U+10EC9-10EEE, U+10EF0-10EFF, U+1EE00-1EE03, U+1EE05-1EE1F, U+1EE21-1EE22, U+1EE24, U+1EE27, U+1EE29-1EE32, U+1EE34-1EE37, U+1EE39, U+1EE3B, U+1EE42, U+1EE47, U+1EE49, U+1EE4B, U+1EE4D-1EE4F, U+1EE51-1EE52, U+1EE54, U+1EE57, U+1EE59, U+1EE5B, U+1EE5D, U+1EE5F, U+1EE61-1EE62, U+1EE64, U+1EE67-1EE6A, U+1EE6C-1EE72, U+1EE74-1EE77, U+1EE79-1EE7C, U+1EE7E, U+1EE80-1EE89, U+1EE8B-1EE9B, U+1EEA1-1EEA3, U+1EEA5-1EEA9, U+1EEAB-1EEBB, U+1EEF0-1EEF1;
+}
+/* armenian */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/25d609cc8bedd250db260176cd5f6af0a4c778dea016c45787924e91740c1431.woff2) format('woff2');
+  unicode-range: U+0308, U+0530-058F, U+2010, U+2024, U+25CC, U+FB13-FB17;
+}
+/* bengali */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/1329ae972f9a0f49f0203857e6525ee4035770b5a47f3ce88e8d763de96d794e.woff2) format('woff2');
+  unicode-range: U+0951-0952, U+0964-0965, U+0980-09FE, U+1CD0, U+1CD2, U+1CD5-1CD6, U+1CD8, U+1CE1, U+1CEA, U+1CED, U+1CF2, U+1CF5-1CF7, U+200C-200D, U+20B9, U+25CC, U+A8F1, U+11DF0-11DF1;
+}
+/* canadian-aboriginal */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/ede644df768ac5e3d1695658774a71b453529a2a9d9c76980727bd9b1fd8f899.woff2) format('woff2');
+  unicode-range: U+02C7, U+02D8-02D9, U+02DB, U+0307, U+1400-167F, U+18B0-18F5, U+25CC, U+11AB0-11ABF;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/ba7f37a8e6c21dab76f5a4ef971ce0fd8c44b188eeb7d34b145974e40c2ace4c.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/7d1c739f7c68edb55d91d549aadc95eeb16311fad7eae406e99975402fccc8b1.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* devanagari */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/995f451ac9bf2fc8f2534fc0d43530514e1f94f036547f915741771067a7e65a.woff2) format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF4, U+1CF7-1CF9, U+200C-200D, U+20A8, U+20B9, U+20F0, U+25CC, U+A830-A839, U+A8E0-A8FF, U+11B00-11B0A;
+}
+/* ethiopic */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/a9a11bbc1ba34f7008df6daf4df37d331d856484861563b2d99d3427b7059087.woff2) format('woff2');
+  unicode-range: U+030E, U+1200-1399, U+2D80-2DDE, U+AB01-AB2E, U+1E7E0-1E7E6, U+1E7E8-1E7EB, U+1E7ED-1E7EE, U+1E7F0-1E7FE;
+}
+/* georgian */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/78ab8f0466c8ee2d03dccc9d93735e56d9825bbdac976ae2b85a46112ac54009.woff2) format('woff2');
+  unicode-range: U+0589, U+10A0-10FF, U+1C90-1CBA, U+1CBD-1CBF, U+205A, U+2D00-2D2F, U+2E31;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/24300c6c4274d1c11e10f5055e093ec87c67775f034537efa5325e1fe2ed6a5f.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/2e6631a5f83fae4e7f3d314802ddfabf4ba627b5d9a8a5e5bd3a052ba26e8abe.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* gujarati */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/86546c522408092c4969daca646bd16fe7b7529ad6d5c2782ee1d1fdf06bb411.woff2) format('woff2');
+  unicode-range: U+0951-0952, U+0964-0965, U+0A80-0AFF, U+200C-200D, U+20B9, U+25CC, U+A830-A839;
+}
+/* gurmukhi */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/89b76aaa00aae838475b6c26e2969903218494a6bf685e6bc5a811451756459e.woff2) format('woff2');
+  unicode-range: U+0951-0952, U+0964-0965, U+0A01-0A76, U+200C-200D, U+20B9, U+25CC, U+262C, U+A830-A839;
+}
+/* hebrew */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/ce8dae39e225a0cdfd5c06f0904d5fee29a1a0e1ef0cef420e1038203489438d.woff2) format('woff2');
+  unicode-range: U+0307-0308, U+0590-05FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+/* kannada */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/fe907c2f645540b0dc64b4e7451b2c299ed735ea2aa0bc98c904a87725840c35.woff2) format('woff2');
+  unicode-range: U+0951-0952, U+0964-0965, U+0B83, U+0C80-0CF3, U+1CD0, U+1CD2-1CD3, U+1CDA, U+1CF2, U+1CF4, U+200C-200D, U+20B9, U+25CC, U+A830-A835;
+}
+/* khmer */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/220d23698bf120d7748b92ed4bdd45c683b553bee1401ab7b4bce12173856a2a.woff2) format('woff2');
+  unicode-range: U+1780-17FF, U+19E0-19FF, U+200C-200D, U+25CC;
+}
+/* lao */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/402b87bd7541ff04b4fbd289793e54347d9084cf686ab537d0a5e55e03de290f.woff2) format('woff2');
+  unicode-range: U+0E81-0EDF, U+200C-200D, U+25CC;
+}
+/* malayalam */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/5e28f4a677aa0e8b3a113095b0e65a998187e662ac0382654223a092b51105d3.woff2) format('woff2');
+  unicode-range: U+0307, U+0323, U+0951-0952, U+0964-0965, U+0B83, U+0D00-0D7F, U+1CDA, U+1CF2, U+200C-200D, U+20B9, U+25CC, U+A830-A832;
+}
+/* oriya */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/5a44c0c33846ae5c8c10badab55c289daa0749a65635cdf69514f3170164638b.woff2) format('woff2');
+  unicode-range: U+0951-0952, U+0964-0965, U+0B01-0B77, U+1CDA, U+1CF2, U+200C-200D, U+20B9, U+25CC;
+}
+/* sinhala */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/697ad6086b268471fe5b4f768e691412798385a0ddd9af69b8ddb24385902961.woff2) format('woff2');
+  unicode-range: U+0964-0965, U+0D81-0DF4, U+1CF2, U+200C-200D, U+25CC, U+111E1-111F4;
+}
+/* symbols */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/914bf566ec0cbe3fa0c6d629bd9fb3854c41e6f4420be19ea9297e29893804cf.woff2) format('woff2');
+  unicode-range: U+0001-000C, U+000E-001F, U+007F-009F, U+20DD-20E0, U+20E2-20E4, U+2150-218F, U+2190, U+2192, U+2194-2199, U+21AF, U+21E6-21F0, U+21F3, U+2218-2219, U+2299, U+22C4-22C6, U+2300-243F, U+2440-244A, U+2460-24FF, U+25A0-27BF, U+2800-28FF, U+2921-2922, U+2981, U+29BF, U+29EB, U+2B00-2BFF, U+4DC0-4DFF, U+FFF9-FFFB, U+10140-1018E, U+10190-1019C, U+101A0, U+101D0-101FD, U+102E0-102FB, U+10E60-10E7E, U+1D2C0-1D2D3, U+1D2E0-1D37F, U+1F000-1F0FF, U+1F100-1F1AE, U+1F1E6-1F1FF, U+1F30D-1F30F, U+1F315, U+1F31C, U+1F31E, U+1F320-1F32C, U+1F336, U+1F378, U+1F37D, U+1F382, U+1F393-1F39F, U+1F3A7-1F3A8, U+1F3AC-1F3AF, U+1F3C2, U+1F3C4-1F3C6, U+1F3CA-1F3CE, U+1F3D4-1F3E0, U+1F3ED, U+1F3F1-1F3F3, U+1F3F5-1F3F7, U+1F408, U+1F415, U+1F41F, U+1F426, U+1F43F, U+1F441-1F442, U+1F444, U+1F446-1F449, U+1F44C-1F44E, U+1F453, U+1F46A, U+1F47D, U+1F4A3, U+1F4B0, U+1F4B3, U+1F4B9, U+1F4BB, U+1F4BF, U+1F4C8-1F4CB, U+1F4D6, U+1F4DA, U+1F4DF, U+1F4E3-1F4E6, U+1F4EA-1F4ED, U+1F4F7, U+1F4F9-1F4FB, U+1F4FD-1F4FE, U+1F503, U+1F507-1F50B, U+1F50D, U+1F512-1F513, U+1F53E-1F54A, U+1F54F-1F5FA, U+1F610, U+1F650-1F67F, U+1F687, U+1F68D, U+1F691, U+1F694, U+1F698, U+1F6AD, U+1F6B2, U+1F6B9-1F6BA, U+1F6BC, U+1F6C6-1F6CF, U+1F6D3-1F6D7, U+1F6E0-1F6EA, U+1F6F0-1F6F3, U+1F6F7-1F6FC, U+1F700-1F80B, U+1F810-1F847, U+1F850-1F859, U+1F860-1F887, U+1F890-1F8AD, U+1F8B0-1F8BB, U+1F8C0-1F8C1, U+1F8D0-1F8D8, U+1F900-1F90B, U+1F93B, U+1F946, U+1F984, U+1F996, U+1F9E9, U+1FA00-1FA6F, U+1FA70-1FA7C, U+1FA80-1FAC6, U+1FAC8, U+1FACC-1FADD, U+1FADF-1FAEB, U+1FAEF-1FAFA, U+1FB00-1FBFF;
+}
+/* tamil */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/497fa84d7eef128abf10b98e6996bc7babe30239ede7460013e012580524a0fc.woff2) format('woff2');
+  unicode-range: U+0964-0965, U+0B82-0BFA, U+200C-200D, U+20B9, U+25CC;
+}
+/* telugu */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/878d15e071618ba58096e7786dd8bf5f2630c64354b64b9706cc9768ac5ac2f1.woff2) format('woff2');
+  unicode-range: U+0951-0952, U+0964-0965, U+0B83, U+0C00-0C7F, U+1CD5-1CD6, U+1CD8, U+1CDA, U+1CF2, U+200C-200D, U+25CC;
+}
+/* thai */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/a9f7530b52a7fcf59ab3e30f56ad9b1624501022da8dc7a9884fe563cfa1d082.woff2) format('woff2');
+  unicode-range: U+02D7, U+0303, U+0331, U+0E01-0E5B, U+200C-200D, U+25CC;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/c721e5c2b2a1d68cfbef0dd01c1ce8cf05414ded7ab7d75f0f1544a58adf0d14.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/adc5e3736f60deb938bd14c4211a56c15e9e7e98f46b0cd7e4dc678e8f03b0ed.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/f5ace5d1121532d323a03a6f210182cf0acc007dc45a1ac759f3a69b4d6f4134.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Google Sans Display';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/180f5b3bce2c4faf0c78acab7e8781e85e2a29b09145e1d3b60c728d5ceceee1.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek */
+@font-face {
+  font-family: 'Google Sans Display';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/f880f5247bd7f5a87af184710282522b75fa07a0a903e190607c9344c591a5d4.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Google Sans Display';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/53364e2405a17f11c369a3cb0865c17d463da2f52e41d09d96623bd3240ba44c.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Google Sans Display';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/d3aa918b1c825b85ac06346e7d22eb69058e3564451787064c98616ed847e364.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Google Sans Display';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/ba03de040a84e40fad0311fb36a7cf5ae768a8abeacba021a860767d15e21203.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Google Sans Display';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/e465c7e5274b6f2b1c67e629974378d90c0beb053367ac96fbfb3e97ffa029c1.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek */
+@font-face {
+  font-family: 'Google Sans Display';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/31dff93bbf08c9b5cbe629895b852422106a225e8f9331e1283c143821491670.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Google Sans Display';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/c1c71a9e66d579c81ef3983b7f94212ea39b07d6e562950501d819bc88bcc068.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Google Sans Display';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/2d2d3b6bc99b51f38fa52a184ce2f4553d56132d3ead694e66386c74ab0be74d.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Google Sans Display';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/d010022bda0455ca33599463b4b2d4de7b678b02b8caf06b90f9a754a879d271.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Google Sans Display';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/3e95e4c0df25a1bcfa0b3e8b345a37e29e2e730f21dc0b573bc2121fa5a46e19.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek */
+@font-face {
+  font-family: 'Google Sans Display';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/108720cb08642fcdd56cd4331159a16933d3f399d060e830a73a103d6348bf95.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Google Sans Display';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/9ff271674c2eccfde37dea5ece3e31c8cba20d0621be40733f27100a7161f70a.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Google Sans Display';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/b90fc493a7f97cb36f3ef90d67cd975b37bb0ee0c05f477967a92d01895c9a54.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Google Sans Display';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/c163519fb42bd17d73cbcad8041751ff3cfa90116a0f8fba6703ce939062e10e.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Google Sans Display';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/5934ed5bd1bebbe5d5b30cc80be0bb5ab7a9b3e0c0281519b81e74e11cda76a1.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek */
+@font-face {
+  font-family: 'Google Sans Display';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/d2e53a18946bc87ecef5fb495e5e8acb714bd506d978b72e40e550b4346367da.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Google Sans Display';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/054cf60807af6195a470566939ae1dd261c41b2b49baa924ed4836562786f339.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Google Sans Display';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/f121dcf399ec2cbd97e34037efb1f741193e69a00d9c6003bb6b959caf0019f7.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Google Sans Display';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/db9fb8fc09c45f6f15204a3082cc19925141cc465145dec779344b22baae79fd.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Google Sans Display';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/cfcab955c89b1313eb7ab2bcc72676875492c3058cde7b48515f24a75f0721b5.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek */
+@font-face {
+  font-family: 'Google Sans Display';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/d55644f770c95b02c6924607aabfb2bf11463d93927433da4dc690bbec80f114.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Google Sans Display';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/7deca01a445a2e279c200faa4d7add3c22801f7900a5a086304665c8b6d27db7.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Google Sans Display';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/17e19b83498fafad47864d0004b97378d87d64db87f30bedcaaea3a1b92dfa6d.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Google Sans Display';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/0bfc7aa92533d9d087adbd156e68ff4e3168930507a20d6bdc6ff6f2eda9a502.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Google Sans Display';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/02e2beab3576501483ed7560ee37eb510aa44efdebfb6cc4a4faf992eb34c934.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek */
+@font-face {
+  font-family: 'Google Sans Display';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/f62ca6ef8d635ebe13890e0c0d16487b73bbf29f34f02592fc2d4326337a7bed.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Google Sans Display';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/46bd0c5764b6f49a8b7aa2142e3d3661ddc9b7b4169de54cc241159b18451f7a.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Google Sans Display';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/28052d1aa8683e11ddac40ffdfacc6ec8cb1baa4b836be049672dfbbeed69b99.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Google Sans Display';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/7ce52053042cc8de8e138dc36f7dc656f23a28bd361f83a1c67cf6f724b3b401.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* armenian */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/b2c542a3bcde05ef4f77e4d9c470ebde4b419ef2e0e4ee21d0f0893bb1067978.woff2) format('woff2');
+  unicode-range: U+0308, U+0530-058F, U+2010, U+2024, U+25CC, U+FB13-FB17;
+}
+/* bengali */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/631eca97a6397a62b7a2eac62014b2bcbcf9714c56cf1b841d487fb80387af19.woff2) format('woff2');
+  unicode-range: U+0951-0952, U+0964-0965, U+0980-09FE, U+1CD0, U+1CD2, U+1CD5-1CD6, U+1CD8, U+1CE1, U+1CEA, U+1CED, U+1CF2, U+1CF5-1CF7, U+200C-200D, U+20B9, U+25CC, U+A8F1, U+11DF0-11DF1;
+}
+/* canadian-aboriginal */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/5d6a86ef0c4c20a6a84b8ddd3147bb32b09c50f8f42d64d8cc65f73c7bdfc477.woff2) format('woff2');
+  unicode-range: U+02C7, U+02D8-02D9, U+02DB, U+0307, U+1400-167F, U+18B0-18F5, U+25CC, U+11AB0-11ABF;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/c2601a553c21882a4457ecb1a804e1cc3ef5c0352e318d42878f2afa1a203b06.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/082a726eaa979be63bb999754a96ca5f9ba3d49522ae99c65a81230ab2e97c0a.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* devanagari */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/6df548042bf5897130bf7a17b237fa3f1db509be18fea6181acb609be3b238ee.woff2) format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF4, U+1CF7-1CF9, U+200C-200D, U+20A8, U+20B9, U+20F0, U+25CC, U+A830-A839, U+A8E0-A8FF, U+11B00-11B0A;
+}
+/* ethiopic */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/9ef545948242f4a4bf24493244d20a74b054cbc15ad3c87c1711b76b408462fb.woff2) format('woff2');
+  unicode-range: U+030E, U+1200-1399, U+2D80-2DDE, U+AB01-AB2E, U+1E7E0-1E7E6, U+1E7E8-1E7EB, U+1E7ED-1E7EE, U+1E7F0-1E7FE;
+}
+/* georgian */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/7d2827f991b8776f0dda5833f3fb28f6cc028051e019c2f1ab7954ae1a9b761f.woff2) format('woff2');
+  unicode-range: U+0589, U+10A0-10FF, U+1C90-1CBA, U+1CBD-1CBF, U+205A, U+2D00-2D2F, U+2E31;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/16d81f23fdbf3f5b35b90290ef00ec33e24bef82896dec5a0331f0f02eda2554.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/315427d316cff27a24a6e4ccedc9090dd68beddeaaa07845c5f8cf37a6ab257b.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* gujarati */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/2c5468072457e72bdf8ffc16974a6ba5c7dbe22f0c9d4102d2b083b263363b88.woff2) format('woff2');
+  unicode-range: U+0951-0952, U+0964-0965, U+0A80-0AFF, U+200C-200D, U+20B9, U+25CC, U+A830-A839;
+}
+/* gurmukhi */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/a1c6dda9b21e0b7ec599a35db8a4b32030288e77d020bb842a8d6b7d5a2b2410.woff2) format('woff2');
+  unicode-range: U+0951-0952, U+0964-0965, U+0A01-0A76, U+200C-200D, U+20B9, U+25CC, U+262C, U+A830-A839;
+}
+/* hebrew */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/90991480123624456a6fc389467bd98306d039c8a67c49e04b388aafdd3be865.woff2) format('woff2');
+  unicode-range: U+0307-0308, U+0590-05FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+/* kannada */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/d165ece0f3d358feaf3c2b6833df95f1812b90fa1ae570f65c8c03e13546eb0f.woff2) format('woff2');
+  unicode-range: U+0951-0952, U+0964-0965, U+0B83, U+0C80-0CF3, U+1CD0, U+1CD2-1CD3, U+1CDA, U+1CF2, U+1CF4, U+200C-200D, U+20B9, U+25CC, U+A830-A835;
+}
+/* khmer */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/5427f13384fe9a21c7d48cec771ce738e588ea52a481ce24126ea6892ecb020c.woff2) format('woff2');
+  unicode-range: U+1780-17FF, U+19E0-19FF, U+200C-200D, U+25CC;
+}
+/* lao */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/900fce1f7892bc96f785f41534cab1f39d7e661d6126ec2175983fea5920f1b6.woff2) format('woff2');
+  unicode-range: U+0E81-0EDF, U+200C-200D, U+25CC;
+}
+/* malayalam */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/73e675e85d4ad9d8c89f56562557e14e68d7a5220ab8cc8110e955e0dabd5c69.woff2) format('woff2');
+  unicode-range: U+0307, U+0323, U+0951-0952, U+0964-0965, U+0B83, U+0D00-0D7F, U+1CDA, U+1CF2, U+200C-200D, U+20B9, U+25CC, U+A830-A832;
+}
+/* oriya */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/f65fa857be621ee08565389135f29a63ebfcc5b455bafa3f6dfa060aa4d83e4d.woff2) format('woff2');
+  unicode-range: U+0951-0952, U+0964-0965, U+0B01-0B77, U+1CDA, U+1CF2, U+200C-200D, U+20B9, U+25CC;
+}
+/* sinhala */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/69cf7c115827cd36ff5c0f60f2a826e0970ca4036fbbe8d5073b1fe0a8ac2124.woff2) format('woff2');
+  unicode-range: U+0964-0965, U+0D81-0DF4, U+1CF2, U+200C-200D, U+25CC, U+111E1-111F4;
+}
+/* symbols */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/edcd398db43f405bcbfb72487fca7220a183355b4a3d0987cb5ad6f7817304a4.woff2) format('woff2');
+  unicode-range: U+0001-000C, U+000E-001F, U+007F-009F, U+20DD-20E0, U+20E2-20E4, U+2150-218F, U+2190, U+2192, U+2194-2199, U+21AF, U+21E6-21F0, U+21F3, U+2218-2219, U+2299, U+22C4-22C6, U+2300-243F, U+2440-244A, U+2460-24FF, U+25A0-27BF, U+2800-28FF, U+2921-2922, U+2981, U+29BF, U+29EB, U+2B00-2BFF, U+4DC0-4DFF, U+FFF9-FFFB, U+10140-1018E, U+10190-1019C, U+101A0, U+101D0-101FD, U+102E0-102FB, U+10E60-10E7E, U+1D2C0-1D2D3, U+1D2E0-1D37F, U+1F000-1F0FF, U+1F100-1F1AE, U+1F1E6-1F1FF, U+1F30D-1F30F, U+1F315, U+1F31C, U+1F31E, U+1F320-1F32C, U+1F336, U+1F378, U+1F37D, U+1F382, U+1F393-1F39F, U+1F3A7-1F3A8, U+1F3AC-1F3AF, U+1F3C2, U+1F3C4-1F3C6, U+1F3CA-1F3CE, U+1F3D4-1F3E0, U+1F3ED, U+1F3F1-1F3F3, U+1F3F5-1F3F7, U+1F408, U+1F415, U+1F41F, U+1F426, U+1F43F, U+1F441-1F442, U+1F444, U+1F446-1F449, U+1F44C-1F44E, U+1F453, U+1F46A, U+1F47D, U+1F4A3, U+1F4B0, U+1F4B3, U+1F4B9, U+1F4BB, U+1F4BF, U+1F4C8-1F4CB, U+1F4D6, U+1F4DA, U+1F4DF, U+1F4E3-1F4E6, U+1F4EA-1F4ED, U+1F4F7, U+1F4F9-1F4FB, U+1F4FD-1F4FE, U+1F503, U+1F507-1F50B, U+1F50D, U+1F512-1F513, U+1F53E-1F54A, U+1F54F-1F5FA, U+1F610, U+1F650-1F67F, U+1F687, U+1F68D, U+1F691, U+1F694, U+1F698, U+1F6AD, U+1F6B2, U+1F6B9-1F6BA, U+1F6BC, U+1F6C6-1F6CF, U+1F6D3-1F6D7, U+1F6E0-1F6EA, U+1F6F0-1F6F3, U+1F6F7-1F6FC, U+1F700-1F80B, U+1F810-1F847, U+1F850-1F859, U+1F860-1F887, U+1F890-1F8AD, U+1F8B0-1F8BB, U+1F8C0-1F8C1, U+1F8D0-1F8D8, U+1F900-1F90B, U+1F93B, U+1F946, U+1F984, U+1F996, U+1F9E9, U+1FA00-1FA6F, U+1FA70-1FA7C, U+1FA80-1FAC6, U+1FAC8, U+1FACC-1FADD, U+1FADF-1FAEB, U+1FAEF-1FAFA, U+1FB00-1FBFF;
+}
+/* tamil */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/b9588d8d6f5bca96a6e9ba3f5d8e25f192d15355d7cd41905db91e891b2243d4.woff2) format('woff2');
+  unicode-range: U+0964-0965, U+0B82-0BFA, U+200C-200D, U+20B9, U+25CC;
+}
+/* telugu */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/c5e810262f1302fd14100290467a0d85036e83117e0e6b7b7a3a9b55a4006f15.woff2) format('woff2');
+  unicode-range: U+0951-0952, U+0964-0965, U+0B83, U+0C00-0C7F, U+1CD5-1CD6, U+1CD8, U+1CDA, U+1CF2, U+200C-200D, U+25CC;
+}
+/* thai */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/4cb8c6e5a480ed4eae5848b921f05ebf3c5b92a2d22eae803c65d49c2eb38e77.woff2) format('woff2');
+  unicode-range: U+02D7, U+0303, U+0331, U+0E01-0E5B, U+200C-200D, U+25CC;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/8eca08d41c39583223e3b45b6d123792040ce63889724496795af32c091b3a71.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/3515a0beec2e14813705721029e95247d2ae9d8cbf5727788eed557550c2d1e1.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/f856304b941c248ecea6da761f6a64f86265beddb936bb10ce0b4121b531db9d.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* armenian */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/21d4f5659b25430e2f2c904fcb977412201bc4a8cad993358f7dde796bb0cf2a.woff2) format('woff2');
+  unicode-range: U+0308, U+0530-058F, U+2010, U+2024, U+25CC, U+FB13-FB17;
+}
+/* bengali */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/95873b08ae432767b4b0e3d1aa516158d40a56e318d761660e3abcb2bd86792c.woff2) format('woff2');
+  unicode-range: U+0951-0952, U+0964-0965, U+0980-09FE, U+1CD0, U+1CD2, U+1CD5-1CD6, U+1CD8, U+1CE1, U+1CEA, U+1CED, U+1CF2, U+1CF5-1CF7, U+200C-200D, U+20B9, U+25CC, U+A8F1, U+11DF0-11DF1;
+}
+/* canadian-aboriginal */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/935152ae6319badb9aa73e554a87a984486f77274150915f939da679303b0355.woff2) format('woff2');
+  unicode-range: U+02C7, U+02D8-02D9, U+02DB, U+0307, U+1400-167F, U+18B0-18F5, U+25CC, U+11AB0-11ABF;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/7d66c944e8ea005b653c6ee900aec139fb2c9f765ef8a49dd4f64209c3465cff.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/56afb21012678377628a0c842cab54a83583dd1dce9604f4f01714896474f479.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* devanagari */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/38be51ff85cbd739b11e702d45a89ed0c75136ad449c2792ebe6122258835250.woff2) format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF4, U+1CF7-1CF9, U+200C-200D, U+20A8, U+20B9, U+20F0, U+25CC, U+A830-A839, U+A8E0-A8FF, U+11B00-11B0A;
+}
+/* ethiopic */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/292b6db2429657c2a3bcfd2c9c6fe4b74dd4639c721b6f92be45d11d37243454.woff2) format('woff2');
+  unicode-range: U+030E, U+1200-1399, U+2D80-2DDE, U+AB01-AB2E, U+1E7E0-1E7E6, U+1E7E8-1E7EB, U+1E7ED-1E7EE, U+1E7F0-1E7FE;
+}
+/* georgian */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/d4b59fd319aeec5f035192c1c732d6bb43c83e5f7996825836a602468784000f.woff2) format('woff2');
+  unicode-range: U+0589, U+10A0-10FF, U+1C90-1CBA, U+1CBD-1CBF, U+205A, U+2D00-2D2F, U+2E31;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/73ad74e2cdd6e0afcfae96cacbdb5f4095960b9b098e747802163944f6480c9d.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/4d627a8892cd8a8a99b0f315a7d1a4c84a32aef77bd4bc2508231dd3395f9d7e.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* gujarati */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/27c04ad684bd56fc067215bd43db4e1854c23398b626ff5ceed90ecf5bfdb796.woff2) format('woff2');
+  unicode-range: U+0951-0952, U+0964-0965, U+0A80-0AFF, U+200C-200D, U+20B9, U+25CC, U+A830-A839;
+}
+/* gurmukhi */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/5e008c819170fed0d3f030db81dadccd0599620089b124dc6fd9642965532e3e.woff2) format('woff2');
+  unicode-range: U+0951-0952, U+0964-0965, U+0A01-0A76, U+200C-200D, U+20B9, U+25CC, U+262C, U+A830-A839;
+}
+/* hebrew */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/8acfd9edc3b77292dcecf328e9f2308aa0383f4861d5fb05a99bb9f252461415.woff2) format('woff2');
+  unicode-range: U+0307-0308, U+0590-05FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+/* kannada */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/cfe066a6c5660931bab36c12349e2c210d414ef71ebcee0c6c175e9f7053118b.woff2) format('woff2');
+  unicode-range: U+0951-0952, U+0964-0965, U+0B83, U+0C80-0CF3, U+1CD0, U+1CD2-1CD3, U+1CDA, U+1CF2, U+1CF4, U+200C-200D, U+20B9, U+25CC, U+A830-A835;
+}
+/* khmer */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/1d28b3cbe35ea6c72359a6216b83301f06ccc07de61b3d978275b1aabb172e7a.woff2) format('woff2');
+  unicode-range: U+1780-17FF, U+19E0-19FF, U+200C-200D, U+25CC;
+}
+/* lao */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/354026e7b689dfce9bb5773bc3d9c8fb988c21ad4c55d33d64c91405fe243b28.woff2) format('woff2');
+  unicode-range: U+0E81-0EDF, U+200C-200D, U+25CC;
+}
+/* malayalam */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/b3b708e63ce5a3a8ef0849e8c90f75ee78294814cb784d0c159d3bbcd41ecc2a.woff2) format('woff2');
+  unicode-range: U+0307, U+0323, U+0951-0952, U+0964-0965, U+0B83, U+0D00-0D7F, U+1CDA, U+1CF2, U+200C-200D, U+20B9, U+25CC, U+A830-A832;
+}
+/* oriya */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/e78b52577f2379335d5d2df2619c6c7fe1978cef2f49f36c54320375ef851425.woff2) format('woff2');
+  unicode-range: U+0951-0952, U+0964-0965, U+0B01-0B77, U+1CDA, U+1CF2, U+200C-200D, U+20B9, U+25CC;
+}
+/* sinhala */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/3c98a8e255a9bf1c2a2c70956fe0dfe653e106787fce66ce8ba7a88146d10191.woff2) format('woff2');
+  unicode-range: U+0964-0965, U+0D81-0DF4, U+1CF2, U+200C-200D, U+25CC, U+111E1-111F4;
+}
+/* symbols */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/7aee1c06e885c27f76913b8e4b33ee067e8ef91d957324d09c43a45e58be132a.woff2) format('woff2');
+  unicode-range: U+0001-000C, U+000E-001F, U+007F-009F, U+20DD-20E0, U+20E2-20E4, U+2150-218F, U+2190, U+2192, U+2194-2199, U+21AF, U+21E6-21F0, U+21F3, U+2218-2219, U+2299, U+22C4-22C6, U+2300-243F, U+2440-244A, U+2460-24FF, U+25A0-27BF, U+2800-28FF, U+2921-2922, U+2981, U+29BF, U+29EB, U+2B00-2BFF, U+4DC0-4DFF, U+FFF9-FFFB, U+10140-1018E, U+10190-1019C, U+101A0, U+101D0-101FD, U+102E0-102FB, U+10E60-10E7E, U+1D2C0-1D2D3, U+1D2E0-1D37F, U+1F000-1F0FF, U+1F100-1F1AE, U+1F1E6-1F1FF, U+1F30D-1F30F, U+1F315, U+1F31C, U+1F31E, U+1F320-1F32C, U+1F336, U+1F378, U+1F37D, U+1F382, U+1F393-1F39F, U+1F3A7-1F3A8, U+1F3AC-1F3AF, U+1F3C2, U+1F3C4-1F3C6, U+1F3CA-1F3CE, U+1F3D4-1F3E0, U+1F3ED, U+1F3F1-1F3F3, U+1F3F5-1F3F7, U+1F408, U+1F415, U+1F41F, U+1F426, U+1F43F, U+1F441-1F442, U+1F444, U+1F446-1F449, U+1F44C-1F44E, U+1F453, U+1F46A, U+1F47D, U+1F4A3, U+1F4B0, U+1F4B3, U+1F4B9, U+1F4BB, U+1F4BF, U+1F4C8-1F4CB, U+1F4D6, U+1F4DA, U+1F4DF, U+1F4E3-1F4E6, U+1F4EA-1F4ED, U+1F4F7, U+1F4F9-1F4FB, U+1F4FD-1F4FE, U+1F503, U+1F507-1F50B, U+1F50D, U+1F512-1F513, U+1F53E-1F54A, U+1F54F-1F5FA, U+1F610, U+1F650-1F67F, U+1F687, U+1F68D, U+1F691, U+1F694, U+1F698, U+1F6AD, U+1F6B2, U+1F6B9-1F6BA, U+1F6BC, U+1F6C6-1F6CF, U+1F6D3-1F6D7, U+1F6E0-1F6EA, U+1F6F0-1F6F3, U+1F6F7-1F6FC, U+1F700-1F80B, U+1F810-1F847, U+1F850-1F859, U+1F860-1F887, U+1F890-1F8AD, U+1F8B0-1F8BB, U+1F8C0-1F8C1, U+1F8D0-1F8D8, U+1F900-1F90B, U+1F93B, U+1F946, U+1F984, U+1F996, U+1F9E9, U+1FA00-1FA6F, U+1FA70-1FA7C, U+1FA80-1FAC6, U+1FAC8, U+1FACC-1FADD, U+1FADF-1FAEB, U+1FAEF-1FAFA, U+1FB00-1FBFF;
+}
+/* tamil */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/69f1f52a62ad77393144be8878d81c8a577500e722302be85295af8f852f623c.woff2) format('woff2');
+  unicode-range: U+0964-0965, U+0B82-0BFA, U+200C-200D, U+20B9, U+25CC;
+}
+/* telugu */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/a7ebe94dfa6250fdd80e0e5ed067ced9b11f7ed8cd9ad91bad74d90fe9bbacf2.woff2) format('woff2');
+  unicode-range: U+0951-0952, U+0964-0965, U+0B83, U+0C00-0C7F, U+1CD5-1CD6, U+1CD8, U+1CDA, U+1CF2, U+200C-200D, U+25CC;
+}
+/* thai */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/33c1fd68e5e7ab13e753c73b0ea7c73926b02e4c1829a318dce7ba2bedce7b5c.woff2) format('woff2');
+  unicode-range: U+02D7, U+0303, U+0331, U+0E01-0E5B, U+200C-200D, U+25CC;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/f0fc6c777610ce26511193f5d3b291944b6e13d767274ac3b30ccc21083e455b.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/fa8f1b7567948f9801c5b72b0b3392bf66be9f1b0f4129628135d70c155ced4f.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/49bf0061378e9a1309a798f21e40c3fb2605468034eab59235e92fa0ca876e74.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* armenian */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/91975b531763c73f3300b566c13df2ab976a830c46b8a486b7bd3c4b6186315b.woff2) format('woff2');
+  unicode-range: U+0308, U+0530-058F, U+2010, U+2024, U+25CC, U+FB13-FB17;
+}
+/* bengali */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/bea149f37578af2756496d8cbe3769ced74a0ac826ea78cba0d6b4818821f575.woff2) format('woff2');
+  unicode-range: U+0951-0952, U+0964-0965, U+0980-09FE, U+1CD0, U+1CD2, U+1CD5-1CD6, U+1CD8, U+1CE1, U+1CEA, U+1CED, U+1CF2, U+1CF5-1CF7, U+200C-200D, U+20B9, U+25CC, U+A8F1, U+11DF0-11DF1;
+}
+/* canadian-aboriginal */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/06569810547d353770e9d6136f55529d89ce85faa89b08df61359d06a5711480.woff2) format('woff2');
+  unicode-range: U+02C7, U+02D8-02D9, U+02DB, U+0307, U+1400-167F, U+18B0-18F5, U+25CC, U+11AB0-11ABF;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/458256b92847601ca7596f6c561aa408271959d0efcc77a639f486a89315407a.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/c3bb7ddf8aad51bbe88c6f3887d0e3345fcb3a1862e7053eb1c6db45cec1c29e.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* devanagari */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/682544d0b94a459a2264a567b13d7c7dc189fe1e141614fd37ed52a0539d1c42.woff2) format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF4, U+1CF7-1CF9, U+200C-200D, U+20A8, U+20B9, U+20F0, U+25CC, U+A830-A839, U+A8E0-A8FF, U+11B00-11B0A;
+}
+/* ethiopic */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/456bad07ab2cada74c0520ab0163221825c8e2c4f88c1d80989752c88157dfb4.woff2) format('woff2');
+  unicode-range: U+030E, U+1200-1399, U+2D80-2DDE, U+AB01-AB2E, U+1E7E0-1E7E6, U+1E7E8-1E7EB, U+1E7ED-1E7EE, U+1E7F0-1E7FE;
+}
+/* georgian */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/85ae45b570bc954df4116c41e695f6ae53f37716ef893bedf750b610ad864bbf.woff2) format('woff2');
+  unicode-range: U+0589, U+10A0-10FF, U+1C90-1CBA, U+1CBD-1CBF, U+205A, U+2D00-2D2F, U+2E31;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/f114d5b93a30a03b665ae2021b562194b18eb0d3b0261b75dff3c7f6c26b3639.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/fe09b17deb109a1aa5b80b51196979da68511af313561f748abab6720795443d.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* gujarati */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/6546340391aeafa5be2479af7996daba227778b1754ebd5fac53dbb214ffedee.woff2) format('woff2');
+  unicode-range: U+0951-0952, U+0964-0965, U+0A80-0AFF, U+200C-200D, U+20B9, U+25CC, U+A830-A839;
+}
+/* gurmukhi */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/e53ab68b31ad75ec66416edefc8b07d299bf6d1023b1fe5fbb7ce68033022e53.woff2) format('woff2');
+  unicode-range: U+0951-0952, U+0964-0965, U+0A01-0A76, U+200C-200D, U+20B9, U+25CC, U+262C, U+A830-A839;
+}
+/* hebrew */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/e19150fbe36578b377fee1b4757bba496112150b571b55a2d014f50020ccb1c6.woff2) format('woff2');
+  unicode-range: U+0307-0308, U+0590-05FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+/* kannada */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/24f1fc9bf58f012adb01903e4535abb43be43129486498017bc6bfe444cc3dc9.woff2) format('woff2');
+  unicode-range: U+0951-0952, U+0964-0965, U+0B83, U+0C80-0CF3, U+1CD0, U+1CD2-1CD3, U+1CDA, U+1CF2, U+1CF4, U+200C-200D, U+20B9, U+25CC, U+A830-A835;
+}
+/* khmer */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/df9ad08abb5173436ad03d7affbbf57c5b94032443307ba20e5105d415499a32.woff2) format('woff2');
+  unicode-range: U+1780-17FF, U+19E0-19FF, U+200C-200D, U+25CC;
+}
+/* lao */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/c0bd9146b6b1ae6914c2475d05bc7a30a55c2bfeea546c5fa935809015336cf2.woff2) format('woff2');
+  unicode-range: U+0E81-0EDF, U+200C-200D, U+25CC;
+}
+/* malayalam */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/75738812f1efd28f1aac07458641c709e8d2ef4f8440ddc03d0c8778a102391c.woff2) format('woff2');
+  unicode-range: U+0307, U+0323, U+0951-0952, U+0964-0965, U+0B83, U+0D00-0D7F, U+1CDA, U+1CF2, U+200C-200D, U+20B9, U+25CC, U+A830-A832;
+}
+/* oriya */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/da25856fcae1d9da07605944566a6a566820ab669e1c0a0a5706441ead34527f.woff2) format('woff2');
+  unicode-range: U+0951-0952, U+0964-0965, U+0B01-0B77, U+1CDA, U+1CF2, U+200C-200D, U+20B9, U+25CC;
+}
+/* sinhala */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/9c7db62609008c35ffacb3033b2d998a81021c09dd913843bf5bb810024b97b5.woff2) format('woff2');
+  unicode-range: U+0964-0965, U+0D81-0DF4, U+1CF2, U+200C-200D, U+25CC, U+111E1-111F4;
+}
+/* symbols */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/7a0493d8300c5b6a1f1ac3fedd2551ff73e5f7d6f2b8ad5a8b4ac5bdcb769db5.woff2) format('woff2');
+  unicode-range: U+0001-000C, U+000E-001F, U+007F-009F, U+20DD-20E0, U+20E2-20E4, U+2150-218F, U+2190, U+2192, U+2194-2199, U+21AF, U+21E6-21F0, U+21F3, U+2218-2219, U+2299, U+22C4-22C6, U+2300-243F, U+2440-244A, U+2460-24FF, U+25A0-27BF, U+2800-28FF, U+2921-2922, U+2981, U+29BF, U+29EB, U+2B00-2BFF, U+4DC0-4DFF, U+FFF9-FFFB, U+10140-1018E, U+10190-1019C, U+101A0, U+101D0-101FD, U+102E0-102FB, U+10E60-10E7E, U+1D2C0-1D2D3, U+1D2E0-1D37F, U+1F000-1F0FF, U+1F100-1F1AE, U+1F1E6-1F1FF, U+1F30D-1F30F, U+1F315, U+1F31C, U+1F31E, U+1F320-1F32C, U+1F336, U+1F378, U+1F37D, U+1F382, U+1F393-1F39F, U+1F3A7-1F3A8, U+1F3AC-1F3AF, U+1F3C2, U+1F3C4-1F3C6, U+1F3CA-1F3CE, U+1F3D4-1F3E0, U+1F3ED, U+1F3F1-1F3F3, U+1F3F5-1F3F7, U+1F408, U+1F415, U+1F41F, U+1F426, U+1F43F, U+1F441-1F442, U+1F444, U+1F446-1F449, U+1F44C-1F44E, U+1F453, U+1F46A, U+1F47D, U+1F4A3, U+1F4B0, U+1F4B3, U+1F4B9, U+1F4BB, U+1F4BF, U+1F4C8-1F4CB, U+1F4D6, U+1F4DA, U+1F4DF, U+1F4E3-1F4E6, U+1F4EA-1F4ED, U+1F4F7, U+1F4F9-1F4FB, U+1F4FD-1F4FE, U+1F503, U+1F507-1F50B, U+1F50D, U+1F512-1F513, U+1F53E-1F54A, U+1F54F-1F5FA, U+1F610, U+1F650-1F67F, U+1F687, U+1F68D, U+1F691, U+1F694, U+1F698, U+1F6AD, U+1F6B2, U+1F6B9-1F6BA, U+1F6BC, U+1F6C6-1F6CF, U+1F6D3-1F6D7, U+1F6E0-1F6EA, U+1F6F0-1F6F3, U+1F6F7-1F6FC, U+1F700-1F80B, U+1F810-1F847, U+1F850-1F859, U+1F860-1F887, U+1F890-1F8AD, U+1F8B0-1F8BB, U+1F8C0-1F8C1, U+1F8D0-1F8D8, U+1F900-1F90B, U+1F93B, U+1F946, U+1F984, U+1F996, U+1F9E9, U+1FA00-1FA6F, U+1FA70-1FA7C, U+1FA80-1FAC6, U+1FAC8, U+1FACC-1FADD, U+1FADF-1FAEB, U+1FAEF-1FAFA, U+1FB00-1FBFF;
+}
+/* tamil */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/0f449def116b12e973b40b810f9fde866c469674a7f3145d9ebd958649cc2f5c.woff2) format('woff2');
+  unicode-range: U+0964-0965, U+0B82-0BFA, U+200C-200D, U+20B9, U+25CC;
+}
+/* telugu */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/1c9598275556bb3c45f1c764105ee7b3d7720c94a96093afcabeb3a4726cb7e4.woff2) format('woff2');
+  unicode-range: U+0951-0952, U+0964-0965, U+0B83, U+0C00-0C7F, U+1CD5-1CD6, U+1CD8, U+1CDA, U+1CF2, U+200C-200D, U+25CC;
+}
+/* thai */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/884414428a5c5bf905aa1fdaae718dafa02f9ebcdb19243736e51aa155d1cd5e.woff2) format('woff2');
+  unicode-range: U+02D7, U+0303, U+0331, U+0E01-0E5B, U+200C-200D, U+25CC;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/70d621cc7b3140729b83c2d84c85a2de5cb605f4cc67448aee439c25aae99936.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/bf405d769b0d4fae6506088e13a82f8501dc89663e910e40db42fb4cf50205d0.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/4a8ba810f8cdf1866c82fe815a9beb9da20736e8a8c5b4f65b5fbd4b95926098.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* armenian */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/51bc2d4f670d6c71c68874a37ca9187d9cf0bb55ce54c9cebcd1ec2872d087b6.woff2) format('woff2');
+  unicode-range: U+0308, U+0530-058F, U+2010, U+2024, U+25CC, U+FB13-FB17;
+}
+/* bengali */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/1bc1a4258ae9662aed7b8875aa832dad50c6faaefc7f4cb3fe72a378c69d0410.woff2) format('woff2');
+  unicode-range: U+0951-0952, U+0964-0965, U+0980-09FE, U+1CD0, U+1CD2, U+1CD5-1CD6, U+1CD8, U+1CE1, U+1CEA, U+1CED, U+1CF2, U+1CF5-1CF7, U+200C-200D, U+20B9, U+25CC, U+A8F1, U+11DF0-11DF1;
+}
+/* canadian-aboriginal */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/3df115b258e883ed0db28cab6e03de417e52acebe55665b246e9ed0bf2c8ce75.woff2) format('woff2');
+  unicode-range: U+02C7, U+02D8-02D9, U+02DB, U+0307, U+1400-167F, U+18B0-18F5, U+25CC, U+11AB0-11ABF;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/a1992a8d71723b1302106e6b83b33959ad3b29b4224d4378b09c229d2846c011.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/3a657f6b50c9c55208d85455e77ebbca42e6d0a0297cb848cd034deb24ad80c2.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* devanagari */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/edf123748b1615aa234de6286d3fb0f79ad54219067f93d88f414bf361b4902c.woff2) format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF4, U+1CF7-1CF9, U+200C-200D, U+20A8, U+20B9, U+20F0, U+25CC, U+A830-A839, U+A8E0-A8FF, U+11B00-11B0A;
+}
+/* ethiopic */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/e66ecbf13528d160769787ab5085d501719078acf9fa3f2c7e0dfd5edbb1187b.woff2) format('woff2');
+  unicode-range: U+030E, U+1200-1399, U+2D80-2DDE, U+AB01-AB2E, U+1E7E0-1E7E6, U+1E7E8-1E7EB, U+1E7ED-1E7EE, U+1E7F0-1E7FE;
+}
+/* georgian */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/6ee20651430d54692f44651999869e67996374f30cc109de33912e9b9476564f.woff2) format('woff2');
+  unicode-range: U+0589, U+10A0-10FF, U+1C90-1CBA, U+1CBD-1CBF, U+205A, U+2D00-2D2F, U+2E31;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/0a740805075a924ad8d71c791184a3f49586f075bb7c4b04865e02ad10ce4ebc.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/fcea4b7e27fa11905657d160c4a7226198caaf0ba0f68e6b5c884468f815f581.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* gujarati */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/1c23d263c430f99ace0a30f29212ad829d1b31e9bea4d3eae8befb43bb988e54.woff2) format('woff2');
+  unicode-range: U+0951-0952, U+0964-0965, U+0A80-0AFF, U+200C-200D, U+20B9, U+25CC, U+A830-A839;
+}
+/* gurmukhi */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/d694b72a216a3394bf3417fb4afe23c00718cfac86c5e181e44c197ebcb28851.woff2) format('woff2');
+  unicode-range: U+0951-0952, U+0964-0965, U+0A01-0A76, U+200C-200D, U+20B9, U+25CC, U+262C, U+A830-A839;
+}
+/* hebrew */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/8dee3fcbd27863257ed8aee0b95196dfbfdbded330e1a47e8c7d8f5746f9162e.woff2) format('woff2');
+  unicode-range: U+0307-0308, U+0590-05FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+/* kannada */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/6a750db2f6e9ce1e8ddafba3e84f9a314306134d59cd9f5e79b03bde9ca41060.woff2) format('woff2');
+  unicode-range: U+0951-0952, U+0964-0965, U+0B83, U+0C80-0CF3, U+1CD0, U+1CD2-1CD3, U+1CDA, U+1CF2, U+1CF4, U+200C-200D, U+20B9, U+25CC, U+A830-A835;
+}
+/* khmer */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/35618199c4916e144692839c5d08f2e485e8f87d27e79ae29e213ed5baacf2b3.woff2) format('woff2');
+  unicode-range: U+1780-17FF, U+19E0-19FF, U+200C-200D, U+25CC;
+}
+/* lao */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/31668665c0fea51291017e002182de8802a91bf010167f878e7c2dc60253b694.woff2) format('woff2');
+  unicode-range: U+0E81-0EDF, U+200C-200D, U+25CC;
+}
+/* malayalam */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/82ae564a590aa5875dfa043701d31604fe008c63222e8ae61ceef367e4b1d3c2.woff2) format('woff2');
+  unicode-range: U+0307, U+0323, U+0951-0952, U+0964-0965, U+0B83, U+0D00-0D7F, U+1CDA, U+1CF2, U+200C-200D, U+20B9, U+25CC, U+A830-A832;
+}
+/* oriya */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/37799a4646ee5c550c10c8c614f03789c7b98ab72aaeafb2951c4b7ee5786113.woff2) format('woff2');
+  unicode-range: U+0951-0952, U+0964-0965, U+0B01-0B77, U+1CDA, U+1CF2, U+200C-200D, U+20B9, U+25CC;
+}
+/* sinhala */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/e371b9a8547fa2cb99eb5c99ad1782fd573995f5a925e2836590e73d975e44e1.woff2) format('woff2');
+  unicode-range: U+0964-0965, U+0D81-0DF4, U+1CF2, U+200C-200D, U+25CC, U+111E1-111F4;
+}
+/* symbols */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/f125e9c4d06391061de947f31f9ed98e6a93b21267dd14baa0f7c1e8c3c0471c.woff2) format('woff2');
+  unicode-range: U+0001-000C, U+000E-001F, U+007F-009F, U+20DD-20E0, U+20E2-20E4, U+2150-218F, U+2190, U+2192, U+2194-2199, U+21AF, U+21E6-21F0, U+21F3, U+2218-2219, U+2299, U+22C4-22C6, U+2300-243F, U+2440-244A, U+2460-24FF, U+25A0-27BF, U+2800-28FF, U+2921-2922, U+2981, U+29BF, U+29EB, U+2B00-2BFF, U+4DC0-4DFF, U+FFF9-FFFB, U+10140-1018E, U+10190-1019C, U+101A0, U+101D0-101FD, U+102E0-102FB, U+10E60-10E7E, U+1D2C0-1D2D3, U+1D2E0-1D37F, U+1F000-1F0FF, U+1F100-1F1AE, U+1F1E6-1F1FF, U+1F30D-1F30F, U+1F315, U+1F31C, U+1F31E, U+1F320-1F32C, U+1F336, U+1F378, U+1F37D, U+1F382, U+1F393-1F39F, U+1F3A7-1F3A8, U+1F3AC-1F3AF, U+1F3C2, U+1F3C4-1F3C6, U+1F3CA-1F3CE, U+1F3D4-1F3E0, U+1F3ED, U+1F3F1-1F3F3, U+1F3F5-1F3F7, U+1F408, U+1F415, U+1F41F, U+1F426, U+1F43F, U+1F441-1F442, U+1F444, U+1F446-1F449, U+1F44C-1F44E, U+1F453, U+1F46A, U+1F47D, U+1F4A3, U+1F4B0, U+1F4B3, U+1F4B9, U+1F4BB, U+1F4BF, U+1F4C8-1F4CB, U+1F4D6, U+1F4DA, U+1F4DF, U+1F4E3-1F4E6, U+1F4EA-1F4ED, U+1F4F7, U+1F4F9-1F4FB, U+1F4FD-1F4FE, U+1F503, U+1F507-1F50B, U+1F50D, U+1F512-1F513, U+1F53E-1F54A, U+1F54F-1F5FA, U+1F610, U+1F650-1F67F, U+1F687, U+1F68D, U+1F691, U+1F694, U+1F698, U+1F6AD, U+1F6B2, U+1F6B9-1F6BA, U+1F6BC, U+1F6C6-1F6CF, U+1F6D3-1F6D7, U+1F6E0-1F6EA, U+1F6F0-1F6F3, U+1F6F7-1F6FC, U+1F700-1F80B, U+1F810-1F847, U+1F850-1F859, U+1F860-1F887, U+1F890-1F8AD, U+1F8B0-1F8BB, U+1F8C0-1F8C1, U+1F8D0-1F8D8, U+1F900-1F90B, U+1F93B, U+1F946, U+1F984, U+1F996, U+1F9E9, U+1FA00-1FA6F, U+1FA70-1FA7C, U+1FA80-1FAC6, U+1FAC8, U+1FACC-1FADD, U+1FADF-1FAEB, U+1FAEF-1FAFA, U+1FB00-1FBFF;
+}
+/* tamil */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/1df06637baffa4cda07efe426e08aeddd5aa98e11bcbda97b5086e5fce23c128.woff2) format('woff2');
+  unicode-range: U+0964-0965, U+0B82-0BFA, U+200C-200D, U+20B9, U+25CC;
+}
+/* telugu */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/8da99d7dacaf7c8d7957eede17f32bd3338f0c44377b7a9a91a549e95b9a23a1.woff2) format('woff2');
+  unicode-range: U+0951-0952, U+0964-0965, U+0B83, U+0C00-0C7F, U+1CD5-1CD6, U+1CD8, U+1CDA, U+1CF2, U+200C-200D, U+25CC;
+}
+/* thai */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/83ea839d5d20e7ebc9e638534cfa803d9c3e744abf0c3d1f5e1294ff55f3cc56.woff2) format('woff2');
+  unicode-range: U+02D7, U+0303, U+0331, U+0E01-0E5B, U+200C-200D, U+25CC;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/bc4c5a801c458209a1255bab3805bb4f1f1ab1cf1d60943b05251bd816e1a432.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/c7e4769c671876f1d161b1c06690766b4e33254b325bd0794435d161bdcdacb8.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/190c6cf9d95ff76acceb862cb69284faf2569e9d9b93c606967d842e85448d99.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* armenian */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/3913a43d38efa5cd10e360dc732f887159544b257783d14031909d5c8f3ae8ff.woff2) format('woff2');
+  unicode-range: U+0308, U+0530-058F, U+2010, U+2024, U+25CC, U+FB13-FB17;
+}
+/* bengali */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/806114d025f0caaeb48704136926c90bb2fdac3af4102bcb54007f4ed044e03a.woff2) format('woff2');
+  unicode-range: U+0951-0952, U+0964-0965, U+0980-09FE, U+1CD0, U+1CD2, U+1CD5-1CD6, U+1CD8, U+1CE1, U+1CEA, U+1CED, U+1CF2, U+1CF5-1CF7, U+200C-200D, U+20B9, U+25CC, U+A8F1, U+11DF0-11DF1;
+}
+/* canadian-aboriginal */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/aec650f4a44149325a11e65c6cc764437c0c9ece19bfa2b116a5d70251123690.woff2) format('woff2');
+  unicode-range: U+02C7, U+02D8-02D9, U+02DB, U+0307, U+1400-167F, U+18B0-18F5, U+25CC, U+11AB0-11ABF;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/0fe09ba77474a0be797d48758f7d95b38d034c6763d38b3e096e3f8d8e391557.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/1b6e41138bcf1c516123100b1e539f9652d5ad523309b8df36716aead6c300b0.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* devanagari */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/9a7e0fdd2644346ee78d308d0870d99058658daf960a3855b81e567419d165e9.woff2) format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF4, U+1CF7-1CF9, U+200C-200D, U+20A8, U+20B9, U+20F0, U+25CC, U+A830-A839, U+A8E0-A8FF, U+11B00-11B0A;
+}
+/* ethiopic */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/e3876bd5b266d96ec7b02f3525dfdc4d765008b2469b530db3fbe66f61f20ebe.woff2) format('woff2');
+  unicode-range: U+030E, U+1200-1399, U+2D80-2DDE, U+AB01-AB2E, U+1E7E0-1E7E6, U+1E7E8-1E7EB, U+1E7ED-1E7EE, U+1E7F0-1E7FE;
+}
+/* georgian */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/375f7daa278859f114b91acc17ea64b2932b6c12eef37fb2be117ebdfe347fdd.woff2) format('woff2');
+  unicode-range: U+0589, U+10A0-10FF, U+1C90-1CBA, U+1CBD-1CBF, U+205A, U+2D00-2D2F, U+2E31;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/61495a074795dc3defa57f9cfa37b9aee8b3eed2d67b3c529098cb091575c2f1.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/d20734855e8003638abb3cc8cac8fb248cc0cdb6ee422febfa3de79be705d67a.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* gujarati */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/6efb85d64902a7a1951a933e77c21e60652b53f90af6d982f3c4de2342ad20fc.woff2) format('woff2');
+  unicode-range: U+0951-0952, U+0964-0965, U+0A80-0AFF, U+200C-200D, U+20B9, U+25CC, U+A830-A839;
+}
+/* gurmukhi */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/928aa933ae867aa940f899b5994c4204ea667ab22723e0323e3b6920fb0ed67a.woff2) format('woff2');
+  unicode-range: U+0951-0952, U+0964-0965, U+0A01-0A76, U+200C-200D, U+20B9, U+25CC, U+262C, U+A830-A839;
+}
+/* hebrew */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/5779d354937575d50e1ff3f0d798f44e4973d17d73c3fd28273743692ed20458.woff2) format('woff2');
+  unicode-range: U+0307-0308, U+0590-05FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+/* kannada */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/7c1d0cdcba761467ac99216ba987cf988567c2091821d018d65b5eb02abf8559.woff2) format('woff2');
+  unicode-range: U+0951-0952, U+0964-0965, U+0B83, U+0C80-0CF3, U+1CD0, U+1CD2-1CD3, U+1CDA, U+1CF2, U+1CF4, U+200C-200D, U+20B9, U+25CC, U+A830-A835;
+}
+/* khmer */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/a43a4a4e3e62043365b9c9441df965fb9d80fa2870a3171a1daf9d77c2dccf24.woff2) format('woff2');
+  unicode-range: U+1780-17FF, U+19E0-19FF, U+200C-200D, U+25CC;
+}
+/* lao */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/b75b771daa3f590d9414ca0b9aeebe7fad1b684887f105dd94a03fe4ed19b98d.woff2) format('woff2');
+  unicode-range: U+0E81-0EDF, U+200C-200D, U+25CC;
+}
+/* malayalam */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/10a66dd3040abda6d9c8defa32a946aedb47e555a8e55219c43c466faaa30d72.woff2) format('woff2');
+  unicode-range: U+0307, U+0323, U+0951-0952, U+0964-0965, U+0B83, U+0D00-0D7F, U+1CDA, U+1CF2, U+200C-200D, U+20B9, U+25CC, U+A830-A832;
+}
+/* oriya */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/1a1fcb8535b3c9d250052e15647a48014a6462fbe29b23cac221b4f1b3ab0141.woff2) format('woff2');
+  unicode-range: U+0951-0952, U+0964-0965, U+0B01-0B77, U+1CDA, U+1CF2, U+200C-200D, U+20B9, U+25CC;
+}
+/* sinhala */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/35bd4364950afdc5ccf1143341a49602a4faf27efc998edd9a2e4ae999b2d5f0.woff2) format('woff2');
+  unicode-range: U+0964-0965, U+0D81-0DF4, U+1CF2, U+200C-200D, U+25CC, U+111E1-111F4;
+}
+/* symbols */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/3f3405ee86eba26d3a2a31c10ebdc080c7029ffae25d83e8b64f9002c03a8908.woff2) format('woff2');
+  unicode-range: U+0001-000C, U+000E-001F, U+007F-009F, U+20DD-20E0, U+20E2-20E4, U+2150-218F, U+2190, U+2192, U+2194-2199, U+21AF, U+21E6-21F0, U+21F3, U+2218-2219, U+2299, U+22C4-22C6, U+2300-243F, U+2440-244A, U+2460-24FF, U+25A0-27BF, U+2800-28FF, U+2921-2922, U+2981, U+29BF, U+29EB, U+2B00-2BFF, U+4DC0-4DFF, U+FFF9-FFFB, U+10140-1018E, U+10190-1019C, U+101A0, U+101D0-101FD, U+102E0-102FB, U+10E60-10E7E, U+1D2C0-1D2D3, U+1D2E0-1D37F, U+1F000-1F0FF, U+1F100-1F1AE, U+1F1E6-1F1FF, U+1F30D-1F30F, U+1F315, U+1F31C, U+1F31E, U+1F320-1F32C, U+1F336, U+1F378, U+1F37D, U+1F382, U+1F393-1F39F, U+1F3A7-1F3A8, U+1F3AC-1F3AF, U+1F3C2, U+1F3C4-1F3C6, U+1F3CA-1F3CE, U+1F3D4-1F3E0, U+1F3ED, U+1F3F1-1F3F3, U+1F3F5-1F3F7, U+1F408, U+1F415, U+1F41F, U+1F426, U+1F43F, U+1F441-1F442, U+1F444, U+1F446-1F449, U+1F44C-1F44E, U+1F453, U+1F46A, U+1F47D, U+1F4A3, U+1F4B0, U+1F4B3, U+1F4B9, U+1F4BB, U+1F4BF, U+1F4C8-1F4CB, U+1F4D6, U+1F4DA, U+1F4DF, U+1F4E3-1F4E6, U+1F4EA-1F4ED, U+1F4F7, U+1F4F9-1F4FB, U+1F4FD-1F4FE, U+1F503, U+1F507-1F50B, U+1F50D, U+1F512-1F513, U+1F53E-1F54A, U+1F54F-1F5FA, U+1F610, U+1F650-1F67F, U+1F687, U+1F68D, U+1F691, U+1F694, U+1F698, U+1F6AD, U+1F6B2, U+1F6B9-1F6BA, U+1F6BC, U+1F6C6-1F6CF, U+1F6D3-1F6D7, U+1F6E0-1F6EA, U+1F6F0-1F6F3, U+1F6F7-1F6FC, U+1F700-1F80B, U+1F810-1F847, U+1F850-1F859, U+1F860-1F887, U+1F890-1F8AD, U+1F8B0-1F8BB, U+1F8C0-1F8C1, U+1F8D0-1F8D8, U+1F900-1F90B, U+1F93B, U+1F946, U+1F984, U+1F996, U+1F9E9, U+1FA00-1FA6F, U+1FA70-1FA7C, U+1FA80-1FAC6, U+1FAC8, U+1FACC-1FADD, U+1FADF-1FAEB, U+1FAEF-1FAFA, U+1FB00-1FBFF;
+}
+/* tamil */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/9c7c72cb6428e04376539290654ff9178419ae72a1b7636e8f52d2e64626bb4e.woff2) format('woff2');
+  unicode-range: U+0964-0965, U+0B82-0BFA, U+200C-200D, U+20B9, U+25CC;
+}
+/* telugu */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/8cacd95c4274eab5b1abe4cd098f2aa691280338e9d02c62f8cca3ca6eb18c04.woff2) format('woff2');
+  unicode-range: U+0951-0952, U+0964-0965, U+0B83, U+0C00-0C7F, U+1CD5-1CD6, U+1CD8, U+1CDA, U+1CF2, U+200C-200D, U+25CC;
+}
+/* thai */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/5b7f7cf6f4c201cb50e56d92b3ff79b86bd8e1151fcd3526471768c69e748517.woff2) format('woff2');
+  unicode-range: U+02D7, U+0303, U+0331, U+0E01-0E5B, U+200C-200D, U+25CC;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/c66bf61ee8c0dc278cebec5579bc3b2abb56c76292f7e139d50ff702ebc1deec.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/0a0d3f54f0b06ac90d007a93799b483f054219699b2bc741ad7104175f7a1534.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/8e4a09d010c5e94ae9a0a1763dc7aa914dfa21382bf2ef441ce92d4d65c8c147.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* armenian */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/d27a27e05b60163f6455111c01c13e406e1dec0ae161d3507a6a21e93be02c10.woff2) format('woff2');
+  unicode-range: U+0308, U+0530-058F, U+2010, U+2024, U+25CC, U+FB13-FB17;
+}
+/* bengali */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/23c5da20b79227499d49bbfaf050a42ea11c5f8ee2ba1b9fa5307bebb640ffad.woff2) format('woff2');
+  unicode-range: U+0951-0952, U+0964-0965, U+0980-09FE, U+1CD0, U+1CD2, U+1CD5-1CD6, U+1CD8, U+1CE1, U+1CEA, U+1CED, U+1CF2, U+1CF5-1CF7, U+200C-200D, U+20B9, U+25CC, U+A8F1, U+11DF0-11DF1;
+}
+/* canadian-aboriginal */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/276f15aad5a64f5dfb9d18467d148ac915892510901b07af883183d9e699ebd7.woff2) format('woff2');
+  unicode-range: U+02C7, U+02D8-02D9, U+02DB, U+0307, U+1400-167F, U+18B0-18F5, U+25CC, U+11AB0-11ABF;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/1603408c9c1d2682cd40ee5b06cdf44ece99f3f19d2a662da9bb3781f89689d2.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/aa3e6c3dabef065fd572d9b7f00e6a79696f4a028eed2658da44a203613272d8.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* devanagari */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/6dd7f4ce8bbfa95b28324d755269a9d630e7d1635d0d132405f1132902150fb9.woff2) format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF4, U+1CF7-1CF9, U+200C-200D, U+20A8, U+20B9, U+20F0, U+25CC, U+A830-A839, U+A8E0-A8FF, U+11B00-11B0A;
+}
+/* ethiopic */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/4a754b887f11f3b65ed3fbc7433c519ddd2e34c426e321c68b7b9ea898d680ee.woff2) format('woff2');
+  unicode-range: U+030E, U+1200-1399, U+2D80-2DDE, U+AB01-AB2E, U+1E7E0-1E7E6, U+1E7E8-1E7EB, U+1E7ED-1E7EE, U+1E7F0-1E7FE;
+}
+/* georgian */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/49aaa8642be1f38d3832f73be54d781da3d3c56aa60e44f60b333a9dac080720.woff2) format('woff2');
+  unicode-range: U+0589, U+10A0-10FF, U+1C90-1CBA, U+1CBD-1CBF, U+205A, U+2D00-2D2F, U+2E31;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/35c9d8e155e605cb47ba800bb39cf57760338a474fa2f8282223905647569ad8.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/fdc8fa7d3c4ab28ec6a2e6848a40131cde9a7c7a781e3123ed8a68d7f352af47.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* gujarati */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/9abf4fafbcc5aea94e730e633b2c12124ac09f71d5b2e8e97f686c4a76408132.woff2) format('woff2');
+  unicode-range: U+0951-0952, U+0964-0965, U+0A80-0AFF, U+200C-200D, U+20B9, U+25CC, U+A830-A839;
+}
+/* gurmukhi */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/64e4edfea4148fe94f233ddf6afedec53723981e45f546aa88d83ac5acc57800.woff2) format('woff2');
+  unicode-range: U+0951-0952, U+0964-0965, U+0A01-0A76, U+200C-200D, U+20B9, U+25CC, U+262C, U+A830-A839;
+}
+/* hebrew */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/27abb1f63a79834acff31b3d4dca2a697585bcecc0425044d6ad4f8d50a53423.woff2) format('woff2');
+  unicode-range: U+0307-0308, U+0590-05FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+/* kannada */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/807a405ddbe14906749640ab22b057c44660e2789810ad7ba8210a258273a582.woff2) format('woff2');
+  unicode-range: U+0951-0952, U+0964-0965, U+0B83, U+0C80-0CF3, U+1CD0, U+1CD2-1CD3, U+1CDA, U+1CF2, U+1CF4, U+200C-200D, U+20B9, U+25CC, U+A830-A835;
+}
+/* khmer */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/86c7792b148d1e9eeba098f7776b138845536c657b35d4760969bfae097f143c.woff2) format('woff2');
+  unicode-range: U+1780-17FF, U+19E0-19FF, U+200C-200D, U+25CC;
+}
+/* lao */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/c59d64c14c1bd47dd5c4685fe7f3b66377ccf3a748d469eca3d9ebdceaa1950f.woff2) format('woff2');
+  unicode-range: U+0E81-0EDF, U+200C-200D, U+25CC;
+}
+/* malayalam */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/c002eb3fe42456e9ec9b56ab3b64fa5c623aad92de89fb913590aad91ea183d7.woff2) format('woff2');
+  unicode-range: U+0307, U+0323, U+0951-0952, U+0964-0965, U+0B83, U+0D00-0D7F, U+1CDA, U+1CF2, U+200C-200D, U+20B9, U+25CC, U+A830-A832;
+}
+/* oriya */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/434dce640e34d58a1f8ed0b0d668a82caae7a15edad35b14d10f5951ae5915a2.woff2) format('woff2');
+  unicode-range: U+0951-0952, U+0964-0965, U+0B01-0B77, U+1CDA, U+1CF2, U+200C-200D, U+20B9, U+25CC;
+}
+/* sinhala */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/5f7c6761afeaa70a755ba41e47fee5cbff23e36413417b1b99a3531f303fcf7b.woff2) format('woff2');
+  unicode-range: U+0964-0965, U+0D81-0DF4, U+1CF2, U+200C-200D, U+25CC, U+111E1-111F4;
+}
+/* symbols */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/af167e68235371f64482423a82b29eaeaa765b2d5a7bc12939444029d6ac4a97.woff2) format('woff2');
+  unicode-range: U+0001-000C, U+000E-001F, U+007F-009F, U+20DD-20E0, U+20E2-20E4, U+2150-218F, U+2190, U+2192, U+2194-2199, U+21AF, U+21E6-21F0, U+21F3, U+2218-2219, U+2299, U+22C4-22C6, U+2300-243F, U+2440-244A, U+2460-24FF, U+25A0-27BF, U+2800-28FF, U+2921-2922, U+2981, U+29BF, U+29EB, U+2B00-2BFF, U+4DC0-4DFF, U+FFF9-FFFB, U+10140-1018E, U+10190-1019C, U+101A0, U+101D0-101FD, U+102E0-102FB, U+10E60-10E7E, U+1D2C0-1D2D3, U+1D2E0-1D37F, U+1F000-1F0FF, U+1F100-1F1AE, U+1F1E6-1F1FF, U+1F30D-1F30F, U+1F315, U+1F31C, U+1F31E, U+1F320-1F32C, U+1F336, U+1F378, U+1F37D, U+1F382, U+1F393-1F39F, U+1F3A7-1F3A8, U+1F3AC-1F3AF, U+1F3C2, U+1F3C4-1F3C6, U+1F3CA-1F3CE, U+1F3D4-1F3E0, U+1F3ED, U+1F3F1-1F3F3, U+1F3F5-1F3F7, U+1F408, U+1F415, U+1F41F, U+1F426, U+1F43F, U+1F441-1F442, U+1F444, U+1F446-1F449, U+1F44C-1F44E, U+1F453, U+1F46A, U+1F47D, U+1F4A3, U+1F4B0, U+1F4B3, U+1F4B9, U+1F4BB, U+1F4BF, U+1F4C8-1F4CB, U+1F4D6, U+1F4DA, U+1F4DF, U+1F4E3-1F4E6, U+1F4EA-1F4ED, U+1F4F7, U+1F4F9-1F4FB, U+1F4FD-1F4FE, U+1F503, U+1F507-1F50B, U+1F50D, U+1F512-1F513, U+1F53E-1F54A, U+1F54F-1F5FA, U+1F610, U+1F650-1F67F, U+1F687, U+1F68D, U+1F691, U+1F694, U+1F698, U+1F6AD, U+1F6B2, U+1F6B9-1F6BA, U+1F6BC, U+1F6C6-1F6CF, U+1F6D3-1F6D7, U+1F6E0-1F6EA, U+1F6F0-1F6F3, U+1F6F7-1F6FC, U+1F700-1F80B, U+1F810-1F847, U+1F850-1F859, U+1F860-1F887, U+1F890-1F8AD, U+1F8B0-1F8BB, U+1F8C0-1F8C1, U+1F8D0-1F8D8, U+1F900-1F90B, U+1F93B, U+1F946, U+1F984, U+1F996, U+1F9E9, U+1FA00-1FA6F, U+1FA70-1FA7C, U+1FA80-1FAC6, U+1FAC8, U+1FACC-1FADD, U+1FADF-1FAEB, U+1FAEF-1FAFA, U+1FB00-1FBFF;
+}
+/* tamil */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/cf936ac664e5e2b9f12279b18ae8f94337be8c9f5833853dffa4abcc0e4c4551.woff2) format('woff2');
+  unicode-range: U+0964-0965, U+0B82-0BFA, U+200C-200D, U+20B9, U+25CC;
+}
+/* telugu */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/70320831be21fb3425ab6fceecdc09fef8410c8dab319a005307cfbc31f090a6.woff2) format('woff2');
+  unicode-range: U+0951-0952, U+0964-0965, U+0B83, U+0C00-0C7F, U+1CD5-1CD6, U+1CD8, U+1CDA, U+1CF2, U+200C-200D, U+25CC;
+}
+/* thai */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/24ad873eb03d7c2dde64ba5ca12b621d2c387c693f3bf0e050931adc187bb7d3.woff2) format('woff2');
+  unicode-range: U+02D7, U+0303, U+0331, U+0E01-0E5B, U+200C-200D, U+25CC;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/15344cf90f9c668d61bfe911d3a5666d381032a241556473d362a77ae66a91ae.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/32420de8f0c67f8307a90c54f9eabcaa40ae70bdf913e29fc7c126de978fd068.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/a061760fd17d786087c10299f1d97f62a23e412f30ef3b34342b6fc68afe6008.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/4e3b7993549713e9fb6affc1c1fdb3c1b45d0fe101d51de53880ae9b5be75a15.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek */
+@font-face {
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/07517d9ddd71b00eb2d045a8fd4e0989834d54baaef35758660cfe39e73fda2b.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/36dc0e0e860768be1d2200363b41b842b8fb00c00494d4cc167e6e78ba330242.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/ai-quests/_external/fonts.gstatic.com/f4d9d62fd5de2a1212a9206dcd4c378ddd086f043799dcf65a1d2b35bc2f6f8d.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}

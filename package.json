@@ -1,0 +1,15 @@
+{
+  "devDependencies": {
+    "playwright": "^1.65.0"
+  },
+  "name": "ai-quests-local",
+  "private": true,
+  "description": "Private local mirror of the official Google AI Quests published build",
+  "scripts": {
+    "start": "node scripts/server.mjs",
+    "verify:files": "python scripts/verify-integrity.py",
+    "verify:quests": "node scripts/verify-quests.mjs",
+    "verify:locales": "node scripts/verify-locales.mjs",
+    "verify:pages": "node scripts/verify-pages.mjs"
+  }
+}

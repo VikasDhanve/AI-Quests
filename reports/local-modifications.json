@@ -1,0 +1,627 @@
+[
+  {
+    "path": "ai-quests/assets/webgl/decoders/draco/draco_wasm_wrapper.js",
+    "original_sha256": "e8049906ef3f8f75d3456c22a3f31bfdfe5b5b5bd09ccdec613b9e9a49d554d8",
+    "local_sha256": "fc9a2f87811e037f240f5e095386d0751a026ac535bc938acc6425236f9a0bad"
+  },
+  {
+    "path": "ai-quests/content/api/current_snapshot_id",
+    "original_sha256": "fe94f938be9023024ca13847ac656f3f58f4fe8d0f3e757153b7b1e0a5793a32",
+    "local_sha256": "5ed6c8abd50e40153b2716fc091f75f84a392cf7609a04fc36dcd54500a1a2e7"
+  },
+  {
+    "path": "ai-quests/assets/webgl/decoders/draco/draco_decoder.js",
+    "original_sha256": "30e4d486fa020737af10e3c56197693e5b904bdc05b8bfa5d7b06751dec6da04",
+    "local_sha256": "cebb944c8cb7606782fe6b06584454df8f93835a9a7346f7b1efcc0fb72b2ac1"
+  },
+  {
+    "path": "ai-quests/intl/ar_il/index.html",
+    "original_sha256": "a94463a8db56016cd40e22a84fe66a836579249f2d5ca16fa184bf9b04f9e71d",
+    "local_sha256": "bcfe804852af8e433a40b5a3dffe6c54b205fde90ca162682ae9716ee7695ec1"
+  },
+  {
+    "path": "ai-quests/intl/ar_ALL/index.html",
+    "original_sha256": "3de9f295bec9051f05beb7c5b7f39053ad657e3c0e03879113865a87090ba704",
+    "local_sha256": "3c1bf5f1121315e1c24ecca641e81601b03d203cda25188603f4ecf4f6565df8"
+  },
+  {
+    "path": "ai-quests/intl/es_419/index.html",
+    "original_sha256": "54379ee9ac8ee1e7ac36f04a1719b1a1c6093536cb3b597b58724d7ee589cf61",
+    "local_sha256": "2700ad39b9bd941c09124058dbfd07696a6f05864e62943665571b61e23bc0cd"
+  },
+  {
+    "path": "ai-quests/intl/fr_fr/index.html",
+    "original_sha256": "f328ce7bd3ab31e85c91f686220c18ebbd8ca60890d195cf8df8efbe31192b55",
+    "local_sha256": "efb4bf25441639d92ddd1b9779e745a3839c2fb6936336ecb4e80e0b3cf19b00"
+  },
+  {
+    "path": "ai-quests/intl/en_gb/index.html",
+    "original_sha256": "608c98c8b12d7f2b68f074ea36f7e4a4815011583d854fb9beedf08338b5c31b",
+    "local_sha256": "35a3b34594eb18a1258709a3cd1b73e2efd68e9a479d95b127700602874292d6"
+  },
+  {
+    "path": "ai-quests/intl/he_il/index.html",
+    "original_sha256": "0d9be7f7a05552c5528a7c32e9dfab936ff701ffc8b342d7a967ced57077e14e",
+    "local_sha256": "21bdab8bd088a25d95140a1d9e6141ba0ea782220922535d37db57eb71bcfef5"
+  },
+  {
+    "path": "ai-quests/intl/it_it/index.html",
+    "original_sha256": "418eb30aadcd39076c832c2cc61ca068ef984525ebc539eed6b3338669aa100b",
+    "local_sha256": "3784e98e280a925c084a167b686c693ac9fbb22b9cebcdb8301d4880f0d4f53b"
+  },
+  {
+    "path": "ai-quests/intl/ms_my/index.html",
+    "original_sha256": "925f7c52c33c73c0841a9ccb65afcae441d2f2b61a6b539864df7e7fccc6c6d6",
+    "local_sha256": "bcac421d4d19ddbb438d6311f0d3bded2944f0dd4ede871c02229c8682a331c9"
+  },
+  {
+    "path": "ai-quests/intl/es_es/index.html",
+    "original_sha256": "91ab48dfa0ed798089fb3b4b0b955b5bad52b697b7bbae91f3087f647c896334",
+    "local_sha256": "5d1fe58691b9a55ece9a6c7a253744fff7f389b204e1d9b5fcd5d725e367be3c"
+  },
+  {
+    "path": "ai-quests/intl/en_us/index.html",
+    "original_sha256": "c9dfc308a2147ac1e21dd69eb246c2ac8cb5ecd9d81f34d04dbf5227780dbf58",
+    "local_sha256": "faa450e20303ed2a61873ec425d33672cfc7316182070953cbf41ee0d19b6a94"
+  },
+  {
+    "path": "ai-quests/intl/tr_tr/index.html",
+    "original_sha256": "de356e2082b3056769e48685493222afbfddba29f5251a4c254fe7bb6f5b857b",
+    "local_sha256": "86d9d53cd9a5c7ef1a92c0b0e6163dbcb868369140718ce411f4786d2a2c3294"
+  },
+  {
+    "path": "ai-quests/intl/pt_pt/index.html",
+    "original_sha256": "4e4edfba6eee24a2701aaa784a6e3f16698f4991b5dd55c0bcd33f432f9ac0dc",
+    "local_sha256": "6876d8be3b86eb049c8da2f1adc1e7b518576fe4bed01fbb52d96c6e2ef2db83"
+  },
+  {
+    "path": "ai-quests/intl/pt_br/index.html",
+    "original_sha256": "8e0821caf41a7c46f84d67cfbeb4cb8472db0cb9d55539997f88d4e27b7209c7",
+    "local_sha256": "3de9d2fa2e20c1005bac2e6cd4d4367a64eb43a7e34bcb5e3aba1af7de30bba7"
+  },
+  {
+    "path": "ai-quests/assets/bucket/icons/ai-quests-en.svg",
+    "original_sha256": "702d661bed7790990f72212b773125421cd71aec1c006a63773f622e5adebf97",
+    "local_sha256": "4705cd2f37bfbc306bf47f032774089aba9befa35286b7aa5bad8d86403d8126"
+  },
+  {
+    "path": "ai-quests/chunk-ZDFCTXMN.js",
+    "original_sha256": "a480dcaff08942faa5a8e20077fa340c00e0e67aa1ac9aca5d706a501e96af4d",
+    "local_sha256": "732a7ccf17f7fb3a66903df54d826eb3673d592ad7692a61222baf6d8eab5aca"
+  },
+  {
+    "path": "ai-quests/styles-X5MYJBZ7.css",
+    "original_sha256": "84cab6ae0e1c6263e599c0f3eb00e5253a1218b45c535e04b57c4368be55af70",
+    "local_sha256": "f9d18029bde34b310a7c127ba6fd6e98fbdd849652773305c7ab02c8c9e03326"
+  },
+  {
+    "path": "ai-quests/_external/www.gstatic.com/b8e48cf0833ae839a3f1ea89e6a1f7ca1fc94aded56d14baa25ee220d846d71d.js",
+    "original_sha256": "9a9c522eed3b38f15d6eee4b6edef13a9d9505842a1bfad45e63a8b7738eb552",
+    "local_sha256": "93a91e4b2684d1abe1f9d67d8c8fe1bfc6b75321936d8103cc0e888920ac1bb0"
+  },
+  {
+    "path": "ai-quests/chunk-5XHC44OL.js",
+    "original_sha256": "554f705c4e412d4d3ad6aec44c7c50c1858a95499ac78aa38bcc4492177fc147",
+    "local_sha256": "356e46642b75b6285251f23bcadfdabde019cd724c5952601e7ce9221b74e51a"
+  },
+  {
+    "path": "ai-quests/chunk-U7GMMY7Y.js",
+    "original_sha256": "b77e1eabd8395aa6a8e073357c7084682a3aa07c193939c57a980af5029616cf",
+    "local_sha256": "395f3e3421a4cffb3d4e4379ed406035fd22c6ca486935f7a013e7d3209c3541"
+  },
+  {
+    "path": "ai-quests/~partytown/partytown.js",
+    "original_sha256": "63efb2b7f3f07a87b15eb40f789dd6f68e3132ef8ed5c84701937c4392839572",
+    "local_sha256": "d98a5866afa049eb5fccc8a3b0c6fadd4692d38ce19a9582a7b748595e10804e"
+  },
+  {
+    "path": "ai-quests/main-UOOVWHPK.js",
+    "original_sha256": "d94e7f689239f05c093e2c9798f21121599e73c22b179ef0050d9a53288b7608",
+    "local_sha256": "e457a31f8d8ec02a48d1c9a93c5b622d3cf43562c2cd85095a670c85c5c01f7b"
+  },
+  {
+    "path": "ai-quests/#f1",
+    "original_sha256": "6d30ecdccb6d4969f0c4714a941b51e6c9de3c6977f0388ea3b51f4de6f575fe",
+    "local_sha256": "cdba82681b2e41ea5840cbe8bfc6716463af102d4824fb2c83a1707c3ba92eef"
+  },
+  {
+    "path": "ai-quests/assets/ui/tooltip-arrow.svg",
+    "original_sha256": "9049defd869544dfc81b3e83bd344ea51a47273d18f6c956b60bdde30869f26b",
+    "local_sha256": "48b914df614d6e413511db6355adec00958529ba05f1c5265c9750300b04d5b8"
+  },
+  {
+    "path": "ai-quests/assets/webgl/ai-quests-default.svg",
+    "original_sha256": "702d661bed7790990f72212b773125421cd71aec1c006a63773f622e5adebf97",
+    "local_sha256": "4705cd2f37bfbc306bf47f032774089aba9befa35286b7aa5bad8d86403d8126"
+  },
+  {
+    "path": "ai-quests/assets/icons/icons.svg",
+    "original_sha256": "7986e3cd5413ae6ac14bb0e3293b8f0065d49a6e9735ce76ddae12de3ba5742a",
+    "local_sha256": "f4b7d1342f25f1826a3f9faf7dfdf8e7b59832801a330f67f26c749e7932c8d9"
+  },
+  {
+    "path": "ai-quests/#m1",
+    "original_sha256": "6c90f908b6e77d0fbd632e1b28f19c3886fcaa82bb8e6777f1e2ecf4aea75aa8",
+    "local_sha256": "6022684086d7a31917eb9a81bc2acbb3ea214d9bcdd8635bb1585c8a20cd2c3f"
+  },
+  {
+    "path": "ai-quests/assets/graphics/ipsa/ai-logo.svg",
+    "original_sha256": "d8fc6028377914ea96890c167913670f43bbec8036c1cfa937f1880d27e328cf",
+    "local_sha256": "7fd1ce59fced97461539006892715d3aff874a4f50b5102fbf0601e2ed75e4ba"
+  },
+  {
+    "path": "ai-quests/assets/graphics/sitewide/bubble-tail.svg",
+    "original_sha256": "8b7dbb35a1d7b9779b1d4aa220abefe4287cb15a2ba21ef4fc843917bdb3d9ee",
+    "local_sha256": "e59629173c15ee6f0b0539eac21397bbcb460e018a06bd570192d20a6a281267"
+  },
+  {
+    "path": "ai-quests/assets/icons/ipsa-ui.svg",
+    "original_sha256": "31c0395ecf367b2e908ab3b6e615e763e563838c121354cac56e8e72aeb6af46",
+    "local_sha256": "a27a7d14c2db96d02aca32a821b9cac2bb38d28c59f9ede13a86a339838a8a22"
+  },
+  {
+    "path": "ai-quests/assets/icons/research-logo.svg",
+    "original_sha256": "683db2a3306b719fa9ac72a5384a4b8d014271aa62833418790a430dee7b4d69",
+    "local_sha256": "0c638fd61cfbde577862b2366a440ec2e68eec217c5c7326644b7771a5ba6afb"
+  },
+  {
+    "path": "ai-quests/assets/ui/inventory-bar.svg",
+    "original_sha256": "5f448fed26b316eebe5d409944d04252e245e7f3881885c61cbbc5eee53724a1",
+    "local_sha256": "ec1dd2e6381637ce5eb4bcd222449fc00025183dad296cd116d413478254ab7e"
+  },
+  {
+    "path": "ai-quests/chunk-4PU2F65H.js",
+    "original_sha256": "9ee798669cd6cf0ce7d1a85d186e4ab8c6338beebf84856bf1a8ce7e927c50f8",
+    "local_sha256": "d1dae836859cd6c09ca0ae3c054e7aace19fac54a29598ebfaaeca6375d1135d"
+  },
+  {
+    "path": "ai-quests/chunk-FGTI4YXJ.js",
+    "original_sha256": "c91c250514dacbdec2a809e6656d44bae115a6fa89d21c761aa3c406eb52c640",
+    "local_sha256": "2888359c44b452e73e9a02a325ef4e2ac16234f638927273c4cfa26c5f60fe47"
+  },
+  {
+    "path": "ai-quests/chunk-JINKRM7E.js",
+    "original_sha256": "d12faeb7ad068d0315bc4eafccc362645db0a090d504a3d8b648c0b904710f99",
+    "local_sha256": "9d5acce0a5ce46c8d813080bc65b5892725a05b9ff1e1c42c8fdfcd1ba32a9bf"
+  },
+  {
+    "path": "ai-quests/chunk-OYFYYWIE.js",
+    "original_sha256": "3ad5758d36c5498f12fdfad1d6e9fb30a7483e9f99491ed0f14f866051409220",
+    "local_sha256": "9cae9c0d17549ea7b424c1314769bd9fa9debeca23529fa975438d31a01d76d8"
+  },
+  {
+    "path": "ai-quests/chunk-RCEB2ZXO.js",
+    "original_sha256": "0d4e22a84f78a30912db24433cec19fcda38fb51af15dac11d89211db9a95a70",
+    "local_sha256": "7f8bcdb8965fcc09e18d19930b15c3498db0d5a809dca6e912b782393c0d0698"
+  },
+  {
+    "path": "ai-quests/chunk-MMDR3R7L.js",
+    "original_sha256": "7cdab05825739987d08e9e518ba46d2bb7d5ac296c6a111befe167496cb36187",
+    "local_sha256": "0fbf58ece8f0420d11bc3560d9c60894a5d4b60bd27180795c24595a848a0a6b"
+  },
+  {
+    "path": "ai-quests/chunk-QDYIUDFI.js",
+    "original_sha256": "49de7798cc7bd692d7ce5460d5f133f96243d61128890a0f0608ea2f1c604a08",
+    "local_sha256": "6ace17c4052aeff7b6f5c9b2907aa488497b01e31a2058eca30c5c90ea94e327"
+  },
+  {
+    "path": "ai-quests/chunk-NZOXVBVZ.js",
+    "original_sha256": "83369b47465e37004f91b09dd8fb05d5b4a0a1d5f6ebc0087998b494cdce9995",
+    "local_sha256": "2df06840887c5ac72ae8b76e44e7440648eba3fc0c003130211eeccdaaa68804"
+  },
+  {
+    "path": "ai-quests/chunk-YVWFSUQ5.js",
+    "original_sha256": "b4e5878e96d00209fa8415186510475e40fb676b26e68625fbad3a158cd3cff3",
+    "local_sha256": "2c5966b3fb66f91203dfa229e1a30257aacc3957ad9e7a8260601a9cadc2ee90"
+  },
+  {
+    "path": "ai-quests/chunk-ZOE2GR7R.js",
+    "original_sha256": "a55d8b2d3349dcda35cfd163cd66cda88eb4d868a7761e579c0b9c78759c0fcd",
+    "local_sha256": "af5f8ea2aae76061cf0230d615d54bb47c51a5306a5cede678ee36b3df4ca128"
+  },
+  {
+    "path": "ai-quests/assets/graphics/dunes/privacy/highlighter.svg",
+    "original_sha256": "9ac1a1033540b50a33567f9b433e2ecca3361b5f56b120ef56d9cfcf3e997992",
+    "local_sha256": "4ef8e339c47324c9ec55cec2586e6079cb76dd30a49aae9d018f3b611cf160f0"
+  },
+  {
+    "path": "ai-quests/assets/graphics/dunes/privacy/magnifying-glass.svg",
+    "original_sha256": "a7a2062779d4a6bbb89772dda94339791256d57b942259f5be649e2b43332ecf",
+    "local_sha256": "e0721e54eb2cd7a4dc74856a05f7c3f80b5314bf80412aacd0d171d3de4c81ce"
+  },
+  {
+    "path": "ai-quests/assets/graphics/dunes/privacy/highlight-strokes.svg",
+    "original_sha256": "ac771c96627c3061879f913711eed34f86163ffb4e30c48630d52ec668b2af8b",
+    "local_sha256": "dceae9c02b0d2206dbfc438d69371ff334d5bd036782157e62201fc3d15e3fbd"
+  },
+  {
+    "path": "ai-quests/assets/graphics/dunes/scan-minigame/scan-lines.svg",
+    "original_sha256": "38c1fdc497c548a04b784af2fd7c95e708de1a2afba136401e2950a043ac6a39",
+    "local_sha256": "08390943e0494dc98bfb0519b861f7357b6342a7f0d668afa8558b0dc310bb67"
+  },
+  {
+    "path": "ai-quests/assets/icons/dunes/privacy.svg",
+    "original_sha256": "5fc970ffd1e34bcfe1cc2069b31fc33b8e1bf8b81392bf3166cede3549f5d266",
+    "local_sha256": "09a5d630ee6ca7a5cacac3ec5cd394f9d44d6aed8356c6a11b7d85a6ad01dd41"
+  },
+  {
+    "path": "ai-quests/assets/graphics/lab/04-labelling/highlighter/pen.svg",
+    "original_sha256": "35020198f2c822bf62818177f3bb4f2a0461ca00801b42d4c9de8d44582856ef",
+    "local_sha256": "8f54fa02e46c9f2b90367bbb5b27939f876ed66b58f9bd4c4be7d4396f129af3"
+  },
+  {
+    "path": "ai-quests/assets/mock/lab/04/scan-cards/scan-1.svg",
+    "original_sha256": "e369a59715ede733d35f03b2044ac35a817069283f6e75c829eeba70b24f8c2b",
+    "local_sha256": "9c2139f32e5ae32db5927d4c3b0f058c2b33c60c70ccec8bb6221df2ec4d5cfd"
+  },
+  {
+    "path": "ai-quests/assets/mock/lab/04/scan-cards/scan-2.svg",
+    "original_sha256": "44423dc6980e4376ed59c6180c7d61b1713c411bbef59b1f2e7e847fc4f63383",
+    "local_sha256": "4fd60ed7b623fd332ea9f044fa21a8d1c2255671e1c340c433187de4ff468377"
+  },
+  {
+    "path": "ai-quests/assets/mock/lab/04/scan-cards/scan-3.svg",
+    "original_sha256": "3eeabec9598fe712f6cc7e2555331774c449ce3c717a1f9279a26e086fd0c25c",
+    "local_sha256": "6b60698269472c7440602650eaaa83d03aa69f30eb5a556c4ffb4d45f0af0c44"
+  },
+  {
+    "path": "ai-quests/assets/ui/eye-card-box.svg",
+    "original_sha256": "a687ba0901837a06f200503134df57661a48fc9c32b21360c4677d7afbd226c6",
+    "local_sha256": "8bd1cf45dcdd03806d2043ba458ad923464798b763a3faf5b1a674e702d25e73"
+  },
+  {
+    "path": "ai-quests/chunk-FA77X3SB.js",
+    "original_sha256": "3c44d806d07918dd506e5017ece21da4d794fc05d3069a29d1229485f7646710",
+    "local_sha256": "c91e7748f85947189b804937e6dbdafbf3649345241536679d8b08967c44c731"
+  },
+  {
+    "path": "ai-quests/intl/ar_ALL/privacy-notice/index.html",
+    "original_sha256": "39af33ea4ae21074c11ba41dacf95a1eda07d6148e2604b5d33a68d0811eec42",
+    "local_sha256": "346f3873d811fc4ce3df3f8b71dc4ea5001ee1c16c9afe1779c37eb10c8acc05"
+  },
+  {
+    "path": "ai-quests/intl/ar_il/about/index.html",
+    "original_sha256": "75419093e08e0bd336469dba4028ad54c0177cc0689d3628a25489385904f75d",
+    "local_sha256": "850ba94aa187761ed10fa806161ff0cd5554c64a3e76f72184020095a9a20f8f"
+  },
+  {
+    "path": "ai-quests/intl/ar_ALL/faq/index.html",
+    "original_sha256": "3ff98b734722aaca5194953d5a7626be5f7690632ae5e3f6a8432a51d4540236",
+    "local_sha256": "5581860ad21fa327f07544dca219695d519b57faabcf87673feffa05deddab53"
+  },
+  {
+    "path": "ai-quests/intl/ar_ALL/teacher-resources/index.html",
+    "original_sha256": "022ce033fc09bf365bf7ea05717942ecdc96d4898fabf28e67430793bd78d267",
+    "local_sha256": "6090534e12ef7c0c3bf65a2780e6a6e4e201c4780265b5278022d2fa7bd295e6"
+  },
+  {
+    "path": "ai-quests/intl/ar_ALL/videos/index.html",
+    "original_sha256": "d4fce4832a393408414f64a326f2560527397f55fc2605a8d326c78b1177ac39",
+    "local_sha256": "98164cd7e14c7a78464015c088c012e3722eac14df05460504f1c36025dacf44"
+  },
+  {
+    "path": "ai-quests/intl/ar_ALL/about/index.html",
+    "original_sha256": "ca617c3f19ddbe25adc33b07aba09ff0ba9a2b05bacdf1531ccb79170cc78526",
+    "local_sha256": "4a369806d4c16317fa4e887d49c2a516e20765747028b3fec563f15188569490"
+  },
+  {
+    "path": "ai-quests/intl/ar_il/faq/index.html",
+    "original_sha256": "6242975db0377e2c5191483bd09582d64c5edd0483be17fbf54dec4f2d176248",
+    "local_sha256": "6b80502686823eb9742e023024710489bece24db1cd76dba329063d1da28cfeb"
+  },
+  {
+    "path": "ai-quests/intl/ar_il/privacy-notice/index.html",
+    "original_sha256": "2433361cb6bcf6a7cd39d1e756c9c130c1a8e77ae6097f8f8fa9ec832e5f5214",
+    "local_sha256": "1595e936c7807a26f78ca9017592f028b52d25f1ca28da2d6061ca2eadd4584e"
+  },
+  {
+    "path": "ai-quests/intl/ar_il/teacher-resources/index.html",
+    "original_sha256": "c7aad523929db7824c3cdfc269b640509512acb5433b494bdffd34ec0ea73d65",
+    "local_sha256": "a89339a7a9c18aaa8b69bc6d46b8fed8f5a1cac37fe6ade7d895c8370145b2b2"
+  },
+  {
+    "path": "ai-quests/intl/ar_il/videos/index.html",
+    "original_sha256": "5501c68139ba3e8a31837315f447bc72f6c0e006a9ad5eac6191476901b82e97",
+    "local_sha256": "35c98807cbbdbe6058e5e6e30db959a30220cfeaffe5eaf4a5f3e908c111c64f"
+  },
+  {
+    "path": "ai-quests/intl/en_gb/about/index.html",
+    "original_sha256": "4e7640488298e9e790116dfb6ccfec1c894ce74e2c8f0021c97ac95054651722",
+    "local_sha256": "93fad547c1b30d6aed92e5e7928afc931a5f9652f9ee04f65058feb352421ffc"
+  },
+  {
+    "path": "ai-quests/intl/en_gb/faq/index.html",
+    "original_sha256": "addd02b627e1486b12afa00f09c10c10dc66829ec4ef413ea9b5b5ea2ce8dd66",
+    "local_sha256": "e8610653482f98892cba0c98bbccb50f888088b29fada3d6c1e07145de0c6a01"
+  },
+  {
+    "path": "ai-quests/intl/en_gb/privacy-notice/index.html",
+    "original_sha256": "3764a78346aef289e52921d53c594b997a0dfefef48ea54d8ba954c4dd1383c0",
+    "local_sha256": "345ae37391fa8ea22d4e4f85f9ec784a95d7fdd8ff0e4838d61dc1cc7bd9096a"
+  },
+  {
+    "path": "ai-quests/intl/en_gb/teacher-resources/index.html",
+    "original_sha256": "b0176b211d07535134cdb292e91813445ad948df70f04d01641960366cdc3655",
+    "local_sha256": "2403b9706faa0c70553f6d056657297eb4b0189d29d8b07acd81cf1ddf5d8e9c"
+  },
+  {
+    "path": "ai-quests/intl/en_us/about/index.html",
+    "original_sha256": "8d74ac8183be7fd43eac55322c2f80527513bfc7eeccdb00f208a0030aa1cf7f",
+    "local_sha256": "d98bdde15d41538789343241e6d7de9f3e310a6cbe3f05f8994daee09514518c"
+  },
+  {
+    "path": "ai-quests/intl/en_gb/videos/index.html",
+    "original_sha256": "d4dc3e1c40b6164afbebbee8504866bd182567b91782f2c3d6ff911f8361f8c7",
+    "local_sha256": "660385ddc7c39ff87cf8169738de947a3e7c518bc857dc0cc402c7bbad9aab79"
+  },
+  {
+    "path": "ai-quests/intl/en_us/faq/index.html",
+    "original_sha256": "ebe24a99d91b7c632fa2b917466c6ef525be9ba0a51279b415cc3accff2a7720",
+    "local_sha256": "6841d2659aa78571c1b73823b07f41a2c1d0614f0617826cdc227683914c165f"
+  },
+  {
+    "path": "ai-quests/intl/en_us/privacy-notice/index.html",
+    "original_sha256": "0998d463ce64b3d356580226eef8854367282b3349a933380034b2d9119351c6",
+    "local_sha256": "67d12136e1b7a543876cb9e34a754966811be3ca076490da1f297d6bce9cfe32"
+  },
+  {
+    "path": "ai-quests/intl/en_us/teacher-resources/index.html",
+    "original_sha256": "e0f6f64abf0ed2f9320bee284eb9901b0db80ec4b1c87182f3648a901e070cc0",
+    "local_sha256": "405a2c653bf0a1e490d00c6dc69fa553601ab2ef52e5840c01395584102f5da3"
+  },
+  {
+    "path": "ai-quests/intl/en_us/videos/index.html",
+    "original_sha256": "ce02a7be86b913a0694a1713e77360aaf109bb95dc9fc64bbb590267c585da7e",
+    "local_sha256": "0598bd3d5d11909c4cb2aa32ac571fee59b219797ae7bacddc0025ad0bb2c5f4"
+  },
+  {
+    "path": "ai-quests/intl/es_419/teacher-resources/index.html",
+    "original_sha256": "777d83427a090639601257c6e25f3390b57d66a9525768a01e09208dc878f181",
+    "local_sha256": "eb052592021d7dcf68574cbd3cda3d0fec4bbb340959d0675ba7d58394545d93"
+  },
+  {
+    "path": "ai-quests/intl/es_419/privacy-notice/index.html",
+    "original_sha256": "8889c2068a1bc0086e8608fbb1a4333f5c7594d8de03746fd14dff428f22a6d1",
+    "local_sha256": "d863ea613b71432c5cc1c38dbbf648e0e31279c6aff6afd78298e16352097823"
+  },
+  {
+    "path": "ai-quests/intl/es_419/faq/index.html",
+    "original_sha256": "65cddc8cac6be60d85141183f3b87562cc8b8e2d7d2dac46f1d2efd12d08cea9",
+    "local_sha256": "d6e6fdbd4955f57425565a8c1b4601e2ad29452d463e8d73b42772b3894d9ee4"
+  },
+  {
+    "path": "ai-quests/intl/es_es/teacher-resources/index.html",
+    "original_sha256": "b3c32ec7ecbaa7a0c8fec1a37ad83851d8940824256419c500f318330a240549",
+    "local_sha256": "562a4491d64d0ff7efb5b618a2ae26282747a620a8e46e06633224f078ed31af"
+  },
+  {
+    "path": "ai-quests/intl/es_419/about/index.html",
+    "original_sha256": "024923bb122b36914c9350bb22ff6eb853a041bc1a6ca8728a30744e98a1e3b8",
+    "local_sha256": "bf09e4c1e14bb23befe15a48e2c015d7c67e54186d4621127987867e5efbe8ad"
+  },
+  {
+    "path": "ai-quests/intl/es_419/videos/index.html",
+    "original_sha256": "51d2b8dbec535e1b9f5f85a7db3a7ac89a8bd73fc6934499a2fad3333b7011c0",
+    "local_sha256": "d0a7a5bd2710bfd78be44c54ada5b267c66d2de8a4f04e828bdfee8482d0cb0a"
+  },
+  {
+    "path": "ai-quests/intl/es_es/about/index.html",
+    "original_sha256": "04d345261c9c1f329bd4312a496cf0209ce667525140529216fe6c2e48b2c9a7",
+    "local_sha256": "86eb8fe41536e3ab48f5ef3e0d8288dfc5d6361e24147214aab627fa47f5f67e"
+  },
+  {
+    "path": "ai-quests/intl/es_es/faq/index.html",
+    "original_sha256": "45a100ad5605c382e9f8b6a27d83151565a742b45bbc268dc3c60c47ac52e3a4",
+    "local_sha256": "b2e75da70d999b499bcecce786a1fb60fa8d0e36f1734ba3df12bcd01440fbaa"
+  },
+  {
+    "path": "ai-quests/intl/es_es/privacy-notice/index.html",
+    "original_sha256": "dd1796442c40b76c2edc0edd1044ce157111a16178247d3b84d56a4a32a0ddef",
+    "local_sha256": "3736c086e1b6e0f83053de777a0a7822769c494d8cad514f62d16dec411ec627"
+  },
+  {
+    "path": "ai-quests/intl/es_es/videos/index.html",
+    "original_sha256": "9dc4edf76212e9a8921294db86c17567e3c640552b4b5c2d3b53345137387e8b",
+    "local_sha256": "267f3d4353401228b1c56e6b44401a4e6bfa9ca5225a7db160b7824f89fa8101"
+  },
+  {
+    "path": "ai-quests/intl/fr_fr/about/index.html",
+    "original_sha256": "e6dcb1c29b1e381cea69334b710c55162a7cd018fa981e28ffbe8a5006280d9a",
+    "local_sha256": "932234196704b900fbd7d03c1725e301620a7cc22589bbbe88a1c047f696528c"
+  },
+  {
+    "path": "ai-quests/intl/fr_fr/privacy-notice/index.html",
+    "original_sha256": "99c52dd409654062dede79cf8be03449b192dc45346321128f568e8ed6adaa22",
+    "local_sha256": "14efde31213aa2b45e3dd3c92b6c20957469ff09d8963cb8ac01b242e546d438"
+  },
+  {
+    "path": "ai-quests/intl/fr_fr/faq/index.html",
+    "original_sha256": "96a3f954dfd9c6171d84a9126dc7858ec1272e3d8b0ed2a41690824a08340d27",
+    "local_sha256": "e21dbdb649170d83a7aeb8abea5ea2f5d27787380bd44c3696cd9ca93f4c30db"
+  },
+  {
+    "path": "ai-quests/intl/fr_fr/teacher-resources/index.html",
+    "original_sha256": "fc153c0d713ea95c5aee5ef6418f8bf7b64a2b392c96caf82a6055ac5c089085",
+    "local_sha256": "c892e913cc9dbe39a1eee5c284a3fd485b927e806b4a4ea378a96807ead79878"
+  },
+  {
+    "path": "ai-quests/intl/he_il/about/index.html",
+    "original_sha256": "1f4ea7a818eb2f626d0629f496e54c1a8f651dfca790ede5cb8ee6be97e12453",
+    "local_sha256": "1b8961ab649c330e1497f437fedf54b3ed1d1e847b33f155d3cdb099515e0702"
+  },
+  {
+    "path": "ai-quests/intl/fr_fr/videos/index.html",
+    "original_sha256": "515a767aacbabb512cacbb353be0073d4a529bcc5365586350d1b5523b23e953",
+    "local_sha256": "b37059a1187ee71f07b8f756be39e199a27256051bee1b707780d9b731ec0827"
+  },
+  {
+    "path": "ai-quests/intl/he_il/privacy-notice/index.html",
+    "original_sha256": "a5c58b9b47c92b4ca801ec03319e6a004cd0f01a7a69dab973cc573b97d982d3",
+    "local_sha256": "2d787a68b867734f0baac98bf76f2238ed7acdf4e1e185e633cc2246589e63c8"
+  },
+  {
+    "path": "ai-quests/intl/he_il/faq/index.html",
+    "original_sha256": "46f7f277e11f98983588755bb3828471cc736be22d7b39d25f25ae1f387ddc51",
+    "local_sha256": "e22d043e7f45591513a7dbeca87d5948510a1cf9b5aee91643df3a1a4020d7a3"
+  },
+  {
+    "path": "ai-quests/intl/he_il/teacher-resources/index.html",
+    "original_sha256": "53457aebfee7e50d5ce3b3dc02b5a1ed193527d0b5decc3e56ac7981e07718dd",
+    "local_sha256": "30a77159dec70431f6da6056db9113e1886ae9a1757eeb185881e51e8c58cbff"
+  },
+  {
+    "path": "ai-quests/intl/he_il/videos/index.html",
+    "original_sha256": "836c34cd232960456497413e727f3b2457f58b8a5faf6ad286ddce073b291e2e",
+    "local_sha256": "bc143c481f6aa973d6155bf59d237876bdf8c62bdca76f07b1de32748326c7f6"
+  },
+  {
+    "path": "ai-quests/intl/it_it/about/index.html",
+    "original_sha256": "40e09d45d700de9bad3a083ca86ea3a1cbb0235aed62619572eb8c72cf3f6ff1",
+    "local_sha256": "d2da3d0b2b04d335d7bdc0919aa478d042640e0eb45f6874b68e3bff2dfc52b1"
+  },
+  {
+    "path": "ai-quests/intl/it_it/faq/index.html",
+    "original_sha256": "93605cae65b65dc00d3f7816f0195d9176e3eabcfdc2073ec93f0f5c341a5cdb",
+    "local_sha256": "a58b961fb8155418ecb69f6536cb54d579f68c3746ed83f4965ef38bc1152778"
+  },
+  {
+    "path": "ai-quests/intl/it_it/teacher-resources/index.html",
+    "original_sha256": "12cecc5db9c63b25ba65572ad6ba570af9ef9ce056df9c6e567efdbf4b7def18",
+    "local_sha256": "f24b1427dfb32936999bae3256c8042e440d63de91856f5dcffb19f2315bd07d"
+  },
+  {
+    "path": "ai-quests/intl/it_it/privacy-notice/index.html",
+    "original_sha256": "b1320be99d7c8de45cbb30e2bed3c3a1ac57166ba3406dc96e0fa7018d3e90de",
+    "local_sha256": "f62ab564ea4d6bc8737a078c0a896ff87e4a85275be6978f2bd3ca686970972c"
+  },
+  {
+    "path": "ai-quests/intl/ms_my/videos/index.html",
+    "original_sha256": "c733ac8bd3645937ef68213f0e0168d9872ea53288e09e82d040059d5c1abaff",
+    "local_sha256": "879073598feb9f2961bcb132445f02e3a7952a032c887b8251bd37030411c791"
+  },
+  {
+    "path": "ai-quests/intl/pt_br/faq/index.html",
+    "original_sha256": "24acc0a514ccc1ac44366335cf509910ce356294fee8c578f4833328311d7013",
+    "local_sha256": "1e98251ac3f94c884e28e41e5f8e74eac653b19569104967da818e284a9b07ad"
+  },
+  {
+    "path": "ai-quests/intl/ms_my/faq/index.html",
+    "original_sha256": "780a18eef474620ee1b03396bcf3689d47f1101f4655e2031134e696a7648ce7",
+    "local_sha256": "5b5ceef806ad5be9701224aa76c80a97e6b915fe0388dc6c942c989c94ae3cd7"
+  },
+  {
+    "path": "ai-quests/intl/ms_my/about/index.html",
+    "original_sha256": "ad84a154f883ce01a672c7b7f16237b988a7b54bf78cd2cdaa39e4788121b30b",
+    "local_sha256": "6ce775f0ecb29f2f5ba9465c13e475e3ca57875e162dc466c3733d9cec4dc3c4"
+  },
+  {
+    "path": "ai-quests/intl/ms_my/privacy-notice/index.html",
+    "original_sha256": "c0e4af7de62e97be5d11ed94e7da050314916e25e8d807e9910950b8f6671c1a",
+    "local_sha256": "915df8cafed238ab28aa91bf70956d91d20266e71f7b9833a14159de2a855443"
+  },
+  {
+    "path": "ai-quests/intl/it_it/videos/index.html",
+    "original_sha256": "6f7531006abb9d4a22d0c2de58b5dfb5ab18eebbf4cbdc1c9678d1fad9d01b7d",
+    "local_sha256": "7ccf5c5925212da21b537f67b41f6dcf4f0334c7c17d12cdf97a71204140e55c"
+  },
+  {
+    "path": "ai-quests/intl/ms_my/teacher-resources/index.html",
+    "original_sha256": "65df2aa0d7c378fe9ed0db148242f7555d91eb4fe6531f858edd559d436e5c68",
+    "local_sha256": "45e69e925713f955d93b9dd673243593c15fd03f15e60306e210e5102f8f7fef"
+  },
+  {
+    "path": "ai-quests/intl/pt_br/privacy-notice/index.html",
+    "original_sha256": "46485675b34883c292f3c69f939614e1941824a81a2951abde9dcdc676764553",
+    "local_sha256": "1d2a6269af6b8d28d22e49c43a4bc1d3688ba5a5d2df9563836fcd6bc3e92b78"
+  },
+  {
+    "path": "ai-quests/intl/pt_br/about/index.html",
+    "original_sha256": "8992b00e15651faed8b72b92f80d20f8026a1f835232fa32f32978571d553546",
+    "local_sha256": "fa8b5facbc45429884220383ca99ff7153c30bbfda86501b385bfbffee6b2b45"
+  },
+  {
+    "path": "ai-quests/intl/pt_pt/about/index.html",
+    "original_sha256": "df03a22d08ad8f52e3c0d89beb424691b1754aef9c4088192c13a74d9c56dad1",
+    "local_sha256": "b7c3d4bdff7e23594615053477ec1dabebed0d6d3aa201e2500580749d038b7d"
+  },
+  {
+    "path": "ai-quests/intl/pt_br/teacher-resources/index.html",
+    "original_sha256": "910ddb262496593989be8202c997720f4d66e18ffd3793e01a7ea04536079572",
+    "local_sha256": "7646ba4fa09417f7939b7f047025405ffc6c41e1eac74e694f3165906743d98e"
+  },
+  {
+    "path": "ai-quests/intl/pt_pt/faq/index.html",
+    "original_sha256": "eb759eb45536fb4f268ce2ebbe8e18a342363acab0a05d38801da66471e4ab89",
+    "local_sha256": "4776b42eff144d8c67e2b5ad7ad9b5628ac04217dce8f67dd802be3477042a2d"
+  },
+  {
+    "path": "ai-quests/intl/pt_pt/privacy-notice/index.html",
+    "original_sha256": "0db306f690d10598dd68831e26252d585bb9a367daefd67bfcce36a430e133ce",
+    "local_sha256": "bdc1fcce1fb21e191aae05eb4032a93e3acd3939249e04b181293649ba9d6367"
+  },
+  {
+    "path": "ai-quests/intl/pt_pt/teacher-resources/index.html",
+    "original_sha256": "09bbd5f6cad7a5b7834a68d4feb3bca9afae630183a69ee5b0d58f3d4903ad36",
+    "local_sha256": "9b34ed541108df883b16918909eded82c62cc3548cdb1143664d9856bb2668d5"
+  },
+  {
+    "path": "ai-quests/intl/tr_tr/about/index.html",
+    "original_sha256": "cec9c4faeb7950f2e1f0cf2f3c211c25cb6519c00bcd89ae679337cec3e4d89b",
+    "local_sha256": "baebec7aa58f811f7a40e18e9786b376281d3bacb889b8b44c01138f37484e3e"
+  },
+  {
+    "path": "ai-quests/intl/pt_br/videos/index.html",
+    "original_sha256": "b1bcd4b18e36e570798913ea9e4869bf5bbd4d36deca80a9678bac5e22af6de6",
+    "local_sha256": "76fa78aac988b2c7f2122f2917cc5994046032307a33cb10f5f6208f92db782c"
+  },
+  {
+    "path": "ai-quests/intl/tr_tr/faq/index.html",
+    "original_sha256": "25219a40d59fc1d8d3c7ec72fcd94de602c9f0efc25a5ca8d354c8e995fa4875",
+    "local_sha256": "87aa094675a3c39c2b90647c5b42c0f427f7c8d9198d4d98c93dd90487562cdb"
+  },
+  {
+    "path": "ai-quests/intl/pt_pt/videos/index.html",
+    "original_sha256": "c945a8ac35293fe83da8f57eff064c4e54619a230d4b9997b060709ddfd9605d",
+    "local_sha256": "73e01fbd4f3a556fc37fa0f2af4e62ba8d19fe5945be824fc6f73fcf20d15d6b"
+  },
+  {
+    "path": "ai-quests/intl/tr_tr/teacher-resources/index.html",
+    "original_sha256": "0a436baf31d2b8f3d0798ea2b6403f341ef3bd63959ca4e4d2fe3493b8a71f5e",
+    "local_sha256": "47e4aaee0ff7e9c3d8b3afc94e3e77d8d24c6734a82ac7f923fda1c1b7106382"
+  },
+  {
+    "path": "ai-quests/intl/tr_tr/videos/index.html",
+    "original_sha256": "3a3f65f8ccf90491e54e4306422e4db34573a2785c54469db1a2b3f107197952",
+    "local_sha256": "904f0eda31803c5720dfc0f8d3d756648323476497bdc3a0e13278709b9ba8f0"
+  },
+  {
+    "path": "ai-quests/intl/tr_tr/privacy-notice/index.html",
+    "original_sha256": "52e6c853264daf138271a80125efe86f75883624d8a751eaa2cc311dea0ffd37",
+    "local_sha256": "f20b7ec9c55b375b1a215730ed6dd3332fae094933f080db0e0ad6968debb4c3"
+  },
+  {
+    "path": "ai-quests/_external/fonts.googleapis.com/3ede0660e010f8c278b23f62836671605095e7c2ae58758e32de6c11fffb5a55.css",
+    "original_sha256": "828959292049faae425de3b0b89afee3609ccfb34bc56838c4cdc85ff7cf4663",
+    "local_sha256": "1faaf2595c1ec06cbcfc1c741ecbfe190d997ce1562c888cc6b6920203ee6c79"
+  },
+  {
+    "path": "ai-quests/assets/icons/glue-icons.svg",
+    "original_sha256": "b848155e2af4feb078c52160c48186c0a097daacc411e0032a4b1fea2e0f8cbd",
+    "local_sha256": "595ee02f4c112a4ac240475c76101ea4367127dd86a280731f8c98c12e2cfac9"
+  },
+  {
+    "path": "ai-quests/assets/icons/play.svg",
+    "original_sha256": "815781c65c899f731ca530c8dd480d733cd34ecd8099aae7785496df011246ba",
+    "local_sha256": "46ede132450084cc01985f6d2f8f8d4066348c3bc9e312d86d702d9fe14309b5"
+  },
+  {
+    "path": "ai-quests/static/non-app/styles.52112f772c831cac6bc6.css",
+    "original_sha256": "e71b4e91b2e28f0b8c5b60534b0cba313593bb16159e70d04323ba2bb48c9cdf",
+    "local_sha256": "2196eeb1874d1105441f276c31c135668fa3990a11eba9a1141fa9e5a745dad5"
+  },
+  {
+    "path": "ai-quests/assets/ui/inventory-bar-5.svg",
+    "original_sha256": "0498dd20dc079a3324ee1e19fb5e4a47ffff2658e98322f57ed747a7b86b4a7a",
+    "local_sha256": "a51d35a266f02f0d3618e94b355dad4c503a106d59e97bd7dccc96e2ea373106"
+  }
+]

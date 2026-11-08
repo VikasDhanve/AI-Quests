@@ -1,0 +1,171 @@
+{
+  "requests": [
+    {
+      "url": "http://127.0.0.1:4192/ai-quests/intl/en_us",
+      "type": "document"
+    },
+    {
+      "url": "http://127.0.0.1:4192/ai-quests/_external/www.gstatic.com/ffab2981a55b8f82bcb2d69fbc16cc92de92b02b93f5e3278ca3406cdfa90965.css",
+      "type": "stylesheet"
+    },
+    {
+      "url": "http://127.0.0.1:4192/ai-quests/styles-X5MYJBZ7.css",
+      "type": "stylesheet"
+    },
+    {
+      "url": "http://127.0.0.1:4192/ai-quests/chunk-ZDFCTXMN.js",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4192/ai-quests/chunk-5XHC44OL.js",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4192/ai-quests/chunk-U7GMMY7Y.js",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4192/ai-quests/main-UOOVWHPK.js",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4192/ai-quests/_external/fonts.gstatic.com/e35c7a2bd77c63228a43cb37f8f1b19c4f329bf0f194749e966c8d6708e87a5d.woff2",
+      "type": "font"
+    },
+    {
+      "url": "http://127.0.0.1:4192/ai-quests/chunk-OYFYYWIE.js",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4192/ai-quests/content/api/current_snapshot_id",
+      "type": "xhr"
+    },
+    {
+      "url": "http://127.0.0.1:4192/ai-quests/chunk-4PU2F65H.js",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4192/ai-quests/_external/www.gstatic.com/8f593ec1cbff4229f2baafd6d4630f2c2f7d157ef9b315c840ab62dcf216e20c.ico",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4192/ai-quests/content/api/snapshot/20261023-141713/site_config.json",
+      "type": "xhr"
+    },
+    {
+      "url": "http://127.0.0.1:4192/ai-quests/content/api/snapshot/20261023-141713/en_us/sitewide.json",
+      "type": "xhr"
+    },
+    {
+      "url": "http://127.0.0.1:4192/ai-quests/chunk-FGTI4YXJ.js",
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:4192/ai-quests/assets/audio/global/bright-click.webm?v=73ffd59-1792762873172",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:4192/ai-quests/assets/audio/global/pop.webm?v=73ffd59-1792762873172",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:4192/ai-quests/assets/audio/global/space-song.webm?v=73ffd59-1792762873172",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:4192/ai-quests/assets/audio/global/space-title-whoosh.webm?v=73ffd59-1792762873172",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:4192/ai-quests/assets/audio/global/space-whoosh.webm?v=73ffd59-1792762873172",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:4192/ai-quests/assets/audio/global/space-asteroid.webm?v=73ffd59-1792762873172",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:4192/ai-quests/assets/audio/global/space-flood-song.webm?v=73ffd59-1792762873172",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:4192/ai-quests/assets/audio/global/space-blind-song.webm?v=73ffd59-1792762873172",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:4192/ai-quests/assets/audio/global/space-rock-spinning.webm?v=73ffd59-1792762873172",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:4192/ai-quests/assets/audio/global/space-warp.webm?v=73ffd59-1792762873172",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:4192/ai-quests/content/api/snapshot/20261023-141713/en_us/home_page.json",
+      "type": "xhr"
+    },
+    {
+      "url": "http://127.0.0.1:4192/ai-quests/assets/bucket/global/og-image.jpg?v=73ffd59-1792762873172",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4192/ai-quests/assets/webgl/meadow_1k.jpg",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:4192/ai-quests/assets/webgl/quests/globe-quest.glb?v=73ffd59-1792762873172",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:4192/ai-quests/assets/webgl/decoders/draco/draco_wasm_wrapper.js",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:4192/ai-quests/assets/webgl/decoders/draco/draco_decoder.wasm",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:4192/ai-quests/assets/webgl/ai-quests-default.svg?v=73ffd59-1792762873172",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:4192/ai-quests/assets/audio/global/IR1.webm?v=73ffd59-1792762873172",
+      "type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:4192/ai-quests/assets/icons/research-logo.svg?v=73ffd59-1792762873172",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4192/ai-quests/content/api/snapshot/20261023-141713/en_us/planet_page.json",
+      "type": "xhr"
+    },
+    {
+      "url": "http://127.0.0.1:4192/ai-quests/assets/icons/icons.svg?v=73ffd59-1792762873172",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4192/ai-quests/assets/icons/stanford-acc-learning-logo.webp?v=73ffd59-1792762873172",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4192/ai-quests/_external/www.gstatic.com/8f593ec1cbff4229f2baafd6d4630f2c2f7d157ef9b315c840ab62dcf216e20c.ico",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4192/ai-quests/assets/icons/icons.svg?v=73ffd59-1792762873172",
+      "type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:4192/ai-quests/assets/bucket/home/AI-Quests-intro-master.webp?v=73ffd59-1792762873172",
+      "type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:4192/ai-quests/assets/bucket/home/en_gb/AI-Quests-intro_video_master.webm?v=73ffd59-1792762873172",
+      "type": "media"
+    }
+  ],
+  "failures": [],
+  "errors": [],
+  "consoleErrors": []
+}

@@ -1,0 +1,22 @@
+import { chromium } from 'playwright';
+import fs from 'node:fs';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
+const browser=await chromium.launch({headless:true,executablePath:'C:/Users/yamal/AppData/Local/ms-playwright/chromium-1248/chrome-win64/chrome.exe',args:['--enable-unsafe-swiftshader','--autoplay-policy=no-user-gesture-required']});
+const context=await browser.newContext({viewport:{width:1440,height:960}});
+const page=await context.newPage();const failures=[],errors=[],requests=[];
+await context.route('**/*',r=>new URL(r.request().url()).hostname==='127.0.0.1'||!r.request().url().startsWith('http')?r.continue():r.abort('internetdisconnected'));
+page.on('request',r=>requests.push(r.url()));page.on('response',r=>{if(r.status()>=400)failures.push({url:r.url(),status:r.status()});});page.on('pageerror',e=>errors.push(e.stack));
+await page.goto('http://127.0.0.1:4192/ai-quests/intl/en_us');
+await page.getByRole('button',{name:'Accept mission',exact:true}).click({timeout:20000});
+await page.waitForTimeout(5000);
+console.log('VIDEOS',await page.locator('video').evaluateAll(es=>es.map(e=>({src:e.currentSrc,ready:e.readyState,duration:e.duration,time:e.currentTime,paused:e.paused}))));
+// Seek only in the test browser to exercise the natural end-of-video transition quickly.
+await page.locator('video').evaluateAll(es=>es.forEach(e=>{if(Number.isFinite(e.duration)&&e.duration>0){e.currentTime=e.duration-.15;e.play().catch(()=>{});}}));
+await page.waitForTimeout(9000);
+console.log('URL',page.url());console.log('BODY',(await page.locator('body').innerText()).slice(0,7000));console.log('BUTTONS',await page.getByRole('button').evaluateAll(es=>es.map(e=>({text:e.textContent,label:e.getAttribute('aria-label')}))));
+console.log('FAILURES',failures,'ERRORS',errors);
+await page.screenshot({path:path.join(root,'reports/local-map.png'),fullPage:true});
+await context.storageState({path:path.join(root,'reports/browser-state.json')});
+fs.writeFileSync(path.join(root,'reports/flow-network.json'),JSON.stringify({requests,failures,errors},null,2));await browser.close();

@@ -1,0 +1,13 @@
+import { chromium } from 'playwright';
+import fs from 'node:fs';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
+const browser=await chromium.launch({headless:true,executablePath:'C:/Users/yamal/AppData/Local/ms-playwright/chromium-1248/chrome-win64/chrome.exe',args:['--enable-unsafe-swiftshader','--autoplay-policy=no-user-gesture-required']});
+const context=await browser.newContext({viewport:{width:1440,height:960},storageState:path.join(root,'reports/browser-state.json')});
+const page=await context.newPage();const failures=[],errors=[],requests=[];
+await context.route('**/*',r=>new URL(r.request().url()).hostname==='127.0.0.1'||!r.request().url().startsWith('http')?r.continue():r.abort('internetdisconnected'));
+page.on('request',r=>requests.push(r.url()));page.on('response',r=>{if(r.status()>=400)failures.push({url:r.url(),status:r.status()});});page.on('pageerror',e=>errors.push(e.stack));
+await page.goto('http://127.0.0.1:4192/ai-quests/intl/en_us/map');await page.waitForTimeout(5000);
+console.log('URL',page.url());console.log('BODY',(await page.locator('body').innerText()).slice(0,5000));console.log('BUTTONS',await page.getByRole('button').evaluateAll(es=>es.map(e=>({text:e.textContent,label:e.getAttribute('aria-label')}))));
+console.log('FAILURES',failures,'ERRORS',errors);await browser.close();

@@ -1,0 +1,820 @@
+{
+  "snapshot": "20261023-141713",
+  "verified_files": 1746,
+  "upstream_bytes": 1085015830,
+  "hash_failures": [],
+  "official_cms_placeholders": [
+    {
+      "source": "mapping_brain.json",
+      "value": "tbd",
+      "reason": "Official CMS placeholder; training renderer uses its bundled neuron-right/neuron-wrong media instead"
+    },
+    {
+      "source": "mapping_brain.json",
+      "value": "tbd",
+      "reason": "Official CMS placeholder; training renderer uses its bundled neuron-right/neuron-wrong media instead"
+    },
+    {
+      "source": "mapping_brain.json",
+      "value": "tbd",
+      "reason": "Official CMS placeholder; training renderer uses its bundled neuron-right/neuron-wrong media instead"
+    },
+    {
+      "source": "mapping_brain.json",
+      "value": "tbd",
+      "reason": "Official CMS placeholder; training renderer uses its bundled neuron-right/neuron-wrong media instead"
+    },
+    {
+      "source": "mapping_brain.json",
+      "value": "tbd",
+      "reason": "Official CMS placeholder; training renderer uses its bundled neuron-right/neuron-wrong media instead"
+    },
+    {
+      "source": "mapping_brain.json",
+      "value": "tbd",
+      "reason": "Official CMS placeholder; training renderer uses its bundled neuron-right/neuron-wrong media instead"
+    },
+    {
+      "source": "mapping_brain.json",
+      "value": "tbd",
+      "reason": "Official CMS placeholder; training renderer uses its bundled neuron-right/neuron-wrong media instead"
+    },
+    {
+      "source": "mapping_brain.json",
+      "value": "tbd",
+      "reason": "Official CMS placeholder; training renderer uses its bundled neuron-right/neuron-wrong media instead"
+    },
+    {
+      "source": "mapping_brain.json",
+      "value": "tbd",
+      "reason": "Official CMS placeholder; training renderer uses its bundled neuron-right/neuron-wrong media instead"
+    },
+    {
+      "source": "mapping_brain.json",
+      "value": "tbd",
+      "reason": "Official CMS placeholder; training renderer uses its bundled neuron-right/neuron-wrong media instead"
+    },
+    {
+      "source": "mapping_brain.json",
+      "value": "tbd",
+      "reason": "Official CMS placeholder; training renderer uses its bundled neuron-right/neuron-wrong media instead"
+    },
+    {
+      "source": "mapping_brain.json",
+      "value": "tbd",
+      "reason": "Official CMS placeholder; training renderer uses its bundled neuron-right/neuron-wrong media instead"
+    },
+    {
+      "source": "mapping_brain.json",
+      "value": "tbd",
+      "reason": "Official CMS placeholder; training renderer uses its bundled neuron-right/neuron-wrong media instead"
+    },
+    {
+      "source": "mapping_brain.json",
+      "value": "tbd",
+      "reason": "Official CMS placeholder; training renderer uses its bundled neuron-right/neuron-wrong media instead"
+    },
+    {
+      "source": "mapping_brain.json",
+      "value": "tbd",
+      "reason": "Official CMS placeholder; training renderer uses its bundled neuron-right/neuron-wrong media instead"
+    },
+    {
+      "source": "mapping_brain.json",
+      "value": "tbd",
+      "reason": "Official CMS placeholder; training renderer uses its bundled neuron-right/neuron-wrong media instead"
+    },
+    {
+      "source": "mapping_brain.json",
+      "value": "tbd",
+      "reason": "Official CMS placeholder; training renderer uses its bundled neuron-right/neuron-wrong media instead"
+    },
+    {
+      "source": "mapping_brain.json",
+      "value": "tbd",
+      "reason": "Official CMS placeholder; training renderer uses its bundled neuron-right/neuron-wrong media instead"
+    }
+  ],
+  "english_media_references": 384,
+  "english_missing_media": [],
+  "media_range_checks": 605,
+  "failed_media_ranges": [],
+  "http_security_checks": [
+    {
+      "path": "/reports/manifest.json",
+      "status": 404,
+      "pass": true
+    },
+    {
+      "path": "/scripts/server.mjs",
+      "status": 404,
+      "pass": true
+    },
+    {
+      "path": "/upstream-text/",
+      "status": 404,
+      "pass": true
+    },
+    {
+      "path": "/%2e%2e/README.md",
+      "status": 404,
+      "pass": true
+    },
+    {
+      "path": "/ai-quests/%5c..%5cREADME.md",
+      "status": 400,
+      "pass": true
+    },
+    {
+      "check": "write methods rejected",
+      "pass": true,
+      "status": 405
+    },
+    {
+      "check": "invalid range rejected",
+      "status": 416,
+      "pass": true
+    },
+    {
+      "check": "security headers",
+      "pass": true
+    }
+  ],
+  "upstream_failed_candidates": [
+    {
+      "url": "https://research.google/ai-quests/content/api/snapshot/20261023-141713/ar_ALL/blindness_detection.json",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/content/api/snapshot/20261023-141713/ar_ALL/brain_research.json",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/content/api/snapshot/20261023-141713/ar_il/blindness_detection.json",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/content/api/snapshot/20261023-141713/ar_il/brain_research.json",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/content/api/snapshot/20261023-141713/en_gb/blindness_detection.json",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/content/api/snapshot/20261023-141713/en_gb/brain_research.json",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/content/api/snapshot/20261023-141713/en_us/brain_research.json",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/content/api/snapshot/20261023-141713/en_us/blindness_detection.json",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/content/api/snapshot/20261023-141713/es_419/brain_research.json",
+      "status": "error",
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1035)>"
+    },
+    {
+      "url": "https://research.google/ai-quests/content/api/snapshot/20261023-141713/es_419/blindness_detection.json",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/content/api/snapshot/20261023-141713/es_es/blindness_detection.json",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/content/api/snapshot/20261023-141713/es_es/brain_research.json",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/content/api/snapshot/20261023-141713/fr_fr/blindness_detection.json",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/content/api/snapshot/20261023-141713/fr_fr/brain_research.json",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/content/api/snapshot/20261023-141713/he_il/brain_research.json",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/content/api/snapshot/20261023-141713/he_il/blindness_detection.json",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/content/api/snapshot/20261023-141713/it_it/blindness_detection.json",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/content/api/snapshot/20261023-141713/it_it/brain_research.json",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/content/api/snapshot/20261023-141713/ms_my/blindness_detection.json",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/content/api/snapshot/20261023-141713/ms_my/brain_research.json",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/content/api/snapshot/20261023-141713/pt_br/brain_research.json",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/content/api/snapshot/20261023-141713/pt_br/blindness_detection.json",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/content/api/snapshot/20261023-141713/pt_pt/blindness_detection.json",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/content/api/snapshot/20261023-141713/pt_pt/brain_research.json",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/content/api/snapshot/20261023-141713/tr_tr/blindness_detection.json",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/content/api/snapshot/20261023-141713/tr_tr/brain_research.json",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://fonts.gstatic.com",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://fonts.googleapis.com",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/bucket/marshes/6.0-market-stall-placement-tutorial-compressed.webp",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/bucket/marshes/ALIEN-floodhub-outro.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/bucket/marshes/it_it/Floodhub-real-world-video.webp",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/bucket/marshes/it_it/flood-interaction-intro.mp4",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/bucket/marshes/it_it/flood-interaction-intro.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/bucket/marshes/it_it/flood-interaction-intro.webp",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/webgl/ai-quests-en.svg",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/webgl/duskey-dunes-quest.glb",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/content/api/snapshot/https://auditrecording-pa.googleapis.com//.json",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/dunes/01_Privacy_Objective_UI.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/dunes/en_gb/DD_Outro.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/dunes/05_Field_testing_2_Objective_UI.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/dunes/06_Field_report_Objective_UI.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/dunes/03_Globe_Objective_UI.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/dunes/DD_Outro_ALIEN.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/dunes/04_Data_labelling_Objective_UI.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/dunes/DD_Cutscene_ALIEN.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/dunes/02_Field_testing_Objective_UI.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/dunes/DD_Intro_ALIEN.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/dunes/ar_ALL/training-02.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/dunes/ar_ALL/training-05.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/dunes/ar_ALL/training-04.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/dunes/ar_ALL/training-01.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/dunes/ar_ALL/training-03.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/dunes/en_gb/DD_Cutscene.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/dunes/Researcher_Interviews_ARDA.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/dunes/en_gb/DD_Intro.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/dunes/en_gb/training-01.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/dunes/en_gb/training-03.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/dunes/es_419/training-02.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/dunes/en_gb/training-05.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/dunes/es_419/training-01.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/dunes/en_gb/training-02.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/dunes/en_gb/training-04.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/dunes/es_419/training-03.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/dunes/es_419/training-04.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/dunes/es_es/training-02.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/dunes/es_es/training-03.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/dunes/es_es/training-04.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/dunes/es_es/training-01.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/dunes/es_419/training-05.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/dunes/fr_fr/training-01.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/dunes/es_es/training-05.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/dunes/fr_fr/training-04.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/dunes/fr_fr/training-02.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/dunes/fr_fr/training-03.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/dunes/fr_fr/training-05.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/dunes/he_il/training-02.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/dunes/he_il/training-01.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/dunes/he_il/training-04.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/dunes/he_il/training-03.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/dunes/it_it/DD_Cutscene_IT.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/dunes/it_it/DD_Intro_IT.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/dunes/he_il/training-05.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/dunes/it_it/DD_Outro_IT.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/dunes/it_it/training-01.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/dunes/it_it/Researcher_Interviews_ARDA.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/dunes/it_it/training-02.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/dunes/it_it/training-03.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/dunes/it_it/training-04.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/dunes/it_it/training-05.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/dunes/labelling-pipa-moderate.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/dunes/labelling-pipa-early-signs.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/dunes/labelling-pipa-healthy.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/dunes/labelling-pipa-thinking.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/dunes/labelling-pipa-severe.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/dunes/labelling-revisit-success.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/dunes/labelling-visus-healthy.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/dunes/labelling-visus-early-signs.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/dunes/labelling-visus-thinking.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/dunes/labelling-visus-severe.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/dunes/labelling-yaya-early-signs.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/dunes/labelling-visus-moderate.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/dunes/labelling-yaya-healthy.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/dunes/labelling-yaya-severe.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/dunes/labelling-yaya-thinking.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/dunes/labelling-yaya-moderate.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/dunes/ms_my/training-03.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/dunes/ms_my/training-02.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/dunes/ms_my/training-01.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/dunes/ms_my/training-05.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/dunes/ms_my/training-04.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/dunes/pt_br/training-01.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/dunes/pt_br/training-03.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/dunes/pt_br/training-02.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/dunes/pt_br/training-04.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/dunes/pt_pt/training-01.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/dunes/pt_br/training-05.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/dunes/pt_pt/training-03.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/dunes/pt_pt/training-02.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/dunes/pt_pt/training-04.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/dunes/pt_pt/training-05.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/dunes/recap-1-privacy.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/dunes/tr_tr/training-01.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/dunes/tr_tr/training-02.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/dunes/tr_tr/training-03.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/dunes/tr_tr/training-04.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/audio/dunes/tr_tr/training-05.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/bucket/peaks/en_gb/lab-day-night.mp4",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/bucket/peaks/en_gb/lab-day-night.webm",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/bucket/peaks/en_gb/lab-day-night.webp",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/bucket/tbd",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/mock/lab/04/note/.png",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/ui/inventory-bar-1.svg",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/ui/inventory-bar-2.svg",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/ui/inventory-bar-3.svg",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://research.google/ai-quests/assets/ui/inventory-bar-4.svg",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ]
+}

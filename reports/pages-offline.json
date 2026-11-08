@@ -1,0 +1,98 @@
+[
+  {
+    "name": "about",
+    "status": 200,
+    "heading": [
+      "Introducing AI Quests",
+      "Inspired by real-world AI research",
+      "Promotes active learning",
+      "Committed to closing the literacy gap",
+      "Ready to get started?",
+      "Footer links"
+    ],
+    "text": 1978,
+    "failed": [],
+    "errors": [],
+    "external": [],
+    "consoleErrors": []
+  },
+  {
+    "name": "faq",
+    "status": 200,
+    "heading": [
+      "FAQ",
+      "About AI Quests",
+      "General Questions",
+      "Troubleshooting and Partnerships",
+      "Footer links"
+    ],
+    "text": 4912,
+    "failed": [],
+    "errors": [],
+    "external": [],
+    "consoleErrors": []
+  },
+  {
+    "name": "teacher-resources",
+    "status": 200,
+    "heading": [
+      "\n      A new way to teach teens about AI\n      Teacher Guide\n    ",
+      "Market Marshes\n        Teacher Guide\n      ",
+      "Dusky Dunes\n        Teacher Guide\n      ",
+      "Polar Peaks\n        Teacher Guide\n      ",
+      "Teacher's Handbook\n      ",
+      "Pedagogical and Design Approach\n      ",
+      "\n          Additional Resources\n        ",
+      "Footer links"
+    ],
+    "text": 3683,
+    "failed": [],
+    "errors": [],
+    "external": [],
+    "consoleErrors": []
+  },
+  {
+    "name": "privacy-notice",
+    "status": 200,
+    "heading": [
+      "Privacy Notice",
+      "Footer links"
+    ],
+    "text": 1100,
+    "failed": [],
+    "errors": [],
+    "external": [],
+    "consoleErrors": []
+  },
+  {
+    "name": "videos",
+    "status": 200,
+    "heading": [
+      "\n      Students showcase: AI for societal impact\n      Get inspired by a new generation of problem solvers.\n    ",
+      "Footer links"
+    ],
+    "text": 3521,
+    "failed": [],
+    "errors": [],
+    "external": [
+      "https://www.youtube.com/embed/IaZlANTMhLo?rel=0&showinfo=0&origin=research.google",
+      "https://www.youtube.com/embed/Ekg3atBUEsI?rel=0&showinfo=0&origin=research.google",
+      "https://www.youtube.com/embed/oEqfA-0h4g8?controls=0?rel=0&showinfo=0&origin=research.google",
+      "https://www.youtube.com/embed/jStrRNNKP2U?rel=0&showinfo=0&origin=research.google",
+      "https://www.youtube.com/embed/SPWBHZ8rr6I?controls=0?rel=0&showinfo=0&origin=research.google",
+      "https://www.youtube.com/embed/OvPtvGnuqmg?rel=0&showinfo=0&origin=research.google",
+      "https://www.youtube.com/embed/otIN19ABBLI?rel=0&showinfo=0&origin=research.google",
+      "https://www.youtube.com/embed/SjRsnNDAHUM?rel=0&showinfo=0&origin=research.google",
+      "https://www.youtube.com/embed/vEfIFsZW-VQ?controls=0?rel=0&showinfo=0&origin=research.google",
+      "https://www.youtube.com/embed/cR5HPVrE1gI?rel=0&showinfo=0&origin=research.google",
+      "https://www.youtube.com/embed/LZu1pk3b2rM?controls=0?rel=0&showinfo=0&origin=research.google",
+      "https://www.youtube.com/embed/mkO77lPnDbw?rel=0&showinfo=0&origin=research.google",
+      "https://www.youtube.com/embed/uy2uWOBYttc?rel=0&showinfo=0&origin=research.google",
+      "https://www.youtube.com/embed/tEIJpMoaMTU?rel=0&showinfo=0&origin=research.google",
+      "https://www.youtube.com/embed/AnV3mTZ1FNg?controls=0?rel=0&showinfo=0&origin=research.google",
+      "https://www.youtube.com/embed/lBCoFPuxT_s?rel=0&showinfo=0&origin=research.google",
+      "https://www.youtube.com/embed/OCsRTM49tZk?rel=0&showinfo=0&origin=research.google"
+    ],
+    "consoleErrors": []
+  }
+]

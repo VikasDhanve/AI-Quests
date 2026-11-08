@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-08",
+  "snapshot": "20261023-141713",
+  "files": 1746,
+  "upstream_bytes": 1085015830,
+  "game_quests": 3,
+  "offline_quest_scene_checks_passed": 3,
+  "official_locale_home_checks_passed": 13,
+  "teacher_handout_pdfs": 5,
+  "english_media_references": 384,
+  "missing_valid_english_media": 0,
+  "media_range_checks_passed": 605,
+  "source_hash_failures": 0,
+  "all_puzzles_completed": false,
+  "external_showcase_videos": 17,
+  "external_showcase_archived": false,
+  "translation_started": false
+}

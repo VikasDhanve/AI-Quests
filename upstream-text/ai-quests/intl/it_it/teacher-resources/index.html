@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+
+<html lang="it" dir="ltr">
+
+<head>
+  <title>AI Quests</title>
+  <meta name="description" content="AI Quests: un&#39;esperienza educativa ludica sull&#39;AI per studenti delle scuole medie (11-14 anni). Missioni senza codice su progetti Google reali per risolvere problemi sociali.">
+  <meta name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1" />
+  <meta name="url" content="https://research.google/ai-quests/intl/it_it">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="AI Quests">
+  <meta property="og:description" content="AI Quests: un&#39;esperienza educativa ludica sull&#39;AI per studenti delle scuole medie (11-14 anni). Missioni senza codice su progetti Google reali per risolvere problemi sociali.">
+  <meta property="og:url" content="https://research.google/ai-quests/intl/it_it">
+  <meta property="og:image" content="https://research.google/ai-quests/assets/bucket/global/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@GoogleResearch">
+  <meta name="twitter:title" content="AI Quests">
+  <meta name="twitter:description" content="AI Quests: un&#39;esperienza educativa ludica sull&#39;AI per studenti delle scuole medie (11-14 anni). Missioni senza codice su progetti Google reali per risolvere problemi sociali.">
+  <meta name="twitter:image" content="https://research.google/ai-quests/assets/bucket/global/og-image.jpg">
+
+  <link rel="shortcut icon"
+      href="https://www.gstatic.com/images/branding/searchlogo/ico/favicon.ico"
+      type="image/x-icon">
+  <link rel="canonical" href="https://research.google/ai-quests/intl/it_it">
+  <meta name="robots" content="noindex">
+
+  <link rel="stylesheet"
+      href="/ai-quests/static/non-app/styles.52112f772c831cac6bc6.css">
+
+  <script type="speculationrules" nonce="wWWVtJSb0eJZrghgaif0TbLNT5MamIZZ">
+      {
+        "prerender": [{
+          "where": { "selector_matches": ".prerender" },
+          "eagerness": "immediate"
+        }]
+      }
+    </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload"
+      href="https://fonts.googleapis.com/css2?family=Product+Sans&family=Google+Sans+Display:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Google+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Google+Sans+Text:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
+      as="style" crossorigin>
+  <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Product+Sans&family=Google+Sans+Display:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Google+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Google+Sans+Text:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap">
+
+  <script nonce="wWWVtJSb0eJZrghgaif0TbLNT5MamIZZ">
+    partytown = {
+      forward: ['dataLayer.push'],
+      lib: '/ai-quests/static/~partytown/',
+    };
+  </script>
+  
+  <script type="module" nonce="wWWVtJSb0eJZrghgaif0TbLNT5MamIZZ">
+    const t = { preserveBehavior: !1 }, e = e => { if ("string" == typeof e) return [e, t]; const [n, r = t] = e; return [n, { ...t, ...r }] }, n = Object.freeze((t => { const e = new Set; let n = []; do { Object.getOwnPropertyNames(n).forEach((t => { "function" == typeof n[t] && e.add(t) })) } while ((n = Object.getPrototypeOf(n)) !== Object.prototype); return Array.from(e) })()); !function (t, r, o, i, a, s, c, d, l, p, u = t, f) { function h() { f || (f = 1, "/" == (c = (s.lib || "/~partytown/") + (s.debug ? "debug/" : ""))[0] && (l = r.querySelectorAll('script[type="text/partytown"]'), i != t ? i.dispatchEvent(new CustomEvent("pt1", { detail: t })) : (d = setTimeout(v, 1e4), r.addEventListener("pt0", w), a ? y(1) : o.serviceWorker ? o.serviceWorker.register(c + (s.swPath || "partytown-sw.js"), { scope: c }).then((function (t) { t.active ? y() : t.installing && t.installing.addEventListener("statechange", (function (t) { "activated" == t.target.state && y() })) }), console.error) : v()))) } function y(e) { p = r.createElement(e ? "script" : "iframe"), t._pttab = Date.now(), e || (p.style.display = "block", p.style.width = "0", p.style.height = "0", p.style.border = "0", p.style.visibility = "hidden", p.setAttribute("aria-hidden", !0)), p.src = c + "partytown-" + (e ? "atomics.js?v=0.10.1" : "sandbox-sw.html?" + t._pttab), r.querySelector(s.sandboxParent || "body").appendChild(p) } function v(n, o) { for (w(), i == t && (s.forward || []).map((function (n) { const [r] = e(n); delete t[r.split(".")[0]] })), n = 0; n < l.length; n++)(o = r.createElement("script")).innerHTML = l[n].innerHTML, o.nonce = s.nonce, r.head.appendChild(o); p && p.parentNode.removeChild(p) } function w() { clearTimeout(d) } s = t.partytown || {}, i == t && (s.forward || []).map((function (r) { const [o, { preserveBehavior: i }] = e(r); u = t, o.split(".").map((function (e, r, o) { var a; u = u[o[r]] = r + 1 < o.length ? u[o[r]] || (a = o[r + 1], n.includes(a) ? [] : {}) : (() => { let e = null; if (i) { const { methodOrProperty: n, thisObject: r } = ((t, e) => { let n = t; for (let t = 0; t < e.length - 1; t += 1)n = n[e[t]]; return { thisObject: n, methodOrProperty: e.length > 0 ? n[e[e.length - 1]] : void 0 } })(t, o); "function" == typeof n && (e = (...t) => n.apply(r, ...t)) } return function () { let n; return e && (n = e(arguments)), (t._ptf = t._ptf || []).push(o, arguments), n } })() })) })), "complete" == r.readyState ? h() : (t.addEventListener("DOMContentLoaded", h), t.addEventListener("load", h)) }(window, document, navigator, top, window.crossOriginIsolated);
+  </script>
+
+  
+  <script type="text/partytown">
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-MSJQNWBG');
+    </script>
+
+  <script type="text/partytown" nonce="wWWVtJSb0eJZrghgaif0TbLNT5MamIZZ">
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'GTM-MSJQNWBG');
+    </script>
+  <script type="text/partytown" defer
+      src="https://www.gstatic.com/glue/cookienotificationbar/cookienotificationbar.min.js"
+      data-glue-cookie-notification-bar-category="2B"
+      nonce="wWWVtJSb0eJZrghgaif0TbLNT5MamIZZ"></script>
+  <link rel="stylesheet"
+      href="https://www.gstatic.com/glue/cookienotificationbar/cookienotificationbar.min.css">
+
+  <noscript>
+    <link rel="stylesheet"
+        href="//www.gstatic.com/glue/v27_1/glue-no-js.min.css">
+  </noscript>
+
+  <script defer="defer"
+      src="/ai-quests/static/non-app/index.16b2124454e82506163b.js"
+      nonce="wWWVtJSb0eJZrghgaif0TbLNT5MamIZZ"></script>
+  
+<script defer="defer"
+    src="/ai-quests/static/non-app/teacher_resources.61758f5b451950c68026.js"
+    nonce="wWWVtJSb0eJZrghgaif0TbLNT5MamIZZ"></script>
+
+</head>
+
+<body>
+  <noscript>
+    <iframe class="gtm-iframe"
+        src="https://www.googletagmanager.com/ns.html?id=GTM-MSJQNWBG"
+        height="0" width="0"></iframe>
+  </noscript>
+  
+<div class="aiq aiq-teacher-resource glue-body">
+
+  
+
+
+
+
+
+<header class="aiq-page-nav__header">
+  <div class="aiq-page-nav__header-row glue-page">
+    <div class="aiq-page-nav__actions">
+      <button aria-label="Menu"
+          class="glue-button glue-button--low-emphasis glue-button--reversed glue-button--icon aiq-page-nav__menu-button">
+        <svg role="presentation" aria-hidden="true">
+          <use
+              href="/ai-quests/assets/icons/glue-icons.svg?v=73ffd59-1792762909979#menu" />
+        </svg>
+        Menu
+      </button>
+      <div class="aiq-page-nav__menu aiq-page-nav__menu--collapsed">
+        <div class="aiq-page-nav__menu__backdrop"></div>
+        <button aria-label="Chiudi"
+            class="glue-button glue-button--low-emphasis glue-button--reversed glue-button--icon aiq-page-nav__menu-button">
+          <svg role="presentation" aria-hidden="true">
+            <use
+                href="/ai-quests/assets/icons/glue-icons.svg?v=73ffd59-1792762909979#close" />
+          </svg>
+          Chiudi
+        </button>
+        <ul class="glue-no-bullet">
+          
+          
+          
+          <li>
+            <a href="/ai-quests/intl/it_it/" aria-label="Gioca"
+                class="glue-button glue-button--low-emphasis glue-button--reversed glue-button--icon aiq-page-nav__menu-link">
+              <svg role="presentation" aria-hidden="true">
+                <use
+                    href="/ai-quests/assets/icons/icons.svg?v=73ffd59-1792762909979#rocket-launch" />
+              </svg>
+              <span class="aiq-page-nav__header-button">Gioca</span>
+            </a>
+          </li>
+          
+          
+          
+          
+          <li>
+            <a href="/ai-quests/intl/it_it/about" aria-label="Informazioni"
+                class="glue-button glue-button--low-emphasis glue-button--reversed glue-button--icon aiq-page-nav__menu-link">
+              <svg role="presentation" aria-hidden="true">
+                <use
+                    href="/ai-quests/assets/icons/icons.svg?v=73ffd59-1792762909979#info" />
+              </svg>
+              <span class="aiq-page-nav__header-button">Informazioni</span>
+            </a>
+          </li>
+          
+          
+          
+          
+          <li>
+            <a href="/ai-quests/intl/it_it/faq" aria-label="FAQ"
+                class="glue-button glue-button--low-emphasis glue-button--reversed glue-button--icon aiq-page-nav__menu-link">
+              <svg role="presentation" aria-hidden="true">
+                <use
+                    href="/ai-quests/assets/icons/icons.svg?v=73ffd59-1792762909979#live-help" />
+              </svg>
+              <span class="aiq-page-nav__header-button">FAQ</span>
+            </a>
+          </li>
+          
+          
+          
+          
+          <li>
+            <a href="/ai-quests/intl/it_it/teacher-resources" aria-label="Risorse per insegnanti"
+                class="glue-button glue-button--low-emphasis glue-button--reversed glue-button--icon aiq-page-nav__menu-link">
+              <svg role="presentation" aria-hidden="true">
+                <use
+                    href="/ai-quests/assets/icons/icons.svg?v=73ffd59-1792762909979#school" />
+              </svg>
+              <span class="aiq-page-nav__header-button">Risorse per insegnanti</span>
+            </a>
+          </li>
+          
+          
+          
+          
+          <li>
+            <a href="/ai-quests/intl/it_it/privacy-notice" aria-label="Informativa sulla privacy"
+                class="glue-button glue-button--low-emphasis glue-button--reversed glue-button--icon aiq-page-nav__menu-link">
+              <svg role="presentation" aria-hidden="true">
+                <use
+                    href="/ai-quests/assets/icons/icons.svg?v=73ffd59-1792762909979#privacy-tip" />
+              </svg>
+              <span class="aiq-page-nav__header-button">Informativa sulla privacy</span>
+            </a>
+          </li>
+          
+          
+          
+          
+          
+        </ul>
+      </div>
+    </div>
+    
+    <div class="aiq-page-nav__site-name">
+      <a href="/ai-quests/intl/it_it" title="Home">
+        <img src="/ai-quests/assets/bucket/icons/ai_quests_logo_small.webp?v=73ffd59-1792762909979"
+            alt="" />
+      </a>
+    </div>
+    
+    <div class="aiq-page-nav__logos">
+      <div class="aiq-page-nav__logos__container">
+        <div class="aiq-page-nav__logos__google-research">
+          <svg aria-hidden="true" role="presentation">
+            <use
+                href="/ai-quests/assets/icons/research-logo.svg?v=73ffd59-1792762909979#logo" />
+          </svg>
+        </div>
+        <div class="aiq-page-nav__and">
+          <svg width="2" height="18" viewBox="0 0 2 18" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+            <path d="M1.14453 0.705811V20.7058" stroke="white"
+                stroke-width="0.5" />
+          </svg>
+        </div>
+        <div class="aiq-page-nav__logos__stanford-learning">
+          <img width="125" height="45"
+              src="/ai-quests/assets/icons/stanford-acc-learning-logo.webp?v=73ffd59-1792762909979"
+              alt="Stanford Accelerator for Learning" />
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</header>
+
+  <div class="aiq-container glue-page">
+    
+
+<div class="aiq-teacher-resource__header">
+  <div class="aiq-teacher-resource__header-banner">
+    <div class="aiq-teacher-resource__eyebrow">AI Quests</div>
+    <h1 class="aiq-teacher-resource__title aiq-typesystem-h1">
+      Un nuovo modo di insegnare l&#39;AI agli adolescenti<br>
+      <span class="aiq-teacher-resource__title-accent">Guida per l&#39;Insegnante</span>
+    </h1>
+  </div>
+</div>
+
+
+<section class="aiq-teacher-resource__hero">
+  
+  <div class="aiq-hero__media aiq-reveal-on-scroll">
+    <video
+        poster="/ai-quests/assets/bucket/pages/Stamford_intro_video.webp?v=73ffd59-1792762909979"
+         id="trailer-tr" playsinline data-tr>
+      
+      <source src="/ai-quests/assets/bucket/pages/AI_QUESTS_STANFORD_RONIT_15_1_1.webm?v=73ffd59-1792762909979"
+          type="video/webm" />
+      
+      
+      
+      <track default kind="captions"
+          src="data:text/vtt;base64,V0VCVlRUCgoKMDA6MDMuMDAwIC0tPiAwMDoxMC4wMDAKTmVpIG5vc3RyaSBjb25mcm9udGkgY29uIGdsaSBlZHVjYXRvcmkgZGkgdHV0dG8gaWwgbW9uZG8gw6ggZW1lcnNvIGNoZSwgc2ViYmVuZSBjaSBzaWFubyBtb2x0aSBvdHRpbWkgY29udGVudXRpIGRpIGFsZmFiZXRpenphemlvbmUgc3VsbCdBSSwKCjAwOjEwLjAwMCAtLT4gMDA6MTcuMDAwCm5vbiBjJ8OoIGFiYmFzdGFuemEgZW5mYXNpIHN1IGNvbWUgdXNhcmUgbCdBSSBwZXIgYWZmcm9udGFyZSBsZSBwacO5IGdyYW5kaSBzZmlkZSBkZWxsJ3VtYW5pdMOgLgoKMDA6MTcuMDAwIC0tPiAwMDoyNi4wMDAKQ2kgc2lhbW8gY2hpZXN0aTogY29tZSBwb3NzaWFtbyB2YWxvcml6emFyZSBsYSBub3N0cmEgcmljZXJjYSBzdWxsJ0FJIHBlciBjb2xtYXJlIHF1ZXN0YSBsYWN1bmEgaW4gbW9kbyBkaXZlcnRlbnRlIGUgY29pbnZvbGdlbnRlIHBlciBnbGkgYWRvbGVzY2VudGk/CgowMDoyNi4wMDAgLS0+IDAwOjMwLjAwMArDiCBjb3PDrCBjaGUgw6ggbmF0byBBSSBRdWVzdHMuCgowMDozMC4wMDAgLS0+IDAwOjQ1LjAwMApBSSBRdWVzdHMgw6ggdW4nZXNwZXJpZW56YSBnYW1lZmljYXRhIGRpIGFwcHJlbmRpbWVudG8gaW4gY2xhc3NlIGNoZSBtZXR0ZSBnbGkgc3R1ZGVudGkgbmVpIHBhbm5pIGRlaSByaWNlcmNhdG9yaSBkaSBHb29nbGUsIGNoZSB1c2FubyBsJ0FJIHBlciBhZmZyb250YXJlIGxlIHNmaWRlIGRlbCBtb25kbyByZWFsZSBpbiBhbWJpdG8gY2xpbWF0aWNvLCBzYW5pdGFyaW8gZSBzY2llbnRpZmljby4KCjAwOjQ1LjAwMCAtLT4gMDA6NTguMDAwCkNpIHNpYW1vIHJlc2kgY29udG8gY2hlIG5vbiBwb3RldmFtbyBlIG5vbiBkb3ZldmFtbyBhZmZyb250YXJsZSBkYSBzb2xpLiBBdmV2YW1vIGJpc29nbm8gZGkgdW4gcGFydG5lciBkaSBsaXZlbGxvIG1vbmRpYWxlIGNvbiBjb21wZXRlbnplIHBlZGFnb2dpY2hlIGUgdW5hIHByb2ZvbmRhIGNvbm9zY2VuemEgZGkgcXVlc3RhIGZhc2NpYSBkJ2V0w6AuCgowMDo1OC4wMDAgLS0+IDAxOjAzLjAwMApFIHNpYW1vIGZvcnR1bmF0aSBhZCBhdmVyZSBsbyBTdGFuZm9yZCBBY2NlbGVyYXRvciBmb3IgTGVhcm5pbmcgY29tZSBwYXJ0bmVyLgoKMDE6MDMuMDAwIC0tPiAwMToxMS4wMDAKTm9pIHBvcnRpYW1vIGxhIG5vc3RyYSByaWNlcmNhIGFsbCdhdmFuZ3VhcmRpYSBzdWwgbW9uZG8gcmVhbGUgZSBsb3JvIHBvcnRhbm8gbGEgbG9ybyBlc3BlcmllbnphIHBlZGFnb2dpY2EuIMOIIHVuIGFiYmluYW1lbnRvIHBlcmZldHRvLgoKMDE6MTIuMDAwIC0tPiAwMToyMS4wMDAKTG8gc3RhbmRhcmQgbmVsIGRlc2lnbiBkaSBxdWFsc2lhc2kgZXNwZXJpZW56YSBvIHJpc29yc2EgZm9ybWF0aXZhIMOoIGluY2VudHJhdG8gc3VsbGEgInByb2dldHRhemlvbmUgYSByaXRyb3NvIiAoYmFja3dhcmRzIGRlc2lnbikuCgowMToyMS4wMDAgLS0+IDAxOjM0LjAwMApBSSBRdWVzdHMgYWl1dGEgYSBzdmlsdXBwYXJlIHVuYSBjb21wcmVuc2lvbmUgZHVyYXR1cmEgaW5zZXJlbmRvbGEgaW4gY29udGVzdCByZWFsaSBjaGUgaGFubm8gdmluY29saSwgc2ZpZGUgZSBhbHRyaSBwZXJzb25hZ2dpIGNvaW52b2x0aSwgY29tZSBuZWxsYSB2aXRhIGRpIHR1dHRpIGkgZ2lvcm5pLgoKMDE6MzQuMDAwIC0tPiAwMTo0MS4wMDAKUmltYW5pYW1vIGZlZGVsaSBhaSBwcmluY2lwaSBjaGlhdmUgZGVsbGUgc2NpZW56ZSBkZWxsJ2FwcHJlbmRpbWVudG8sIG1hIHN0aWFtbyBhbmNoZSBjb3N0cnVlbmRvIHVuJ2VzcGVyaWVuemEgZSB1bmEgY29tcHJlbnNpb25lIGNvZXJlbnRpIHBlciBnbGkgc3R1ZGVudGkuCgowMTo0Mi4wMDAgLS0+IDAxOjQ2LjAwMApOb24gdm9sZXZhbW8gc29sbyBzcGllZ2FyZSBjb21lIGZ1bnppb25hIGwnQUkgYWdsaSBzdHVkZW50aSwKCjAxOjQ2LjAwMCAtLT4gMDE6NTcuMDAwCmNvbWUgaW4gdW4gdHV0b3JpYWwuIFF1aW5kaSBub24gY2kgbGltaXRpYW1vIGEgc3BpZWdhcmUgbCdpbXBvcnRhbnphIGRlbGxlIGRlY2lzaW9uaSB1bWFuZSBuZWxsbyBzdmlsdXBwbyBlIG5lbGwnaW1wbGVtZW50YXppb25lIGRlaSBzaXN0ZW1pIGRpIEFJLCBtYSBsbyBmYWNjaWFtbyBzcGVyaW1lbnRhcmUgaW4gcHJpbWEgcGVyc29uYS4KCjAxOjU4LjAwMCAtLT4gMDI6MDUuMDAwCkwnZXNwZXJpZW56YSBnYW1pZmljYXRhIGRpIGFwcHJlbmRpbWVudG8gaW4gQUkgUXVlc3RzIHRyYXNmb3JtYSBsJ2FsZmFiZXRpenphemlvbmUgc3VsbCdBSSBpbiB1biBwZXJjb3JzbyBpbiBjdWkgZ2xpIHN0dWRlbnRpIHJpc29sdm9ubyBwcm9ibGVtaS4KCjAyOjA1LjAwMCAtLT4gMDI6MTEuMDAwClBvc3Nvbm8gZmFyZSBzY2VsdGUgcmVsYXRpdmUgYWkgZGF0aSwgYXNzdW1lcmUgaWwgcnVvbG8gZGkgcmlzb2x1dG9yaSBkaSBwcm9ibGVtaSwKCjAyOjExLjAwMCAtLT4gMDI6MTguMDAwCmUgdmVkZXJlIGNvbWUgdHV0dGUgcXVlc3RlIHNjZWx0ZSBzaSB0cmFzZm9ybWFubyBpbiBzb2x1emlvbmkgZGVsIG1vbmRvIHJlYWxlIGUsIHNlIGZhbGxpc2Nvbm8sCgowMjoxOC4wMDAgLS0+IDAyOjIyLjAwMApwb3Nzb25vIHRvcm5hcmUgaW5kaWV0cm8gZSBmYXJlIHNjZWx0ZSBpbmZvcm1hdGUuCgowMjoyMi4wMDAgLS0+IDAyOjM1LjAwMApVbm8gZGVpIG1vZGkgaW4gY3VpIHN2aWx1cHBpYW1vIEFJIFF1ZXN0cyBpbmNsdWRlIGwndXNvIGRpIHZhcmkgYWdlbnRpIHBlZGFnb2dpY2ksIGkgcGVyc29uYWdnaSBkaWdpdGFsaSBjaGUgc3ZvbGdvbm8gdW4gcnVvbG8gaW1wb3J0YW50ZSBuZWwgcHJvY2Vzc28gZGkgaW5zZWduYW1lbnRvIGUgYXBwcmVuZGltZW50by4KCjAyOjM1LjAwMCAtLT4gMDI6NDMuMDAwClF1aW5kaSwgbGEgUHJvZmVzc29yZXNzYSBTa3llZSBzdm9sZ2Ugw6ggbGEgbWVudG9yZS4gQWl1dGEgYSBndWlkYXJlIGdsaSBzdHVkZW50aSwgbGkgaW5jb3JhZ2dpYSBhIHJpZmxldHRlcmUsCgowMjo0My4wMDAgLS0+IDAyOjQ4LjAwMAplIG1vZGVsbGEgaWwgcmFnaW9uYW1lbnRvIGRlZ2xpIGVzcGVydGkuIFVuIGFsdHJvIHRpcG8gZGkgcGVyc29uYWdnaW8sCgowMjo0OC4wMDAgLS0+IDAyOjU0LjAwMAppbCBEci4gVmlzdXMsIHBlciBlc2VtcGlvLCDDqCB1biBlc3BlcnRvIGluIG1hdGVyaWEgZSBwdcOyIGRhcmUgaW5mb3JtYXppb25pIHNwZWNpYWxpc3RpY2hlIHN1bCBzZXR0b3JlIGRpIHJpZmVyaW1lbnRvLgoKMDI6NTQuMDAwIC0tPiAwMzowNy4wMDAKRSBwb2kgYyfDqCB1biB0ZXJ6byB0aXBvIGRpIHBlcnNvbmFnZ2lvLCByZWFsdMOgIGlsIG1pbyBwcmVmZXJpdG8sIGNoZSBzb25vIHF1ZWxsaSBjaGUgdm9nbGlvbm8gc2FwZXJuZSBkaSBwacO5IHN1bGwnQUkgcGVyIGNvbnRpbnVhcmUgYWQgYWl1dGFyZSBsZSBsb3JvIGNvbXVuaXTDoC4gR2xpIHN0dWRlbnRpIGxpIGFpdXRhbm8gZSBnbGkgaW5zZWduYW5vIGEgdXNhcmxhLgoKMDM6MDcuMDAwIC0tPiAwMzoyMi4wMDAKSW4gQUkgUXVlc3RzIGZvcm5pYW1vIGdsaSBzcGF6aSBpbiBjdWkgZ2xpIHN0dWRlbnRpIHBvc3Nvbm8gZXNwcmltZXJlIGxhIGxvcm8gYXR0ZW56aW9uZSwgbCdlbXBhdGlhIGUgbGUgbG9ybyBkZWNpc2lvbmkgc3UgY29tZSBwcm9jZWRlcmUgY29uIHVuYSBzZXJpZSBkaSBhdHRpdml0w6AgY2hlIGF2cmFubm8gdW4gaW1wYXR0byBuZWwgY29udGVzdG8gZGkgZ2lvY28uCgowMzoyMy4wMDAgLS0+IDAzOjM0LjAwMApBSSBRdWVzdHMgcHJvbXVvdmUgcHJpbmNpcGkgY29tZSBsYSBjb25zYXBldm9sZXp6YSBldGljYSBzdWxsJ0FJIG8gbGEgY2FwYWNpdMOgIGRlbGwnQUkgZGkgbWlnbGlvcmFyZSBsZSBkZWNpc2lvbmkgdW1hbmUuIFBlbnNvIGNoZSBzaWFubyBtb2x0byBpbXBvcnRhbnRpLgoKMDM6MzUuMDAwIC0tPiAwMzo0My4wMDAKU3Blc3NvIGdsaSBhZG9sZXNjZW50aSBzb25vIHNvbG8gY29uc3VtYXRvcmkgZGkgQUkuIEluIEFJIFF1ZXN0cywgc29ubyBpbiB1biBydW9sbyBhdHRpdm8gZSBjcmVhdGl2byBuZWkgY29uZnJvbnRpIGRlbGwnQUkuCgowMzo0NC4wMDAgLS0+IDAzOjU1LjAwMApFIHF1ZXN0byBsaSBhaXV0YSBzaWEgYSB2ZWRlcnNpIGluIHF1ZWwgcnVvbG8gY2hpYXZlIHNpYSBhIGNvbXByZW5kZXJlIG1lZ2xpbyBjb21lIHZlbmdvbm8gc3ZpbHVwcGF0aSBpIHNpc3RlbWkgZGkgQUksIGlsIGNoZSBwdcOyIHJlbmRlcmxpIGNvbnN1bWF0b3JpIGRpIEFJIHBpw7kgY3JpdGljaS4KCjAzOjU1LjAwMCAtLT4gMDQ6MDIuMDAwCkxhIG5vc3RyYSBwYXJ0bmVyc2hpcCBjb24gR29vZ2xlIFJlc2VhcmNoIMOoIHVuIHBvdGVudGUgZXNlbXBpbyBkaSBjb21lIGlsIG1vbmRvIGFjY2FkZW1pY28gZSBsJ2luZHVzdHJpYSBwb3NzYW5vIGluY29udHJhcnNpLgoKMDQ6MDIuMDAwIC0tPiAwNDoxNC4wMDAKTGEgcHJvZm9uZGEgZXNwZXJpZW56YSB0ZWNuaWNhIGRpIEdvb2dsZSBlIGwnYW1waW8gcG9ydGFmb2dsaW8gZGkgcHJvZ2V0dGkgZGkgQUksIGNvbWJpbmF0aSBjb24gbGUgbm9zdHJlIGNvbm9zY2VuemUgZSBwcm9jZXNzaSBkaSBkZXNpZ24gaW4gc2NpZW56YSBkZWxsJ2FwcHJlbmRpbWVudG8sIHNvbm8gc3RhdGkgdW4gZmF0dG9yZSBjaGlhdmUgbmVsbG8gc3ZpbHVwcG8gZGkgcXVlc3RvIGFwcHJvY2NpbyBpbm5vdmF0aXZvIGFsbCdhbGZhYmV0aXp6YXppb25lIHN1bGwnQUkuCgowNDoxNC4wMDAgLS0+IDA0OjI4LjAwMApTaWFtbyBvcmdvZ2xpb3NpIGRpIHBvcnRhcmUgbG8gc3Bpcml0byBkaSBpbm5vdmF6aW9uZSBkaSBHb29nbGUgUmVzZWFyY2ggZGlyZXR0YW1lbnRlIGFnbGkgZWR1Y2F0b3JpIGUgYWkgY2l0dGFkaW5pIGRpIGRvbWFuaSwgZSBkaSBjb250cmlidWlyZSBhIHVuIG1vbmRvIGluIGN1aSBxdWVzdGEgY29ub3NjZW56YSBub24gw6ggdW4gcHJpdmlsZWdpbyBtYSDDqCBkaXNwb25pYmlsZSBwZXIgdHV0dGku" />
+      
+    </video>
+    <button class="aiq-hero__toggle" data-for="trailer-tr" aria-label="Play"
+        aria-pressed="false">
+      <span class="aiq-hero__toggle__label" aria-hidden="true">
+        <img src="/ai-quests/assets/icons/play.svg?v=73ffd59-1792762909979" alt=""
+            class="aiq-hero__toggle__icon" />
+      </span>
+    </button>
+  </div>
+  
+
+  
+</section>
+
+    
+
+
+
+<div
+    class="glue-jumplinks glue-jumplinks--non-sticky glue-jumplinks--transparent aiq-reveal-on-scroll">
+  
+  <ul class="glue-jumplinks__list"
+      data-glue-jumplink-label="Jump to section within page">
+    
+    <div class="glue-jumplinks__eyebrow">
+      In questa pagina
+    </div>
+    
+    
+    
+    <li class="glue-jumplinks__list-item">
+      <a class="glue-jumplinks__link"
+          href="#teachers-guide">Guide per gli insegnanti</a>
+    </li>
+    
+    
+    
+    <li class="glue-jumplinks__list-item">
+      <a class="glue-jumplinks__link"
+          href="#handbook">Manuale dell'insegnante</a>
+    </li>
+    
+    
+    
+    <li class="glue-jumplinks__list-item">
+      <a class="glue-jumplinks__link"
+          href="#pedagogical">Approccio pedagogico e progettuale</a>
+    </li>
+    
+    
+    
+    
+  </ul>
+  
+</div>
+
+    
+
+<section class="aiq-grid">
+  
+  <div class="aiq-grid__pair aiq-grid__pair--figure-first" 
+      id="teachers-guide" >
+    <article class="aiq-card aiq-card__text aiq-reveal-on-scroll">
+      <h2 class="aiq-typesystem-h2">Fiera Fluviale
+        <span>Guida per l&#39;Insegnante</span>
+      </h2>
+      <p><p>Questa è la tua risorsa completa per la missione immersiva di Previsione delle alluvioni, chiamata Fiera Fluviale. Qui troverai una panoramica completa della missione, inclusi gli obiettivi di apprendimento, i collegamenti alle aree tematiche fondamentali e le note opzionali per gli studenti che puoi usare in classe. Abbiamo incluso anche una guida rapida per la preparazione, una descrizione dettagliata del flusso delle attività e risorse supplementari per sostenere l'apprendimento dei tuoi studenti sia durante che dopo la missione.</p></p>
+      
+      <div class="aiq-teacher-resource__links">
+        
+        
+        <a class="glue-button glue-button--icon-right glue-button--low-emphasis glue-button--reversed aiq-card__doc-btn"
+            href="https://docs.google.com/document/d/1c8s7puuOYJg_T5iEW9azv5seh6-sGewc03USU6WfrRM/edit?usp=drive_link"
+             target="_blank"
+            rel="noopener" >
+          Google Drive
+          
+          <svg role="presentation" aria-hidden="true"
+              class="glue-icon glue-icon--24px">
+            <use href="/ai-quests/assets/icons/glue-icons.svg#open-in-new" />
+          </svg>
+          
+        </a>
+        
+      </div>
+      
+    </article>
+    
+    <figure class="aiq-card aiq-card__image aiq-reveal-on-scroll">
+      
+      <img src="/ai-quests/assets/bucket/pages/Teacher-resources-Market-Marshes.webp?v=73ffd59-1792762909979"
+          alt="" loading="lazy"
+          width="588" height="588" />
+      
+    </figure>
+    
+  </div>
+  
+  <div class="aiq-grid__pair aiq-grid__pair--figure-first" 
+      id="dusky-dunes" >
+    <article class="aiq-card aiq-card__text aiq-reveal-on-scroll">
+      <h2 class="aiq-typesystem-h2">Canyon Crepuscolo
+        <span>Guida per l&#39;insegnante</span>
+      </h2>
+      <p><p>Canyon Crepuscolo mostra come si può usare l'AI aiutare i medici a diagnosticare le malattie agli occhi. Raccogliendo dati e addestrando un modello di AI, gli studenti sperimentano le decisioni e i processi che i ricercatori di AI usano per risolvere i problemi della comunità.</p></p>
+      
+      <div class="aiq-teacher-resource__links">
+        
+        
+        <a class="glue-button glue-button--icon-right glue-button--low-emphasis glue-button--reversed aiq-card__doc-btn"
+            href="https://docs.google.com/document/d/1bW4NEToPR_aJW5sfzF5QVtHmYjtOvi6mwkBpUqmRQUA/edit?tab=t.0#heading=h.2a4x38zefjih"
+             target="_blank"
+            rel="noopener" >
+          Google Drive
+          
+          <svg role="presentation" aria-hidden="true"
+              class="glue-icon glue-icon--24px">
+            <use href="/ai-quests/assets/icons/glue-icons.svg#open-in-new" />
+          </svg>
+          
+        </a>
+        
+      </div>
+      
+    </article>
+    
+    <figure class="aiq-card aiq-card__image aiq-reveal-on-scroll">
+      
+      <img src="/ai-quests/assets/bucket/pages/Teacher-resources-Dusky-Dunes.webp?v=73ffd59-1792762909979"
+          alt="" loading="lazy"
+          width="588" height="588" />
+      
+    </figure>
+    
+  </div>
+  
+  <div class="aiq-grid__pair aiq-grid__pair--figure-first" 
+      id="laughter-lab" >
+    <article class="aiq-card aiq-card__text aiq-reveal-on-scroll">
+      <h2 class="aiq-typesystem-h2">Studio Sbellicoso
+        <span>Guida per l&#39;insegnante</span>
+      </h2>
+      <p><p>Il Laboratorio della Risata illustra come l'IA può essere utilizzata per mappare il cervello. Preparando i dati e addestrando un modello di IA, gli studenti sperimentano alcune delle decisioni e dei processi che gli scienziati usano per accelerare le scoperte nelle neuroscienze e nella medicina.</p></p>
+      
+      <div class="aiq-teacher-resource__links">
+        
+        
+        <a class="glue-button glue-button--icon-right glue-button--low-emphasis glue-button--reversed aiq-card__doc-btn"
+            href="https://docs.google.com/document/d/1_QCAj4aHOe76_IX1KkDHWQgrqtjgevAQanHVr5gkL2s/edit?tab=t.8hc2yn4mizwq#heading=h.jtjk1oe6g1hy"
+             target="_blank"
+            rel="noopener" >
+          Google Drive
+          
+          <svg role="presentation" aria-hidden="true"
+              class="glue-icon glue-icon--24px">
+            <use href="/ai-quests/assets/icons/glue-icons.svg#open-in-new" />
+          </svg>
+          
+        </a>
+        
+      </div>
+      
+    </article>
+    
+    <figure class="aiq-card aiq-card__image aiq-reveal-on-scroll">
+      
+      <img src="/ai-quests/assets/bucket/pages/teacher-page-connectomics.webp?v=73ffd59-1792762909979"
+          alt="" loading="lazy"
+          width="588" height="588" />
+      
+    </figure>
+    
+  </div>
+  
+  <div class="aiq-grid__pair aiq-grid__pair--figure-first" 
+      id="handbook" >
+    <article class="aiq-card aiq-card__text aiq-reveal-on-scroll">
+      <h2 class="aiq-typesystem-h2">Manuale dell&#39;Insegnante
+      </h2>
+      <p><p>Questa guida è la tua risorsa completa per un'esplorazione coinvolgente e ludica dell'AI nella tua classe. Qui troverai tutto il necessario per iniziare, inclusa una panoramica della filosofia del programma, il suo allineamento con gli standard educativi, un'introduzione alle missioni (quests) e consigli pratici su come facilitarle. Questo manuale è il tuo compagno fidato se stai scoprendo l'AI o se vuoi approfondire l'apprendimento da parte dei tuoi studenti.</p></p>
+      
+      <div class="aiq-teacher-resource__links">
+        
+        
+        <a class="glue-button glue-button--icon-right glue-button--low-emphasis glue-button--reversed aiq-card__doc-btn"
+            href="https://docs.google.com/document/d/1eXV2-zXUmk0_DG_wR1DGFDfwVThqWQ5YbgqPfDFC85s/edit?tab=t.jlpl9yp74hyq"
+             target="_blank"
+            rel="noopener" >
+          Google Drive
+          
+          <svg role="presentation" aria-hidden="true"
+              class="glue-icon glue-icon--24px">
+            <use href="/ai-quests/assets/icons/glue-icons.svg#open-in-new" />
+          </svg>
+          
+        </a>
+        
+      </div>
+      
+    </article>
+    
+    <figure class="aiq-card aiq-card__image aiq-reveal-on-scroll">
+      
+      <video autoplay loop muted>
+        
+        <source src="/ai-quests/assets/bucket/pages/Teacher-resources-teachers-handbook.webm?v=73ffd59-1792762909979"
+            type="video/webm" />
+        
+        
+      </video>
+      
+    </figure>
+    
+  </div>
+  
+  <div class="aiq-grid__pair aiq-grid__pair--figure-first" 
+      id="pedagogical" >
+    <article class="aiq-card aiq-card__text aiq-reveal-on-scroll">
+      <h2 class="aiq-typesystem-h2">Approccio Pedagogico e di Design
+      </h2>
+      <p><p>Questo documento spiega la filosofia educativa alla base di AI Quests. Qui troverai una panoramica dei principi fondamentali che guidano il nostro design, dall'uso dell'apprendimento ludico per creare un'esperienza attiva al porre in primo piano il pensiero etico e incentrato sulle persone. Ti mostreremo come abbiamo progettato le missioni per incoraggiare gli studenti a imparare attraverso la riflessione e persino il fallimento produttivo.</p></p>
+      
+      <div class="aiq-teacher-resource__links">
+        
+        
+        <a class="glue-button glue-button--icon-right glue-button--low-emphasis glue-button--reversed aiq-card__doc-btn"
+            href="https://docs.google.com/document/d/19zttFQ4NfbnbEi6PUUnuZt1atfvKjINMXZIzXfzwp_c/edit?tab=t.jxzykefrp707#heading=h.jtjk1oe6g1hy"
+             target="_blank"
+            rel="noopener" >
+          Google Drive
+          
+          <svg role="presentation" aria-hidden="true"
+              class="glue-icon glue-icon--24px">
+            <use href="/ai-quests/assets/icons/glue-icons.svg#open-in-new" />
+          </svg>
+          
+        </a>
+        
+      </div>
+      
+    </article>
+    
+    <figure class="aiq-card aiq-card__image aiq-reveal-on-scroll">
+      
+      <img src="/ai-quests/assets/bucket/pages/Teachers-resources-Pedagogical-and-Design-Approach.webp?v=73ffd59-1792762909979"
+          alt="" loading="lazy"
+          width="588" height="588" />
+      
+    </figure>
+    
+  </div>
+  
+</section>
+  </div>
+  
+  
+  
+  
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="glue-footer glue-spacer-3-top">
+  <h2 class="glue-visually-hidden">Footer links</h2>
+  <section class="glue-footer__upper">
+    <div class="glue-social glue-social--monochrome" id="footer-follow">
+      <div class="glue-social__group">
+        <p class="glue-social__title glue-social__title--inline">
+          Seguici</p>
+
+        <ul class="glue-social__list" role="list">
+          <li class="glue-social__item glue-social__tooltip glue-tooltip">
+            <a class="glue-social__link glue-social__tooltip-trigger glue-tooltip__trigger"
+                href="https://www.youtube.com/@GoogleResearch" target="_blank"
+                rel="noopener" aria-labelledby="footer-follow-youtube-tooltip"
+                aria-controls="footer-follow-youtube-tooltip">
+              <svg role="presentation" aria-hidden="true"
+                  class="glue-icon glue-icon--social glue-icon--24px glue-icon--color-youtube">
+                <use
+                    href="/ai-quests/assets/icons/glue-icons.svg?v=73ffd59-1792762909979#video-youtube">
+                </use>
+              </svg>
+            </a>
+
+            <span class="glue-social__tooltip-content glue-tooltip__content"
+                id="footer-follow-youtube-tooltip" role="tooltip"
+                aria-hidden="true">
+              YouTube
+            </span>
+          </li>
+
+          <li class="glue-social__item glue-social__tooltip glue-tooltip">
+            <a class="glue-social__link glue-social__tooltip-trigger glue-tooltip__trigger"
+                href="https://x.com/GoogleResearch" target="_blank"
+                rel="noopener" aria-labelledby="footer-follow-x-tooltip"
+                aria-controls="footer-follow-x-tooltip">
+              <svg role="presentation" aria-hidden="true"
+                  class="glue-icon glue-icon--social glue-icon--24px glue-icon--color-x">
+                <use
+                    href="/ai-quests/assets/icons/glue-icons.svg?v=73ffd59-1792762909979#x">
+                </use>
+              </svg>
+            </a>
+
+            <span class="glue-social__tooltip-content glue-tooltip__content"
+                id="footer-follow-x-tooltip" role="tooltip" aria-hidden="true">
+              X
+            </span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="glue-footer__global">
+    <div class="glue-footer__logo">
+      <a href="https://www.google.com" title="Google" target="_blank"
+          rel="noopener">
+        <svg role="presentation" aria-hidden="true"
+            class="glue-footer__logo-img">
+          <use
+              href="/ai-quests/assets/icons/glue-icons.svg?v=73ffd59-1792762909979#google-solid-logo">
+          </use>
+        </svg>
+      </a>
+    </div>
+
+    <ul class="glue-footer__global-links glue-no-bullet" role="list">
+      
+      <li class="glue-footer__global-links-list-item">
+        <a class="glue-footer__link" href="https://about.google/intl/it_ALL/" target="_blank"
+            rel="noopener">Informazioni su Google</a>
+      </li>
+      
+      <li class="glue-footer__global-links-list-item">
+        <a class="glue-footer__link" href="https://about.google/intl/it_ALL/products/" target="_blank"
+            rel="noopener">Prodotti Google</a>
+      </li>
+      
+      <li class="glue-footer__global-links-list-item">
+        <a class="glue-footer__link" href="https://policies.google.com/privacy?hl=it" target="_blank"
+            rel="noopener">Privacy</a>
+      </li>
+      
+      <li class="glue-footer__global-links-list-item">
+        <a class="glue-footer__link" href="https://policies.google.com/terms?hl=it" target="_blank"
+            rel="noopener">Termini</a>
+      </li>
+      
+    </ul>
+
+    <ul class="glue-footer__global-links glue-footer__global-links--extra glue-no-bullet"
+        role="list">
+      <li
+          class="glue-footer__global-links-list-item glue-footer__global-links-list-item--extra">
+        <a class="glue-footer__link" href="https://support.google.com/?it=it"
+            target="_blank" rel="noopener">
+          <svg role="presentation" aria-hidden="true"
+              class="glue-icon glue-icon--24px glue-icon--footer-help">
+            <use
+                href="/ai-quests/assets/icons/glue-icons.svg?v=73ffd59-1792762909979#help">
+            </use>
+          </svg>
+          Aiuto
+        </a>
+      </li>
+      
+      <li
+          class="glue-footer__global-links-list-item glue-footer__global-links-list-item--extra">
+        <select aria-label="Lingua"
+            name="lang-selector" id="lang-selector"
+            class="glue-form__dropdown glue-footer__lang-dropdown">
+          
+          
+          <option
+              value="/ai-quests/intl/en_us/teacher-resources"
+              >
+            English (US)
+          </option>
+          
+          
+          
+          <option
+              value="/ai-quests/intl/en_gb/teacher-resources"
+              >
+            English (UK)
+          </option>
+          
+          
+          
+          <option
+              value="/ai-quests/intl/ms_my/teacher-resources"
+              >
+            Bahasa Melayu
+          </option>
+          
+          
+          
+          <option
+              value="/ai-quests/intl/es_es/teacher-resources"
+              >
+            Español (ES)
+          </option>
+          
+          
+          
+          <option
+              value="/ai-quests/intl/es_419/teacher-resources"
+              >
+            Español (419)
+          </option>
+          
+          
+          
+          <option
+              value="/ai-quests/intl/fr_fr/teacher-resources"
+              >
+            Français
+          </option>
+          
+          
+          
+          <option
+              value="/ai-quests/intl/it_it/teacher-resources"
+              selected>
+            Italiano
+          </option>
+          
+          
+          
+          <option
+              value="/ai-quests/intl/pt_pt/teacher-resources"
+              >
+            Português (PT)
+          </option>
+          
+          
+          
+          <option
+              value="/ai-quests/intl/pt_br/teacher-resources"
+              >
+            Português (BR)
+          </option>
+          
+          
+          
+          <option
+              value="/ai-quests/intl/tr_tr/teacher-resources"
+              >
+            Türkçe
+          </option>
+          
+          
+          
+          <option
+              value="/ai-quests/intl/he_il/teacher-resources"
+              >
+            עברית
+          </option>
+          
+          
+          
+          <option
+              value="/ai-quests/intl/ar_ALL/teacher-resources"
+              >
+            العربية
+          </option>
+          
+          
+          
+          
+        </select>
+      </li>
+      
+    </ul>
+  </section>
+</footer>
+</div>
+
+
+  
+</body>
+
+</html>
