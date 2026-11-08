@@ -1,0 +1,32 @@
+{
+  "collection_id": "HomePage",
+  "document_id": "",
+  "menu_label": "资源和更多",
+  "menu_close_label": "关闭",
+  "text_above_title": "{{ google_logo }} | {{ partner_logo }}",
+  "accept_mission_cta_label": "接受任务",
+  "about_cta_label": "关于",
+  "faq_cta_label": "常见问题",
+  "main_title_svg": {
+    "url": "icons/ai-quests-en.svg",
+    "file_name": ""
+  },
+  "teacher_resources_cta_label": "教师资源",
+  "privacy_policy_cta_label": "隐私声明",
+  "videos_cta_label": "学生作品展示",
+  "video": {
+    "webm": {
+      "url": "home/en_gb/AI-Quests-intro_video_master.webm",
+      "file_name": ""
+    },
+    "poster": {
+      "url": "home/AI-Quests-intro-master.webp",
+      "file_name": ""
+    },
+    "mp4": {
+      "url": "home/en_gb/AI-Quests-intro_video_master.mp4",
+      "file_name": ""
+    },
+    "subtitles": "WEBVTT\n\n00:00:02.000 --&gt; 00:00:04.210\n欢迎来到 AI 探索之旅\n\n00:00:04.210 --&gt; 00:00:07.000\n我是斯凯教授\n\n00:00:07.000 --&gt; 00:00:10.000\n既是AI研究员，也是你的导师\n\n00:00:10.000 --&gt; 00:00:12.000\n我会陪伴你完成这次学习之旅。\n\n00:00:12.000 --&gt; 00:00:14.080\n我们一直在等待像你这样的伙伴！\n\n00:00:14.080 --&gt; 00:00:18.000\n你即将踏上探索这个世界的旅程。\n\n00:00:18.000 --&gt; 00:00:21.040\n旅途中，你会认识不同的居民\n\n00:00:21.040 --&gt; 00:00:24.000\n了解他们的社区正面临哪些难题。\n\n00:00:24.000 --&gt; 00:00:27.000\n你的任务是帮助他们\n\n00:00:27.000 --&gt; 00:00:30.250\n负责任地使用强大的AI来解决问题。\n\n00:00:30.250 --&gt; 00:00:34.120\n每个任务都会带你了解一个真实的AI研究项目\n\n00:00:34.120 --&gt; 00:00:38.000\n看看它如何让地球上的生活变得更好。\n\n00:00:38.000 --&gt; 00:00:41.000\n你将体验的AI技术非常奇妙！\n\n00:00:41.000 --&gt; 00:00:43.000\n但它不是魔法\n\n00:00:43.000 --&gt; 00:00:46.000\n能否成功，取决于你作出的选择。\n\n00:00:46.000 --&gt; 00:00:49.000\n你需要收集有用的数据\n\n00:00:49.000 --&gt; 00:00:52.000\n训练AI模型，帮助它作出明智的判断\n\n00:00:52.000 --&gt; 00:00:54.200\n还要进行测试，确认它值得信赖。\n\n00:00:54.200 --&gt; 00:00:56.100\n整个宇宙都在期待你的帮助！\n\n00:00:56.100 --&gt; 00:00:58.000\n准备好了吗？"
+  }
+}

@@ -10,3 +10,4 @@ reports/*.tmp
 Thumbs.db
 .env
 .env.*
+reports/browser-state*.json

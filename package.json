@@ -10,6 +10,7 @@
     "verify:files": "python scripts/verify-integrity.py",
     "verify:quests": "node scripts/verify-quests.mjs",
     "verify:locales": "node scripts/verify-locales.mjs",
-    "verify:pages": "node scripts/verify-pages.mjs"
+    "verify:pages": "node scripts/verify-pages.mjs",
+    "verify:zh": "node scripts/verify-zh-cn.mjs && node scripts/verify-zh-data.mjs && node scripts/verify-zh-browser.mjs && node scripts/verify-zh-quests.mjs && node scripts/verify-zh-pages.mjs && node scripts/verify-zh-lab.mjs"
   }
 }

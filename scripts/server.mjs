@@ -21,7 +21,11 @@ const server = http.createServer((req,res)=>{
   let file=path.resolve(root,relative);
   if(!file.startsWith(root+path.sep)){res.writeHead(403);return res.end();}
   if(fs.existsSync(file) && fs.statSync(file).isDirectory()) file=path.join(file,'index.html');
-  if(!fs.existsSync(file) && /^\/ai-quests\/intl\/[a-zA-Z_-]+(?:\/.*)?$/.test(requested) && !path.extname(requested)) file=path.join(root,'ai-quests/intl/en_us/index.html');
+  const localeRoute=/^\/ai-quests\/intl\/([a-zA-Z_-]+)(?:\/.*)?$/.exec(requested);
+  if(!fs.existsSync(file) && localeRoute && !path.extname(requested)){
+    const localeIndex=path.join(root,'ai-quests/intl',localeRoute[1],'index.html');
+    file=fs.existsSync(localeIndex)?localeIndex:path.join(root,'ai-quests/intl/en_us/index.html');
+  }
   if(!fs.existsSync(file) || !fs.statSync(file).isFile()){res.writeHead(404);return res.end('Missing local resource');}
   const stat=fs.statSync(file);
   const key=path.relative(root,file).split(path.sep).join('/');

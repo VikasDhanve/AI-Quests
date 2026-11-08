@@ -1,0 +1,141 @@
+{
+  "collection_id": "Sitewide",
+  "document_id": "",
+  "seo": {
+    "title": "AI Quests · 简体中文",
+    "description": "Google AI Quests 面向 11-14 岁儿童的 AI 教育游戏的中文汉化。",
+    "image": {
+      "url": "global/og-image.jpg",
+      "width": 0,
+      "height": 0
+    }
+  },
+  "site_name": "AI Quests",
+  "modal_leave_quest": {
+    "title": "确定要离开这个任务吗？",
+    "subtitle": null,
+    "primary_cta_label": "离开任务",
+    "secondary_cta_label": "留在这里",
+    "tertiary_cta_label": null
+  },
+  "modal_clear_progress": {
+    "title": "你之前来过这里",
+    "subtitle": "要继续之前的进度吗？",
+    "primary_cta_label": "继续",
+    "secondary_cta_label": "重新开始",
+    "tertiary_cta_label": "继续"
+  },
+  "social": {
+    "title": "关注我们",
+    "twitter_cta_label": "X",
+    "youtube_cta_label": "YouTube"
+  },
+  "footer": {
+    "links": [
+      {
+        "text": "关于 Google",
+        "url": "https://about.google/"
+      },
+      {
+        "text": "Google 产品",
+        "url": "https://about.google/products/"
+      },
+      {
+        "text": "隐私政策",
+        "url": "https://policies.google.com/privacy"
+      },
+      {
+        "text": "条款",
+        "url": "https://policies.google.com/terms"
+      }
+    ],
+    "help_link": {
+      "text": "帮助",
+      "url": "https://support.google.com/?hl=en"
+    },
+    "locale_dropdown_aria_label": "语言"
+  },
+  "device": {
+    "general": {
+      "open_device_aria_label": "",
+      "return_to_game_cta_label": ""
+    },
+    "ai_model": {
+      "title": "",
+      "offline_label": ""
+    },
+    "spotlight": {
+      "title": "",
+      "open_message_cta_aria_label": "",
+      "eyebrow": "",
+      "message_title": "",
+      "back_cta_label": "",
+      "popup_new_message_label": "",
+      "popup_continue_cta_label": ""
+    },
+    "explorers_log": {
+      "title": "",
+      "quest_incomplete": {
+        "label": "",
+        "pill_label": ""
+      },
+      "quest_complete": {
+        "label": "",
+        "pill_label": ""
+      }
+    },
+    "camera": {
+      "title": "",
+      "offline_label": "",
+      "photo_cta_label": ""
+    }
+  },
+  "labels": {
+    "back_cta": "返回",
+    "back_to_the_map_cta_label": "返回任务选择",
+    "close_cta": "关闭",
+    "continue_cta": "继续",
+    "home_cta": "主页",
+    "loading_label": "加载中...",
+    "small_screen_label": "AI 探险需要至少1024×600像素的屏幕。请尝试缩小浏览器页面，然后刷新。",
+    "toggle_audio_button": "开关声音",
+    "video_replay": "重播",
+    "video_skip": "跳过",
+    "video_play_pause": "播放 / 暂停"
+  },
+  "quests": [
+    {
+      "id": "quest-flood",
+      "name": "集市沼泽",
+      "name_text": "集市\n沼泽",
+      "subtitle": "洪水预测"
+    },
+    {
+      "id": "quest-blindness",
+      "name": "暮色沙丘",
+      "name_text": "暮色\n沙丘",
+      "subtitle": "失明预防"
+    },
+    {
+      "id": "quest-brain",
+      "name": "极地之巅",
+      "name_text": "极地\n之巅",
+      "subtitle": "绘制大脑图谱"
+    }
+  ],
+  "nav_labels": {
+    "menu_label": "菜单",
+    "close_label": "关闭",
+    "play_game_label": "开始游戏",
+    "about_label": "关于",
+    "faq_label": "常见问题",
+    "teacher_resources_label": "教师资源",
+    "privacy_notice_label": "隐私声明",
+    "videos": "学生作品展示"
+  },
+  "ai_quest_logo_small": {
+    "url": "icons/ai_quests_logo_small.webp",
+    "width": 0,
+    "height": 0
+  }
+}

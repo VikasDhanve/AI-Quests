@@ -1,0 +1,1 @@
+html[lang="zh-CN"] :is(body,button,input,textarea,select){font-family:"Microsoft YaHei","PingFang SC",Arial,sans-serif}html[lang="zh-CN"] video::cue{font-family:"Microsoft YaHei","PingFang SC",Arial,sans-serif;font-size:22px;line-height:1.5}html[lang="zh-CN"] .aiq-typesystem-h2{line-height:1.35}html[lang="zh-CN"] .aiq-video-card__title{overflow-wrap:anywhere}

@@ -1,0 +1,71 @@
+{
+  "locale": "zh_cn",
+  "language": "简体中文",
+  "reference_repository": "https://github.com/notwin/coopa-study",
+  "reference_revision": "9ea4b867ce4857779d3cf84bfb423d12c7136049",
+  "translated_json_leaves": 1131,
+  "preserved_data_leaves": 2174,
+  "subtitle_tracks": 12,
+  "generated_files": [
+    {
+      "path": "ai-quests/intl/zh_cn/index.html",
+      "sha256": "ef01799809bc5fe8ec59b20ca1bd5cf08b2062073ed4c6cfd01dcc7bd2bcd579"
+    },
+    {
+      "path": "ai-quests/intl/zh_cn/about/index.html",
+      "sha256": "8ad65c471859703c2ff0f36165034a26a8f05e1a4c872c5219293e4bea993795"
+    },
+    {
+      "path": "ai-quests/intl/zh_cn/faq/index.html",
+      "sha256": "c9257b544e406674bfa0e5accfb152a67fd4ad7985a66c2aa2b8047e566110e7"
+    },
+    {
+      "path": "ai-quests/intl/zh_cn/privacy-notice/index.html",
+      "sha256": "705c707e5ee52e6c6989529c4d29cefdda38ae87441b30c555066c431396c332"
+    },
+    {
+      "path": "ai-quests/intl/zh_cn/teacher-resources/index.html",
+      "sha256": "5829f5e04fe521fa4b4e1ec52aeb6ad0d2ae7ef4dde05233bb8a9a6afe886e07"
+    },
+    {
+      "path": "ai-quests/intl/zh_cn/videos/index.html",
+      "sha256": "3f494c0ea659c3c0bc1e815ce748e77fda8b56c2f58fb4d55c699b6f799cd165"
+    },
+    {
+      "path": "ai-quests/content/api/snapshot/20261023-141713/zh_cn/blindness_prevention.json",
+      "sha256": "5a7c9ff945e7cd28da750fec783633147004468205b0e6db9e79fb986f07e1df"
+    },
+    {
+      "path": "ai-quests/content/api/snapshot/20261023-141713/zh_cn/flood_prediction.json",
+      "sha256": "cae932200a9e86710805542a28d8a0e9cadb0346776972ce79de08ed6e58ce4d"
+    },
+    {
+      "path": "ai-quests/content/api/snapshot/20261023-141713/zh_cn/home_page.json",
+      "sha256": "e1f5934195aea557ef27864e289bb79fbe472ed0684edb6b3e73c99215b9e501"
+    },
+    {
+      "path": "ai-quests/content/api/snapshot/20261023-141713/zh_cn/mapping_brain.json",
+      "sha256": "7eac2fd69cc51a29676e9d528c22938ff0dfd27f6b48fa51315a6c6398fb23d8"
+    },
+    {
+      "path": "ai-quests/content/api/snapshot/20261023-141713/zh_cn/not_found_page.json",
+      "sha256": "dd93fe07f33c075e970044f4da3e95d385dba4289edaaf1af5c889186bb42ace"
+    },
+    {
+      "path": "ai-quests/content/api/snapshot/20261023-141713/zh_cn/planet_page.json",
+      "sha256": "bd1cde20fd73a8b4ac3ecbd714d3d88a75ec8576d97bb6f05b6fd9ee5cb787a3"
+    },
+    {
+      "path": "ai-quests/content/api/snapshot/20261023-141713/zh_cn/sitewide.json",
+      "sha256": "03b5c40c1b80e9cf832e500c5dd0841e0750f235602e2cad9ad3dc85eaec5351"
+    },
+    {
+      "path": "ai-quests/zh-cn.css",
+      "sha256": "a9cdce17d1f59fccfc5ecb3ee2309b782faa2af24d90203e95f549bdc60484f4"
+    },
+    {
+      "path": "ai-quests/zh-cn-runtime.js",
+      "sha256": "4efbacdb126cbea7e812e609f3625c6e37a9b015dba69bdc94a723beacf1c8d7"
+    }
+  ]
+}

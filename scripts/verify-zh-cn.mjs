@@ -1,0 +1,14 @@
+import assert from 'node:assert/strict';
+const root='http://127.0.0.1:4192/ai-quests/';
+const current=await (await fetch(root+'content/api/current_snapshot_id')).json();
+const config=await (await fetch(root+'content/api/snapshot/'+current.snapshot_id+'/site_config.json')).json();
+const zh=config.locales.find(x=>x.site_locale==='zh_cn'&&x.enabled);
+assert.ok(zh,'语言菜单必须提供启用的简体中文选项');
+assert.equal(zh.text,'简体中文');
+assert.equal(zh.html_lang,'zh-CN');
+assert.deepEqual(zh.enabled_quests,['quest-flood','quest-blindness','quest-brain']);
+console.log('PASS: 简体中文语言入口及三个关卡已启用');
+const deep=await (await fetch(root+"intl/zh_cn/quest/market-marshes")).text();
+assert.ok(/<html lang="zh-CN"/.test(deep),"直接打开中文关卡应返回中文入口");
+assert.ok(deep.includes("zh-cn-runtime.js"),"直接打开中文关卡必须加载中文字幕支持");
+console.log("PASS: 中文关卡深层链接加载中文入口与字幕支持");

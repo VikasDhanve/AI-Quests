@@ -1,0 +1,84 @@
+{
+  "repository": "https://github.com/notwin/coopa-study",
+  "revision": "9ea4b867ce4857779d3cf84bfb423d12c7136049",
+  "files": [
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/notwin/coopa-study/9ea4b867ce4857779d3cf84bfb423d12c7136049/LICENSE",
+      "sha256": "37907b8b0e912b241b8df9b9b9b061d489bf4c992bc6bb33598b38f7d9378991",
+      "bytes": 1381
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/notwin/coopa-study/9ea4b867ce4857779d3cf84bfb423d12c7136049/README.md",
+      "sha256": "341ac90a7a5330be621d01a53adde2d2ef7b570f93891926e87e42472f30988a",
+      "bytes": 4491
+    },
+    {
+      "path": "content-source/SNAPSHOT.txt",
+      "url": "https://raw.githubusercontent.com/notwin/coopa-study/9ea4b867ce4857779d3cf84bfb423d12c7136049/content-source/SNAPSHOT.txt",
+      "sha256": "9a2f46f65f0f84776474e959b2d77f42b366e81b483a5dcf3026d16046225aae",
+      "bytes": 41
+    },
+    {
+      "path": "content-source/en_us/sitewide.json",
+      "url": "https://raw.githubusercontent.com/notwin/coopa-study/9ea4b867ce4857779d3cf84bfb423d12c7136049/content-source/en_us/sitewide.json",
+      "sha256": "9369c5b05d96cbc1db80d8e56d06687f8718f3e691acb9f7d5427b5706c3766b",
+      "bytes": 3613
+    },
+    {
+      "path": "content-source/en_us/planet_page.json",
+      "url": "https://raw.githubusercontent.com/notwin/coopa-study/9ea4b867ce4857779d3cf84bfb423d12c7136049/content-source/en_us/planet_page.json",
+      "sha256": "04a9eb0b3de6c63d301e324c659f259788682f15bc90186b7bbf18a17553a7bf",
+      "bytes": 551
+    },
+    {
+      "path": "content-source/en_us/home_page.json",
+      "url": "https://raw.githubusercontent.com/notwin/coopa-study/9ea4b867ce4857779d3cf84bfb423d12c7136049/content-source/en_us/home_page.json",
+      "sha256": "265ac10a4e4b1a6bf0a9a3131855a8c521e031a91c52f95abfc1fec3f1c28e05",
+      "bytes": 2342
+    },
+    {
+      "path": "content-source/en_us/flood_prediction.json",
+      "url": "https://raw.githubusercontent.com/notwin/coopa-study/9ea4b867ce4857779d3cf84bfb423d12c7136049/content-source/en_us/flood_prediction.json",
+      "sha256": "d4058cddaa03ba7d56f558917ef3d629ec416802c73c0fd184b8c89f3f60d86f",
+      "bytes": 51994
+    },
+    {
+      "path": "content-source/en_us/blindness_prevention.json",
+      "url": "https://raw.githubusercontent.com/notwin/coopa-study/9ea4b867ce4857779d3cf84bfb423d12c7136049/content-source/en_us/blindness_prevention.json",
+      "sha256": "c3863b78f9abba5c821240536c9b160da37848c40bd340c204ed28bf54934549",
+      "bytes": 80162
+    },
+    {
+      "path": "public/content-zh/en_us/sitewide.json",
+      "url": "https://raw.githubusercontent.com/notwin/coopa-study/9ea4b867ce4857779d3cf84bfb423d12c7136049/public/content-zh/en_us/sitewide.json",
+      "sha256": "ade1e94b8be7679830df150e50d6e2840a1bf3c2040f74903d41f925feb01ec2",
+      "bytes": 3525
+    },
+    {
+      "path": "public/content-zh/en_us/planet_page.json",
+      "url": "https://raw.githubusercontent.com/notwin/coopa-study/9ea4b867ce4857779d3cf84bfb423d12c7136049/public/content-zh/en_us/planet_page.json",
+      "sha256": "7dd8d9bb4934a8dc21c2be8529d46ad22c300f4c5cce3be737bd3682f181c506",
+      "bytes": 559
+    },
+    {
+      "path": "public/content-zh/en_us/home_page.json",
+      "url": "https://raw.githubusercontent.com/notwin/coopa-study/9ea4b867ce4857779d3cf84bfb423d12c7136049/public/content-zh/en_us/home_page.json",
+      "sha256": "a34c408a1f58020552983a644690f6676e9a11d3cb924491ef77256b12376d49",
+      "bytes": 2285
+    },
+    {
+      "path": "public/content-zh/en_us/flood_prediction.json",
+      "url": "https://raw.githubusercontent.com/notwin/coopa-study/9ea4b867ce4857779d3cf84bfb423d12c7136049/public/content-zh/en_us/flood_prediction.json",
+      "sha256": "9b1196f11474f6ca6b6d90fb057fa9e206e03d870b9b2757a41e8bf2c70fad62",
+      "bytes": 50674
+    },
+    {
+      "path": "public/content-zh/en_us/blindness_prevention.json",
+      "url": "https://raw.githubusercontent.com/notwin/coopa-study/9ea4b867ce4857779d3cf84bfb423d12c7136049/public/content-zh/en_us/blindness_prevention.json",
+      "sha256": "96e6d1ffc8dc2be62d8b377eb946c226bc862aba32c87911275ce00c1692bd1c",
+      "bytes": 79511
+    }
+  ]
+}

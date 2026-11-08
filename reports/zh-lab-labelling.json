@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "unicode_progress_roundtrip": true,
+  "first_scan_submitted": true,
+  "text": "第2张，共3张扫描图\n标注规则\n毛细血管\n神经元\n星形胶质细胞\n\n阿克森教授\n谢谢你。\n\n提交扫描图\n\n扫描图 1\n\n???\n\n扫描图 2\n\n???\n\n扫描图 3\n\n任务 4\n\n标注大脑扫描图。\n\n先阅读标注规则。在每张扫描图上，用正确颜色的荧光笔标出对应部分。完成后，点击“提交扫描图”，继续处理下一张。",
+  "errors": [],
+  "expected_upstream_empty_source_requests": [
+    "http://127.0.0.1:4192/ai-quests/"
+  ]
+}

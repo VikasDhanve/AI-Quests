@@ -35,3 +35,7 @@ for url,r in manifest.items():
     if h!=r['sha256']:changed.append({'path':r['path'],'original_sha256':r['sha256'],'local_sha256':h})
 (ROOT/'reports/local-modifications.json').write_text(json.dumps(changed,ensure_ascii=False,indent=2),'utf-8')
 print(json.dumps({'localized_text_files':len(changed),'preserved_originals':len(list((ROOT/'upstream-text').rglob('*.*')))}))
+# Rebuild the native Chinese locale after restoring the published baseline.
+if (ROOT/"localization/zh_cn/translations.json").exists():
+    import subprocess,sys
+    subprocess.run([sys.executable,str(ROOT/"scripts/build-zh-cn.py")],cwd=ROOT,check=True)

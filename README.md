@@ -1,12 +1,13 @@
 # AI Quests 官方原版本地镜像
 
-2026-11-08 为 YOYO 保存官方原版。先由用户确认本地项目，后续再汉化；当前保留英文及官方已有语言。
+2026-11-08 为 YOYO 保存官方原版，并按用户后续授权新增原生简体中文 zh_cn。英文及其他官方语言保留，原版基线标签不变。
 
 ## 打开与停止
 
 双击本目录的 `启动AI-Quests.cmd`，后台启动服务并打开浏览器。双击 `停止AI-Quests.cmd`，只停止本工程核验归属的进程。
 
-- 入口：http://127.0.0.1:4192/ai-quests/intl/en_us
+- 中文入口：http://127.0.0.1:4192/ai-quests/intl/zh_cn
+- 英文入口：http://127.0.0.1:4192/ai-quests/intl/en_us
 - 项目：`D:\WorkSpace Development\AppResource\AI-Quests`
 - 服务仅监听本机127.0.0.1，目前不提供其他电脑或平板访问。
 - 日常运行只需本机Node.js，不必安装验证工具或联网。
@@ -80,3 +81,15 @@ node scripts/verify-pages.mjs
 后续汉化以独立提交记录，需要时从基线标签恢复原版。大素材更新会增加LFS历史存储，下载会消耗账户LFS流量；不启用新的付费设置。
 
 上传核验完成：私人仓库 https://github.com/VikasDhanve/AI-Quests ，原版标签 `official-baseline-2026-11-08` 指向 `f690149`。服务端确认1392个独立LFS对象全部可用，素材无缺失；未另外再下载整库做恢复演练。验收元数据见 `reports/github-upload.json`。
+
+## 简体中文版本（2026-11-08）
+
+语言菜单新增“简体中文”，无需安装插件。已翻译三个任务的数据、题目、对话、字幕及关于、FAQ、教师资源、隐私、展示页面。中文地名统一为集市沼泽、暮色沙丘、极地之巅。配音、教程演示视频/图片中的内嵌英文和教师PDF保留官方原版；没有制作中文配音或重绘原素材。
+
+翻译参考 Coopa Study 作者维护的 https://github.com/notwin/coopa-study ，固定提交9ea4b867ce4857779d3cf84bfb423d12c7136049。Chrome商店隐私政策和支持链接直接指向此仓库，属于插件作者的官方仓库，不能称为Google官方仓库。导入730个与当前英文一致的字段，其余及大脑任务另行补译。原始参考文件、来源与哈希保存在localization/reference/coopa-study，MIT许可见THIRD_PARTY_NOTICES.md。
+
+翻译表在localization/zh_cn，运行 `python scripts/build-local.py` 从保留的官方文本重新生成本地版本，再自动生成中文。不要直接改生成的public文件。进度编码支持UTF-8并兼容已有英文存档；原版资源和题目控制值保持不变。
+
+验证：`npm run verify:zh`，另运行完整性与所有语言入口检查。报告包括zh-browser.json、quests-zh-offline.json、pages-zh-offline.json、zh-data-validation.json。三个任务已验证离线视频、字幕、首个3D场景；大脑任务另用隔离测试存档检查后段标注界面。尚未逐题完成三个关卡的全部分支和通关流程。
+
+大脑标注后段的隔离存档测试发现一次指向/ai-quests/的空资源请求；相同英文场景也存在，未将它统计成汉化新增的文件缺失。测试报告保留该记录。

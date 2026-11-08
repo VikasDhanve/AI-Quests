@@ -1,0 +1,2283 @@
+{
+  "collection_id": "MappingBrain",
+  "document_id": "",
+  "quest_general": {
+    "labels": {
+      "scan_sample": "扫描"
+    },
+    "learning_ticket_video_call": {
+      "media": {
+        "webm": {
+          "url": "quests/prof-skye-idle.webm",
+          "file_name": ""
+        },
+        "poster": {
+          "url": "quests/prof-skye-poster.webp",
+          "file_name": ""
+        },
+        "mp4": {
+          "url": "quests/prof-skye-idle.mp4",
+          "file_name": ""
+        },
+        "subtitles": null
+      },
+      "transmission_text": "视频传输",
+      "speaker": "斯凯教授"
+    },
+    "quest_speaker": "阿克森教授",
+    "cards": [
+      {
+        "media": {
+          "file": {
+            "url": "peaks/all/scan-cards/card-labeled-10.webp",
+            "width": 0,
+            "height": 0
+          },
+          "alt": "已标注的大脑扫描图"
+        },
+        "type": "labeled",
+        "validity": "valid"
+      },
+      {
+        "media": {
+          "file": {
+            "url": "peaks/all/scan-cards/card-labeled-2.webp",
+            "width": 0,
+            "height": 0
+          },
+          "alt": "已标注的大脑扫描图"
+        },
+        "type": "labeled",
+        "validity": "valid"
+      },
+      {
+        "media": {
+          "file": {
+            "url": "peaks/all/scan-cards/card-labeled-8.webp",
+            "width": 0,
+            "height": 0
+          },
+          "alt": "已标注的大脑扫描图"
+        },
+        "type": "labeled",
+        "validity": "valid"
+      },
+      {
+        "media": {
+          "file": {
+            "url": "peaks/all/scan-cards/card-labeled-4.webp",
+            "width": 0,
+            "height": 0
+          },
+          "alt": "已标注的大脑扫描图"
+        },
+        "type": "labeled",
+        "validity": "valid"
+      },
+      {
+        "media": {
+          "file": {
+            "url": "peaks/all/scan-cards/card-labeled-e5.webp",
+            "width": 0,
+            "height": 0
+          },
+          "alt": "已标注的大脑扫描图"
+        },
+        "type": "labeled",
+        "validity": "invalid-labeling"
+      },
+      {
+        "media": {
+          "file": {
+            "url": "peaks/all/scan-cards/card-labeled-e6.webp",
+            "width": 0,
+            "height": 0
+          },
+          "alt": "已标注的大脑扫描图"
+        },
+        "type": "labeled",
+        "validity": "invalid-color"
+      },
+      {
+        "media": {
+          "file": {
+            "url": "peaks/all/scan-cards/card-labeled-e6.webp",
+            "width": 0,
+            "height": 0
+          },
+          "alt": "已标注的大脑扫描图"
+        },
+        "type": "labeled",
+        "validity": "invalid-color"
+      },
+      {
+        "media": {
+          "file": {
+            "url": "peaks/all/scan-cards/card-labeled-e4.webp",
+            "width": 0,
+            "height": 0
+          },
+          "alt": "已标注的大脑扫描图"
+        },
+        "type": "labeled",
+        "validity": "invalid-color-scheme"
+      },
+      {
+        "media": {
+          "file": {
+            "url": "peaks/all/scan-cards/card-labeled-e5.webp",
+            "width": 0,
+            "height": 0
+          },
+          "alt": "已标注的大脑扫描图"
+        },
+        "type": "labeled",
+        "validity": "invalid-labeling"
+      },
+      {
+        "media": {
+          "file": {
+            "url": "peaks/all/scan-cards/card-unlabeled-1.webp",
+            "width": 0,
+            "height": 0
+          },
+          "alt": "未标注的大脑扫描图"
+        },
+        "type": "unlabeled",
+        "validity": "valid"
+      },
+      {
+        "media": {
+          "file": {
+            "url": "peaks/all/scan-cards/card-unlabeled-2.webp",
+            "width": 0,
+            "height": 0
+          },
+          "alt": "未标注的大脑扫描图"
+        },
+        "type": "unlabeled",
+        "validity": "valid"
+      },
+      {
+        "media": {
+          "file": {
+            "url": "peaks/all/scan-cards/card-unlabeled-3.webp",
+            "width": 0,
+            "height": 0
+          },
+          "alt": "未标注的大脑扫描图"
+        },
+        "type": "unlabeled",
+        "validity": "valid"
+      },
+      {
+        "media": {
+          "file": {
+            "url": "peaks/all/scan-cards/card-unlabeled-4.webp",
+            "width": 0,
+            "height": 0
+          },
+          "alt": "未标注的大脑扫描图"
+        },
+        "type": "unlabeled",
+        "validity": "valid"
+      },
+      {
+        "media": {
+          "file": {
+            "url": "peaks/all/scan-cards/card-unlabeled-e4.webp",
+            "width": 0,
+            "height": 0
+          },
+          "alt": "未标注的大脑扫描图"
+        },
+        "type": "unlabeled",
+        "validity": "invalid-corrupted"
+      },
+      {
+        "media": {
+          "file": {
+            "url": "peaks/all/scan-cards/card-unlabeled-e5.webp",
+            "width": 0,
+            "height": 0
+          },
+          "alt": "未标注的大脑扫描图"
+        },
+        "type": "unlabeled",
+        "validity": "invalid-corrupted"
+      },
+      {
+        "media": {
+          "file": {
+            "url": "peaks/all/scan-cards/card-unlabeled-e1.webp",
+            "width": 0,
+            "height": 0
+          },
+          "alt": "未标注的大脑扫描图"
+        },
+        "type": "unlabeled",
+        "validity": "invalid-corrupted"
+      },
+      {
+        "media": {
+          "file": {
+            "url": "peaks/all/scan-cards/card-unlabeled-e2.webp",
+            "width": 0,
+            "height": 0
+          },
+          "alt": "未标注的大脑扫描图"
+        },
+        "type": "unlabeled",
+        "validity": "invalid-image-missing"
+      },
+      {
+        "media": {
+          "file": {
+            "url": "peaks/all/scan-cards/card-unlabeled-3.webp",
+            "width": 0,
+            "height": 0
+          },
+          "alt": "未标注的大脑扫描图"
+        },
+        "type": "unlabeled",
+        "validity": "valid"
+      }
+    ]
+  },
+  "intro": {
+    "video": {
+      "webm": {
+        "url": "peaks/en_gb/PP_Intro.webm",
+        "file_name": ""
+      },
+      "poster": {
+        "url": "peaks/en_gb/PP_Intro.webp",
+        "file_name": ""
+      },
+      "mp4": {
+        "url": "peaks/en_gb/PP_Intro.mp4",
+        "file_name": ""
+      },
+      "subtitles": "WEBVTT\n\n00:00.000 --&gt; 00:04.000 line:85%\n欢迎来到极地之巅，我是阿克森教授。\n\n00:04.000 --&gt; 00:06.400 line:85%\n终于有人准时到了！\n\n00:08.400 --&gt; 00:11.200 line:85%\n这里的居民到了冬末\n\n00:11.200 --&gt; 00:13.600 line:85%\n总会变得特别健忘。\n\n00:13.600 --&gt; 00:15.200 line:85%\n从把雪橇停在哪里\n\n00:15.200 --&gt; 00:16.800 line:85%\n到自己的生日是哪天\n\n00:16.800 --&gt; 00:19.600 line:85%\n整个小镇都乱了套。\n\n00:19.600 --&gt; 00:21.200 line:85%\n就连我的实验室助手阿尔菲\n\n00:21.200 --&gt; 00:23.200 line:85%\n昨天来上班时都穿着拖鞋\n\n00:23.200 --&gt; 00:24.400 line:85%\n而不是雪地靴。\n\n00:24.400 --&gt; 00:26.400 line:85%\n我是一名大脑研究员\n\n00:26.400 --&gt; 00:29.600 line:85%\n受邀来调查大家变得健忘的原因。\n\n00:29.600 --&gt; 00:32.000 line:85%\n这里的居民会在冬天冬眠。\n\n00:32.000 --&gt; 00:34.000 line:85%\n我想知道，冬眠是否\n\n00:34.000 --&gt; 00:36.400 line:85%\n会影响他们的大脑和记忆。\n\n00:36.400 --&gt; 00:38.400 line:85%\n为此，我们需要绘制\n\n00:38.400 --&gt; 00:42.000 line:85%\n大脑中的神经元及其连接的地图。\n\n00:42.000 --&gt; 00:44.400 line:85%\n这样也许就能弄清楚\n\n00:44.400 --&gt; 00:46.000 line:85%\n记忆是怎样形成的\n\n00:46.000 --&gt; 00:47.600 line:85%\n以及冬眠为什么\n\n00:47.600 --&gt; 00:48.800 line:85%\n会影响这个过程。\n\n00:48.800 --&gt; 00:50.400 line:85%\n可是大脑里有数十亿个\n\n00:50.400 --&gt; 00:53.200 line:85%\n神经元和数万亿条连接。\n\n00:53.200 --&gt; 00:56.800 line:85%\n靠人工绘制这些区域的地图需要很多年\n\n00:56.800 --&gt; 00:59.200 line:85%\n而离下一个冬天已经不远了。\n\n00:59.200 --&gt; 01:02.400 line:85%\n听说AI能加快研究进度。\n\n01:02.400 --&gt; 01:04.800 line:85%\n你愿意帮助我们吗？\n\n"
+    },
+    "learning_ticket": [
+      {
+        "id": "lab-intro-0",
+        "question": "我来做今天的准备工作，你先探索实验室，了解我们的研究任务吧。",
+        "answers": [
+          {
+            "text": "出发！",
+            "isCorrect": false
+          },
+          {
+            "text": "真让人期待！训练AI模型，就是给它看很多已标注的扫描图，让它学会不同部分是怎样标注的。",
+            "isCorrect": true
+          },
+          {
+            "text": "给出医疗建议，让患者不再需要医生",
+            "isCorrect": false
+          }
+        ],
+        "success_response": {
+          "text": "答对了！",
+          "media": null,
+          "emoji": null
+        },
+        "failure_response": {
+          "text": "不太对！",
+          "media": null,
+          "emoji": null
+        }
+      },
+      {
+        "id": "lab-intro-1",
+        "question": "欢迎！很高兴你能来。我先准备一下，你可以在实验室里四处看看。",
+        "answers": [
+          {
+            "text": "开始吧！",
+            "isCorrect": true
+          }
+        ],
+        "success_response": null,
+        "failure_response": null
+      },
+      {
+        "id": "lab-intro-2",
+        "question": "欢迎！很高兴你能来。我先准备一下，你可以在实验室里四处看看。",
+        "answers": [
+          {
+            "text": "我准备好了",
+            "isCorrect": true
+          }
+        ],
+        "success_response": null,
+        "failure_response": null
+      }
+    ]
+  },
+  "explore_lab": {
+    "objective_reminder": {
+      "heading_title": "任务 1",
+      "heading_description": "探索实验室",
+      "heading_thumbnail": {
+        "file": {
+          "url": "icons/objective-reminder-magnifier.webp",
+          "width": 0,
+          "height": 0
+        },
+        "alt": null
+      },
+      "body": "寻找桌上的电脑、实验设备等有趣的物品。滑动屏幕，可以在实验室里移动。",
+      "video": {
+        "webm": {
+          "url": "peaks/all/objective_ui/explore_lab_objective_UI.webm",
+          "file_name": ""
+        },
+        "poster": {
+          "url": "peaks/all/objective_ui/explore_lab_objective_UI.webp",
+          "file_name": ""
+        },
+        "mp4": {
+          "url": "peaks/all/objective_ui/explore_lab_objective_UI.mp4",
+          "file_name": ""
+        },
+        "subtitles": null
+      }
+    },
+    "has_enough_tokens": {
+      "cta": "进入下一项任务",
+      "prompt": "你已经收集了足够的信息，可以进入下一个任务了"
+    },
+    "inventory_bar": {
+      "data_label": "知识物品",
+      "missing_data_label": "",
+      "missing_data_heading": "缺失",
+      "missing_data_body": "",
+      "missing_data_cta": ""
+    },
+    "info_modal": {
+      "eyebrow": "解锁了新知识",
+      "intro_cta": "开始学习",
+      "next_cta": "下一页",
+      "previous_cta": "上一页",
+      "primary_cta_label": "获取信息",
+      "key_concpets_label": "关键概念"
+    },
+    "intro": {
+      "speaker": "阿克森教授",
+      "learning_ticket": [
+        {
+          "id": "lab-explore-1",
+          "question": "欢迎！很高兴你能来。我先准备一下，你可以在实验室里四处看看。",
+          "answers": [
+            {
+              "text": "开始吧！",
+              "isCorrect": true
+            }
+          ],
+          "success_response": null,
+          "failure_response": null
+        }
+      ]
+    },
+    "outro": {
+      "speaker": "阿克森教授",
+      "intro": [
+        {
+          "id": "intro",
+          "question": "你似乎找到了所有物品。还记得刚才学到了什么吗？",
+          "answers": [
+            {
+              "text": "开始吧",
+              "isCorrect": true
+            }
+          ],
+          "success_response": null,
+          "failure_response": null
+        }
+      ],
+      "fill_blanks": [
+        {
+          "heading": "填空",
+          "paragraph": "冬眠可能扰乱了大脑中重要的{{ 连接 }}，这也许就是{{ 健忘 }}的原因。",
+          "distractors": [
+            "血管"
+          ],
+          "submit_cta_label": "继续",
+          "feedback_correct": "很棒！",
+          "feedback_incorrect": "不太对……"
+        },
+        {
+          "heading": "填空",
+          "paragraph": "大脑由{{ 860亿 }}个神经元组成。",
+          "distractors": [
+            "8600万",
+            "8.6万"
+          ],
+          "submit_cta_label": "继续",
+          "feedback_correct": "很棒！",
+          "feedback_incorrect": "不太对……"
+        },
+        {
+          "heading": "填空",
+          "paragraph": "叫作{{ 神经元 }}的细胞在大脑中形成连接。信号会跨过这些细胞之间的微小间隙，这些间隙叫作{{ 突触 }}。",
+          "distractors": [
+            "神经"
+          ],
+          "submit_cta_label": "继续",
+          "feedback_correct": "很棒！",
+          "feedback_incorrect": "不太对……"
+        },
+        {
+          "heading": "填空",
+          "paragraph": "大脑里有数十亿个神经元。研究人员在{{ 微观 }}尺度上观察它们，使用的切片比头发薄约{{ 3000倍 }}。",
+          "distractors": [
+            "100倍"
+          ],
+          "submit_cta_label": "继续",
+          "feedback_correct": "很棒！",
+          "feedback_incorrect": "不太对……"
+        },
+        {
+          "heading": "填空",
+          "paragraph": "通过标注并叠放大脑扫描图，我们可以制作神经连接的{{ 三维地图 }}。人工完成需要几十年，但{{ AI模型 }}可以帮忙。",
+          "distractors": [
+            "图片"
+          ],
+          "submit_cta_label": "继续",
+          "feedback_correct": "很棒！",
+          "feedback_incorrect": "不太对……"
+        }
+      ],
+      "video": {
+        "webm": {
+          "url": "peaks/en_gb/PP_Cutscene.webm",
+          "file_name": ""
+        },
+        "poster": {
+          "url": "peaks/en_gb/PP_Cutscene.webp",
+          "file_name": ""
+        },
+        "mp4": {
+          "url": "peaks/en_gb/PP_Cutscene.mp4",
+          "file_name": ""
+        },
+        "subtitles": "WEBVTT\n\n00:00:00.000 --&gt; 00:00:03.600\n看来你有很强的好奇心\n\n00:00:03.600 --&gt; 00:00:06.000\n这是科学家必不可少的品质。\n\n00:00:06.000 --&gt; 00:00:08.400\n现在你已经了解了我们的研究\n\n00:00:08.400 --&gt; 00:00:10.800\n我们可以开始工作了。\n\n00:00:10.800 --&gt; 00:00:13.600\n这是神经透镜扫描仪。\n\n00:00:13.600 --&gt; 00:00:15.600\n它会找到大脑中\n\n00:00:15.600 --&gt; 00:00:18.000\n与记忆有关的区域并进行扫描。\n\n00:00:18.000 --&gt; 00:00:21.200\n我们的志愿者阿尔菲准备好了。\n\n00:00:21.200 --&gt; 00:00:22.400\n看！\n\n00:00:22.400 --&gt; 00:00:25.600\n斯凯教授打来电话了！"
+      },
+      "learning_ticket": [
+        {
+          "id": "pr-skye-1",
+          "question": "你好！我是你的AI向导斯凯教授。阿克森教授希望你帮助训练AI模型，加快他的研究。",
+          "answers": [
+            {
+              "text": "我该怎么帮忙？",
+              "isCorrect": true
+            }
+          ],
+          "success_response": {
+            "text": "你需要把已标注的大脑扫描图作为例子，提供给AI训练。",
+            "media": {
+              "webm": {
+                "url": "peaks/labelled.webm",
+                "file_name": ""
+              },
+              "poster": {
+                "url": "peaks/labelled.webp",
+                "file_name": ""
+              },
+              "mp4": {
+                "url": "peaks/labelled.mp4",
+                "file_name": ""
+              },
+              "subtitles": null
+            },
+            "emoji": null
+          },
+          "failure_response": {
+            "text": "0",
+            "media": null,
+            "emoji": null
+          }
+        },
+        {
+          "id": "pr-skye-2",
+          "question": "看过这些已标注的例子之后，你觉得AI会做什么？",
+          "answers": [
+            {
+              "text": "接下来会怎样？",
+              "isCorrect": true
+            }
+          ],
+          "success_response": {
+            "text": "AI会学习其中的规律，然后比人工更快地标注新的扫描图！",
+            "media": {
+              "webm": {
+                "url": "peaks/unlabelled.webm",
+                "file_name": ""
+              },
+              "poster": {
+                "url": "peaks/unlabelled.webp",
+                "file_name": ""
+              },
+              "mp4": {
+                "url": "peaks/unlabelled.mp4",
+                "file_name": ""
+              },
+              "subtitles": null
+            },
+            "emoji": null
+          },
+          "failure_response": {
+            "text": "0",
+            "media": null,
+            "emoji": null
+          }
+        },
+        {
+          "id": "pr-skye-3",
+          "question": "AI能自动标注新扫描图了，这为什么对实验室很重要？",
+          "answers": [
+            {
+              "text": "这能怎样帮助团队？",
+              "isCorrect": true
+            }
+          ],
+          "success_response": {
+            "text": "这能帮助阿克森教授和团队更快完成三维地图。",
+            "media": {
+              "webm": {
+                "url": "peaks/model.webm",
+                "file_name": ""
+              },
+              "poster": {
+                "url": "peaks/model.webp",
+                "file_name": ""
+              },
+              "mp4": {
+                "url": "peaks/model.mp4",
+                "file_name": ""
+              },
+              "subtitles": null
+            },
+            "emoji": null
+          },
+          "failure_response": {
+            "text": "0",
+            "media": null,
+            "emoji": null
+          }
+        },
+        {
+          "id": "pr-skye-4",
+          "question": "既然AI要从示例数据中找规律，你觉得它最需要什么？",
+          "answers": [
+            {
+              "text": "已标注的扫描图",
+              "isCorrect": true
+            },
+            {
+              "text": "披萨",
+              "isCorrect": false
+            },
+            {
+              "text": "更多键盘",
+              "isCorrect": false
+            }
+          ],
+          "success_response": {
+            "text": "对！我们需要已标注的扫描图。阿克森教授正准备为一位志愿者扫描大脑。",
+            "media": null,
+            "emoji": null
+          },
+          "failure_response": {
+            "text": "不太对，不过可以再想想！首先，我们需要已标注的扫描图。阿克森教授正准备为一位志愿者扫描大脑。",
+            "media": null,
+            "emoji": null
+          }
+        },
+        {
+          "id": "pr-skye-5",
+          "question": "先帮阿克森教授收集扫描图，之后你会学习怎样标注图中的不同部分。",
+          "answers": [
+            {
+              "text": "去收集新的扫描图吧！",
+              "isCorrect": true
+            }
+          ],
+          "success_response": null,
+          "failure_response": null
+        }
+      ]
+    }
+  },
+  "scan_brain": {
+    "intro": {
+      "speaker": "阿克森教授",
+      "learning_ticket": [
+        {
+          "id": "scan-intro-1",
+          "question": "开始收集数据吧！阿尔菲很愿意帮忙。我们会请他回想三件事，每次都观察他的大脑哪些区域变得活跃，找出与记忆有关的区域。",
+          "answers": [
+            {
+              "text": "继续",
+              "isCorrect": true
+            }
+          ],
+          "success_response": {
+            "text": "然后收集这些区域的扫描图，标注神经元，用这些数据训练AI模型。",
+            "media": null,
+            "emoji": null
+          },
+          "failure_response": null
+        },
+        {
+          "id": "scan-intro-2",
+          "question": "注意哪些区域亮起来了。选中并扫描这些区域，把数据保存下来。准备好了吗？",
+          "answers": [
+            {
+              "text": "准备好了！",
+              "isCorrect": true
+            }
+          ],
+          "success_response": null,
+          "failure_response": null
+        }
+      ]
+    },
+    "labels": {
+      "dataset_saved": "数据集{{ number }}已保存",
+      "dataset": "数据集{{ number }}",
+      "datasets": "数据集",
+      "drag_to_scan": "拖动以扫描",
+      "in_progress": "正在扫描",
+      "ready_to_scan": "可以开始扫描",
+      "save_dataset": "保存数据集",
+      "scan_sample": "扫描图{{ number }}",
+      "scanning_complete": "扫描完成",
+      "scanning": "正在扫描",
+      "total_scans": "扫描图总数"
+    },
+    "objective_reminder": {
+      "heading_title": "任务 2",
+      "heading_description": "扫描并保存大脑的活动情况。",
+      "heading_thumbnail": {
+        "file": {
+          "url": "icons/objective-reminder-magnifier.webp",
+          "width": 0,
+          "height": 0
+        },
+        "alt": null
+      },
+      "body": "观察阿尔菲回忆时的全息影像。当某个大脑区域亮起时，选中并扫描它，创建数据集。",
+      "video": {
+        "webm": {
+          "url": "peaks/all/objective_ui/brain_scan_objective_UI.webm",
+          "file_name": ""
+        },
+        "poster": {
+          "url": "peaks/all/objective_ui/brain_scan_objective_UI.webp",
+          "file_name": ""
+        },
+        "mp4": {
+          "url": "peaks/all/objective_ui/brain_scan_objective_UI.mp4",
+          "file_name": ""
+        },
+        "subtitles": null
+      }
+    },
+    "questions": [
+      "阿尔菲，试着回想一下你第一天上学的情景……",
+      "现在，试着记住这个声音。",
+      "最后，试着记住这串数字。"
+    ],
+    "conversation": {
+      "speaker": "阿克森教授",
+      "learning_ticket": [
+        {
+          "id": "scan-intro-1",
+          "question": "让我们仔细看看！",
+          "answers": [
+            {
+              "text": "继续",
+              "isCorrect": true
+            }
+          ],
+          "success_response": null,
+          "failure_response": null
+        }
+      ]
+    },
+    "outro": [
+      {
+        "id": "scan-outro-1",
+        "question": "大脑扫描切片已经收集好了。在开始训练前，我们要先检查图像质量。",
+        "answers": [
+          {
+            "text": "继续",
+            "isCorrect": true
+          }
+        ],
+        "success_response": null,
+        "failure_response": null
+      }
+    ]
+  },
+  "review_scans": {
+    "intro": [
+      {
+        "id": "review-scans-1",
+        "text": "数据需要检查，但数量太多，一个人忙不过来！阿尔菲和其他实验室助手会来帮忙。他们熟悉神经科学，却刚接触AI。他们会观察你怎样检查数据质量，学会后就能一起做了。",
+        "speaker": "阿克森教授"
+      }
+    ],
+    "intro_oversight": [],
+    "task": {
+      "eyebrow": "选出有问题或已损坏的扫描图",
+      "question": "这张扫描图有什么问题？",
+      "option_image_missing": "图像缺失",
+      "option_printer": "",
+      "option_formatting": "格式不正确",
+      "option_corrupted": "图像已损坏",
+      "option_color": "",
+      "option_color_scheme": "",
+      "option_labeling": "",
+      "undo_cta": "",
+      "update_cta": "",
+      "remove_cta": "移除扫描图",
+      "next_cta": "下一批",
+      "next_alt_cta": "",
+      "feedback_valid_card": "嗯……这个选择值得再想想……",
+      "feedback_incorrect": "还不太对，再试一次。",
+      "feedback_correct": "对！这个错误说明AI模型还需要改进",
+      "removal_eyebrow": "有{{number}}张扫描图出现了这种错误。正在更新数据集……",
+      "removal_progress_eyebrow": "正在更新扫描图……",
+      "rules_cta": "标注规则",
+      "back_cta": "返回"
+    },
+    "objective_reminder": {
+      "heading_title": "任务 3",
+      "heading_description": "检查大脑扫描图的质量。",
+      "heading_thumbnail": {
+        "file": {
+          "url": "icons/objective-reminder-magnifier.webp",
+          "width": 0,
+          "height": 0
+        },
+        "alt": null
+      },
+      "body": "点击有问题的扫描图。注意图像是否太亮、太暗或已经损坏，以及其他可能影响研究的问题。",
+      "video": {
+        "webm": {
+          "url": "peaks/all/objective_ui/review_scan_objective_UI.webm",
+          "file_name": ""
+        },
+        "poster": {
+          "url": "peaks/all/objective_ui/review_scan_objective_UI.webp",
+          "file_name": ""
+        },
+        "mp4": {
+          "url": "peaks/all/objective_ui/review_scan_objective_UI.mp4",
+          "file_name": ""
+        },
+        "subtitles": null
+      }
+    },
+    "outro": {
+      "intro": [
+        {
+          "id": "intro",
+          "question": "做得好！阿尔菲和其他助手已经跟你学会了检查方法，现在会去检查剩余数据。",
+          "answers": [
+            {
+              "text": "继续",
+              "isCorrect": true
+            }
+          ],
+          "success_response": null,
+          "failure_response": null
+        },
+        {
+          "id": "intro-2",
+          "question": "",
+          "answers": [],
+          "success_response": null,
+          "failure_response": null
+        }
+      ],
+      "fill_blanks": [
+        {
+          "heading": "填空",
+          "paragraph": "冬眠可能扰乱了大脑中重要的{{ 连接 }}，这也许就是{{ 健忘 }}的原因。",
+          "distractors": [],
+          "submit_cta_label": "继续",
+          "feedback_correct": "很棒！",
+          "feedback_incorrect": "不太对……"
+        }
+      ]
+    }
+  },
+  "labelling": {
+    "intro": [
+      {
+        "id": "lab-labelling-intro-1",
+        "question": "质量检查完成了，接下来开始标注。把标注好的扫描图叠放起来，就能制作神经元连接的三维地图。",
+        "answers": [
+          {
+            "text": "继续",
+            "isCorrect": true
+          }
+        ],
+        "success_response": null,
+        "failure_response": null
+      }
+    ],
+    "objective_reminder": {
+      "heading_title": "任务 4",
+      "heading_description": "标注大脑扫描图。",
+      "heading_thumbnail": {
+        "file": {
+          "url": "icons/objective-reminder-magnifier.webp",
+          "width": 0,
+          "height": 0
+        },
+        "alt": null
+      },
+      "body": "先阅读标注规则。在每张扫描图上，用正确颜色的荧光笔标出对应部分。完成后，点击“提交扫描图”，继续处理下一张。",
+      "video": {
+        "webm": {
+          "url": "peaks/all/objective_ui/labelling_objective_UI.webm",
+          "file_name": ""
+        },
+        "poster": {
+          "url": "peaks/all/objective_ui/labelling_objective_UI.webp",
+          "file_name": ""
+        },
+        "mp4": {
+          "url": "peaks/all/objective_ui/labelling_objective_UI.mp4",
+          "file_name": ""
+        },
+        "subtitles": null
+      }
+    },
+    "task": {
+      "labeled": "第{{ number }}张，共{{ total }}张扫描图",
+      "submit_cta_label": "提交扫描图",
+      "rules": "标注规则",
+      "capillary": "毛细血管",
+      "neuron": "神经元",
+      "astrocytes": "星形胶质细胞",
+      "feedback_intro": "开始标注这些扫描图吧",
+      "feedback_incorrect": "再仔细看看。发光的区域可能标出了错误。",
+      "feedback_correction": "还是不太对。让实验室助手帮你完成这部分吧。",
+      "feedback_positive": "谢谢你。"
+    },
+    "outro": {
+      "learning_ticket": [
+        {
+          "id": "outro-1",
+          "question": "忙了这么久，我们才标注完三张扫描图，而今天已经收集了几千张！",
+          "answers": [
+            {
+              "text": "继续",
+              "isCorrect": true
+            }
+          ],
+          "success_response": null,
+          "failure_response": null
+        },
+        {
+          "id": "outro-2",
+          "question": "想象一下，全靠人工标注这些扫描图得花多长时间！",
+          "answers": [
+            {
+              "text": "继续",
+              "isCorrect": true
+            }
+          ],
+          "success_response": null,
+          "failure_response": null
+        },
+        {
+          "id": "outro-3",
+          "question": "AI模型可以帮忙，但训练它还需要更多标注好的数据。阿尔菲和助手们刚才看着你操作，已经学会了标注规则。他们会帮忙标注更多扫描图，为训练准备足够的数据。",
+          "answers": [
+            {
+              "text": "继续",
+              "isCorrect": true
+            }
+          ],
+          "success_response": null,
+          "failure_response": null
+        }
+      ],
+      "video": {
+        "webm": {
+          "url": "peaks/en_gb/lab-day-night2.webm",
+          "file_name": ""
+        },
+        "poster": {
+          "url": "peaks/en_gb/lab-day-night2.webp",
+          "file_name": ""
+        },
+        "mp4": {
+          "url": "peaks/en_gb/lab-day-night2.mp4",
+          "file_name": ""
+        },
+        "subtitles": null
+      }
+    }
+  },
+  "training": {
+    "objective_reminder": {
+      "heading_title": "任务 6",
+      "heading_description": "模型训练",
+      "heading_thumbnail": {
+        "file": {
+          "url": "icons/objective-reminder-magnifier.webp",
+          "width": 0,
+          "height": 0
+        },
+        "alt": null
+      },
+      "body": "待补充",
+      "video": {
+        "webm": {
+          "url": "dunes/01_Privacy_Objective_UI.webm",
+          "file_name": ""
+        },
+        "poster": {
+          "url": "dunes/01-privacy-poster.webp",
+          "file_name": ""
+        },
+        "mp4": {
+          "url": "dunes/01_Privacy_Objective_UI.mp4",
+          "file_name": ""
+        },
+        "subtitles": null
+      }
+    },
+    "introChat": [
+      {
+        "id": "lab-training-intro-chat-1",
+        "text": "早上好！大家齐心协力，现在已经准备好了几百张已标注的扫描图，可以训练AI模型了。我迫不及待想看看结果！",
+        "speaker": "阿克森教授"
+      }
+    ],
+    "introIpsa": [
+      {
+        "id": "lab-training-intro-ipsa-1",
+        "question": "真让人期待！训练AI模型，就是输入很多已标注的扫描图，让它学会不同部分的标注规律。",
+        "answers": [
+          {
+            "text": "好的",
+            "isCorrect": true
+          }
+        ],
+        "success_response": null,
+        "failure_response": null
+      }
+    ],
+    "training": {
+      "chat": [
+        {
+          "id": "lab-training-training-chat-1",
+          "text": "训练完成后，AI模型就能帮助我们更快地标注大量扫描图！",
+          "speaker": "斯凯教授"
+        },
+        {
+          "id": "lab-training-training-chat-2",
+          "text": "先把输入数据交给模型学习。这些数据，就是已标注的大脑扫描图。",
+          "speaker": "斯凯教授"
+        },
+        {
+          "id": "lab-training-training-chat-3",
+          "text": "但AI看扫描图的方式和人不同。AI处理的是数字等信息，所以要先把输入转换成它能使用的形式。",
+          "speaker": "斯凯教授"
+        },
+        {
+          "id": "lab-training-training-chat-4",
+          "text": "模型开始学习，怎样识别扫描图中的神经元、毛细血管等不同部分。",
+          "speaker": "斯凯教授"
+        },
+        {
+          "id": "lab-training-training-chat-5",
+          "text": "这需要大量计算。完成后，AI模型就学会了怎样标注尚未标注的扫描图。",
+          "speaker": "斯凯教授"
+        },
+        {
+          "id": "lab-training-training-chat-6",
+          "text": "我会把AI的标注和专家的标注作比较。它们会一致吗？",
+          "speaker": "斯凯教授"
+        },
+        {
+          "id": "lab-training-training-chat-7",
+          "text": "现在，我来比较AI模型输出的标注和专家的标注，看看AI模型有多准确。",
+          "speaker": "斯凯教授"
+        }
+      ],
+      "videos": [
+        {
+          "id": "lab-training-training-vid-1",
+          "video": {
+            "webm": {
+              "url": "/ai-quests/assets/videos/lab/05-07-training-retraining/training-01.webm",
+              "file_name": ""
+            },
+            "poster": {
+              "url": "/ai-quests/assets/videos/lab/05-07-training-retraining/training-01.webp",
+              "file_name": ""
+            },
+            "mp4": {
+              "url": "/ai-quests/assets/videos/lab/05-07-training-retraining/training-01.mp4",
+              "file_name": ""
+            },
+            "subtitles": null
+          }
+        },
+        {
+          "id": "lab-training-training-vid-2",
+          "video": {
+            "webm": {
+              "url": "/ai-quests/assets/videos/lab/05-07-training-retraining/training-02.webm",
+              "file_name": ""
+            },
+            "poster": {
+              "url": "/ai-quests/assets/videos/lab/05-07-training-retraining/training-02.webp",
+              "file_name": ""
+            },
+            "mp4": {
+              "url": "/ai-quests/assets/videos/lab/05-07-training-retraining/training-02.mp4",
+              "file_name": ""
+            },
+            "subtitles": null
+          }
+        },
+        {
+          "id": "lab-training-training-vid-3",
+          "video": {
+            "webm": {
+              "url": "/ai-quests/assets/videos/lab/05-07-training-retraining/training-03.webm",
+              "file_name": ""
+            },
+            "poster": {
+              "url": "/ai-quests/assets/videos/lab/05-07-training-retraining/training-03.webp",
+              "file_name": ""
+            },
+            "mp4": {
+              "url": "/ai-quests/assets/videos/lab/05-07-training-retraining/training-03.mp4",
+              "file_name": ""
+            },
+            "subtitles": null
+          }
+        },
+        {
+          "id": "lab-training-training-vid-4",
+          "video": {
+            "webm": {
+              "url": "/ai-quests/assets/videos/lab/05-07-training-retraining/training-04.webm",
+              "file_name": ""
+            },
+            "poster": {
+              "url": "/ai-quests/assets/videos/lab/05-07-training-retraining/training-04.webp",
+              "file_name": ""
+            },
+            "mp4": {
+              "url": "/ai-quests/assets/videos/lab/05-07-training-retraining/training-04.mp4",
+              "file_name": ""
+            },
+            "subtitles": null
+          }
+        },
+        {
+          "id": "lab-training-training-vid-5",
+          "video": {
+            "webm": {
+              "url": "/ai-quests/assets/videos/lab/05-07-training-retraining/training-05.webm",
+              "file_name": ""
+            },
+            "poster": {
+              "url": "/ai-quests/assets/videos/lab/05-07-training-retraining/training-05.webp",
+              "file_name": ""
+            },
+            "mp4": {
+              "url": "/ai-quests/assets/videos/lab/05-07-training-retraining/training-05.mp4",
+              "file_name": ""
+            },
+            "subtitles": null
+          }
+        }
+      ]
+    },
+    "trainingIpsa": [
+      {
+        "id": "lab-training-training-ipsa-1",
+        "question": "模型看过很多例子，已经能预测扫描图的标注了。阿克森教授现在就该把它用于研究吗？",
+        "answers": [
+          {
+            "text": "不该，应该先测试，确认它足够准确。",
+            "isCorrect": true
+          },
+          {
+            "text": "应该，它能预测，说明已经可以使用了。",
+            "isCorrect": false
+          }
+        ],
+        "success_response": {
+          "text": "你说得对。在用于研究前，要先测试模型，确认它足够准确。",
+          "media": null,
+          "emoji": null
+        },
+        "failure_response": {
+          "text": "不太对。在用于研究前，要先测试模型，确认它足够准确。",
+          "media": null,
+          "emoji": null
+        }
+      },
+      {
+        "id": "lab-training-training-ipsa-1",
+        "question": "你工作的时候，我们另外留出了一些未标注的扫描图，请专家完成了标注。",
+        "answers": [
+          {
+            "text": "好的",
+            "isCorrect": true
+          }
+        ],
+        "success_response": null,
+        "failure_response": null
+      },
+      {
+        "id": "lab-training-training-ipsa-2",
+        "question": "现在让AI也来标注同样的扫描图。这样，就能逐张比较AI和专家的标注了。",
+        "answers": [
+          {
+            "text": "开始吧！",
+            "isCorrect": true
+          }
+        ],
+        "success_response": null,
+        "failure_response": null
+      }
+    ],
+    "interaction": {
+      "chat": [],
+      "videos": [
+        {
+          "id": "lab-training-interaction-vid-1",
+          "video": {
+            "webm": {
+              "url": "/ai-quests/assets/videos/lab/05-07-training-retraining/testing-01.webm",
+              "file_name": ""
+            },
+            "poster": {
+              "url": "/ai-quests/assets/videos/lab/05-07-training-retraining/testing-01.webp",
+              "file_name": ""
+            },
+            "mp4": {
+              "url": "/ai-quests/assets/videos/lab/05-07-training-retraining/testing-01.mp4",
+              "file_name": ""
+            },
+            "subtitles": null
+          }
+        }
+      ]
+    },
+    "testing": {
+      "chat": [],
+      "videos": [
+        {
+          "id": "lab-training-testing-vid-1",
+          "video": {
+            "webm": {
+              "url": "/ai-quests/assets/videos/lab/05-07-training-retraining/training-06.webm",
+              "file_name": ""
+            },
+            "poster": {
+              "url": "/ai-quests/assets/videos/lab/05-07-training-retraining/training-06.webp",
+              "file_name": ""
+            },
+            "mp4": {
+              "url": "/ai-quests/assets/videos/lab/05-07-training-retraining/training-06.mp4",
+              "file_name": ""
+            },
+            "subtitles": null
+          }
+        },
+        {
+          "id": "lab-training-testing-vid-2",
+          "video": {
+            "webm": {
+              "url": "/ai-quests/assets/videos/lab/05-07-training-retraining/training-07.webm",
+              "file_name": ""
+            },
+            "poster": {
+              "url": "/ai-quests/assets/videos/lab/05-07-training-retraining/training-07.webp",
+              "file_name": ""
+            },
+            "mp4": {
+              "url": "/ai-quests/assets/videos/lab/05-07-training-retraining/training-07.mp4",
+              "file_name": ""
+            },
+            "subtitles": null
+          }
+        }
+      ]
+    },
+    "generating": [
+      {
+        "id": "lab-training-generating-vid-1",
+        "video": {
+          "webm": {
+            "url": "tbd",
+            "file_name": ""
+          },
+          "poster": {
+            "url": "tbd",
+            "file_name": ""
+          },
+          "mp4": {
+            "url": "tbd",
+            "file_name": ""
+          },
+          "subtitles": null
+        }
+      },
+      {
+        "id": "lab-training-generating-vid-2",
+        "video": {
+          "webm": {
+            "url": "tbd",
+            "file_name": ""
+          },
+          "poster": {
+            "url": "tbd",
+            "file_name": ""
+          },
+          "mp4": {
+            "url": "tbd",
+            "file_name": ""
+          },
+          "subtitles": null
+        }
+      },
+      {
+        "id": "lab-training-generating-vid-3",
+        "video": {
+          "webm": {
+            "url": "tbd",
+            "file_name": ""
+          },
+          "poster": {
+            "url": "tbd",
+            "file_name": ""
+          },
+          "mp4": {
+            "url": "tbd",
+            "file_name": ""
+          },
+          "subtitles": null
+        }
+      }
+    ],
+    "labels": {
+      "training": {
+        "title": "AI模型训练",
+        "left_column_title": "输入",
+        "left_column_content": "",
+        "center_column_title": "AI模型",
+        "right_column_title": "输出",
+        "right_column_content": ""
+      },
+      "testing": {
+        "title": "AI模型测试",
+        "left_column_title": "输入",
+        "left_column_content": "选择数据集",
+        "center_column_title": "AI模型",
+        "right_column_title": "输出",
+        "right_column_content": "暂无输出"
+      },
+      "generating": {
+        "title": "AI生成的三维地图",
+        "dataset": "数据集",
+        "accuracy": "准确度",
+        "sufficient": "达标",
+        "scan_counter": "张扫描图"
+      }
+    },
+    "redo": [
+      {
+        "id": "lab-training-redo-ipsa-1",
+        "question": "模型在标注时仍然出错太多。让我们再检查一下。",
+        "answers": [
+          {
+            "text": "好的",
+            "isCorrect": true
+          }
+        ],
+        "success_response": null,
+        "failure_response": null
+      }
+    ],
+    "outro": [
+      {
+        "id": "lab-training-outro-1",
+        "text": "糟了，模型还不够准确！也许训练数据里有错误。先检查并纠正，再继续吧。",
+        "speaker": "阿克森教授"
+      }
+    ]
+  },
+  "retraining": {
+    "objective_reminder": {
+      "heading_title": "任务7",
+      "heading_description": "重新训练模型",
+      "heading_thumbnail": {
+        "file": {
+          "url": "icons/objective-reminder-magnifier.webp",
+          "width": 0,
+          "height": 0
+        },
+        "alt": null
+      },
+      "body": "待补充",
+      "video": {
+        "webm": {
+          "url": "dunes/01_Privacy_Objective_UI.webm",
+          "file_name": ""
+        },
+        "poster": {
+          "url": "dunes/01-privacy-poster.webp",
+          "file_name": ""
+        },
+        "mp4": {
+          "url": "dunes/01_Privacy_Objective_UI.mp4",
+          "file_name": ""
+        },
+        "subtitles": null
+      }
+    },
+    "introChat": [],
+    "introIpsa": [
+      {
+        "id": "lab-retraining-intro-ipsa-1",
+        "question": "我们已经标出了AI的标注错误。把这些信息加入训练，更新模型，提高准确率吧。",
+        "answers": [
+          {
+            "text": "开始吧！",
+            "isCorrect": true
+          }
+        ],
+        "success_response": null,
+        "failure_response": null
+      }
+    ],
+    "training": {
+      "chat": [
+        {
+          "id": "lab-retraining-training-chat-2",
+          "text": "看看这次更新能不能提高模型的准确率",
+          "speaker": "斯凯教授"
+        }
+      ],
+      "videos": [
+        {
+          "id": "lab-retraining-training-vid-2",
+          "video": {
+            "webm": {
+              "url": "/ai-quests/assets/videos/lab/05-07-training-retraining/training-05.webm",
+              "file_name": ""
+            },
+            "poster": {
+              "url": "/ai-quests/assets/videos/lab/05-07-training-retraining/training-05.webp",
+              "file_name": ""
+            },
+            "mp4": {
+              "url": "/ai-quests/assets/videos/lab/05-07-training-retraining/training-05.mp4",
+              "file_name": ""
+            },
+            "subtitles": null
+          }
+        }
+      ]
+    },
+    "trainingIpsa": [],
+    "interaction": {
+      "chat": [],
+      "videos": [
+        {
+          "id": "lab-retraining-interaction-vid-1",
+          "video": {
+            "webm": {
+              "url": "/ai-quests/assets/videos/lab/05-07-training-retraining/testing-01.webm",
+              "file_name": ""
+            },
+            "poster": {
+              "url": "/ai-quests/assets/videos/lab/05-07-training-retraining/testing-01.webp",
+              "file_name": ""
+            },
+            "mp4": {
+              "url": "/ai-quests/assets/videos/lab/05-07-training-retraining/testing-01.mp4",
+              "file_name": ""
+            },
+            "subtitles": null
+          }
+        }
+      ]
+    },
+    "testing": {
+      "chat": [],
+      "videos": [
+        {
+          "id": "lab-retraining-testing-vid-1",
+          "video": {
+            "webm": {
+              "url": "/ai-quests/assets/videos/lab/05-07-training-retraining/training-06.webm",
+              "file_name": ""
+            },
+            "poster": {
+              "url": "/ai-quests/assets/videos/lab/05-07-training-retraining/training-06.webp",
+              "file_name": ""
+            },
+            "mp4": {
+              "url": "/ai-quests/assets/videos/lab/05-07-training-retraining/training-06.mp4",
+              "file_name": ""
+            },
+            "subtitles": null
+          }
+        },
+        {
+          "id": "lab-retraining-testing-vid-2",
+          "video": {
+            "webm": {
+              "url": "/ai-quests/assets/videos/lab/05-07-training-retraining/training-07.webm",
+              "file_name": ""
+            },
+            "poster": {
+              "url": "/ai-quests/assets/videos/lab/05-07-training-retraining/training-07.webp",
+              "file_name": ""
+            },
+            "mp4": {
+              "url": "/ai-quests/assets/videos/lab/05-07-training-retraining/training-07.mp4",
+              "file_name": ""
+            },
+            "subtitles": null
+          }
+        }
+      ]
+    },
+    "generating": [
+      {
+        "id": "lab-retraining-generating-vid-1",
+        "video": {
+          "webm": {
+            "url": "tbd",
+            "file_name": ""
+          },
+          "poster": {
+            "url": "tbd",
+            "file_name": ""
+          },
+          "mp4": {
+            "url": "tbd",
+            "file_name": ""
+          },
+          "subtitles": null
+        }
+      },
+      {
+        "id": "lab-retraining-generating-vid-2",
+        "video": {
+          "webm": {
+            "url": "tbd",
+            "file_name": ""
+          },
+          "poster": {
+            "url": "tbd",
+            "file_name": ""
+          },
+          "mp4": {
+            "url": "tbd",
+            "file_name": ""
+          },
+          "subtitles": null
+        }
+      },
+      {
+        "id": "lab-retraining-generating-vid-3",
+        "video": {
+          "webm": {
+            "url": "tbd",
+            "file_name": ""
+          },
+          "poster": {
+            "url": "tbd",
+            "file_name": ""
+          },
+          "mp4": {
+            "url": "tbd",
+            "file_name": ""
+          },
+          "subtitles": null
+        }
+      }
+    ],
+    "labels": {
+      "training": {
+        "title": "AI模型训练",
+        "left_column_title": "输入",
+        "left_column_content": "",
+        "center_column_title": "AI模型",
+        "right_column_title": "输出",
+        "right_column_content": ""
+      },
+      "testing": {
+        "title": "AI模型测试",
+        "left_column_title": "输入",
+        "left_column_content": "选择数据集",
+        "center_column_title": "AI模型",
+        "right_column_title": "输出",
+        "right_column_content": "暂无输出"
+      },
+      "generating": {
+        "title": "AI生成的三维地图",
+        "dataset": "数据集",
+        "accuracy": "准确度",
+        "sufficient": "达标",
+        "scan_counter": "张扫描图"
+      }
+    },
+    "redo": [
+      {
+        "id": "lab-retraining-redo-ipsa-1",
+        "question": "第二轮错误检查提供了更多信息，有助于进一步提高准确率。",
+        "answers": [
+          {
+            "text": "好的",
+            "isCorrect": true
+          }
+        ],
+        "success_response": null,
+        "failure_response": null
+      }
+    ],
+    "outro": [
+      {
+        "id": "lab-retraining-outro-1",
+        "text": "太棒了！经过充分测试和仔细检查，AI模型已经有了不错的准确率。看，它标注新数据集的速度多快！",
+        "speaker": "斯凯教授"
+      }
+    ]
+  },
+  "oversight": {
+    "intro": [],
+    "labelling": {
+      "objective_reminder": {
+        "heading_title": "任务 5",
+        "heading_description": "纠正标注",
+        "heading_thumbnail": {
+          "file": {
+            "url": "icons/objective-reminder-magnifier.webp",
+            "width": 0,
+            "height": 0
+          },
+          "alt": null
+        },
+        "body": "检查标注，纠正发现的错误。如果提交后仍有错误，团队会为你指出；如果还是没有改对，他们会接手帮助你。",
+        "video": {
+          "webm": {
+            "url": "peaks/all/objective_ui/correcting_labelling_objective_UI.webm",
+            "file_name": ""
+          },
+          "poster": {
+            "url": "peaks/all/objective_ui/correcting_labelling_objective_UI.webp",
+            "file_name": ""
+          },
+          "mp4": {
+            "url": "peaks/all/objective_ui/correcting_labelling_objective_UI.mp4",
+            "file_name": ""
+          },
+          "subtitles": null
+        }
+      },
+      "task": {
+        "labeled": "正在纠正第{{ number }}张扫描图",
+        "submit_cta_label": "提交扫描图",
+        "rules": "标注规则",
+        "capillary": "毛细血管",
+        "neuron": "神经元",
+        "astrocytes": "星形胶质细胞",
+        "feedback_intro": "这里似乎不太对。你能看出原因吗？现在就要改正错误，不然AI模型就不够准确。",
+        "feedback_incorrect": "再仔细看看。发光的区域可能标出了错误。",
+        "feedback_correction": "还是不太对。让实验室助手帮你完成这部分吧。",
+        "feedback_positive": "做得好！"
+      }
+    },
+    "review_scans": {
+      "intro": [
+        {
+          "id": "oversight-review-scans-1",
+          "text": "人都会犯错，受过专业训练的人也一样。所以你的作用很重要：质量检查中的每个决定，都会影响AI学习的数据和最终的准确率。",
+          "speaker": "阿克森教授"
+        }
+      ],
+      "intro_oversight": [
+        {
+          "id": "review-scans-oversight-intro-1",
+          "question": "这个神经元三维模型的准确率太低了，也许AI标错了一些扫描图。人类认真检查AI的输出始终很重要！",
+          "answers": [
+            {
+              "text": "开始吧！",
+              "isCorrect": true
+            }
+          ],
+          "success_response": null,
+          "failure_response": null
+        }
+      ],
+      "task": {
+        "eyebrow": "找出这一批扫描图中错误的AI标注",
+        "question": "AI的标注有什么问题？",
+        "option_image_missing": "",
+        "option_printer": "",
+        "option_formatting": "",
+        "option_corrupted": "",
+        "option_color": "神经元标注错误",
+        "option_color_scheme": "所有边界都使用了同一种颜色",
+        "option_labeling": "标注不完整",
+        "undo_cta": "放回正确的一堆",
+        "update_cta": "修改原因",
+        "remove_cta": "标记为错误",
+        "next_cta": "下一批",
+        "next_alt_cta": "更新模型",
+        "feedback_valid_card": "嗯……这个选择值得再想想……",
+        "feedback_incorrect": "还不太对，再试一次。",
+        "feedback_correct": "对！这张扫描图会影响模型，我们来修正它。",
+        "removal_eyebrow": "AI模型出现了{{number}}次这种标注错误。把它们都标记为AI生成的错误吧。",
+        "removal_progress_eyebrow": "正在更新扫描图……",
+        "rules_cta": "标注规则",
+        "back_cta": "返回"
+      },
+      "objective_reminder": {
+        "heading_title": "任务 6",
+        "heading_description": "检查AI标注的质量",
+        "heading_thumbnail": {
+          "file": {
+            "url": "icons/objective-reminder-magnifier.webp",
+            "width": 0,
+            "height": 0
+          },
+          "alt": null
+        },
+        "body": "点击缺少颜色或涂色不正确的扫描图。",
+        "video": {
+          "webm": {
+            "url": "peaks/all/objective_ui/oversight_objective_UI.webm",
+            "file_name": ""
+          },
+          "poster": {
+            "url": "peaks/all/objective_ui/oversight_objective_UI.webp",
+            "file_name": ""
+          },
+          "mp4": {
+            "url": "peaks/all/objective_ui/oversight_objective_UI.mp4",
+            "file_name": ""
+          },
+          "subtitles": null
+        }
+      },
+      "outro": {
+        "intro": [
+          {
+            "id": "intro",
+            "question": "做得好！阿尔菲和其他助手已经跟你学会了检查方法，现在会去检查剩余数据。",
+            "answers": [
+              {
+                "text": "继续",
+                "isCorrect": true
+              }
+            ],
+            "success_response": null,
+            "failure_response": null
+          },
+          {
+            "id": "intro-2",
+            "question": "",
+            "answers": [],
+            "success_response": null,
+            "failure_response": null
+          }
+        ],
+        "fill_blanks": [
+          {
+            "heading": "填空",
+            "paragraph": "冬眠可能扰乱了大脑中重要的{{ 连接 }}，这也许就是{{ 健忘 }}的原因。",
+            "distractors": [],
+            "submit_cta_label": "继续",
+            "feedback_correct": "很棒！",
+            "feedback_incorrect": "不太对……"
+          }
+        ]
+      }
+    }
+  },
+  "quest_complete": {
+    "objective_reminder": {
+      "heading_title": "任务7",
+      "heading_description": "撰写报告",
+      "heading_thumbnail": {
+        "file": {
+          "url": "icons/objective-reminder-magnifier.webp",
+          "width": 0,
+          "height": 0
+        },
+        "alt": null
+      },
+      "body": "按照完成顺序，排列你在极地之巅做过的任务。",
+      "video": {
+        "webm": {
+          "url": "peaks/all/objective_ui/field_report_objective_UI.webm",
+          "file_name": ""
+        },
+        "poster": {
+          "url": "peaks/all/objective_ui/field_report_objective_UI.webp",
+          "file_name": ""
+        },
+        "mp4": {
+          "url": "peaks/all/objective_ui/field_report_objective_UI.mp4",
+          "file_name": ""
+        },
+        "subtitles": null
+      }
+    },
+    "exit_video": {
+      "webm": {
+        "url": "peaks/en_gb/PP_Outro.webm",
+        "file_name": ""
+      },
+      "poster": {
+        "url": "peaks/en_gb/PP_Outro.webp",
+        "file_name": ""
+      },
+      "mp4": {
+        "url": "peaks/en_gb/PP_Outro.mp4",
+        "file_name": ""
+      },
+      "subtitles": "WEBVTT\n\n00:00:00.000 --&gt; 00:00:03.600\n成功了！在AI的帮助下\n\n00:00:03.600 --&gt; 00:00:06.000\n所有扫描图都完成了标注。\n\n00:00:08.000 --&gt; 00:00:10.000\n我们利用它们生成了\n\n00:00:10.000 --&gt; 00:00:14.400\n一些重要神经连接的三维模型。\n\n00:00:14.400 --&gt; 00:00:18.400\n借助这些模型，我们发现有些神经元之间的突触\n\n00:00:18.400 --&gt; 00:00:22.000\n会在长时间冬眠后发生变化。\n\n00:00:22.000 --&gt; 00:00:25.600\n极地之巅的朋友们遇到的正是这种情况。\n\n00:00:25.600 --&gt; 00:00:26.800\n现在，他们已经知道原因\n\n00:00:26.800 --&gt; 00:00:30.000\n可以开始探索治疗方法和解决办法了。\n\n00:00:30.000 --&gt; 00:00:32.800\n这是一个重大突破！\n\n00:00:32.800 --&gt; 00:00:34.000\n你可以把它称为……\n\n00:00:34.000 --&gt; 00:00:36.800\n一个让人难以忘记的发现！\n\n00:00:36.800 --&gt; 00:00:38.000\n从现在起，你也是\n\n00:00:38.000 --&gt; 00:00:40.000\n这条不断延伸的科学发现链条中的一员。\n\n00:00:40.000 --&gt; 00:00:42.800\n它远远超出了这间实验室。\n\n00:00:42.800 --&gt; 00:00:44.800\n是不是很奇妙？\n\n00:00:44.800 --&gt; 00:00:46.400\n这是什么？\n\n00:00:46.400 --&gt; 00:00:48.000\n《极地期刊》发来的邀请？"
+    },
+    "pre_recap_learning_ticket": [
+      {
+        "id": "pre-recap-0",
+        "question": "恭喜！离开前，先简单记录一下你怎样建立并改进AI模型，让其他研究助手，甚至阿尔菲，在需要时也能使用它。",
+        "answers": [
+          {
+            "text": "开始写报告",
+            "isCorrect": true
+          }
+        ],
+        "success_response": null,
+        "failure_response": null
+      }
+    ],
+    "post_recap_learning_ticket": [
+      {
+        "id": "post-recap-0",
+        "question": "报告完成了！这个任务与现实中的谷歌研究项目很相似。看，他们正好打来电话了！",
+        "answers": [
+          {
+            "text": "看真实世界的视频",
+            "isCorrect": true
+          }
+        ],
+        "success_response": {
+          "text": "交给你们啦，团队！",
+          "media": null,
+          "emoji": null
+        },
+        "failure_response": null
+      }
+    ],
+    "recap_report": {
+      "submit_label": "提交",
+      "document_headline": "实地报告：极地之巅",
+      "badge_correct": {
+        "file": {
+          "url": "dunes/recap-sticker-correct.webp",
+          "width": 0,
+          "height": 0
+        },
+        "alt": "徽章正确"
+      },
+      "badge_incorrect": {
+        "file": {
+          "url": "dunes/recap-sticker-incorrect.webp",
+          "width": 0,
+          "height": 0
+        },
+        "alt": "徽章错误"
+      },
+      "steps": [
+        {
+          "id": "privacy",
+          "slot_index": 1,
+          "label": "探索实验室",
+          "video": {
+            "webm": {
+              "url": "",
+              "file_name": ""
+            },
+            "poster": {
+              "url": "peaks/all/recap_1.webp",
+              "file_name": ""
+            },
+            "mp4": null,
+            "subtitles": null
+          }
+        },
+        {
+          "id": "training-testing",
+          "slot_index": 2,
+          "label": "扫描阿尔菲的大脑",
+          "video": {
+            "webm": {
+              "url": "",
+              "file_name": ""
+            },
+            "poster": {
+              "url": "peaks/all/recap_2.webp",
+              "file_name": ""
+            },
+            "mp4": null,
+            "subtitles": null
+          }
+        },
+        {
+          "id": "field-test-1",
+          "slot_index": 3,
+          "label": "移除质量较差的扫描图",
+          "video": {
+            "webm": {
+              "url": "",
+              "file_name": ""
+            },
+            "poster": {
+              "url": "peaks/all/recap_3.webp",
+              "file_name": ""
+            },
+            "mp4": null,
+            "subtitles": null
+          }
+        },
+        {
+          "id": "diverse-data",
+          "slot_index": 4,
+          "label": "人工标注脑细胞",
+          "video": {
+            "webm": {
+              "url": "",
+              "file_name": ""
+            },
+            "poster": {
+              "url": "peaks/all/recap_4.webp",
+              "file_name": ""
+            },
+            "mp4": null,
+            "subtitles": null
+          }
+        },
+        {
+          "id": "data-labelling",
+          "slot_index": 5,
+          "label": "训练AI模型",
+          "video": {
+            "webm": {
+              "url": "",
+              "file_name": ""
+            },
+            "poster": {
+              "url": "peaks/all/recap_5.webp",
+              "file_name": ""
+            },
+            "mp4": null,
+            "subtitles": null
+          }
+        },
+        {
+          "id": "field-test-2",
+          "slot_index": 6,
+          "label": "检查AI标注的扫描图",
+          "video": {
+            "webm": {
+              "url": "",
+              "file_name": ""
+            },
+            "poster": {
+              "url": "peaks/all/recap_6.webp",
+              "file_name": ""
+            },
+            "mp4": null,
+            "subtitles": null
+          }
+        }
+      ]
+    },
+    "quest_complete_eyebrow": "TODO",
+    "badge_earned_title": "TODO",
+    "badge_media": {
+      "file": {
+        "url": "peaks/badge.gif",
+        "width": 0,
+        "height": 0
+      },
+      "alt": "徽章"
+    },
+    "badge_description": "出色的工作！你的报告写完啦，我们的 AI 也准备好帮助世界各地的人了。你搭建出的这个 AI，能学习、能适应，对每个人都管用。",
+    "next_quest_cta_label": "完成任务",
+    "case_study_video": {
+      "webm": {
+        "url": "peaks/en_gb/Researcher_Interviews_Connectomics.webm",
+        "file_name": ""
+      },
+      "poster": {
+        "url": "peaks/en_gb/Researcher_Interviews_Connectomics.webp",
+        "file_name": ""
+      },
+      "mp4": {
+        "url": "peaks/en_gb/Researcher_Interviews_Connectomics.mp4",
+        "file_name": ""
+      },
+      "subtitles": "WEBVTT\n\n00:00:05.000 --&gt; 00:00:08.000 line:65%\n谢谢斯凯教授。大家好，我是\n\n00:00:08.000 --&gt; 00:00:10.000 line:65%\n莉齐。这位是维伦，我们在谷歌\n\n00:00:10.000 --&gt; 00:00:12.000 line:65%\n研究院工作，正在绘制\n\n00:00:12.000 --&gt; 00:00:14.000 line:65%\n大脑连接的详细地图，以便更好地了解\n\n00:00:14.000 --&gt; 00:00:15.000 line:65%\n大脑怎样工作。\n\n00:00:15.000 --&gt; 00:00:17.000\n这个项目很有意思的一点是\n\n00:00:17.000 --&gt; 00:00:19.000\n我们正在利用AI\n\n00:00:19.000 --&gt; 00:00:22.000\n帮助破解大脑的奥秘\n\n00:00:22.000 --&gt; 00:00:23.000\n这仍然是科学界最重要的\n\n00:00:23.000 --&gt; 00:00:25.000\n未解问题之一。\n\n00:00:25.000 --&gt; 00:00:27.000\n我们是这样做的：先准备\n\n00:00:27.000 --&gt; 00:00:29.000\n比头发还薄得多的\n\n00:00:29.000 --&gt; 00:00:30.000\n微小脑组织切片。然后使用特殊的\n\n00:00:30.000 --&gt; 00:00:32.000\n显微镜，拍摄数千张\n\n00:00:32.000 --&gt; 00:00:35.000\n切片图像。接着\n\n00:00:35.000 --&gt; 00:00:36.000\n勾画每张切片中的细胞轮廓\n\n00:00:36.000 --&gt; 00:00:38.000\n再把图像组合起来，形成\n\n00:00:38.000 --&gt; 00:00:40.000\n大脑一小部分的\n\n00:00:40.000 --&gt; 00:00:41.000\n三维图像。\n\n00:00:41.000 --&gt; 00:00:43.000\n过去，科学家需要\n\n00:00:43.000 --&gt; 00:00:45.000\n全靠人工完成\n\n00:00:45.000 --&gt; 00:00:48.000\n这个过程非常慢。比如，绘制线虫\n\n00:00:48.000 --&gt; 00:00:50.000\n微小大脑的地图就用了16年。\n\n00:00:50.000 --&gt; 00:00:52.000\n这时，AI就能帮上忙。就像你\n\n00:00:52.000 --&gt; 00:00:54.000\n在任务中体验的那样，我们训练AI\n\n00:00:54.000 --&gt; 00:00:56.000\n观察这些图片\n\n00:00:56.000 --&gt; 00:00:58.000\n追踪每个细胞细小而复杂的\n\n00:00:58.000 --&gt; 00:01:00.000\n路径。这项任务极其复杂\n\n00:01:00.000 --&gt; 00:01:01.000\n因为单个脑细胞\n\n00:01:01.000 --&gt; 00:01:03.000\n就可能有数千条连接\n\n00:01:03.000 --&gt; 00:01:05.000\n而它们交织在一起，就像一碗\n\n00:01:05.000 --&gt; 00:01:07.000\n意大利面。在这个过程中，我们要\n\n00:01:07.000 --&gt; 00:01:09.000\n进行分割，也就是把单个\n\n00:01:09.000 --&gt; 00:01:11.000\n细胞与周围组织区分开来。我们\n\n00:01:11.000 --&gt; 00:01:12.000\n还需要找出突触\n\n00:01:12.000 --&gt; 00:01:14.000\n也就是不同细胞之间\n\n00:01:14.000 --&gt; 00:01:16.000\n传递信号的微小\n\n00:01:16.000 --&gt; 00:01:18.000 line:75%\n连接处。AI追踪完\n\n00:01:18.000 --&gt; 00:01:20.000 line:75%\n所有细胞并识别出\n\n00:01:20.000 --&gt; 00:01:22.000 line:75%\n突触之后，我们就能制作\n\n00:01:22.000 --&gt; 00:01:25.000 line:75%\n这部分大脑中所有\n\n00:01:25.000 --&gt; 00:01:27.000 line:75%\n连接的完整地图。这张地图\n\n00:01:27.000 --&gt; 00:01:28.000 line:75%\n叫作“连接组”。\n\n00:01:28.000 --&gt; 00:01:30.000 line:85%\n目前，科学家正在绘制\n\n00:01:30.000 --&gt; 00:01:32.000 line:85%\n小鼠大脑的连接组。但我们的\n\n00:01:32.000 --&gt; 00:01:34.000 line:85%\n最终目标，是有一天能绘制\n\n00:01:34.000 --&gt; 00:01:35.000 line:85%\n人类大脑的地图。这可以帮助我们\n\n00:01:35.000 --&gt; 00:01:37.000\n更好地了解和治疗\n\n00:01:37.000 --&gt; 00:01:38.000\n与大脑有关的健康问题。\n\n00:01:38.000 --&gt; 00:01:40.000\n这段奇妙的旅程说明\n\n00:01:40.000 --&gt; 00:01:43.000\nAI能够大大加快科研进展。\n\n00:01:43.000 --&gt; 00:01:44.000\n它帮助我们完成一些\n\n00:01:44.000 --&gt; 00:01:46.000\n仅靠科学家自己难以实现的工作。\n\n00:01:46.000 --&gt; 00:01:49.000\n这个任务也展示了AI如何\n\n00:01:49.000 --&gt; 00:01:51.000\n帮助我们揭开大脑的奥秘\n\n00:01:51.000 --&gt; 00:01:52.000\n从一个细胞开始，逐步探索。\n\n00:01:52.000 --&gt; 00:01:54.000\n记得试试我们的其他任务\n\n00:01:54.000 --&gt; 00:01:56.000\n看看谷歌研究院的伙伴们\n\n00:01:56.000 --&gt; 00:01:57.000\n怎样用AI创造有意义的\n\n00:01:57.000 --&gt; 00:01:59.000\n改变。现在，把话筒交还给斯凯教授。\n"
+    },
+    "letter_chat": [
+      {
+        "id": "lab-complete-1",
+        "text": "在你的帮助下，阿克森教授的团队登上了《极地期刊》的封面。",
+        "speaker": "斯凯教授"
+      }
+    ],
+    "conference_chat": [
+      {
+        "id": "lab-complete-1",
+        "text": "很高兴来到行星科学博览会。大家有什么问题吗？",
+        "speaker": "阿克森教授"
+      }
+    ],
+    "conference_blanks": [
+      {
+        "heading": "为什么这个项目要使用AI？",
+        "paragraph": "我们需要分析{{ 更多的 }}大脑图像，数量远超人工处理的能力。AI帮助我们分析了足够的图像，绘制出{{ 连接 }}的三维地图。",
+        "distractors": [
+          "放慢速度"
+        ],
+        "submit_cta_label": "继续",
+        "feedback_correct": "很棒！",
+        "feedback_incorrect": "不太对……"
+      },
+      {
+        "heading": "什么最有助于提高你们AI模型的准确率？",
+        "paragraph": "我们的团队提供{{ 准确 }}的标注，并仔细{{ 检查 }}输出结果，帮助模型不断改进。",
+        "distractors": [
+          "重新设置"
+        ],
+        "submit_cta_label": "继续",
+        "feedback_correct": "很棒！",
+        "feedback_incorrect": "不太对……"
+      },
+      {
+        "heading": "这个项目中，你学到的最重要的事情是什么？",
+        "paragraph": "AI能帮助分析海量数据，但{{ 人类 }}必须{{ 引导 }}它的{{ 设计、测试和使用 }}方式。",
+        "distractors": [],
+        "submit_cta_label": "继续",
+        "feedback_correct": "很棒！",
+        "feedback_incorrect": "不太对……"
+      }
+    ],
+    "conference_question_labels": [
+      "问题",
+      "问题",
+      "问题"
+    ],
+    "letter_content": {
+      "eyebrow": "诚邀你参加",
+      "paragraph": "为庆祝阿克森教授和团队的成果，《极地期刊》邀请你们登上冬季刊封面。欢迎作为贵宾参加即将举办的行星科学博览会。我们将在现场揭晓封面，一同庆祝你们改变世界的研究！",
+      "paragraph_end": "通行权限：贵宾全场通行　着装要求：准备好接受采访！"
+    }
+  },
+  "tokens": [
+    {
+      "id": "NEURON",
+      "name": "神经元",
+      "token_name": "神经元",
+      "token_collected_dialog": "什么是神经元？它们有什么作用？",
+      "token_info_pages": [
+        {
+          "heading": "什么是神经元？",
+          "body": "{{ 神经元 }}是负责发送和接收信号的脑细胞。它们彼此连接，让信息在大脑中传递。你的大脑大约有860亿个神经元！",
+          "image": {
+            "file": {
+              "url": "peaks/en_gb/neurons1.gif",
+              "width": 0,
+              "height": 0
+            },
+            "alt": null
+          }
+        },
+        {
+          "heading": "神经元怎样交流？",
+          "body": "相互连接的神经元之间有微小的间隙，叫作{{ 突触 }}。化学信号通过突触，把信息从一个神经元传给另一个。",
+          "image": {
+            "file": {
+              "url": "peaks/en_gb/neurons2.gif",
+              "width": 0,
+              "height": 0
+            },
+            "alt": null
+          }
+        }
+      ],
+      "key_concept_tags": [
+        "neuron",
+        "network",
+        "synapse"
+      ],
+      "icon": {
+        "file": {
+          "url": "peaks/en_gb/small/neuron.webp",
+          "width": 0,
+          "height": 0
+        },
+        "alt": null
+      },
+      "icon_large": "peaks/en_gb/large/neuron.webp"
+    },
+    {
+      "id": "BRAIN",
+      "name": "大脑",
+      "token_name": "大脑",
+      "token_collected_dialog": "什么是大脑？它怎样工作？",
+      "token_info_pages": [
+        {
+          "heading": "大脑有什么作用？",
+          "body": "{{ 大脑 }}负责思考、记忆、运动和感觉，也是记忆形成和储存的地方。",
+          "image": {
+            "file": {
+              "url": "peaks/en_gb/brain1.gif",
+              "width": 0,
+              "height": 0
+            },
+            "alt": null
+          }
+        },
+        {
+          "heading": "大脑由什么组成？",
+          "body": "大脑内部有一个庞大的细胞网络，负责处理信息。这些细胞叫作{{ 神经元 }}。记忆与它们彼此连接的方式有关。",
+          "image": {
+            "file": {
+              "url": "peaks/en_gb/brain2.gif",
+              "width": 0,
+              "height": 0
+            },
+            "alt": null
+          }
+        }
+      ],
+      "key_concept_tags": [
+        "brain",
+        "nervous-system",
+        "network"
+      ],
+      "icon": {
+        "file": {
+          "url": "peaks/en_gb/small/the_brain.webp",
+          "width": 0,
+          "height": 0
+        },
+        "alt": null
+      },
+      "icon_large": "peaks/en_gb/large/the_brain.webp"
+    },
+    {
+      "id": "MICROSCOPE",
+      "name": "显微镜",
+      "token_name": "透过显微镜观察",
+      "token_collected_dialog": "在微观尺度下，大脑是什么样的？",
+      "token_info_pages": [
+        {
+          "heading": "样本有多小？",
+          "body": "科学家在{{ 微观尺度 }}观察大脑连接。他们会扫描数千张极薄的大脑切片，切片厚度大约只有头发的三千分之一！",
+          "image": {
+            "file": {
+              "url": "peaks/en_gb/microscope1.gif",
+              "width": 0,
+              "height": 0
+            },
+            "alt": null
+          }
+        },
+        {
+          "heading": "科学家能在图像中看到什么？",
+          "body": "这些图像足够精细，能够显示大脑中的神经元、血管等微小结构。",
+          "image": {
+            "file": {
+              "url": "peaks/en_gb/microscope2.gif",
+              "width": 0,
+              "height": 0
+            },
+            "alt": null
+          }
+        }
+      ],
+      "key_concept_tags": [
+        "microscopic"
+      ],
+      "icon": {
+        "file": {
+          "url": "peaks/en_gb/small/microscope.webp",
+          "width": 0,
+          "height": 0
+        },
+        "alt": null
+      },
+      "icon_large": "peaks/en_gb/large/microscope.webp"
+    },
+    {
+      "id": "AXON",
+      "name": "阿克森教授的故事",
+      "token_name": "阿克森教授的故事",
+      "token_collected_dialog": "阿克森教授一直在研究什么？他有什么故事？",
+      "token_info_pages": [
+        {
+          "heading": "教授有什么故事？",
+          "body": "阿克森教授是一位{{ 神经科学家 }}，毕生致力于研究大脑。他一直希望绘制与记忆有关的大脑连接的{{ 三维地图 }}。他已经研究了几十年，却仍然远未完成！",
+          "image": {
+            "file": {
+              "url": "peaks/en_gb/axon1.gif",
+              "width": 0,
+              "height": 0
+            },
+            "alt": null
+          }
+        },
+        {
+          "heading": "他为什么来到极地之巅？",
+          "body": "阿克森教授来到极地之巅，调查居民健忘的原因。他认为，绘制与记忆有关的大脑{{ 连接 }}，可能帮助找出问题所在。可是人工处理实在太慢了，他需要你帮助训练{{ AI模型 }}，加快研究。",
+          "image": {
+            "file": {
+              "url": "peaks/en_gb/axon2.gif",
+              "width": 0,
+              "height": 0
+            },
+            "alt": null
+          }
+        }
+      ],
+      "key_concept_tags": [
+        "neuroscientist",
+        "3d-map",
+        "connections",
+        "ai-model"
+      ],
+      "icon": {
+        "file": {
+          "url": "peaks/en_gb/small/pr_axon_story.webp",
+          "width": 0,
+          "height": 0
+        },
+        "alt": null
+      },
+      "icon_large": "peaks/en_gb/large/pr_axon_story.webp"
+    },
+    {
+      "id": "LABELING",
+      "name": "标注",
+      "token_name": "标注过程",
+      "token_collected_dialog": "科学家怎样手工绘制大脑连接的地图？",
+      "token_info_pages": [
+        {
+          "heading": "什么是标注？",
+          "body": "人工绘制大脑连接的地图十分缓慢。科学家要逐一检查微小脑切片的扫描图，识别并{{ 标注 }}负责发送和接收信号的神经元。",
+          "image": {
+            "file": {
+              "url": "peaks/en_gb/labelling1.gif",
+              "width": 0,
+              "height": 0
+            },
+            "alt": null
+          }
+        },
+        {
+          "heading": "标注怎样帮助科学家绘制大脑地图？",
+          "body": "每张扫描图中的细胞都标注好后，科学家会把图像叠放起来，构建三维地图，展示神经元彼此怎样连接。",
+          "image": {
+            "file": {
+              "url": "peaks/en_gb/labelling2.gif",
+              "width": 0,
+              "height": 0
+            },
+            "alt": null
+          }
+        }
+      ],
+      "key_concept_tags": [
+        "label",
+        "3d-map"
+      ],
+      "icon": {
+        "file": {
+          "url": "peaks/en_gb/small/labelling.webp",
+          "width": 0,
+          "height": 0
+        },
+        "alt": null
+      },
+      "icon_large": "peaks/en_gb/large/labelling.webp"
+    }
+  ],
+  "key_concept_tag": [
+    {
+      "id": "brain",
+      "title": "大脑"
+    },
+    {
+      "id": "nervous-system",
+      "title": "神经系统"
+    },
+    {
+      "id": "network",
+      "title": "网络"
+    },
+    {
+      "id": "neuron",
+      "title": "神经元"
+    },
+    {
+      "id": "neurotransmitters",
+      "title": "神经递质"
+    },
+    {
+      "id": "synapse",
+      "title": "突触"
+    },
+    {
+      "id": "neuroscientist",
+      "title": "神经科学家"
+    },
+    {
+      "id": "3d-map",
+      "title": "三维地图"
+    },
+    {
+      "id": "connections",
+      "title": "连接"
+    },
+    {
+      "id": "ai-model",
+      "title": "AI模型"
+    },
+    {
+      "id": "label",
+      "title": "标注"
+    },
+    {
+      "id": "microscopic",
+      "title": "微观"
+    }
+  ]
+}

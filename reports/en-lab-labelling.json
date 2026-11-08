@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "unicode_progress_roundtrip": true,
+  "first_scan_submitted": true,
+  "text": "2 of 3 scans\nLABELING RULES\nCAPILLARY\nNEURON\nASTROCYTES\n\nPROFESSOR AXON\nThank you.\n\nSubmit scan\n\nSCAN 1\n\n???\n\nSCAN 2\n\n???\n\nSCAN 3\n\nTASK 4\n\nLabel the brain scans.\n\nLook at the labeling rules to understand your task. For each scan: Use the right color highlighters to label the right elements on the scan. Once you’ve finished labeling, click ‘Submit scan’ to continue to the next one.",
+  "errors": [],
+  "expected_upstream_empty_source_requests": [
+    "http://127.0.0.1:4192/ai-quests/"
+  ]
+}
