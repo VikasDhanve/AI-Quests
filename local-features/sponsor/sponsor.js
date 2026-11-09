@@ -41,7 +41,7 @@ template.innerHTML = `
       <p>本站进行了中文化与适配，希望让国内的孩子也能轻松接触这些优质内容。</p>
       <p>希望小朋友们能在探索和互动中激发好奇心、培养创造力，发现人工智能带来的更多可能。</p>
       <p>网站为国内镜像站点，持续更新，站点<strong class="aiq-support__free">始终免费开放，不以盈利为目的</strong>。能力范围内可赞助一下带宽。</p>
-      <p>如果这些内容对你或孩子有所帮助，欢迎自愿支持一点维护费用，让这份小小的分享能够陪伴更多孩子的 AI 探索。</p>
+      <p>如果这些内容对你有所帮助，欢迎自愿支持一点维护费用，让这份小小的分享能够陪伴更多孩子的 AI 探索。</p>
       <p class="aiq-support__promise">赞助完全自愿，不赞助也没关系。希望每一份好奇心都能被点亮，每一个孩子都能快乐探索 AI 的世界！</p>
       <p class="aiq-support__official">官方站点：<a href="https://research.google/ai-quests" target="_blank" rel="noopener noreferrer" aria-label="AI Quests 官方站点（新窗口打开）">https://research.google/ai-quests</a></p>
     </div>
