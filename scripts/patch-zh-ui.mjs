@@ -1,14 +1,18 @@
 import fs from 'node:fs';import path from 'node:path';import {fileURLToPath} from 'node:url';import {createRequire} from 'node:module';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');const require=createRequire(import.meta.url);const {babelParse,traverse}=require(path.join(root,'node_modules/playwright/lib/transform/babelBundle.js'));
 const app=path.join(root,'public/ai-quests');const map=JSON.parse(fs.readFileSync(path.join(root,'localization/zh_cn/ui-map.json'),'utf8'));const norm=s=>s.replace(/\s+/g,' ').trim();const report=[];
+const displayOverrides=JSON.parse(fs.readFileSync(path.join(root,'localization/zh_cn/ui-overrides.json'),'utf8'));
 for(const name of fs.readdirSync(app).filter(x=>/^(chunk-|main-).*\.js$/.test(x))){
  let s=fs.readFileSync(path.join(app,name),'utf8');if(s.includes('const __aiqZhLocale='))continue;
  const ast=babelParse(s,name,true);const edits=[],used={};
- traverse(ast,{StringLiteral(p){
-  const v=p.node.value,k=norm(v),aria=p.parent.type==='ArrayExpression'&&p.parent.elements[Number(p.key)-1]?.value==='ariaLabel',t=(aria?({next:'下一步',previous:'上一步',close:'关闭',back:'返回'}[k]):null)||map[k];if(['High','Medium','Low'].includes(k)||!t||t===k||/^(?:https?:|\/|\.)/.test(v)||/^[A-Z0-9_-]+$/.test(k)||(!aria&&/^[a-z0-9_-]+$/.test(k)))return;
+ const translateLiteral=(p,v)=>{
+  const k=norm(v),aria=p.parent.type==='ArrayExpression'&&p.parent.elements[Number(p.key)-1]?.value==='ariaLabel',t=displayOverrides[k]||(aria?({next:'下一步',previous:'上一步',close:'关闭',back:'返回'}[k]):null)||map[k];if(['High','Medium','Low'].includes(k)||!t||t===k||/^(?:https?:|\/|\.)/.test(v)||(/^[A-Z0-9_-]+$/.test(k)&&!displayOverrides[k])||(!aria&&/^[a-z0-9_-]+$/.test(k)))return;
   const a=p.parent;if((a.type==='ObjectProperty'||a.type==='ObjectMethod'||a.type==='ClassProperty'||a.type==='ClassMethod')&&p.key==='key')return;
-  if(a.type.startsWith('Import')||a.type.startsWith('Export')||a.type==='SwitchCase'||(a.type==='MemberExpression'&&p.key==='property'))return;
+  if(a.type.startsWith('Import')||a.type.startsWith('Export')||a.type==='SwitchCase'||a.type==='TaggedTemplateExpression'||(a.type==='MemberExpression'&&p.key==='property'))return;
   const target=(v.match(/^\s*/)?.[0]||'')+t+(v.match(/\s*$/)?.[0]||'');used[v]=target;edits.push({start:p.node.start,end:p.node.end,value:'__aiqT('+JSON.stringify(v)+')'});
+ };
+ traverse(ast,{StringLiteral(p){translateLiteral(p,p.node.value)},TemplateLiteral(p){
+  if(name==='chunk-ZOE2GR7R.js'&&!p.node.expressions.length)translateLiteral(p,p.node.quasis[0].value.cooked);
  }});
  for(const e of edits.sort((a,b)=>b.start-a.start))s=s.slice(0,e.start)+e.value+s.slice(e.end);
  if(edits.length)s='const __aiqZhLocale=/\\/intl\\/zh_cn(?:\\/|$)/.test(location.pathname);const __aiqZhText='+JSON.stringify(used)+';const __aiqT=s=>__aiqZhLocale?(__aiqZhText[s]??s):s;\n'+s;

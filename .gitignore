@@ -11,3 +11,9 @@ Thumbs.db
 .env
 .env.*
 reports/browser-state*.json
+# Rebuildable translation/layout intermediates; final PDFs and QA reports are tracked.
+reports/teacher-*.txt
+reports/teacher-pdf-images/
+reports/teacher-pdf-preview/
+reports/teacher-source-preview/
+reports/sponsor-before.png

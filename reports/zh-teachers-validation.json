@@ -1,0 +1,27 @@
+{
+  "failures": [],
+  "errors": [],
+  "external": [],
+  "layouts": [
+    {
+      "width": 1440,
+      "pairedPdfButtons": 5
+    },
+    {
+      "width": 768,
+      "pairedPdfButtons": 5
+    },
+    {
+      "width": 375,
+      "pairedPdfButtons": 5
+    }
+  ],
+  "tracks": [
+    {
+      "language": "zh-CN",
+      "mode": "showing",
+      "cues": 29
+    }
+  ],
+  "passed": true
+}

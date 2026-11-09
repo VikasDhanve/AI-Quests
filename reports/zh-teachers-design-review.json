@@ -1,0 +1,27 @@
+{
+  "reviewed": "teacher page and scoped CSS",
+  "findings": [
+    {
+      "detector_pattern": "cubic-bezier(0.36, 0, 0.66, -0.56)",
+      "present_in_upstream": true,
+      "example": [
+        "upstream-text\\ai-quests\\static\\non-app\\styles.52112f772c831cac6bc6.css"
+      ]
+    },
+    {
+      "detector_pattern": "glue-jumplinks",
+      "present_in_upstream": true,
+      "example": [
+        "upstream-text\\ai-quests\\static\\non-app\\styles.52112f772c831cac6bc6.css"
+      ]
+    },
+    {
+      "detector_pattern": "aiq-carousel",
+      "present_in_upstream": true,
+      "example": [
+        "upstream-text\\ai-quests\\static\\non-app\\styles.52112f772c831cac6bc6.css"
+      ]
+    }
+  ],
+  "assessment": "Three detector findings originate in official styling; paired PDF controls and video captions reviewed visually. Existing layout and animation retained."
+}

@@ -1,0 +1,149 @@
+.aiq-support-trigger {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  width: 56px;
+  height: 56px;
+  padding: 6px;
+  border: 2px solid #242528;
+  border-radius: 50%;
+  background: #fff;
+  color: #262331;
+  font: 11px/1.1 "Microsoft YaHei", "PingFang SC", sans-serif;
+  cursor: pointer;
+}
+.aiq-support-trigger svg { width: 21px; height: 21px; }
+.aiq-support-trigger:hover { background: #e5defe; }
+.aiq-support-trigger:focus-visible { outline: 3px solid #bcaaff; outline-offset: 3px; }
+html.aiq-support-open { overflow: hidden; }
+.aiq-support {
+  --support-text: #fafafa;
+  --support-muted: #b8b8b8;
+  box-sizing: border-box;
+  position: fixed;
+  inset: 0;
+  width: 860px;
+  max-width: calc(100vw - 48px);
+  max-height: calc(100dvh - 48px);
+  margin: auto;
+  padding: 28px 32px 22px;
+  border: 0;
+  border-radius: 20px;
+  overflow: auto;
+  overscroll-behavior: contain;
+  background: #181818;
+  color: var(--support-text);
+  box-shadow: 0 24px 80px rgb(0 0 0 / 50%);
+  font: 14px/1.7 "Microsoft YaHei", "PingFang SC", Arial, sans-serif;
+  text-align: left;
+  color-scheme: dark;
+  scrollbar-width: thin;
+  scrollbar-color: #777 #181818;
+}
+.aiq-support::backdrop { background: rgb(0 0 0 / 72%); }
+.aiq-support *, .aiq-support *::before, .aiq-support *::after { box-sizing: border-box; }
+.aiq-support [hidden] { display: none; }
+.aiq-support ::selection { background: #d3c6ff; color: #181818; }
+.aiq-support svg { flex-shrink: 0; width: 18px; height: 18px; }
+.aiq-support__close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  padding: 8px;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  color: var(--support-muted);
+  cursor: pointer;
+}
+.aiq-support__close:hover { background: #353535; color: #fff; }
+.aiq-support__close:focus-visible { outline: 2px solid #d3c6ff; outline-offset: 2px; }
+.aiq-support__header { text-align: center; padding: 0 12px; }
+.aiq-support__header h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 0;
+  font-size: 26px;
+  line-height: 1.4;
+  font-weight: 700;
+  text-wrap: balance;
+}
+.aiq-support__header h2 svg { width: 26px; height: 26px; color: #c3b2ff; }
+.aiq-support__header p { margin: 6px 0 0; color: var(--support-muted); font-size: 13px; }
+.aiq-support__amounts {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+  margin: 20px 0 14px;
+  padding: 0;
+  border: 0;
+  min-width: 0;
+}
+.aiq-support__amount {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  min-height: 114px;
+  padding: 12px;
+  border: 1px solid #383838;
+  border-radius: 16px;
+  background: #252525;
+  color: var(--support-muted);
+  font-size: 13px;
+  cursor: pointer;
+}
+.aiq-support__amount:hover { background: #303030; }
+.aiq-support__amount:has(input:checked) { border-color: #b5a8df; outline: 1px solid #b5a8df; background: #111; color: #eee; }
+.aiq-support__amount:has(input:focus-visible) { outline: 3px solid #d3c6ff; outline-offset: 3px; }
+.aiq-support__amount input, .aiq-support__sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+.aiq-support__price { color: var(--support-text); font-size: 28px; line-height: 1.5; font-weight: 700; font-variant-numeric: tabular-nums; }
+.aiq-support__content { display: grid; grid-template-columns: 248px minmax(0, 1fr); gap: 20px; padding: 16px; border-radius: 16px; background: #101010; }
+.aiq-support__payment { margin: 0; padding: 12px; border-radius: 14px; background: #252525; text-align: center; }
+.aiq-support__qr { display: block; width: 100%; height: auto; aspect-ratio: 1; object-fit: contain; border-radius: 8px; background: #fff; }
+.aiq-support__payment figcaption { display: flex; flex-direction: column; gap: 2px; margin-top: 10px; }
+.aiq-support__payment figcaption span { font-size: 13px; color: var(--support-muted); }
+.aiq-support__image-status { min-height: 200px; display: grid; place-items: center; color: var(--support-muted); margin: 0; }
+.aiq-support__copy p { margin: 0 0 10px; color: var(--support-muted); font-size: 14px; line-height: 1.75; }
+.aiq-support__copy p:last-child { margin-bottom: 0; }
+.aiq-support__copy strong { font-weight: 600; }
+.aiq-support__brand { color: #d3c6ff; }
+.aiq-support__source { color: #a9d4ff; white-space: nowrap; }
+.aiq-support__free { color: #b2e4c6; }
+.aiq-support__copy .aiq-support__promise { color: var(--support-text); font-weight: 600; }
+.aiq-support__copy .aiq-support__official { margin-top: 16px; padding-top: 12px; border-top: 1px solid #303030; font-size: 13px; }
+.aiq-support__official a { color: #a9d4ff; text-decoration: underline; text-underline-offset: 4px; overflow-wrap: anywhere; }
+.aiq-support__official a:hover { color: #d1e8ff; text-decoration-thickness: 2px; }
+.aiq-support__official a:focus-visible { outline: 2px solid #d3c6ff; outline-offset: 3px; border-radius: 2px; }
+.aiq-support__footer { display: flex; align-items: center; justify-content: center; gap: 6px; margin: 16px 0 0; font-size: 13px; color: var(--support-muted); }
+.aiq-support__footer svg { width: 14px; height: 14px; color: #ed91a3; }
+@media (max-width: 680px) {
+  .aiq-support { max-width: calc(100vw - 24px); max-height: calc(100dvh - 24px); padding: 44px 20px 20px; border-radius: 16px; }
+  .aiq-support__header { padding: 0; }
+  .aiq-support__header h2 { gap: 6px; font-size: 22px; }
+  .aiq-support__header p { font-size: 12px; }
+  .aiq-support__amounts { gap: 8px; margin-top: 18px; }
+  .aiq-support__amount { min-height: 106px; padding: 10px 6px; font-size: 12px; }
+  .aiq-support__price { font-size: 25px; }
+  .aiq-support__content { grid-template-columns: minmax(0, 1fr); padding: 14px; gap: 20px; }
+  .aiq-support__payment { width: 100%; max-width: 260px; justify-self: center; }
+}

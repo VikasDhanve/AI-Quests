@@ -1,0 +1,32 @@
+{
+  "checks": [
+    {
+      "width": 1024,
+      "height": 768,
+      "cue": "听说 AI 可以预测洪水这种极端天气。",
+      "expectedFont": 30.72,
+      "visible": true
+    },
+    {
+      "width": 1440,
+      "height": 960,
+      "cue": "听说 AI 可以预测洪水这种极端天气。",
+      "expectedFont": 36,
+      "visible": true
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "cue": "听说 AI 可以预测洪水这种极端天气。",
+      "expectedFont": 36,
+      "visible": true
+    }
+  ],
+  "errors": [],
+  "failed": [],
+  "external": [],
+  "fullscreen": true,
+  "englishUnaffected": true,
+  "passed": true,
+  "smallViewport": "800x785 and 844x390 show the existing minimum-screen notice; game requires at least 1024x600, so these are not subtitle-layout passes."
+}

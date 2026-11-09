@@ -1,0 +1,318 @@
+[
+  {
+    "slug": "market-marshes",
+    "title": "集市沼泽教师指南",
+    "source_id": "1IEh-RRho8xxsUizQ9K4vAe7EbjHGWqltmFz7oPbdJBs",
+    "source_sha256": "b60eccc1f089032dc901d7ef034c27b2a6c0f97298251c478bb72b6106b733ca",
+    "source_pages": 9,
+    "translated_pages": 10,
+    "page_map": [
+      {
+        "source_page": 1,
+        "translated_pages": [
+          1
+        ]
+      },
+      {
+        "source_page": 2,
+        "translated_pages": [
+          2
+        ]
+      },
+      {
+        "source_page": 3,
+        "translated_pages": [
+          3
+        ]
+      },
+      {
+        "source_page": 4,
+        "translated_pages": [
+          4
+        ]
+      },
+      {
+        "source_page": 5,
+        "translated_pages": [
+          5
+        ]
+      },
+      {
+        "source_page": 6,
+        "translated_pages": [
+          6
+        ]
+      },
+      {
+        "source_page": 7,
+        "translated_pages": [
+          7
+        ]
+      },
+      {
+        "source_page": 8,
+        "translated_pages": [
+          8
+        ]
+      },
+      {
+        "source_page": 9,
+        "translated_pages": [
+          9
+        ]
+      }
+    ],
+    "source_links": 14,
+    "local": "/ai-quests/assets/teacher-resources/zh_cn/market-marshes.pdf",
+    "sha256": "15c8da5f24bd04b4a306e3587b88e3f2de5c817363f36ccb31728210af333513",
+    "bytes": 12781039
+  },
+  {
+    "slug": "dusky-dunes",
+    "title": "暮色沙丘教师指南",
+    "source_id": "1qmiozLE0yulxZheSVNozkhuAws5yyPChuwvMaBJr92s",
+    "source_sha256": "8127987143b218edd93da71455bcb6424d5e8f31f38b446083a5b6884d81a543",
+    "source_pages": 10,
+    "translated_pages": 11,
+    "page_map": [
+      {
+        "source_page": 1,
+        "translated_pages": [
+          1
+        ]
+      },
+      {
+        "source_page": 2,
+        "translated_pages": [
+          2
+        ]
+      },
+      {
+        "source_page": 3,
+        "translated_pages": [
+          3
+        ]
+      },
+      {
+        "source_page": 4,
+        "translated_pages": [
+          4
+        ]
+      },
+      {
+        "source_page": 5,
+        "translated_pages": [
+          5
+        ]
+      },
+      {
+        "source_page": 6,
+        "translated_pages": [
+          6
+        ]
+      },
+      {
+        "source_page": 7,
+        "translated_pages": [
+          7
+        ]
+      },
+      {
+        "source_page": 8,
+        "translated_pages": [
+          8
+        ]
+      },
+      {
+        "source_page": 9,
+        "translated_pages": [
+          9
+        ]
+      },
+      {
+        "source_page": 10,
+        "translated_pages": [
+          10
+        ]
+      }
+    ],
+    "source_links": 13,
+    "local": "/ai-quests/assets/teacher-resources/zh_cn/dusky-dunes.pdf",
+    "sha256": "22bde57841844ce5cf9ef9d8865c06df672416e28565c2e442b1688724ec756a",
+    "bytes": 3966338
+  },
+  {
+    "slug": "polar-peaks",
+    "title": "极地之巅教师指南",
+    "source_id": "1_QCAj4aHOe76_IX1KkDHWQgrqtjgevAQanHVr5gkL2s",
+    "source_sha256": "5aadc17a2db2355bad1f88761ebd535d4cd6d390c6e7243590bcadbac9f8f655",
+    "source_pages": 12,
+    "translated_pages": 13,
+    "page_map": [
+      {
+        "source_page": 1,
+        "translated_pages": [
+          1
+        ]
+      },
+      {
+        "source_page": 2,
+        "translated_pages": [
+          2
+        ]
+      },
+      {
+        "source_page": 3,
+        "translated_pages": [
+          3
+        ]
+      },
+      {
+        "source_page": 4,
+        "translated_pages": [
+          4
+        ]
+      },
+      {
+        "source_page": 5,
+        "translated_pages": [
+          5
+        ]
+      },
+      {
+        "source_page": 6,
+        "translated_pages": [
+          6
+        ]
+      },
+      {
+        "source_page": 7,
+        "translated_pages": [
+          7
+        ]
+      },
+      {
+        "source_page": 8,
+        "translated_pages": [
+          8
+        ]
+      },
+      {
+        "source_page": 9,
+        "translated_pages": [
+          9
+        ]
+      },
+      {
+        "source_page": 10,
+        "translated_pages": [
+          10
+        ]
+      },
+      {
+        "source_page": 11,
+        "translated_pages": [
+          11
+        ]
+      },
+      {
+        "source_page": 12,
+        "translated_pages": [
+          12
+        ]
+      }
+    ],
+    "source_links": 22,
+    "local": "/ai-quests/assets/teacher-resources/zh_cn/polar-peaks.pdf",
+    "sha256": "186ebc049a97cc1a3c61d35b4bc0c480c49fb7bc419134ffbc066bcaabeab78e",
+    "bytes": 18440807
+  },
+  {
+    "slug": "handbook",
+    "title": "教师手册",
+    "source_id": "1mou_3WtU0Z9A8wYMnkNpjWrAP9uUoPbUc_0sszFI_Jw",
+    "source_sha256": "3d74598d6223166d2744da4fc11c95900ff7a19ac0f9eb1f86452de2da5db3d0",
+    "source_pages": 7,
+    "translated_pages": 8,
+    "page_map": [
+      {
+        "source_page": 1,
+        "translated_pages": [
+          1
+        ]
+      },
+      {
+        "source_page": 2,
+        "translated_pages": [
+          2
+        ]
+      },
+      {
+        "source_page": 3,
+        "translated_pages": [
+          3
+        ]
+      },
+      {
+        "source_page": 4,
+        "translated_pages": [
+          4
+        ]
+      },
+      {
+        "source_page": 5,
+        "translated_pages": [
+          5
+        ]
+      },
+      {
+        "source_page": 6,
+        "translated_pages": [
+          6
+        ]
+      },
+      {
+        "source_page": 7,
+        "translated_pages": [
+          7
+        ]
+      }
+    ],
+    "source_links": 12,
+    "local": "/ai-quests/assets/teacher-resources/zh_cn/handbook.pdf",
+    "sha256": "d3fd5406fbebf3f71397b0c01ed636a5c53d1ba888b51cf35db4d0e34fb52782",
+    "bytes": 6554732
+  },
+  {
+    "slug": "pedagogy",
+    "title": "教学理念与设计方法",
+    "source_id": "1WC8HAJPxWP84Fif_h7NL4zvPnm4rGN-WWVyuUuqNMCg",
+    "source_sha256": "da5736f5e82970c1f9d47c6a9676bc3ee8d1c1a1e6d88c9a4e608523d991e871",
+    "source_pages": 3,
+    "translated_pages": 4,
+    "page_map": [
+      {
+        "source_page": 1,
+        "translated_pages": [
+          1
+        ]
+      },
+      {
+        "source_page": 2,
+        "translated_pages": [
+          2
+        ]
+      },
+      {
+        "source_page": 3,
+        "translated_pages": [
+          3
+        ]
+      }
+    ],
+    "source_links": 1,
+    "local": "/ai-quests/assets/teacher-resources/zh_cn/pedagogy.pdf",
+    "sha256": "e744d8690b33a21d8738750f197818eeed7be6c2d9e1b7c8a77365742d269b27",
+    "bytes": 990963
+  }
+]

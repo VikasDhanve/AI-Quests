@@ -26,7 +26,7 @@
         "src": "http://127.0.0.1:4192/ai-quests/assets/bucket/marshes/en_gb/floodhub-intro.webm?v=73ffd59-1792762873172",
         "ready": 4,
         "duration": 36.168,
-        "time": 8.312546,
+        "time": 9.215454,
         "paused": false
       }
     ],
@@ -41,6 +41,8 @@
       "http://127.0.0.1:4192/ai-quests/styles-X5MYJBZ7.css",
       "http://127.0.0.1:4192/ai-quests/zh-cn.css",
       "http://127.0.0.1:4192/ai-quests/zh-cn-runtime.js",
+      "http://127.0.0.1:4192/ai-quests/local-support/sponsor.css",
+      "http://127.0.0.1:4192/ai-quests/local-support/sponsor.js",
       "http://127.0.0.1:4192/ai-quests/chunk-ZDFCTXMN.js",
       "http://127.0.0.1:4192/ai-quests/chunk-5XHC44OL.js",
       "http://127.0.0.1:4192/ai-quests/chunk-U7GMMY7Y.js",
@@ -131,6 +133,7 @@
       "http://127.0.0.1:4192/ai-quests/assets/bucket/marshes/en_gb/floodhub-intro.webm?v=73ffd59-1792762873172",
       "http://127.0.0.1:4192/ai-quests/assets/bucket/marshes/en_gb/floodhub-intro.webm?v=73ffd59-1792762873172",
       "http://127.0.0.1:4192/ai-quests/assets/icons/icons.svg?v=73ffd59-1792762873172",
+      "http://127.0.0.1:4192/ai-quests/assets/icons/icons.svg?v=73ffd59-1792762873172",
       "http://127.0.0.1:4192/ai-quests/assets/bucket/quests/prof-skye-poster.webp?v=73ffd59-1792762873172",
       "http://127.0.0.1:4192/ai-quests/assets/bucket/quests/prof-skye-idle.webm?v=73ffd59-1792762873172"
     ]
@@ -162,7 +165,7 @@
         "src": "http://127.0.0.1:4192/ai-quests/assets/bucket/dunes/en_gb/DD_Intro.webm?v=73ffd59-1792762873172",
         "ready": 4,
         "duration": 81.394,
-        "time": 8.177723,
+        "time": 8.950699,
         "paused": false
       }
     ],
@@ -177,6 +180,8 @@
       "http://127.0.0.1:4192/ai-quests/styles-X5MYJBZ7.css",
       "http://127.0.0.1:4192/ai-quests/zh-cn.css",
       "http://127.0.0.1:4192/ai-quests/zh-cn-runtime.js",
+      "http://127.0.0.1:4192/ai-quests/local-support/sponsor.css",
+      "http://127.0.0.1:4192/ai-quests/local-support/sponsor.js",
       "http://127.0.0.1:4192/ai-quests/chunk-ZDFCTXMN.js",
       "http://127.0.0.1:4192/ai-quests/chunk-5XHC44OL.js",
       "http://127.0.0.1:4192/ai-quests/chunk-U7GMMY7Y.js",
@@ -186,8 +191,8 @@
       "http://127.0.0.1:4192/ai-quests/chunk-JINKRM7E.js",
       "http://127.0.0.1:4192/ai-quests/content/api/snapshot/20261023-141713/site_config.json",
       "http://127.0.0.1:4192/ai-quests/content/api/snapshot/20261023-141713/zh_cn/sitewide.json",
-      "http://127.0.0.1:4192/ai-quests/_external/www.gstatic.com/8f593ec1cbff4229f2baafd6d4630f2c2f7d157ef9b315c840ab62dcf216e20c.ico",
       "http://127.0.0.1:4192/ai-quests/chunk-FGTI4YXJ.js",
+      "http://127.0.0.1:4192/ai-quests/_external/www.gstatic.com/8f593ec1cbff4229f2baafd6d4630f2c2f7d157ef9b315c840ab62dcf216e20c.ico",
       "http://127.0.0.1:4192/ai-quests/assets/audio/global/bright-click.webm?v=73ffd59-1792762873172",
       "http://127.0.0.1:4192/ai-quests/assets/audio/global/pop.webm?v=73ffd59-1792762873172",
       "http://127.0.0.1:4192/ai-quests/assets/audio/global/space-song.webm?v=73ffd59-1792762873172",
@@ -308,7 +313,7 @@
         "src": "http://127.0.0.1:4192/ai-quests/assets/bucket/peaks/en_gb/PP_Intro.webm?v=73ffd59-1792762873172",
         "ready": 4,
         "duration": 64.924,
-        "time": 8.187638,
+        "time": 8.962655,
         "paused": false
       }
     ],
@@ -323,6 +328,8 @@
       "http://127.0.0.1:4192/ai-quests/styles-X5MYJBZ7.css",
       "http://127.0.0.1:4192/ai-quests/zh-cn.css",
       "http://127.0.0.1:4192/ai-quests/zh-cn-runtime.js",
+      "http://127.0.0.1:4192/ai-quests/local-support/sponsor.css",
+      "http://127.0.0.1:4192/ai-quests/local-support/sponsor.js",
       "http://127.0.0.1:4192/ai-quests/chunk-ZDFCTXMN.js",
       "http://127.0.0.1:4192/ai-quests/chunk-5XHC44OL.js",
       "http://127.0.0.1:4192/ai-quests/chunk-U7GMMY7Y.js",
@@ -332,8 +339,8 @@
       "http://127.0.0.1:4192/ai-quests/chunk-JINKRM7E.js",
       "http://127.0.0.1:4192/ai-quests/content/api/snapshot/20261023-141713/site_config.json",
       "http://127.0.0.1:4192/ai-quests/content/api/snapshot/20261023-141713/zh_cn/sitewide.json",
-      "http://127.0.0.1:4192/ai-quests/_external/www.gstatic.com/8f593ec1cbff4229f2baafd6d4630f2c2f7d157ef9b315c840ab62dcf216e20c.ico",
       "http://127.0.0.1:4192/ai-quests/chunk-FGTI4YXJ.js",
+      "http://127.0.0.1:4192/ai-quests/_external/www.gstatic.com/8f593ec1cbff4229f2baafd6d4630f2c2f7d157ef9b315c840ab62dcf216e20c.ico",
       "http://127.0.0.1:4192/ai-quests/assets/audio/global/bright-click.webm?v=73ffd59-1792762873172",
       "http://127.0.0.1:4192/ai-quests/assets/audio/global/pop.webm?v=73ffd59-1792762873172",
       "http://127.0.0.1:4192/ai-quests/assets/audio/global/space-song.webm?v=73ffd59-1792762873172",

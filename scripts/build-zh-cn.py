@@ -113,11 +113,33 @@ class ChinesePage(HTMLParser):
  def handle_decl(self,s):self.out.append('<!'+s+'>')
 
 html_dir=APP/'intl/zh_cn';html_dir.mkdir(parents=True,exist_ok=True)
+shutil.copytree(ROOT/'local-features/sponsor',APP/'local-support',dirs_exist_ok=True)
+subprocess.run([sys.executable,str(ROOT/'scripts/build-teacher-pdfs.py')],cwd=ROOT,check=True)
+teacher_pdfs=json.loads((ROOT/'reports/teacher-resources-zh.json').read_text('utf-8'))
+teacher_pdf_map={f'/ai-quests/assets/teacher-resources/{r["source_id"]}.pdf':r for r in teacher_pdfs}
+def teacher_resources(s):
+ def add_pdf(m):
+  a=m[0];href=re.search(r'\bhref="([^"]+)"',a)[1];r=teacher_pdf_map[href]
+  zh=a.replace('href="'+href+'"','href="'+r['local']+'"',1).replace('英文 PDF','中文 PDF')
+  if zh==a:raise ValueError('Chinese PDF link not generated')
+  zh=zh.replace('<a ','<a aria-label="中文 PDF：'+html.escape(r['title'],quote=True)+'" ',1)
+  return a+'\n'+zh
+ s,count=re.subn(r'<a\b[^>]*class="[^"]*\baiq-card__doc-btn\b[^"]*"[^>]*>.*?</a>',add_pdf,s,flags=re.S)
+ if count!=5:raise ValueError('Expected five teacher PDF buttons')
+ track=re.search(r'<track\b[^>]*src="data:text/vtt;base64,([^"]+)"[^>]*>',s)
+ if not track:raise ValueError('Expected teacher overview caption track')
+ import base64
+ en_vtt=base64.b64decode(track[1]).decode('utf-8');zh_vtt=(LOC/'teacher-resources/teacher-video.zh.vtt').read_text('utf-8')
+ if cue_lines(en_vtt)!=cue_lines(zh_vtt):raise ValueError('Teacher video subtitle timing changed')
+ dest=APP/'assets/teacher-resources/zh_cn/teacher-overview.zh.vtt';dest.write_text(zh_vtt,'utf-8')
+ replacement='<track default kind="captions" srclang="zh-CN" label="简体中文" src="/ai-quests/assets/teacher-resources/zh_cn/teacher-overview.zh.vtt">'
+ return s[:track.start()]+replacement+s[track.end():]
 home=(APP/'intl/en_us/index.html').read_text('utf-8');home=re.sub(r'<html lang="[^"]*"','<html lang="zh-CN"',home);home=home.replace('/intl/en_us','/intl/zh_cn');home=re.sub(r'<title>.*?</title>','<title>AI Quests · 简体中文</title>',home)
-home=home.replace('</head>','<link rel="stylesheet" href="/ai-quests/zh-cn.css"><script src="/ai-quests/zh-cn-runtime.js" type="module"></script></head>')
+home=home.replace('</head>','<link rel="stylesheet" href="/ai-quests/zh-cn.css"><script src="/ai-quests/zh-cn-runtime.js" type="module"></script><link rel="stylesheet" href="/ai-quests/local-support/sponsor.css"><script src="/ai-quests/local-support/sponsor.js" type="module"></script></head>')
 (html_dir/'index.html').write_text(home,'utf-8')
 for page in ['about','faq','teacher-resources','privacy-notice','videos']:
  en=(APP/'intl/en_us'/page/'index.html').read_text('utf-8');parser=ChinesePage();parser.feed(en);out=''.join(parser.out);out=add_option(out,page,True);out=out.replace('</head>','<link rel="stylesheet" href="/ai-quests/zh-cn.css"></head>')
+ if page=='teacher-resources':out=teacher_resources(out)
  target=html_dir/page/'index.html';target.parent.mkdir(parents=True,exist_ok=True);target.write_text(out,'utf-8')
  for lang in config['locales']:
   if lang['site_locale']=='zh_cn':continue
@@ -127,7 +149,9 @@ for page in ['about','faq','teacher-resources','privacy-notice','videos']:
 # Display names also form three legacy image filenames; keep the model's type keys stable.
 for name,en in [('毛细血管','capillary'),('神经元','neuron'),('星形胶质细胞','astrocytes')]:
  src=APP/'assets/mock/lab/04/note'/(en+'.png');dst=src.with_name(name+'.png');shutil.copyfile(src,dst)
-(APP/'zh-cn.css').write_text('''html[lang="zh-CN"] :is(body,button,input,textarea,select){font-family:"Microsoft YaHei","PingFang SC",Arial,sans-serif}html[lang="zh-CN"] video::cue{font-family:"Microsoft YaHei","PingFang SC",Arial,sans-serif;font-size:22px;line-height:1.5}html[lang="zh-CN"] .aiq-typesystem-h2{line-height:1.35}html[lang="zh-CN"] .aiq-video-card__title{overflow-wrap:anywhere}\n''','utf-8')
+(APP/'zh-cn.css').write_text('''html[lang="zh-CN"] :is(body,button,input,textarea,select){font-family:"Microsoft YaHei","PingFang SC",Arial,sans-serif}html[lang="zh-CN"] video::cue{font-family:"Microsoft YaHei","PingFang SC",Arial,sans-serif;font-size:clamp(28px,3vw,36px);line-height:1.5}html[lang="zh-CN"] .aiq-typesystem-h2{line-height:1.35}html[lang="zh-CN"] .aiq-video-card__title{overflow-wrap:anywhere}\n''','utf-8')
+with (APP/'zh-cn.css').open('a',encoding='utf-8') as css:
+ css.write('html[lang="zh-CN"] .aiq-teacher-resource__links{display:flex;flex-wrap:wrap;align-items:center;gap:12px}html[lang="zh-CN"] .aiq-teacher-resource__links .aiq-card__doc-btn{margin:0}\n')
 (APP/'zh-cn-runtime.js').write_text('''if(/\\/intl\\/zh_cn(?:\\/|$)/.test(location.pathname)){
 const show=(video)=>{for(const track of video.querySelectorAll('track')){if(!['subtitles','captions'].includes(track.kind))continue;track.srclang='zh-CN';track.label='简体中文';track.default=true;track.track.mode='showing';}};
 document.addEventListener('loadedmetadata',e=>{if(e.target instanceof HTMLVideoElement)show(e.target);},true);
@@ -153,7 +177,7 @@ for u,r in manifest.items():
  if h!=r['sha256']:changes.append({'path':r['path'],'original_sha256':r['sha256'],'local_sha256':h})
 (ROOT/'reports/local-modifications.json').write_text(json.dumps(changes,ensure_ascii=False,indent=2),'utf-8')
 report={'locale':'zh_cn','language':'简体中文','reference_repository':'https://github.com/notwin/coopa-study','reference_revision':'9ea4b867ce4857779d3cf84bfb423d12c7136049','translated_json_leaves':translated_leaves,'preserved_data_leaves':preserved_leaves,'subtitle_tracks':tracks,'generated_files':[]}
-for p in list(html_dir.rglob('*'))+list((API/'zh_cn').rglob('*'))+[APP/'zh-cn.css',APP/'zh-cn-runtime.js']:
+for p in list(html_dir.rglob('*'))+list((API/'zh_cn').rglob('*'))+list((APP/'assets/teacher-resources/zh_cn').glob('*'))+list((APP/'local-support').glob('*'))+[APP/'zh-cn.css',APP/'zh-cn-runtime.js']:
  if p.is_file():report['generated_files'].append({'path':p.relative_to(ROOT/'public').as_posix(),'sha256':hashlib.sha256(p.read_bytes()).hexdigest()})
 (ROOT/'reports/zh-cn-build.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),'utf-8')
 print(json.dumps({k:v for k,v in report.items() if k!='generated_files'},ensure_ascii=True))
