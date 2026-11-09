@@ -30,9 +30,10 @@ try {
   const dialog = page.getByRole('dialog', { name: '为 AI 探索加点能量', exact: true });
   assert.ok(await dialog.isVisible());
   const copy = dialog.locator('.aiq-support__copy');
+  assert.equal(await copy.locator('.aiq-support__credit').innerText(), 'AI Quests 是 Google Research 与斯坦福大学学习促进中心共同推出的面向中学生（11-14岁）的AI游戏化学习体验。');
   assert.ok((await copy.innerText()).includes('网站为国内镜像站点，持续更新，站点始终免费开放，不以盈利为目的。能力范围内可赞助一下带宽。'));
   const brandBox = await copy.getByText('AI Quests', { exact: true }).boundingBox();
-  const stanfordBox = await copy.getByText('斯坦福学习加速器', { exact: true }).boundingBox();
+  const stanfordBox = await copy.getByText('斯坦福大学学习促进中心', { exact: true }).boundingBox();
   assert.ok(Math.abs(brandBox.y - stanfordBox.y) < 2, '桌面介绍中的官方名称应连续排列在同一行');
   assert.equal((await copy.innerText()).includes('个人维护仍需要承担服务器'), false);
   const official = dialog.getByRole('link', { name: 'AI Quests 官方站点（新窗口打开）', exact: true });
@@ -72,7 +73,7 @@ try {
     await page.setViewportSize({ width, height: width === 375 ? 812 : 768 });
     await page.waitForTimeout(450);
     assert.ok(await dialog.isVisible(), '调整窗口后弹窗应保持可见');
-    for (const name of ['Google Research', '斯坦福学习加速器']) {
+    for (const name of ['Google Research', '斯坦福大学学习促进中心']) {
       assert.equal(await dialog.getByText(name, { exact: true }).evaluate(el => el.getClientRects().length), 1, '官方机构名称不得拆行');
     }
     assert.ok(await dialog.evaluate(el => el.scrollWidth <= el.clientWidth + 1), '弹窗不得横向溢出');

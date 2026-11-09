@@ -36,5 +36,13 @@
     "not every quest branch completed",
     "original brain lab empty-source request occurs in both locales",
     "YouTube showcase remains online"
-  ]
+  ],
+  "latest_intro": "AI Quests 是 Google Research 与斯坦福大学学习促进中心共同推出的面向中学生（11-14岁）的AI游戏化学习体验。",
+  "follow_up": {
+    "full_suite_passed_at": "511562e",
+    "change": "User-specified introduction and its browser assertions; rebuild and targeted sponsor regression",
+    "broader_game_changes": false,
+    "targeted_sponsor_regression_exit_code": 0,
+    "ui_review": "ship"
+  }
 }

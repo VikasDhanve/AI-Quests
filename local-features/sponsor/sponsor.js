@@ -37,7 +37,7 @@ template.innerHTML = `
       <figcaption><strong class="aiq-support__payment-label">支付宝 ¥19.9</strong><span>扫码自愿支持</span></figcaption>
     </figure>
     <div class="aiq-support__copy">
-      <p class="aiq-support__credit"><strong class="aiq-support__brand">AI Quests</strong> 是 <strong class="aiq-support__source">Google Research</strong> 与<strong class="aiq-support__source">斯坦福学习加速器</strong>共同推出的 AI 启蒙体验。</p>
+      <p class="aiq-support__credit"><strong class="aiq-support__brand">AI Quests</strong> 是 <strong class="aiq-support__source">Google Research</strong> 与<strong class="aiq-support__source">斯坦福大学学习促进中心</strong>共同推出的面向中学生（11-14岁）的AI游戏化学习体验。</p>
       <p>本站进行了中文化与适配，希望让国内的孩子也能轻松接触这些优质内容。</p>
       <p>希望小朋友们能在探索和互动中激发好奇心、培养创造力，发现人工智能带来的更多可能。</p>
       <p>网站为国内镜像站点，持续更新，站点<strong class="aiq-support__free">始终免费开放，不以盈利为目的</strong>。能力范围内可赞助一下带宽。</p>
