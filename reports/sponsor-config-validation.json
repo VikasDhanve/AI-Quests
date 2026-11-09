@@ -1,0 +1,61 @@
+{
+  "cases": [
+    {
+      "port": 9091,
+      "label": "real file false",
+      "shown": false
+    },
+    {
+      "port": 4192,
+      "label": "real file false",
+      "shown": false
+    },
+    {
+      "port": 4192,
+      "label": "real file true",
+      "shown": true
+    },
+    {
+      "port": 9091,
+      "label": "real file true",
+      "shown": true
+    },
+    {
+      "port": 4192,
+      "label": "real file false",
+      "shown": false
+    },
+    {
+      "port": 9091,
+      "label": "real file false",
+      "shown": false
+    },
+    {
+      "port": 9091,
+      "label": "string false",
+      "shown": false
+    },
+    {
+      "port": 9091,
+      "label": "string true",
+      "shown": false
+    },
+    {
+      "port": 9091,
+      "label": "missing key",
+      "shown": false
+    },
+    {
+      "port": 9091,
+      "label": "invalid JSON",
+      "shown": false
+    },
+    {
+      "port": 9091,
+      "label": "missing file",
+      "shown": false
+    }
+  ],
+  "errors": [],
+  "passed": true
+}

@@ -113,6 +113,8 @@ class ChinesePage(HTMLParser):
  def handle_decl(self,s):self.out.append('<!'+s+'>')
 
 html_dir=APP/'intl/zh_cn';html_dir.mkdir(parents=True,exist_ok=True)
+site_config=APP/'site-config.json'
+if not site_config.exists():shutil.copyfile(ROOT/'local-features/site-config.default.json',site_config)
 shutil.copytree(ROOT/'local-features/sponsor',APP/'local-support',dirs_exist_ok=True)
 subprocess.run([sys.executable,str(ROOT/'scripts/build-teacher-pdfs.py')],cwd=ROOT,check=True)
 teacher_pdfs=json.loads((ROOT/'reports/teacher-resources-zh.json').read_text('utf-8'))
@@ -135,7 +137,7 @@ def teacher_resources(s):
  replacement='<track default kind="captions" srclang="zh-CN" label="简体中文" src="/ai-quests/assets/teacher-resources/zh_cn/teacher-overview.zh.vtt">'
  return s[:track.start()]+replacement+s[track.end():]
 home=(APP/'intl/en_us/index.html').read_text('utf-8');home=re.sub(r'<html lang="[^"]*"','<html lang="zh-CN"',home);home=home.replace('/intl/en_us','/intl/zh_cn');home=re.sub(r'<title>.*?</title>','<title>AI Quests · 简体中文</title>',home)
-home=home.replace('</head>','<link rel="stylesheet" href="/ai-quests/zh-cn.css"><script src="/ai-quests/zh-cn-runtime.js" type="module"></script><link rel="stylesheet" href="/ai-quests/local-support/sponsor.css"><script src="/ai-quests/local-support/sponsor.js" type="module"></script></head>')
+home=home.replace('</head>','<link rel="stylesheet" href="/ai-quests/zh-cn.css"><script src="/ai-quests/zh-cn-runtime.js" type="module"></script><link rel="stylesheet" href="/ai-quests/local-support/sponsor.css"><script src="/ai-quests/local-support/sponsor-entry.js" type="module"></script></head>')
 (html_dir/'index.html').write_text(home,'utf-8')
 for page in ['about','faq','teacher-resources','privacy-notice','videos']:
  en=(APP/'intl/en_us'/page/'index.html').read_text('utf-8');parser=ChinesePage();parser.feed(en);out=''.join(parser.out);out=add_option(out,page,True);out=out.replace('</head>','<link rel="stylesheet" href="/ai-quests/zh-cn.css"></head>')
@@ -177,6 +179,7 @@ for u,r in manifest.items():
  if h!=r['sha256']:changes.append({'path':r['path'],'original_sha256':r['sha256'],'local_sha256':h})
 (ROOT/'reports/local-modifications.json').write_text(json.dumps(changes,ensure_ascii=False,indent=2),'utf-8')
 report={'locale':'zh_cn','language':'简体中文','reference_repository':'https://github.com/notwin/coopa-study','reference_revision':'9ea4b867ce4857779d3cf84bfb423d12c7136049','translated_json_leaves':translated_leaves,'preserved_data_leaves':preserved_leaves,'subtitle_tracks':tracks,'generated_files':[]}
+report['runtime_config']={'path':'ai-quests/site-config.json','preserved_on_rebuild':True,'mutable':True}
 for p in list(html_dir.rglob('*'))+list((API/'zh_cn').rglob('*'))+list((APP/'assets/teacher-resources/zh_cn').glob('*'))+list((APP/'local-support').glob('*'))+[APP/'zh-cn.css',APP/'zh-cn-runtime.js']:
  if p.is_file():report['generated_files'].append({'path':p.relative_to(ROOT/'public').as_posix(),'sha256':hashlib.sha256(p.read_bytes()).hexdigest()})
 (ROOT/'reports/zh-cn-build.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),'utf-8')

@@ -16,6 +16,8 @@ try {
     report.external.push(url);
     return route.abort('internetdisconnected');
   });
+  // Exercise the enabled UI independently from the site's deployment setting.
+  await page.route('**/ai-quests/site-config.json', route => route.fulfill({ json: { showSponsor: true } }));
   page.on('response', r => { if (r.status() >= 400) report.failures.push(r.url()); });
   page.on('pageerror', e => report.errors.push(e.message));
   await page.goto('http://127.0.0.1:4192/ai-quests/intl/zh_cn');
@@ -100,6 +102,7 @@ try {
   assert.equal(await dialog.isVisible(), false);
   // A fresh context avoids previously decoded image data masking a network failure.
   const errorPage = await browser.newPage({ viewport: { width: 1440, height: 960 } });
+  await errorPage.route('**/ai-quests/site-config.json', route => route.fulfill({ json: { showSponsor: true } }));
   await errorPage.route('**/local-support/alipay-9.9.jpg', route => route.abort('failed'));
   await errorPage.goto('http://127.0.0.1:4192/ai-quests/intl/zh_cn');
   await errorPage.getByRole('button', { name: '赞助支持', exact: true }).click();

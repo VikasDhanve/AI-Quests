@@ -1,0 +1,16 @@
+{
+  "strict_boolean_only": true,
+  "missing_or_invalid_hides_optional_feature": true,
+  "config_is_same_origin_data_not_code": true,
+  "dynamic_import_is_fixed_path": true,
+  "browser_cache_bypassed": true,
+  "runtime_config_excluded_from_generated_hashes": true,
+  "server_and_csp_unchanged": true,
+  "nginx_config_unchanged": true,
+  "default_true_restored_on_both_ports": true,
+  "native_npm_audit_known_vulnerabilities": 0,
+  "behavior_cases": 11,
+  "new_dependencies": false,
+  "game_progress_api_changes": false,
+  "scope": "Optional sponsor entry and deployment configuration only; no full quest replay or real payment test."
+}

@@ -9,7 +9,7 @@
   "generated_files": [
     {
       "path": "ai-quests/intl/zh_cn/index.html",
-      "sha256": "2a1d7036161b6892a8e1c28ae8ee98de50cf7ccec225ddcd5d2d84c4b4f15f15"
+      "sha256": "8e4c389fa9ed0111b3636481590eb9885a4fea77361df7767c80e8aa403b04f9"
     },
     {
       "path": "ai-quests/intl/zh_cn/about/index.html",
@@ -100,6 +100,10 @@
       "sha256": "da328c19308b34c2b9e90c4e3c47efda6459a3f17a499558132affce261b0120"
     },
     {
+      "path": "ai-quests/local-support/sponsor-entry.js",
+      "sha256": "e335236e9acdb22c962ffa3bb6d576fa647157b57d3c9133257942487c76d8b6"
+    },
+    {
       "path": "ai-quests/local-support/sponsor.css",
       "sha256": "db832d92fa240e2e11b679dd765388f2d96f37899f315f8076ceb2beba2314b6"
     },
@@ -115,5 +119,10 @@
       "path": "ai-quests/zh-cn-runtime.js",
       "sha256": "4efbacdb126cbea7e812e609f3625c6e37a9b015dba69bdc94a723beacf1c8d7"
     }
-  ]
+  ],
+  "runtime_config": {
+    "path": "ai-quests/site-config.json",
+    "preserved_on_rebuild": true,
+    "mutable": true
+  }
 }

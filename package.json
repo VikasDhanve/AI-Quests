@@ -12,6 +12,7 @@
     "verify:locales": "node scripts/verify-locales.mjs",
     "verify:pages": "node scripts/verify-pages.mjs",
     "verify:sponsor": "node scripts/verify-sponsor.mjs",
-    "verify:zh": "node scripts/verify-zh-cn.mjs && node scripts/verify-zh-data.mjs && node scripts/verify-zh-browser.mjs && node scripts/verify-zh-quests.mjs && node scripts/verify-zh-pages.mjs && node scripts/verify-zh-lab.mjs && node scripts/verify-zh-scan.mjs && node scripts/verify-zh-teachers.mjs && python scripts/verify-teacher-pdfs.py && node scripts/verify-sponsor.mjs"
+    "verify:sponsor-config": "node scripts/verify-sponsor-config.mjs",
+    "verify:zh": "node scripts/verify-zh-cn.mjs && node scripts/verify-zh-data.mjs && node scripts/verify-zh-browser.mjs && node scripts/verify-zh-quests.mjs && node scripts/verify-zh-pages.mjs && node scripts/verify-zh-lab.mjs && node scripts/verify-zh-scan.mjs && node scripts/verify-zh-teachers.mjs && python scripts/verify-teacher-pdfs.py && node scripts/verify-sponsor.mjs && node scripts/verify-sponsor-config.mjs"
   }
 }
