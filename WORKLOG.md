@@ -1,5 +1,9 @@
 # 工作记录
 
+## 2026-11-09 关闭发布版本赞助入口
+
+按用户要求将public/ai-quests/site-config.json与local-features/site-config.default.json的showSponsor均设为false，当前站点及全新构建默认隐藏；README示例同步。只修改布尔配置，不重建、不重启服务。4192/9091只读HTTP与浏览器检查确认按钮、弹窗和赞助资源均未加载，主游戏首页正常；不重复全关卡或付款验证。证据reports/sponsor-disabled-validation.json。
+
 ## 2026-11-09 发布配置控制赞助入口
 
 新增public/ai-quests/site-config.json运行时布尔showSponsor，默认true；同源无缓存读取，只有严格布尔true才导入原赞助模块，false/缺失/错误配置不创建入口或弹窗、不加载二维码，主游戏独立运行。新增固定路径loader、源码默认配置，统一构建仅初始化缺失文件、保留已部署配置，运行时文件不纳入生成固定哈希；其余生成文件仍校验哈希。无新依赖、不改CSP/服务器/端口/支付与进度。

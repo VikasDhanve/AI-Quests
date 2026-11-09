@@ -19,9 +19,11 @@
 
 ```json
 {
-  "showSponsor": true
+  "showSponsor": false
 }
 ```
+
+当前发布配置与新构建默认配置均为`false`（隐藏）。
 
 - `true`：显示中文首页赞助按钮。
 - `false`：隐藏赞助按钮，不加载赞助弹窗模块或二维码。

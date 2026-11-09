@@ -1,0 +1,20 @@
+{
+  "showSponsor": false,
+  "cases": [
+    {
+      "port": 4192,
+      "hidden": true,
+      "gameHomeReady": true,
+      "sponsorAssetsRequested": false,
+      "errors": []
+    },
+    {
+      "port": 9091,
+      "hidden": true,
+      "gameHomeReady": true,
+      "sponsorAssetsRequested": false,
+      "errors": []
+    }
+  ],
+  "passed": true
+}
