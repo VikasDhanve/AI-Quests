@@ -1,5 +1,11 @@
 # 工作记录
 
+## 2026-11-19 重建GitHub仓库与提交署名
+
+按用户要求重新创建VikasDhanve/AI-Quests私有仓库，main及official-baseline-2026-11-08标签已推送；全部1473个历史LFS对象经下载接口核验可用、缺失0。网络上传曾连接中断，经重试完成。仓库恢复不代表云端站点更新，本轮未发布云端。
+
+本机全局Git姓名改为VikasDhanve，本轮原未上传提交的作者与提交者同步更正，邮箱及更早历史保持。证据见reports/github-restore-20261119.json；README继续仅保留软件介绍。
+
 ## 2026-11-19 首页清理与软件介绍精简
 
 按用户要求彻底移除可选支持入口及关联弹窗、图片、配置、构建挂接、验证脚本和部署别名；README仅保留软件介绍、三个任务、主要特色和使用方式。维护流程移入docs/维护说明.md，AGENTS同步入口与README分工。旧功能专属资料及修改前文件保存在项目外D:/WorkSpace Development/.codex-backups/AI-Quests/20261119-remove-support，Git历史未重写。
