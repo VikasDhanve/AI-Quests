@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-19",
+  "scope": "Local feature cleanup and README simplification",
+  "build": "passed",
+  "verify_zh_exit_code": 0,
+  "generated_hashes": 21,
+  "original_hashes": 1746,
+  "media_range_checks": 605,
+  "security_checks": "passed; private paths, write methods, invalid ranges and response headers",
+  "local_9091": {"passed": true, "legacy_requests": 0, "removed_resources_status": 404, "page_errors": []},
+  "screenshot": "reports/home-20261119.png",
+  "source_and_public_scan": "no legacy feature matches",
+  "upstream_unchanged": true,
+  "github_pushed": false,
+  "cloud_deployed": false,
+  "backup": "D:/WorkSpace Development/.codex-backups/AI-Quests/20261119-remove-support",
+  "limitations": ["No full quest branch walkthrough", "No physical mobile device validation", "Deployment shell and Nginx template not executed on production"]
+}

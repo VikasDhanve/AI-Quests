@@ -16,4 +16,6 @@ reports/teacher-*.txt
 reports/teacher-pdf-images/
 reports/teacher-pdf-preview/
 reports/teacher-source-preview/
-reports/sponsor-before.png
+
+# Local cloud release packages and verification evidence.
+deployment/aliyun/artifacts/

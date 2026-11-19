@@ -9,7 +9,7 @@
   "generated_files": [
     {
       "path": "ai-quests/intl/zh_cn/index.html",
-      "sha256": "8e4c389fa9ed0111b3636481590eb9885a4fea77361df7767c80e8aa403b04f9"
+      "sha256": "ef01799809bc5fe8ec59b20ca1bd5cf08b2062073ed4c6cfd01dcc7bd2bcd579"
     },
     {
       "path": "ai-quests/intl/zh_cn/about/index.html",
@@ -84,34 +84,6 @@
       "sha256": "e9f5d703d82f9de39ef06b6bec48de4e312f6ca607e03530d4e3e5d9d281a37c"
     },
     {
-      "path": "ai-quests/local-support/alipay-19.9.jpg",
-      "sha256": "0c00f2bd14eb8c2fe5445069af82da48e5360231be1dbe5137c89e10aeb4ebd5"
-    },
-    {
-      "path": "ai-quests/local-support/alipay-29.9.jpg",
-      "sha256": "08b18f9a587e16a0af5b3f13bedfb94417c69e832013208a77d90060e3290fb3"
-    },
-    {
-      "path": "ai-quests/local-support/alipay-9.9.jpg",
-      "sha256": "f63e91ed1903ccd39d20309120097cb3da8c072527b6c5a8fddb4b03aa6eecde"
-    },
-    {
-      "path": "ai-quests/local-support/assets.json",
-      "sha256": "da328c19308b34c2b9e90c4e3c47efda6459a3f17a499558132affce261b0120"
-    },
-    {
-      "path": "ai-quests/local-support/sponsor-entry.js",
-      "sha256": "e335236e9acdb22c962ffa3bb6d576fa647157b57d3c9133257942487c76d8b6"
-    },
-    {
-      "path": "ai-quests/local-support/sponsor.css",
-      "sha256": "db832d92fa240e2e11b679dd765388f2d96f37899f315f8076ceb2beba2314b6"
-    },
-    {
-      "path": "ai-quests/local-support/sponsor.js",
-      "sha256": "67ea5653a8068c9f35c4617042b4441f6cc8209868ec9b0709d0ea5afd62e775"
-    },
-    {
       "path": "ai-quests/zh-cn.css",
       "sha256": "d051822e8415798a0c32cc3544a3c9617fc2737258910ce884cc27f713f00f97"
     },
@@ -119,10 +91,5 @@
       "path": "ai-quests/zh-cn-runtime.js",
       "sha256": "4efbacdb126cbea7e812e609f3625c6e37a9b015dba69bdc94a723beacf1c8d7"
     }
-  ],
-  "runtime_config": {
-    "path": "ai-quests/site-config.json",
-    "preserved_on_rebuild": true,
-    "mutable": true
-  }
+  ]
 }
